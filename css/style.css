@@ -191,6 +191,10 @@ overflow-x: hidden;
         font-weight: 500;
         font-style: normal;
     }
+    .main-button:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
     
     
     /* {
@@ -201,14 +205,14 @@ overflow-x: hidden;
     position: absolute;
     top: 260px;
     width: 248px;
-  } */
+  }
   
     .create-account-2 {
     left: 60px;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
-  }
+  } */
   
   .vector-4{
     width: 800px;
@@ -966,7 +970,6 @@ overflow-x: hidden;
     top: 0;
     width: 168px;
     border: none;
-    
   }
   
     /* .join-us {
@@ -1021,7 +1024,7 @@ overflow-x: hidden;
     height: 722px;
     left: 120px;
     position: absolute;
-    top: 4132px;
+    top: 3650px;
     width: 1202px;
   }
   
@@ -1317,7 +1320,7 @@ overflow-x: hidden;
     height: 476px;
     left: 0;
     position: absolute;
-    top: 4934px;
+    top: 4400px;
     width: 1440px;
   }
   

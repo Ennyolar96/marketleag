@@ -1,16 +1,63 @@
-.innovation-opportunity {
+/* .innovation-opportunity {
     background-color:  rgba(255, 255, 255, 1); 
     height: 5977px;
     overflow: hidden;
     position: relative;
     width: 1440px;
-  }
+  } */
+  body{
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    }
+    .header{
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding: 20px 30px;
+    }
+    /* styling the header link */
+    .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 1.2em;
+      line-height: 25px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-family:'Poppins', sans-serif;
+    }
+    /* styling the logo */
+    
+    .header a.logo{
+      font-size: 1.7em;
+      font-weight: bold;
+    }
+    /* hover */
+    .header a:hover{
+      background-color: #ddd;
+      color: black;
+    }
+    .header a.active{
+      background-color: dodgerblue;
+      color: white;
+    }
+    .header-right{
+      float: none;
+      margin-left: 400px;
+    }
+    .header-right a.reg{
+      margin-left: 10px;
+      background-color: rgba(243, 115, 53, 1);
+      border-radius: 8px;  
+      padding: 10px 15px;
+      color: rgba(255, 255, 255, 1);
+      font-family:'Poppins', sans-serif;
+    }
 
-  a{
-    color: black
-  }
-
-  .innovation-opportunity .group-7843 {
+   .group-7843 {
     height: 922px;
     left: 120px;
     position: absolute;
@@ -18,7 +65,7 @@
     width: 1384px;
   }
   
-  .innovation-opportunity .group-455 {
+   .group-455 {
     height: 77px;
     left: 0;
     position: absolute;
@@ -26,7 +73,7 @@
     width: 1210px;
   }
   
-  .innovation-opportunity .new-png-mleage-1 {
+   .new-png-mleage-1 {
     height: 40px;
     left: 0;
     object-fit: cover;
@@ -35,7 +82,7 @@
     width: 184px;
   }
   
-  .innovation-opportunity .frame-411 {
+   .frame-411 {
     height: 77px;
     left: 497px;
     position: absolute;
@@ -43,21 +90,21 @@
     width: 713px;
   }
   
-  .innovation-opportunity .place {
+   .place {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 26px;
   }
   
-  .innovation-opportunity .innovation-opportunity-1 {
+   /* -1 {
     left: 80px;
     letter-spacing: 0;
     position: absolute;
     top: 26px;
-  }
+  } */
   
-  .innovation-opportunity .group-410 {
+   .group-410 {
     height: 24px;
     left: 299px;
     position: absolute;
@@ -65,14 +112,14 @@
     width: 153px;
   }
   
-  .innovation-opportunity .ip-acceleration {
+   .ip-acceleration {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .iconly-light-outline-arrow-down-2 {
+   .iconly-light-outline-arrow-down-2 {
     height: 24px;
     left: 127px;
     position: absolute;
@@ -80,14 +127,14 @@
     width: 24px;
   }
   
-  .innovation-opportunity .lab {
+   .lab {
     left: 482px;
     letter-spacing: 0;
     position: absolute;
     top: 26px;
   }
   
-  .innovation-opportunity .frame-7888 {
+   .frame-7888 {
     background-color: rgba(243, 115, 53, 1); 
     border-radius: 8px;
     height: 77px;
@@ -97,14 +144,14 @@
     width: 170px;
   }
   
-  .innovation-opportunity .create-account {
+   .create-account {
     left: 22px;
     letter-spacing: 0;
     position: absolute;
     top: 26px;
   }
   
-  .innovation-opportunity .overlap-group {
+   .overlap-group {
     height: 800px;
     left: 0;
     position: absolute;
@@ -112,23 +159,23 @@
     width: 1384px;
   }
   
-  .innovation-opportunity .vector-6 {
-    height: 800px;
-    left: 429px;
+   .vector-6 {
+    height: 600px;
+    left: 600px;
     position: absolute;
     top: 0;
-    width: 955px;
+    width: 750px;
   }
   
-  .innovation-opportunity .frame-7893 {
+   .frame-7893 {
     height: 349px;
-    left: 0;
+    left: 50px;
     position: absolute;
     top: 98px;
     width: 530px;
   }
   
-  .innovation-opportunity .group-411 {
+   .group-411 {
     height: 228px;
     left: 0;
     position: absolute;
@@ -136,7 +183,7 @@
     width: 534px;
   }
   
-  .innovation-opportunity .title {
+   .title {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -144,7 +191,7 @@
     width: 530px;
   }
   
-  .innovation-opportunity .here-bottlenecks-in {
+   .here-bottlenecks-in {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -152,7 +199,7 @@
     width: 484px;
   }
   
-  .innovation-opportunity .main-button {
+   .main-button {
     background-color:rgba(243, 115, 53, 1); 
     border-radius: 8px;
     height: 89px;
@@ -162,31 +209,31 @@
     width: 248px;
   }
   
-  .innovation-opportunity .create-account-1 {
+   .create-account-1 {
     left: 60px;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
   }
   
-  .innovation-opportunity .rectangle-392 {
-    height: 744px;
-    left: 584px;
+   .rectangle-392 {
+    height: 500px;
+    left: 680px;
     object-fit: cover;
     position: absolute;
-    top: 1px;
+    top: 50px;
     width: 616px;
   }
   
-  .innovation-opportunity .group-7844 {
+   .group-7844 {
     height: 1296px;
     left: 120px;
     position: absolute;
-    top: 1055px;
+    top: 750px;
     width: 1202px;
   }
   
-  .innovation-opportunity .brand-story {
+   .brand-story {
     left: 481px;
     letter-spacing: 0;
     position: absolute;
@@ -194,7 +241,7 @@
     top: 0;
   }
   
-  .innovation-opportunity .group-466 {
+   .group-466 {
     height: 532px;
     left: 0;
     position: absolute;
@@ -202,7 +249,7 @@
     width: 1200px;
   }
   
-  .innovation-opportunity .rectangle-396 {
+   .rectangle-396 {
     height: 532px;
     left: 0;
     object-fit: cover;
@@ -211,7 +258,7 @@
     width: 645px;
   }
   
-  .innovation-opportunity .frame-7899 {
+   .frame-7899 {
     height: 364px;
     left: 687px;
     position: absolute;
@@ -219,7 +266,7 @@
     width: 513px;
   }
   
-  .innovation-opportunity .we-are-aware-of-the {
+   .we-are-aware-of-the {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -227,7 +274,7 @@
     width: 513px;
   }
   
-  .innovation-opportunity .frame-7909 {
+   .frame-7909 {
     height: 320px;
     left: 0;
     position: absolute;
@@ -235,7 +282,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .between-industr {
+   .between-industr {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -243,7 +290,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .after-listening-to-o {
+   .after-listening-to-o {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -251,7 +298,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .this-relatively-non {
+   .this-relatively-non {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -259,7 +306,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .group-468 {
+   .group-468 {
     background-color:rgba(10, 10, 10, 1);
     border-radius: 20px;
     height: 656px;
@@ -269,7 +316,7 @@
     width: 1200px;
   }
   
-  .innovation-opportunity .frame-7900 {
+   .frame-7900 {
     height: 444px;
     left: 55px;
     position: absolute;
@@ -277,7 +324,7 @@
     width: 513px;
   }
   
-  .innovation-opportunity .keeping-eyes-on-technological {
+   .keeping-eyes-on-technological {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -285,7 +332,7 @@
     width: 513px;
   }
   
-  .innovation-opportunity .frame-7909-1 {
+   .frame-7909-1 {
     height: 400px;
     left: 0;
     position: absolute;
@@ -293,7 +340,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .innovations-and-e {
+   .innovations-and-e {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -301,7 +348,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .upon-learning-the-ga {
+   .upon-learning-the-ga {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -309,7 +356,7 @@
     width: 473px;
   }
   
-  .innovation-opportunity .rectangle-404 {
+   .rectangle-404 {
     height: 535px;
     left: 570px;
     object-fit: cover;
@@ -318,15 +365,15 @@
     width: 605px;
   }
   
-  .innovation-opportunity .group-469 {
+   .group-469 {
     height: 238px;
     left: 468px;
     position: absolute;
-    top: 2431px;
+    top: 2100px;
     width: 507px;
   }
   
-  .innovation-opportunity .marketleag-a-brand {
+   .marketleag-a-brand {
     left: 3px;
     letter-spacing: 0;
     position: absolute;
@@ -335,7 +382,7 @@
     width: 498px;
   }
   
-  .innovation-opportunity .new-png-mleage-2 {
+   .new-png-mleage-2 {
     height: 110px;
     left: 0;
     object-fit: cover;
@@ -344,16 +391,16 @@
     width: 505px;
   }
   
-  .innovation-opportunity .group-473 {
+   .group-473 {
     background-color: rgba(252, 252, 252, 1); 
     height: 457px;
     left: 0;
     position: absolute;
-    top: 2749px;
+    top: 2330px;
     width: 1440px;
   }
   
-  .innovation-opportunity .group-419 {
+   .group-419 {
     height: 148px;
     left: 478px;
     position: absolute;
@@ -361,7 +408,7 @@
     width: 502px;
   }
   
-  .innovation-opportunity .our-core-values {
+   .our-core-values {
     left: 84px;
     letter-spacing: 0;
     position: absolute;
@@ -369,7 +416,7 @@
     top: 0;
   }
   
-  .innovation-opportunity .as-a-team-we-are-co {
+   .as-a-team-we-are-co {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -378,7 +425,7 @@
     width: 498px;
   }
   
-  .innovation-opportunity .frame-7910 {
+   .frame-7910 {
     height: 92px;
     left: 174px;
     position: absolute;
@@ -386,7 +433,7 @@
     width: 1093px;
   }
   
-  .innovation-opportunity .frame-444 {
+   .frame-444 {
     height: 92px;
     left: 0;
     position: absolute;
@@ -394,7 +441,7 @@
     width: 60px;
   }
   
-  .innovation-opportunity .frame-442 {
+   .frame-442 {
     height: 60px;
     left: 0;
     position: absolute;
@@ -402,14 +449,14 @@
     width: 60px;
   }
   
-  .innovation-opportunity .private {
+   .private {
     left: 1px;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7894 {
+   .frame-7894 {
     height: 92px;
     left: 140px;
     position: absolute;
@@ -417,7 +464,7 @@
     width: 69px;
   }
   
-  .innovation-opportunity .frame-442-2 {
+   .frame-442-2 {
     height: 60px;
     left: 4px;
     position: absolute;
@@ -425,14 +472,14 @@
     width: 60px;
   }
   
-  .innovation-opportunity .integrity {
+   .integrity {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7895 {
+   .frame-7895 {
     height: 92px;
     left: 289px;
     position: absolute;
@@ -440,7 +487,7 @@
     width: 113px;
   }
   
-  .innovation-opportunity .frame-442-1 {
+   .frame-442-1 {
     height: 60px;
     left: 26px;
     position: absolute;
@@ -448,14 +495,14 @@
     width: 60px;
   }
   
-  .innovation-opportunity .accountabiliy {
+   .accountabiliy {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7896 {
+   .frame-7896 {
     height: 92px;
     left: 482px;
     position: absolute;
@@ -463,14 +510,14 @@
     width: 113px;
   }
   
-  .innovation-opportunity .transperency {
+   .transperency {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7897 {
+   .frame-7897 {
     height: 92px;
     left: 675px;
     position: absolute;
@@ -478,7 +525,7 @@
     width: 87px;
   }
   
-  .innovation-opportunity .frame-442-3 {
+   .frame-442-3 {
     height: 60px;
     left: 14px;
     position: absolute;
@@ -486,14 +533,14 @@
     width: 60px;
   }
   
-  .innovation-opportunity .innovative {
+   .innovative {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7898 {
+   .frame-7898 {
     height: 92px;
     left: 842px;
     position: absolute;
@@ -501,7 +548,7 @@
     width: 98px;
   }
   
-  .innovation-opportunity .frame-442-4 {
+   .frame-442-4 {
     height: 60px;
     left: 19px;
     position: absolute;
@@ -509,14 +556,14 @@
     width: 60px;
   }
   
-  .innovation-opportunity .trustworthy {
+   .trustworthy {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .frame-7899-1 {
+   .frame-7899-1 {
     height: 92px;
     left: 1020px;
     position: absolute;
@@ -524,7 +571,7 @@
     width: 73px;
   }
   
-  .innovation-opportunity .frame-442-5 {
+   .frame-442-5 {
     height: 60px;
     left: 6px;
     position: absolute;
@@ -532,29 +579,29 @@
     width: 60px;
   }
   
-  .innovation-opportunity .excellent {
+   .excellent {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .group-475 {
+   .group-475 {
     height: 962px;
     left: 120px;
     position: absolute;
-    top: 3286px;
+    top: 2750px;
     width: 1202px;
   }
   
-  .innovation-opportunity .products-and-services {
+   .products-and-services {
     left: 374px;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .group-474 {
+   .group-474 {
     height: 870px;
     left: 0;
     position: absolute;
@@ -562,7 +609,7 @@
     width: 1200px;
   }
   
-  .innovation-opportunity .frame-7911 {
+   .frame-7911 {
     height: 419px;
     left: 0;
     position: absolute;
@@ -570,7 +617,7 @@
     width: 1200px;
   }
   
-  .innovation-opportunity .how-we-work-card {
+   .how-we-work-card {
     background-color: rgba(255, 255, 255, 1); 
     border-radius: 20px;
     box-shadow: 0px 30px 100px 
@@ -582,7 +629,7 @@
     width: 387px;
   }
   
-  .innovation-opportunity .frame-443 {
+   .frame-443 {
     height: 104px;
     left: 20px;
     position: absolute;
@@ -590,14 +637,14 @@
     width: 226px;
   }
   
-  .innovation-opportunity .challenge {
+   .challenge {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .we-accept-research-p {
+   .we-accept-research-p {
     left: 20px;
     letter-spacing: 0;
     position: absolute;
@@ -605,7 +652,7 @@
     width: 347px;
   }
   
-  .innovation-opportunity .how-we-work-card-1 {
+   .how-we-work-card-1 {
     background-color: rgba(255, 255, 255, 1); 
     border-radius: 20px;
     box-shadow: 0px 30px 100px 
@@ -617,7 +664,7 @@
     width: 387px;
   }
   
-  .innovation-opportunity .frame-443-1 {
+   .frame-443-1 {
     height: 104px;
     left: 20px;
     position: absolute;
@@ -625,14 +672,14 @@
     width: 339px;
   }
   
-  .innovation-opportunity .research-and-development {
+   .research-and-development {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .we-are-unveiling-inn {
+   .we-are-unveiling-inn {
     left: 20px;
     letter-spacing: 0;
     position: absolute;
@@ -640,7 +687,7 @@
     width: 347px;
   }
   
-  .innovation-opportunity .how-we-work-card-2 {
+   .how-we-work-card-2 {
     background-color: rgba(255, 255, 255, 1); 
     border-radius: 20px;
     box-shadow: 0px 30px 100px 
@@ -652,7 +699,7 @@
     width: 387px;
   }
   
-  .innovation-opportunity .frame-443-2 {
+   .frame-443-2 {
     height: 104px;
     left: 20px;
     position: absolute;
@@ -660,14 +707,14 @@
     width: 282px;
   }
   
-  .innovation-opportunity .technology-incubation {
+   .technology-incubation {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .we-facilitate-onward {
+   .we-facilitate-onward {
     left: 20px;
     letter-spacing: 0;
     position: absolute;
@@ -675,7 +722,7 @@
     width: 347px;
   }
   
-  .innovation-opportunity .frame-7912 {
+   .frame-7912 {
     height: 419px;
     left: 187px;
     position: absolute;
@@ -683,7 +730,7 @@
     width: 826px;
   }
   
-  .innovation-opportunity .frame-443-3 {
+   .frame-443-3 {
     height: 104px;
     left: 20px;
     position: absolute;
@@ -691,14 +738,14 @@
     width: 253px;
   }
   
-  .innovation-opportunity .corporate-venturing {
+   .corporate-venturing {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .we-are-fast-tracking {
+   .we-are-fast-tracking {
     left: 20px;
     letter-spacing: 0;
     position: absolute;
@@ -706,7 +753,7 @@
     width: 347px;
   }
   
-  .innovation-opportunity .how-we-work-card-3 {
+   .how-we-work-card-3 {
     background-color:  rgba(255, 255, 255, 1); 
     border-radius: 20px;
     box-shadow: 0px 30px 100px 
@@ -718,7 +765,7 @@
     width: 387px;
   }
   
-  .innovation-opportunity .frame-443-4 {
+   .frame-443-4 {
     height: 104px;
     left: 20px;
     position: absolute;
@@ -726,14 +773,14 @@
     width: 183px;
   }
   
-  .innovation-opportunity .ip-acceleration-1 {
+   .ip-acceleration-1 {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 68px;
   }
   
-  .innovation-opportunity .we-provide-intellect {
+   .we-provide-intellect {
     left: 20px;
     letter-spacing: 0;
     position: absolute;
@@ -741,22 +788,22 @@
     width: 347px;
   }
   
-  .innovation-opportunity .group-7842 {
+   .group-7842 {
     height: 1093px;
     left: 0;
     position: absolute;
-    top: 4328px;
+    top: 3800px;
     width: 1442px;
   }
   
-  .innovation-opportunity .overlap-group1 {
+   .overlap-group1 {
     background-color:rgba(15, 28, 112, 0.039); 
     height: 1093px;
     position: relative;
     width: 1440px;
   }
   
-  .innovation-opportunity .rectangle-1134 {
+   .rectangle-1134 {
     height: 311px;
     left: 525px;
     object-fit: cover;
@@ -765,7 +812,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .rectangle-1137 {
+   .rectangle-1137 {
     height: 311px;
     left: 120px;
     object-fit: cover;
@@ -774,7 +821,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .rectangle-1138 {
+   .rectangle-1138 {
     height: 311px;
     left: 930px;
     object-fit: cover;
@@ -783,7 +830,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .rectangle-1139 {
+   .rectangle-1139 {
     height: 311px;
     left: 120px;
     object-fit: cover;
@@ -792,7 +839,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .rectangle-1135 {
+   .rectangle-1135 {
     height: 311px;
     left: 930px;
     object-fit: cover;
@@ -801,7 +848,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .rectangle-1136 {
+   .rectangle-1136 {
     height: 311px;
     left: 525px;
     object-fit: cover;
@@ -810,7 +857,7 @@
     width: 389px;
   }
   
-  .innovation-opportunity .group-7838 {
+   .group-7838 {
     height: 68px;
     left: 617px;
     position: absolute;
@@ -818,7 +865,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .oluwakemi-adeleke {
+   .oluwakemi-adeleke {
     height: 28px;
     left: 0;
     letter-spacing: 0;
@@ -829,7 +876,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .co-founder {
+   .co-founder {
     height: 24px;
     left: 55px;
     letter-spacing: 0;
@@ -840,7 +887,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .group-7837 {
+   .group-7837 {
     height: 68px;
     left: 212px;
     position: absolute;
@@ -848,7 +895,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .founder-prunny-int {
+   .founder-prunny-int {
     height: 24px;
     left: 28px;
     letter-spacing: 0;
@@ -859,7 +906,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .group-7840 {
+   .group-7840 {
     height: 68px;
     left: 617px;
     position: absolute;
@@ -867,7 +914,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .surname {
+   .surname {
     height: 24px;
     left: 22px;
     letter-spacing: 0;
@@ -878,7 +925,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .group-7841 {
+   .group-7841 {
     height: 68px;
     left: 1022px;
     position: absolute;
@@ -886,7 +933,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .product-manager {
+   .product-manager {
     height: 24px;
     left: 33px;
     letter-spacing: 0;
@@ -897,7 +944,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .group-7839 {
+   .group-7839 {
     height: 68px;
     left: 212px;
     position: absolute;
@@ -905,7 +952,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .scrum-master {
+   .scrum-master {
     height: 24px;
     left: 47px;
     letter-spacing: 0;
@@ -916,7 +963,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .group-7836 {
+   .group-7836 {
     height: 68px;
     left: 1022px;
     position: absolute;
@@ -924,7 +971,7 @@
     width: 210px;
   }
   
-  .innovation-opportunity .product-lead {
+   .product-lead {
     height: 24px;
     left: 53px;
     letter-spacing: 0;
@@ -935,7 +982,7 @@
     white-space: nowrap;
   }
   
-  .innovation-opportunity .meet-the-team {
+   .meet-the-team {
     height: 60px;
     left: 567px;
     letter-spacing: 0;
@@ -947,16 +994,16 @@
     width: 307px;
   }
   
-  .innovation-opportunity .group-456 {
+   .group-456 {
     background-color: rgba(10, 10, 10, 1);
     height: 476px;
     left: 0;
     position: absolute;
-    top: 5501px;
+    top: 4950px;
     width: 1440px;
   }
   
-  .innovation-opportunity .group-448 {
+   .group-448 {
     height: 94px;
     left: 120px;
     position: absolute;
@@ -964,7 +1011,7 @@
     width: 217px;
   }
   
-  .innovation-opportunity .new-png-mleage-mark-2 {
+   .new-png-mleage-mark-2 {
     height: 30px;
     left: 0;
     object-fit: cover;
@@ -973,7 +1020,7 @@
     width: 35px;
   }
   
-  .innovation-opportunity .simplifying-the-innovation-process {
+   .simplifying-the-innovation-process {
     left: 0;
     letter-spacing: 0;
     position: absolute;
@@ -981,7 +1028,7 @@
     width: 215px;
   }
   
-  .innovation-opportunity .frame-15 {
+   .frame-15 {
     height: 166px;
     left: 415px;
     position: absolute;
@@ -989,14 +1036,14 @@
     width: 113px;
   }
   
-  .innovation-opportunity .hotspots {
+   .hotspots {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .frame-11 {
+   .frame-11 {
     height: 120px;
     left: 0;
     position: absolute;
@@ -1004,35 +1051,35 @@
     width: 113px;
   }
   
-  .innovation-opportunity .challenge-1 {
+   .challenge-1 {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .bazzar {
+   .bazzar {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
   }
   
-  .innovation-opportunity .ip-help-center {
+   .ip-help-center {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 64px;
   }
   
-  .innovation-opportunity .lab-1 {
+   .lab-1 {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 96px;
   }
   
-  .innovation-opportunity .group-449 {
+   .group-449 {
     height: 332px;
     left: 608px;
     position: absolute;
@@ -1040,7 +1087,7 @@
     width: 162px;
   }
   
-  .innovation-opportunity .frame-7899-2 {
+   .frame-7899-2 {
     height: 134px;
     left: 0;
     position: absolute;
@@ -1048,14 +1095,14 @@
     width: 92px;
   }
   
-  .innovation-opportunity .about-us {
+   .about-us {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .frame-11-1 {
+   .frame-11-1 {
     height: 88px;
     left: 0;
     position: absolute;
@@ -1063,28 +1110,28 @@
     width: 81px;
   }
   
-  .innovation-opportunity .company {
+   .company {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .products {
+   .products {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
   }
   
-  .innovation-opportunity .team {
+   .team {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 64px;
   }
   
-  .innovation-opportunity .frame-7900-1 {
+   .frame-7900-1 {
     height: 166px;
     left: 0;
     position: absolute;
@@ -1092,14 +1139,14 @@
     width: 162px;
   }
   
-  .innovation-opportunity .place-1 {
+   .place-1 {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .frame-11-2 {
+   .frame-11-2 {
     height: 120px;
     left: 0;
     position: absolute;
@@ -1107,35 +1154,35 @@
     width: 162px;
   }
   
-  .innovation-opportunity .privacy-policy {
+   .privacy-policy {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .terms-agreement {
+   .terms-agreement {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
   }
   
-  .innovation-opportunity .news-blog {
+   .news-blog {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 64px;
   }
   
-  .innovation-opportunity .faq {
+   .faq {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 96px;
   }
   
-  .innovation-opportunity .frame-7901 {
+   .frame-7901 {
     height: 326px;
     left: 849px;
     position: absolute;
@@ -1143,14 +1190,14 @@
     width: 183px;
   }
   
-  .innovation-opportunity .industries {
+   .industries {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .frame-11-3 {
+   .frame-11-3 {
     height: 280px;
     left: 0;
     position: absolute;
@@ -1158,70 +1205,70 @@
     width: 183px;
   }
   
-  .innovation-opportunity .place-2 {
+   .place-2 {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .agric-agro-allied {
+   .agric-agro-allied {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 32px;
   }
   
-  .innovation-opportunity .pharmaceutical {
+   .pharmaceutical {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 64px;
   }
   
-  .innovation-opportunity .healthcare-medicine {
+   .healthcare-medicine {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 96px;
   }
   
-  .innovation-opportunity .electronics {
+   .electronics {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 128px;
   }
   
-  .innovation-opportunity .logistics {
+   .logistics {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 160px;
   }
   
-  .innovation-opportunity .education {
+   .education {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 192px;
   }
   
-  .innovation-opportunity .finance {
+   .finance {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 224px;
   }
   
-  .innovation-opportunity .ict-software {
+   .ict-software {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 256px;
   }
   
-  .innovation-opportunity .frame-7902 {
+   .frame-7902 {
     height: 318px;
     left: 1112px;
     position: absolute;
@@ -1229,14 +1276,14 @@
     width: 208px;
   }
   
-  .innovation-opportunity .contact-us {
+   .contact-us {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .frame-11-4 {
+   .frame-11-4 {
     height: 272px;
     left: 0;
     position: absolute;
@@ -1244,35 +1291,35 @@
     width: 208px;
   }
   
-  .innovation-opportunity .customer-service-hellomarketleagcom {
+   .customer-service-hellomarketleagcom {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 0;
   }
   
-  .innovation-opportunity .ip-acceleration-ipamarketleagcom {
+   .ip-acceleration-ipamarketleagcom {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 56px;
   }
   
-  .innovation-opportunity .innovation-partnersh {
+   .innovation-partnersh {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 112px;
   }
   
-  .innovation-opportunity .resource-center-labmarketleagcom {
+   .resource-center-labmarketleagcom {
     left: 0;
     letter-spacing: 0;
     position: absolute;
     top: 168px;
   }
   
-  .innovation-opportunity .solvers-support-solversmarketleagcom {
+   .solvers-support-solversmarketleagcom {
     left: 0;
     letter-spacing: 0;
     position: absolute;
