@@ -35,8 +35,8 @@ body{
     color: black;
   }
   .header a.active{
-    background-color: dodgerblue;
-    color: white;
+    /* background-color: dodgerblue; */
+    color:rgba(243, 115, 53, 1);
   }
   .header-right{
     float: none;
@@ -117,13 +117,13 @@ body{
     top: 0;
   }
   
-    .iconly-light-outline-arrow-down-2 {
+    /* .iconly-light-outline-arrow-down-2 {
     height: 24px;
     left: 127px;
     position: absolute;
     top: 0;
     width: 24px;
-  }
+  } */
   
     .lab {
     left: 482px;
@@ -159,20 +159,38 @@ body{
   }
   
     .vector-5 {
-    height: 800px;
-    left: 429px;
+    height: 600px;
+    left: 529px;
     position: absolute;
     top: 0;
-    width: 955px;
+    width: 700px;
   }
   
     .frame-7892 {
     height: 349px;
-    left: 0;
+    left: 20px;
     position: absolute;
     top: 98px;
     width: 530px;
   }
+  .main-button {
+    background-color: rgba(243, 115, 53, 1);
+    border-radius: 8px;
+    left: 0;
+    position: absolute;
+    top: 280px;    
+    padding: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:  1.2em;;
+    font-weight: 500;
+    font-style: normal;
+}
+.main-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
   
     .group-411 {
     height: 228px;
@@ -183,7 +201,7 @@ body{
   }
   
     .title {
-    left: 0;
+    left: 0px;
     letter-spacing: 0;
     position: absolute;
     top: 0;
@@ -197,7 +215,7 @@ body{
     top: 156px;
     width: 463px;
   }
-  
+/*   
     .main-button {
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
@@ -207,7 +225,7 @@ body{
     top: 260px;
     width: 248px;
   }
-  
+   */
     .create-account-1 {
     left: 60px;
     letter-spacing: 0;
@@ -217,11 +235,11 @@ body{
   }
   
     .rectangle-391 {
-    height: 744px;
+    height: 500px;
     left: 584px;
     object-fit: cover;
     position: absolute;
-    top: 1px;
+    top: 20px;
     width: 616px;
   }
   

@@ -42,8 +42,8 @@
       color: black;
     }
     .header a.active{
-      background-color: dodgerblue;
-      color: white;
+      /* background-color: dodgerblue; */
+      color:rgba(243, 115, 53, 1);
     }
     .header-right{
       float: none;
