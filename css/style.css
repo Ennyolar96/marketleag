@@ -168,12 +168,11 @@ overflow-x: hidden;
     top: 0;
     width: 530px;
   }
-  
     .our-vision-is-to-sim {
     left: 0;
     letter-spacing: 0;
     position: absolute;
-    top: 156px;
+    top: 130px;
     width: 387px;
   }
   
@@ -182,7 +181,7 @@ overflow-x: hidden;
         border-radius: 8px;
         left: 0;
         position: absolute;
-        top: 280px;    
+        top: 220px;    
         padding: 20px;
         border: none;
         color: rgba(255, 255, 255, 1);
