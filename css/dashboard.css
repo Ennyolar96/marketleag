@@ -1,37 +1,25 @@
 body{
-    background-color: rgb(42,55,56);
+    background-color:rgb(236,240,241);
     box-sizing: border-box;
     font-size: 100%;
     font-weight: 800;
-    color: gray;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
-/* .flex_container{
-    display: flex;
-    flex-direction: row;
-} */
-/* .flex_container > div{
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+.header_static{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
 }
-.flex1{
-    width: 10%;
-   }
-.flex2{
-    width: 90%;
-    background-color:rgb(236,240,241); 
-    position: relative;
-    top: 30px;
-    height: 2000px;
-} */
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 200px;
     position: fixed;
     z-index: 1;
-    top: 50px;
+    top: 40px;
     left: 0;
     background-color: rgb(42,55,56);
     overflow-x: hidden;
@@ -56,12 +44,106 @@ body{
     background-color:rgb(46,204,113);
     color: black;
   }
+.middle{
+    margin: 40px 0 0 220px;
+    display: flex;
+    background-color:rgb(236,240,241);
+    position: relative;
+}
+.left_div{
+    margin-right: 5px;
+    width: 60%;
+    height: 500px;
+    /* background-color: white; */
+    color: black;
+    position: absolute;
+    top: 100px;
+}
+.right_div{
+    margin-left: 5px;
+    width: 35%;
+}
+.left_div_1{
+    background-color:white;
+    width: 100%;
+    height: 200px;
+
+}
+p{
+    float: left;
+    color: black;
+    position: absolute;
+    top: 90px;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .div_static{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: rgb(42,55,56);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.8);
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .sidenav a:hover {
+   background-color:rgb(93,106,107);
+  }
+  .sidenav a.help_center{
+    color:rgb(46,204,113);
+  }
+  .sidenav a.help_center:hover{
+    background-color:rgb(46,204,113);
+    color: black;
+  }
+  @media screen and (max-width = 600px) {
+      .main{
+          width: 100%;
+      }
+  }
   .main{
-      margin-left: 150px;
+      margin-left:200px;
       background-color:rgb(236,240,241); 
-      position: relative;
+      position: absolute;
       top: 30px;
     }
+
+    .sidediv {
+        height: 100%;
+        width: 400px;
+        position:absolute;
+        z-index: 1;
+        top: 50px;
+        right: 0;
+        background-color: rgb(236,240,241); 
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
     .Opportunity_table{
         border-collapse: collapse;
         width: 100%;
@@ -70,7 +152,7 @@ body{
     }
     .Opportunity_table tr:nth-child(even){background-color: #f2f2f2;}
 
-    /* .Opportunity_table tr:hover {background-color: #ddd;} */
+    .Opportunity_table tr:hover {background-color: #ddd;}
     .Opportunity_table th,td{
         border-bottom: 1px solid #ddd;
     }
@@ -126,7 +208,7 @@ body{
     margin-left: 20px;
     text-transform: capitalize;
 }
-/* heading text */
+heading text
 .inner_text{
     padding-bottom: 30px;
     display: inline;
@@ -134,7 +216,7 @@ body{
     padding: 0 30px;
     text-transform: capitalize;
 }
- /* .complete{
+ .complete{
      margin-left: 10px;
  }
  .status{
@@ -151,17 +233,17 @@ body{
  }
  .read_subject{
      margin-left: 130px;
- } */
+ }
  
  .open_guide{
-        margin-left: 35px;
+        margin-left: 18px;
         background-color: blue;
         padding: 5px 10px;
         border-radius: 5px;
         color: white;
  }
  .view_all{
-        margin-left: 450px;
+        margin-left: 410px;
         background-color: blue;
         padding: 5px 10px;
         border-radius: 5px;
@@ -200,7 +282,7 @@ body{
 }
 .third_flex4{
     width: 30%;
-    /* height: 400px; */
+    height: 400px;
 }
 .get_paid{
     font-size: 1rem; 
@@ -209,4 +291,4 @@ body{
     font-size: 1rem;
     padding: 0;
     text-align: justify;
-}
+} */

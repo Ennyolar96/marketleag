@@ -1,0 +1,104 @@
+
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Client</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./IPClient.css">
+    <!-- <script defer src="./index.js"></script> -->
+</head>
+<body>
+    <div class="container">
+
+        <div class="header_static"></div>
+            <div class="sidenav">
+                <a href="#">Dashboard</a>
+                <a href="#">Innovator</a>
+                <a href="/Dashboard/solver/newsolver.html">Solver</a>
+                <a href="/Dashboard/inventor/newinventor.html">Submit Solution</a>
+                <a href="#">Intellectual Property</a>
+                <a href="/Dashboard/Ipclient/ipclient.html">Inquiry</a>
+                <a href="/Dashboard/Expert/expert1.html">Expert</a>
+                <a href="#contact">Application Status</a>
+                <a href="#contact">Trainings</a>
+                <a class="help_center" href="#contact">Help Center</a>
+                <a href="Activities.html">Activities</a>
+                <a href="#" class="logout">Log Out</a>
+              </div>
+
+        <form id="form" action="/">
+            <h3> Create your MLG Account</h3>
+            <p id="already" > Already have an account? <a href="#">Login Here</a></p>
+
+            <div class="input-control">
+                <label for="Industry">What is your Industry</label>
+                <input id="Industry" name="Industry" type="text">
+                <div class="error"></div>
+            </div>
+
+            <p> Do you have IP asset management structure in your organization </p>
+                <br>
+                <label for="yes">Yes</label>
+                <input type="radio" name="yes" id="yes" class="yes_no">
+                
+                <label class="label_yes_no" for="yes">No</label>
+                <input type="radio" name="No" id="No" class="yes_no">
+                <br><br>
+
+            <div class="input-control">
+                <label for="earning">Are you earning on your existing IP asset</label>
+                <input id="earning" name="earning" type="text">
+                <div class="error"></div>
+            </div>
+
+                    <p> Would you like us to guide you on how to capture the competitive advantage</p>
+                    <br>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yes" id="yes" class="yes_no">
+            
+                    <label class="label_yes_no" for="yes">No </label>
+                    <input type="radio" name="No" id="No" class="yes_no">
+                    <br><br>
+
+            <div class="input-control">
+                <label for="legal">What other legal service would yo require for your operation</label>
+                <input id="legal" name="legal" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="help_you">Do you know of any specific way you want us to help you</label>
+                <textarea id="help_you" name="help_you" cols="50" rows="30"></textarea>
+                <div class="error"></div>
+            </div>
+
+            <p id="Attest"> Attest to this form</p>
+            <br><br>
+    
+            <label for="Agree">I Agree </label>
+            <input type="radio" name="Agree" id="Agree" class="yes_no">
+            <br><br>
+    
+            <label for="Agree_2">I Agree </label>
+            <input type="radio" name="Agree_2" id="Agree_2" class="yes_no">
+            <br><br>
+    
+            <div class="input-control">
+            <input type="file" name="upload_file" id="upload_file">
+            </div>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./IPClient.js"></script>
+
+</body>
+</html>
