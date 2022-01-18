@@ -172,7 +172,7 @@ overflow-x: hidden;
     left: 0;
     letter-spacing: 0;
     position: absolute;
-    top: 130px;
+    top: 150px;
     width: 387px;
   }
   
@@ -252,9 +252,21 @@ overflow-x: hidden;
     box-shadow: 0px 40px 120px 
   #0000001f;
     height: 200px;
-    left: 526px;
+    left: 550px;
     position: absolute;
-    top: 330px;
+    top: 300px;
+    width: 357px;
+  }
+
+  .frame-7891-1 {
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    box-shadow: 0px 40px 120px 
+  #0000001f;
+    height: 200px;
+    left: 550px;
+    position: absolute;
+    top: 532px;
     width: 357px;
   }
   
@@ -1767,7 +1779,7 @@ overflow-x: hidden;
   .poppins-semi-bold-lucky-point-49px {
     color:rgb(20,39,126); 
     font-family:'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     font-style: normal;
   }
