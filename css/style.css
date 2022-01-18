@@ -181,7 +181,7 @@ overflow-x: hidden;
         border-radius: 8px;
         left: 0;
         position: absolute;
-        top: 220px;    
+        top: 270px;    
         padding: 20px;
         border: none;
         color: rgba(255, 255, 255, 1);
@@ -251,10 +251,10 @@ overflow-x: hidden;
     border-radius: 8px;
     box-shadow: 0px 40px 120px 
   #0000001f;
-    height: 200px;
-    left: 550px;
+    height: 130px;
+    left: 150px;
     position: absolute;
-    top: 300px;
+    top: 580px;
     width: 357px;
   }
 
@@ -263,10 +263,10 @@ overflow-x: hidden;
     border-radius: 8px;
     box-shadow: 0px 40px 120px 
   #0000001f;
-    height: 200px;
+    height: 130px;
     left: 550px;
     position: absolute;
-    top: 532px;
+    top: 580px;
     width: 357px;
   }
   
@@ -274,7 +274,7 @@ overflow-x: hidden;
     left: 34px;
     letter-spacing: 0;
     position: absolute;
-    top: 106px;
+    top: 20px;
     width: 290px;
   }
   
@@ -322,19 +322,19 @@ overflow-x: hidden;
     border-radius: 8px;
     box-shadow: 0px 40px 120px 
   #0000001f;
-    height: 200px;
-    left: 1000px;
+    height: 130px;
+    left: 950px;
     position: absolute;
-    top: 532px;
+    top: 580px;
     width: 357px;
-    animation-name:test ;
+    /* animation-name:test ; */
   }
   
     .building-a-digital-a {
     left: 34px;
     letter-spacing: 0;
     position: absolute;
-    top: 110px;
+    top: 20px;
     width: 290px;
   }
   
