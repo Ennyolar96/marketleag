@@ -43,52 +43,23 @@ body {
     color: black;
   }
  .heading{
-   margin: 30px 0 0 200px;
+   margin: 100px 0 0 200px;
    list-style-type: none;
-   /* width: 0.7em;
-  font-size: 400%;
-  font-family: algerian, courier;
-  line-height: 80%; */
  }
  li{
    float: left;
    padding: 10px;
    color: white;
-   border-bottom: 4px solid white;
+   border-bottom: 1px solid white;
    background-color: wheat;
    text-align: center;
  }
-.list1, .list2, .list3, .list4{
-   padding-left: 180px;
+.list2{
+   padding-left: 680px;
  }
  
  .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
-}
-.our{
-  margin: 70px 0 0 250px;
 }

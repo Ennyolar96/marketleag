@@ -45,250 +45,56 @@ body{
     color: black;
   }
 .middle{
-    margin: 40px 0 0 220px;
     display: flex;
-    background-color:rgb(236,240,241);
-    position: relative;
+    /* margin: 100px 0 0 200px ; */
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
-.left_div{
-    margin-right: 5px;
-    width: 60%;
-    height: 500px;
-    /* background-color: white; */
-    color: black;
-    position: absolute;
-    top: 100px;
+.divmid{
+    background-color: cadetblue;
+    /* width: 30%; */
+    margin-top: 50px;
+    padding: 12px;
+    height: 200px;
 }
-.right_div{
-    margin-left: 5px;
-    width: 35%;
+.middle1 {
+    margin-left: 200px;
+    height: 800px;
+    width: 50%;
 }
-.left_div_1{
-    background-color:white;
+.middle2{
+    width: 30%;
+}
+.middle1-1{
     width: 100%;
     height: 200px;
-
+    background-color: coral;
+}
+.comp{
+    margin-left: 150px;
+}
+.status{
+    margin-left: 150px;
 }
 p{
-    float: left;
-    color: black;
-    position: absolute;
-    top: 90px;
-}
-.clearfix{
-    content: "";
-    clear: both;
-    display: table;
-}
-/* .div_static{
-    width: 100%;
-    height:50px;
-    background-color: black;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-
-}
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0px;
-    left: 0;
-    background-color: rgb(42,55,56);
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color:rgba(255, 255, 255, 0.8);
-    display: block;
-    font-size: 1rem;
-    font-weight: 500;
-  }
-  .sidenav a:hover {
-   background-color:rgb(93,106,107);
-  }
-  .sidenav a.help_center{
-    color:rgb(46,204,113);
-  }
-  .sidenav a.help_center:hover{
-    background-color:rgb(46,204,113);
-    color: black;
-  }
-  @media screen and (max-width = 600px) {
-      .main{
-          width: 100%;
-      }
-  }
-  .main{
-      margin-left:200px;
-      background-color:rgb(236,240,241); 
-      position: absolute;
-      top: 30px;
-    }
-
-    .sidediv {
-        height: 100%;
-        width: 400px;
-        position:absolute;
-        z-index: 1;
-        top: 50px;
-        right: 0;
-        background-color: rgb(236,240,241); 
-        overflow-x: hidden;
-        padding-top: 20px;
-      }
-
-    .Opportunity_table{
-        border-collapse: collapse;
-        width: 100%;
-        font-size: 1rem;
-        text-transform: capitalize;
-    }
-    .Opportunity_table tr:nth-child(even){background-color: #f2f2f2;}
-
-    .Opportunity_table tr:hover {background-color: #ddd;}
-    .Opportunity_table th,td{
-        border-bottom: 1px solid #ddd;
-    }
-
-.Opportunity_table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  font-size: 1.2rem;
-}
-.second_flex{
-    display: flex;
-    height: 300px;
-    margin-bottom: 15px;
-}
-.second_flex > div{
-    background-color:rgb(255,255,255);
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    width: 50%;
-} 
-.third_flex{
-    display: flex;
-    height: 250px;
-    margin-bottom: 20px;
-}
-.third_flex1{
-    width: 70%;
-}
-.third_flex2{
-    width: 30%;
-}
-.third_flex > div{
-    background-color:rgb(255,255,255);
-    margin: 0 10px 10px 10px;
-    padding: 20px;
-    font-size: 30px;
-}
-.divheading{
-    margin: 0 0 10px 20px;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-}
-.manage{
-  margin-left: 340px;
-  background-color: blue;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: white;
-}
-.stats{
     margin-left: 20px;
-    text-transform: capitalize;
+    padding-top: 5px;
 }
-heading text
-.inner_text{
-    padding-bottom: 30px;
-    display: inline;
-    justify-content: space-around;
-    padding: 0 30px;
-    text-transform: capitalize;
-}
- .complete{
-     margin-left: 10px;
- }
- .status{
-     margin-left: 25px;
- }
- .app_opportunity{
-     margin-left: 90px;
- }
- .app_date{
-     margin-left: 100px;
- }
- .read_from{
-     margin-left: 120px;
- }
- .read_subject{
-     margin-left: 130px;
- }
- 
- .open_guide{
-        margin-left: 18px;
-        background-color: blue;
-        padding: 5px 10px;
-        border-radius: 5px;
-        color: white;
- }
- .view_all{
-        margin-left: 410px;
-        background-color: blue;
-        padding: 5px 10px;
-        border-radius: 5px;
-        color: white;
- }
- .third_flex3{
-     width: 30%;
-     height: 210px;
- }
- .manage_app{
-    margin-left: 410px;
+.blue_left{
+    margin-left: 290px;
+    border-radius: 4px;
+    padding: 8px;
     background-color: blue;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: white;
-  }
-  .referral_box{
-      font-size: 1.2rem;
-      font-weight: 100;
-  }
-  .referral1{
-      margin-left: 140px;
-      padding: 5px;
-      background-color:rgb(46,204,113);
-      color: white;
-      font-size: 1.2;
-      font-weight: bold;
-  }
-  .referral2{
-    margin-left: 145px;
-    padding: 5px;
-    background-color:rgb(46,204,113);
-    color: white;
-    font-size: 1.2;
-    font-weight: bold;
 }
-.third_flex4{
-    width: 30%;
-    height: 400px;
+.left1, .left2{
+    margin-left: 360px;
 }
-.get_paid{
-    font-size: 1rem; 
+.status1{
+    margin-left: 230px;
 }
-.Earn_money{
-    font-size: 1rem;
-    padding: 0;
-    text-align: justify;
-} */
+.status1-1{
+    margin-left: 200px;
+}
+.comp1{
+    margin-left: 200px;
+}
