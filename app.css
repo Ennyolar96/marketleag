@@ -43,23 +43,37 @@ body {
     color: black;
   }
  .heading{
-   margin: 100px 0 0 200px;
+   margin: 10px 0 0 200px;
    list-style-type: none;
  }
  li{
    float: left;
    padding: 10px;
-   color: white;
+   color: black;
    border-bottom: 1px solid white;
    background-color: wheat;
    text-align: center;
  }
 .list2{
-   padding-left: 680px;
+   padding-left: 600px;
  }
- 
+ .list1{
+  padding-left: 30px;
+} 
  .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+.myapp{
+  margin: 35px 0 0 200px;
+  display: flex;
+  color: white;
+}
+.cover{
+  margin-left: 800px;
+  margin-top: 30px;
+  background-color: blue;
+  border-radius: 4px;
+  padding: 8px;
 }

@@ -161,16 +161,16 @@
   }
   
     .vector-6 {
-    height: 800px;
-    left: 429px;
+    height: 550px;
+    left: 600px;
     position: absolute;
     top: 0;
-    width: 955px;
+    width: 620px;
   }
   
     .frame-7893 {
     height: 325px;
-    left: 0;
+    left: 20px;
     position: absolute;
     top: 98px;
     width: 530px;
@@ -200,7 +200,7 @@
     width: 484px;
   }
   
-    .main-button {
+    /* .main-button {
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
     height: 89px;
@@ -208,7 +208,25 @@
     position: absolute;
     top: 236px;
     width: 248px;
-  }
+  } */
+  .main-button {
+    background-color: rgba(243, 115, 53, 1);
+    border-radius: 8px;
+    left: 0;
+    position: absolute;
+    top: 240px;    
+    padding: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:  1.2em;;
+    font-weight: 500;
+    font-style: normal;
+}
+.main-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
   
     .create-account-1 {
     left: 60px;
@@ -218,19 +236,20 @@
   }
   
     .rectangle-392 {
-    height: 744px;
+    height: 444px;
     left: 584px;
     object-fit: cover;
     position: absolute;
-    top: 1px;
+    top: 50px;
     width: 616px;
+    border-radius: 20px;
   }
   
     .group-7851 {
     height: 1590px;
     left: 120px;
     position: absolute;
-    top: 1055px;
+    top: 700px;
     width: 1202px;
   }
   
@@ -636,7 +655,7 @@
     height: 971px;
     left: 0;
     position: absolute;
-    top: 2727px;
+    top: 2300px;
     width: 1440px;
   }
   
@@ -797,7 +816,7 @@
     height: 1126px;
     left: 0;
     position: absolute;
-    top: 4817px;
+    top: 4300px;
     width: 1440px;
   }
   
@@ -1049,7 +1068,7 @@
     height: 959px;
     left: 120px;
     position: absolute;
-    top: 3778px;
+    top: 3300px;
     width: 1202px;
   }
   
@@ -1278,7 +1297,7 @@
     height: 1671px;
     left: 120px;
     position: absolute;
-    top: 6023px;
+    top: 5422px;
     width: 1202px;
   }
   
@@ -1627,7 +1646,7 @@
     height: 476px;
     left: 0;
     position: absolute;
-    top: 7757px;
+    top: 7200px;
     width: 1440px;
   }
   

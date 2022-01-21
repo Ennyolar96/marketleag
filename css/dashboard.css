@@ -55,7 +55,7 @@ body{
     /* width: 30%; */
     margin-top: 50px;
     padding: 12px;
-    height: 200px;
+    height: 800px;
 }
 .middle1 {
     margin-left: 200px;
@@ -64,6 +64,7 @@ body{
 }
 .middle2{
     width: 30%;
+    
 }
 .middle1-1{
     width: 100%;
@@ -97,4 +98,25 @@ p{
 }
 .comp1{
     margin-left: 200px;
+}
+h4{
+    margin-left: 10px;
+}
+#Edit{
+    margin-left: 10px;
+}
+.done{
+    margin-left: 130px;
+}
+.open{
+    margin-left: 100px;
+    padding: 8px;
+    background-color: blue;
+    border-radius: 4px;
+    /* font-size: 12px; */
+}
+.middle2-2{
+    width: 100%;
+    height: 300px;
+    background-color: coral;
 }

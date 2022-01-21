@@ -152,9 +152,9 @@ body{
   
     .overlap-group {
     height: 800px;
-    left: 120px;
+    left: 20px;
     position: absolute;
-    top: 175px;
+    top: 120px;
     width: 1384px;
   }
   
@@ -178,7 +178,7 @@ body{
     border-radius: 8px;
     left: 0;
     position: absolute;
-    top: 280px;    
+    top: 300px;    
     padding: 20px;
     border: none;
     color: rgba(255, 255, 255, 1);
@@ -212,7 +212,7 @@ body{
     left: 0;
     letter-spacing: 0;
     position: absolute;
-    top: 156px;
+    top: 170px;
     width: 463px;
   }
 /*   
@@ -241,6 +241,7 @@ body{
     position: absolute;
     top: 20px;
     width: 616px;
+    border-radius: 20px;
   }
   
     .frame-7892-1 {
@@ -251,7 +252,7 @@ body{
     height: 200px;
     left: 456px;
     position: absolute;
-    top: 408px;
+    top: 308px;
     width: 357px;
   }
   
@@ -310,7 +311,7 @@ body{
     height: 200px;
     left: 933px;
     position: absolute;
-    top: 577px;
+    top: 310px;
     width: 357px;
   }
   
@@ -353,13 +354,13 @@ body{
   }
   
     .group-456 {
-    background-image: url(rectangle-403-1.png);
+    background-image: url(/images/acceleration-rectangle-403-1.png);
     background-position: 50% 50%;
     background-size: cover;
     height: 460px;
     left: 0;
     position: absolute;
-    top: 1041px;
+    top: 650px;
     width: 1440px;
   }
   
@@ -383,9 +384,9 @@ body{
   
     .group-463 {
     height: 404px;
-    left: 120px;
+    left: 60px;
     position: absolute;
-    top: 1581px;
+    top: 1200px;
     width: 1202px;
   }
   
@@ -515,9 +516,9 @@ body{
   
     .group-106 {
     height: 557px;
-    left: 120px;
+    left: 60px;
     position: absolute;
-    top: 2065px;
+    top: 1700px;
     width: 1200px;
   }
   
@@ -703,7 +704,7 @@ body{
     height: 678px;
     left: 0;
     position: absolute;
-    top: 3314px;
+    top: 3000px;
     width: 1440px;
   }
   
@@ -1064,9 +1065,9 @@ body{
   
     .group-465 {
     height: 532px;
-    left: 120px;
+    left: 60px;
     position: absolute;
-    top: 2702px;
+    top: 2400px;
     width: 1200px;
   }
   

@@ -43,7 +43,7 @@ body {
     color: black;
   }
  .heading{
-   margin: 30px 0 0 200px;
+   margin: 10px 0 0 200px;
    list-style-type: none;
    /* width: 0.7em;
   font-size: 400%;
@@ -67,28 +67,15 @@ body {
   clear: both;
   display: table;
 }
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
-}
 .our{
-  margin: 70px 0 0 250px;
+  margin: 50px 0 0 200px;
+  display: flex;
+}
+select{
+  margin-left:700px;
+  width: 40%;
+  height: 40px;
+  margin-top: 20px;
+  outline:1;
+  border-radius:4px ;
 }

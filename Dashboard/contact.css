@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  html body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin: auto;
+  }
+  html body .container {
+    max-width: 1200px;
+    width: 85vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 205px;
+    margin-right: 10px;
+}
+  html body .container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #163568;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  html body .container h2 span {
+    color: #efefef;
+    padding-right: 5px;
+  }
+  html body .container .box {
+    display: grid;
+    box-shadow: 0px 0px 10px #000;
+  }
+  html body .container .box .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: #163568;
+  }
+  html body .container .box .info h4 {
+    margin: 10px 0;
+  }
+  html body .container .box .info p {
+    margin: 5px 0px;
+  }
+  html body .container .box .info p:nth-child(4) {
+    margin-bottom: 20px;
+  }
+  html body .container .box h3 {
+    background: #efefef;
+    padding: 10px;
+  }
+  html body .container .box form {
+    width: 100%;
+    display: grid;
+    background: #efefef;
+    padding: 10px 10px;
+  }
+  html body .container .box form .name, html body .container .box form .company, html body .container .box form .email, html body .container .box form .tele {
+    margin-bottom: 20px;
+  }
+  html body .container .box form .name label, html body .container .box form .company label, html body .container .box form .email label, html body .container .box form .tele label {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  html body .container .box form .name input, html body .container .box form .company input, html body .container .box form .email input, html body .container .box form .tele input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #61b1f3;
+    width: 95%;
+    height: 60%;
+  }
+  html body .container .box form .message {
+    grid-column: 1/3;
+  }
+  html body .container .box form .message label {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  html body .container .box form .message #message {
+    height: 90px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #61b1f3;
+  }
+  html body .container .box form .submit {
+    grid-column: 1/3;
+  }
+  html body .container .box form .submit input[type=submit] {
+    cursor: pointer;
+    background: #61b1f3;
+    letter-spacing: 0.2em;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    max-width: 80%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transition: 0.3s linear;
+    font-weight: bold;
+  }
+  .header_static{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    background-color: rgb(42,55,56);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.8);
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .sidenav a:hover {
+   background-color:rgb(93,106,107);
+  }
+  .sidenav a.help_center{
+    color:rgb(46,204,113);
+  }
+  .sidenav a.help_center:hover{
+    background-color:rgb(46,204,113);
+    color: black;
+  }
+  html body .container .box form .submit input[type=submit]:hover, html body .container .box form .submit input[type=submit]:focus {
+    color: #efefef;
+    background: #163568;
+  }
+  @media (min-width: 700px) {
+    html body .container h2 {
+      justify-content: flex-start;
+      align-items: flex-end;
+      font-size: 2em;
+    }
+    html body .container .box {
+      grid-template-columns: 1fr 2fr;
+    }
+    html body .container .box .info {
+      grid-row: 1/3;
+      font-size: 1.2em;
+    }
+  }

@@ -50,6 +50,31 @@ overflow-x: hidden;
   font-family:'Poppins', sans-serif;
 }
 
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 8rem;
+  background-color: #fff;
+  transition: opacity 1s ease;
+}
+.hidden {
+  opacity: 0;
+}
+.notice{
+  font-family:'Poppins', sans-serif;
+  margin-right: 200px;
+}
+#accept{
+  text-decoration: none;
+  background-color: rgba(243, 115, 53, 1);
+  color: black;
+  padding: 7px 24px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-family:'Poppins', sans-serif;
+}
   
     .group-416 {
     height: 77px;
