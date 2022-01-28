@@ -34,11 +34,15 @@
     .header a.logo{
       font-size: 1.7em;
       font-weight: bold;
+      padding: 0;
     }
     /* hover */
     .header a:hover{
       background-color: #ddd;
       color: black;
+    }
+    .header a.logo:hover{
+      background-color: white;
     }
     .header a.active{
       /* background-color: dodgerblue; */
@@ -906,7 +910,100 @@
     top: 44px;
     white-space: nowrap;
   }
+
+  .group-7842-01 {
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 5000px;
+    width: 1442px;
+    background-color: white;
+  }
+
+  .main-btn {
+    background-color: rgba(243, 115, 53, 1);
+    border-radius: 8px;
+    left: 550px;
+    position: absolute;
+    top: 260px;    
+    padding: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:  1.2em;;
+    font-weight: 500;
+    font-style: normal;
+}
+.main-btn:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
   
+.we-are-a {
+  left: 480px;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+}
+
+.career-opp {
+  left: 467px;
+  letter-spacing: 0;
+  line-height: 150px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  /* width: 307px; */
+}
+
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px 8px;
+  background-color: #fff;
+  transition: opacity 1s ease;
+  width: 50%;
+  margin: 0 1%;
+  display: flex;
+}
+.hidden {
+  opacity: 0;
+}
+.notice{
+  font-family:'Poppins', sans-serif;
+}
+#accept{
+  text-decoration: none;
+  background-color: rgba(243, 115, 53, 1);
+  color: black;
+  padding:8px;
+  margin: 50px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-family:'Poppins', sans-serif;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgba(243, 115, 53, 1);
+  cursor: pointer;
+  padding: 5px; 
+  border-radius: 25px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
    .group-7840 {
     height: 68px;
     left: 617px;
@@ -1000,7 +1097,7 @@
     height: 476px;
     left: 0;
     position: absolute;
-    top: 4950px;
+    top: 5500px;
     width: 1440px;
   }
   

@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 50px 150px 0 200px ;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.job-item {
+    display: flex;
+    flex-direction:column;
+    padding-top: 10px;
+    box-shadow: 0 0 5px black;
+    margin: 50px;
+    border-radius: 8px;
+}
+.job-item a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+h5{
+    font-size: 23px;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 10px 10px 0 10px ;
+        padding: 10px;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .job-item {
+        display: flex;
+        flex-direction:column;
+        padding-top: 10px;
+        box-shadow: 0 0 5px black;
+        margin: 20px;
+        border-radius: 8px;
+    }
+    .job-item a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        margin: 30px 30px 0 30px ;
+        padding: 20px;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .job-item {
+        display: flex;
+        flex-direction:column;
+        padding-top: 10px;
+        box-shadow: 0 0 5px black;
+        margin: 20px;
+        border-radius: 8px;
+    }
+    .job-item a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container{
+        margin: 0 ;
+        padding: 20px;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .job-item {
+        display: flex;
+        flex-direction:column;
+        padding-top: 10px;
+        box-shadow: 0 0 5px black;
+        margin: 15px;
+        border-radius: 8px;
+    }
+    .job-item a{
+        text-decoration: none;
+        font-size: 14px;
+        padding: 0 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        margin: 20px 20px 0 20px ;
+        padding: 20px;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .job-item {
+        display: flex;
+        flex-direction:column;
+        padding-top: 10px;
+        box-shadow: 0 0 5px black;
+        margin: 20px;
+        border-radius: 8px;
+    }
+    .job-item a{
+        text-decoration: none;
+        font-size: 25px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}

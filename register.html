@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form id="form" action="/">
+        <h3> Create your MLG Account</h3>
+        <p id="already" > Already have an account? <a href="login.html">Login Here</a></p>
+
+        <div class="input-control">
+            <label for="form_name">Country </label> 
+            <select class="form-control" id="Country" name="Country">
+                            <option value="Country  ">Country </option>
+                            <option value=" Algeria "> Algeria  </option>
+                            <option value=" Angola  "> Angola </option>
+                            <option value=" Benin "> Benin  </option>
+                            <option value=" Botswana  "> Botswana </option>
+                            <option value=" Burkina "> Burkina  </option>
+                            <option value=" Burundi "> Burundi  </option>
+                            <option value=" Cameroon  "> Cameroon </option>
+                            <option value=" Cape Verde  "> Cape Verde </option>
+                            <option value=" Central African Republic  "> Central African Republic </option>
+                            <option value=" Chad  "> Chad </option>
+                            <option value=" Comoros "> Comoros  </option>
+                            <option value=" Congo "> Congo  </option>
+                            <option value=" Congo"> Congo</option>
+                            <option value=" Democratic Republic of  "> Democratic Republic of </option>
+                            <option value=" Djibouti  "> Djibouti </option>
+                            <option value=" Egypt "> Egypt  </option>
+                            <option value=" Equatorial Guinea "> Equatorial Guinea  </option>
+                            <option value=" Eritrea "> Eritrea  </option>
+                            <option value=" Ethiopia  "> Ethiopia </option>
+                            <option value=" Gabon "> Gabon  </option>
+                            <option value=" Gambia  "> Gambia </option>
+                            <option value=" Ghana "> Ghana  </option>
+                            <option value=" Guinea  "> Guinea </option>
+                            <option value=" Guinea-Bissau "> Guinea-Bissau  </option>
+                            <option value=" Ivory Coast "> Ivory Coast  </option>
+                            <option value=" Kenya "> Kenya  </option>
+                            <option value=" Lesotho "> Lesotho  </option>
+                            <option value=" Liberia "> Liberia  </option>
+                            <option value=" Libya "> Libya  </option>
+                            <option value=" Madagascar  "> Madagascar </option>
+                            <option value=" Malawi  "> Malawi </option>
+                            <option value=" Mali  "> Mali </option>
+                            <option value=" Mauritania  "> Mauritania </option>
+                            <option value=" Mauritius "> Mauritius  </option>
+                            <option value=" Morocco "> Morocco  </option>
+                            <option value=" Mozambique  "> Mozambique </option>
+                            <option value=" Namibia "> Namibia  </option>
+                            <option value=" Niger "> Niger  </option>
+                            <option value=" Nigeria "> Nigeria  </option>
+                            <option value=" Rwanda  "> Rwanda </option>
+                            <option value=" Sao Tome and Principe "> Sao Tome and Principe  </option>
+                            <option value=" Senegal "> Senegal  </option>
+                            <option value=" Seychelles  "> Seychelles </option>
+                            <option value=" Sierra Leone  "> Sierra Leone </option>
+                            <option value=" Somalia "> Somalia  </option>
+                            <option value=" South Africa  "> South Africa </option>
+                            <option value=" South Sudan "> South Sudan  </option>
+                            <option value=" Sudan "> Sudan  </option>
+                            <option value=" Swaziland "> Swaziland  </option>
+                            <option value=" Tanzania  "> Tanzania </option>
+                            <option value=" Togo  "> Togo </option>
+                            <option value=" Tunisia "> Tunisia  </option>
+                            <option value=" Uganda  "> Uganda </option>
+                            <option value=" Zambia  "> Zambia </option>
+                            <option value=" Zimbabwe  "> Zimbabwe </option>
+                            <option value=""></option>
+                            </select>    
+            <div class="error"></div>
+        </div>
+
+        
+        <div class="input-control">
+            <label for="form_name">Organization </label> 
+            <input type="text" id="Organization" name="Organization" placeholder="Enter Your Organization Name">   
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="form_name">Firstname </label> 
+            <input id="fname" name="fname" placeholder="Samod" type="text" value="">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="form_lastname">Lastname </label> 
+             <input  id="lname" name="lname" placeholder= "John" type="text" value="">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <div class="form-group"> <label for="form_email">Phone Number</label> 
+                <input id="phone_num" type="text" name="phone_num" value="" placeholder="+234810000000000"> 
+                 <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+             <label for="form_email">Email</label> 
+            <input id="email" type="email" name="Email" required="required" placeholder="E.g Somebody@gmail.com">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+        
+            <input type="radio" id="Solver" class="check" name="UserType" value="I am a Solver." onclick="pwDisable()" > I am a Solver. <br>
+
+            <input type="radio" id="Inventor" class="check" name="UserType" value="I have new Inventor or Idea." onclick="pwDisable()" > I have new Inventor or Idea. <br>
+
+            <input type="radio" id="intellectual"  class="check" name="UserType" value="I need intellectual property Suport/Service." onclick="pwEnable()" >I need intellectual property Suport/Service. <br>
+
+            <input type="radio" id="expert" class="check" name="UserType" value="I am an intellectual property expert." onclick="pwDisable()" > I am an intellectual property expert. <br>
+
+            <!-- <input type="radio" class="check" id="L_ch" name="UserType" value="Launch Challenge." onclick="pwDisable()">  Launch Challenge. <br> -->
+
+            <input type="radio" class="check" id="Others" name="UserType" value="I want to do other things." onclick="pwDisable()">  I want to do other things. <br>
+        </div>
+
+</body>
+</html>

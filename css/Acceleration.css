@@ -28,11 +28,15 @@ body{
   .header a.logo{
     font-size: 1.7em;
     font-weight: bold;
+    padding: 0;
   }
   /* hover */
   .header a:hover{
     background-color: #ddd;
     color: black;
+  }
+  .header a.logo:hover{
+    background-color: white;
   }
   .header a.active{
     /* background-color: dodgerblue; */
@@ -233,6 +237,53 @@ body{
     text-align: center;
     top: 32px;
   }
+
+  
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px 8px;
+  background-color: #fff;
+  transition: opacity 1s ease;
+  width: 50%;
+  margin: 0 1%;
+  display: flex;
+}
+.hidden {
+  opacity: 0;
+}
+.notice{
+  font-family:'Poppins', sans-serif;
+}
+#accept{
+  text-decoration: none;
+  background-color: rgba(243, 115, 53, 1);
+  color: black;
+  padding:8px;
+  margin: 50px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-family:'Poppins', sans-serif;
+}
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgba(243, 115, 53, 1);
+  cursor: pointer;
+  padding: 5px; 
+  border-radius: 25px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
   
     .rectangle-391 {
     height: 500px;
