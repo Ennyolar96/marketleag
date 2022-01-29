@@ -1,12 +1,13 @@
 body{
+    width: 100%;
     box-sizing: border-box;
-    font-size: 100%;
-    font-family:'Poppins', sans-serif;
+    overflow-x: hidden;
+    
     }
     .header{
-      background-color:transparent;
+      overflow: hidden;
+      background-color:rgba(255, 255, 255, 1);
       padding: 20px 30px;
-      /* position: fixed; */
     }
     /* styling the header link */
     .header a {
@@ -19,6 +20,7 @@ body{
       line-height: 25px;
       border-radius: 4px;
       text-transform: capitalize;
+      font-family:'Poppins', sans-serif;
     }
     /* styling the logo */
     
@@ -41,7 +43,7 @@ body{
     }
     .header-right{
       float: none;
-      margin-left: 350px;
+      margin-left: 400px;
     }
     .header-right a.reg{
       margin-left: 10px;
@@ -51,22 +53,6 @@ body{
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
     }
-
-    .content {
-        padding: 16px;
-      }
-      
-      /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-      
-      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-      .sticky + .content {
-        padding-top: 60px;
-      }
     
     #consent-popup {
       position: fixed;
@@ -113,7 +99,22 @@ body{
     #myBtn:hover {
       background-color: #555; 
     }
-
+    .content {
+        padding: 16px;
+      }
+      
+      /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+      .sticky + .content {
+        padding-top: 60px;
+      }
+    
     .first-section{
         display: flex;
         flex-direction: row;
