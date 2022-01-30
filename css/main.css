@@ -928,7 +928,7 @@ body{
 
     }
 
-    /* @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 600px) {
        
         .header a.logo{
          
@@ -1369,7 +1369,7 @@ body{
             width: 100%;
         }
 
-} */
+}
 
 @media screen and (max-width: 768px) {
        
