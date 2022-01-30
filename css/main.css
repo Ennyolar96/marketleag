@@ -1564,7 +1564,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     font-style: normal;
-    margin: 0 50px;
+    margin: 0 10px;
     text-align: center;
     }
     .visit{
@@ -1572,7 +1572,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin: 0 100px;
+        margin: 0 30px;
         padding-top:10px;
     }
 
@@ -1620,14 +1620,14 @@ body{
     font-size: 25px;
     font-weight: 600;
     font-style: normal;
-    margin: 0 50px;
+    margin: 0 5px;
     }
     .bazaar{
         color:white; 
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin: 10px 80px;
+        margin: 10px 5px;
     }
 
     /* fifty section */
@@ -1648,7 +1648,7 @@ body{
     }
     .connect{
     color:rgb(25,49,138);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     font-style: normal;
     margin: 5px;
@@ -1659,7 +1659,7 @@ body{
         font-size: 18px;
         font-weight: 500;
         font-style: normal;
-        margin: 0 90px;
+        margin: 0 30px;
         text-align: center;
         padding-top: 10px;
     }
@@ -1672,7 +1672,7 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 20px 0 0 260px;
+        margin: 20px 0 0 160px;
     }
     .main-button1:hover{
       cursor: pointer;
@@ -1688,11 +1688,11 @@ body{
     }
     .industrial{
         color:rgb(25,49,138);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
-        margin: 0 150px 0 0;
+        margin: 0 50px 0 0;
     }
     .join-our{
         color:rgb(128,128,128); 
@@ -1700,12 +1700,12 @@ body{
         font-weight: 500;
         font-style: normal;
         text-align: center;
-        margin: 10px 150px 0 0;
+        margin: 10px 50px 0 0;
     }
     input{
         padding: 20px;
         font-size:14px;
-        margin:15px 0 0 115px;
+        margin:15px 0 0 15px;
         outline: none;
         border: none;
         background-color: aliceblue;
