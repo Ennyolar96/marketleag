@@ -928,7 +928,7 @@ body{
 
     }
 
-    /* @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 1200px) {
        
         .header a.logo{
          
@@ -939,7 +939,7 @@ body{
           margin: 0 70px 0 50px;
         }
         .header-right a.reg{
-          margin-right: 150px;
+          margin-right: 900px;
           background-color: rgba(243, 115, 53, 1);
           border-radius: 8px;  
           padding: 10px 5px;
@@ -1003,13 +1003,13 @@ body{
     
         .first-section{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             width: 100%;
             flex-wrap: nowrap;
             justify-content: space-between;
         }
         .first-section-1{
-            width: 500px;
+            width: 100%;
             margin: 10px;
         }
         .first-section-2{
@@ -1020,7 +1020,7 @@ body{
         }
         .inspiring{
             color:rgb(20,39,126); 
-            font-size: 24px;
+            font-size: 35px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1032,7 +1032,7 @@ body{
             padding: 10px;
             border: none;
             color: rgba(255, 255, 255, 1);
-            font-size:  1.2em;;
+            font-size:  24px;;
             font-weight: 500;
             font-style: normal;
             margin: 30px 0 0 160px;
@@ -1048,7 +1048,7 @@ body{
         .overla-1{
             box-shadow: 0 0 5px black;
            
-            width: 135px;
+            width: 100%;
             text-align: center;
             color: rgba(79, 79, 79, 1); 
             font-size: 12px;
@@ -1064,7 +1064,7 @@ body{
         }
         #we-are{
         color:rgb(25,49,138);
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 600;
         font-style: normal;
         margin: 0 15px;
@@ -1073,19 +1073,19 @@ body{
     
         #due-to{
             color:rgb(128,128,128); 
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 500;
             font-style: normal;
-            margin: 5px 15px;
+            margin: 15px 100px;
         }
     
         .third-section{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             margin-top: 30px;
         }
         .third-section-1{
-            width: 500px;
+            width: 100%;
             margin: 10px;
             background-color: whitesmoke;
             padding: 20px;
@@ -1096,7 +1096,7 @@ body{
             padding: 10px;
             margin: 10px 70px 0 30px;
             color:rgb(128,128,128); 
-            font-size: 16px;
+            font-size: 25px;
             font-weight: 500;
             font-style: normal;
             border-radius: 10px;
@@ -1113,45 +1113,42 @@ body{
         }
     
         .third-section-2{
-            width: 600px;
+            width: 100%;
             margin: 10px;
         }
         .we-are{
         color:rgb(25,49,138);
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 600;
         font-style: normal;
-        margin: 0 170px 0 5px;
+        margin: 0 10px 0 5px;
         text-align: center;
         }
         .visit{
             color:rgb(128,128,128); 
-            font-size: 14px;
+            font-size: 25px;
             font-weight: 500;
             font-style: normal;
-            margin: 0 200px 0 30px;
+            margin: 0 20px 0 30px;
             padding-top:10px;
         }
     
-
-    
-        
         .forth-section{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             margin: 0;
             background-color: black;
             border-radius: 10px;
            
         }
         .forth-section-1{
-            width: 600px;
+            width: 100%;
         }
         .forthSection-1{
             padding: 10px;
             margin: 5px;
             color:white;
-            font-size: 14px;
+            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             background: dimgray;
@@ -1160,7 +1157,7 @@ body{
         .forthSection-2{
             padding: 10px;
             margin: 5px;
-            font-size: 14px;
+            font-size: 20px;
             color: white;
             font-weight: 500;
             font-style: normal;
@@ -1174,50 +1171,49 @@ body{
         }
         .can-you{
         color:lavender;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 600;
         font-style: normal;
-        margin: 0 250px 5px 0;
+        margin: 10px 20px;
         }
         .bazaar{
             color:white; 
-            font-size: 14px;
+            font-size: 20px;
             font-weight: 500;
             font-style: normal;
-            margin: 0 250px 0 0;
+            margin: 0 20px 0 0;
         }
     
         
     
         .fifty-section{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
         }
         .fifty-section1{
             width: 100%;
-            margin: 10px;
+            margin: 50px;
         }
         .fifty-section2{
-            width: 450px;
+            width: 900px;
             height: 300px;
             margin: 10px;
             background-color: red;
         }
         .connect{
         color:rgb(25,49,138);
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
         font-style: normal;
-        
         text-align: center;
         }
         .meet{
             color:rgb(128,128,128); 
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             text-align: center;
-            padding-top: 10px;
+            padding-top: 20px;
         }
         .main-button1 {
             background-color: rgba(243, 115, 53, 1);
@@ -1228,7 +1224,7 @@ body{
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
-            margin: 10px 0 0 160px;
+            margin: 20px 0 0 260px;
         }
         .main-button1:hover{
           cursor: pointer;
@@ -1240,11 +1236,11 @@ body{
             margin: 10px;
             padding: 50px;
             border-radius: 5px;
-            width: 500px;
+            width: 100%;
         }
         .industrial{
             color:rgb(25,49,138);
-            font-size: 24px;
+            font-size: 30px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1252,16 +1248,16 @@ body{
         }
         .join-our{
             color:rgb(128,128,128); 
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             text-align: center;
-            margin: 10px 150px 0 0;
+            margin: 10px 400px 0 0;
         }
         input{
-            padding: 20px;
+            padding: 50px;
             font-size:14px;
-            margin:15px 0 0 15px;
+            margin:15px 0 0 300px;
             outline: none;
             border: none;
             background-color: aliceblue;
@@ -1274,7 +1270,7 @@ body{
             border-radius: 8px;
         }
         .join-us{
-            padding: 20px;
+            padding: 50px;
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px;
             border: none;
@@ -1290,7 +1286,7 @@ body{
         }
         .seventySection{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
         }
         .challenge{
             background-color: white;
@@ -1345,7 +1341,7 @@ body{
             display: flex;
             background-color: black;
             padding: 50px;
-            flex-direction: column;
+            /* flex-direction: column; */
         }
         .footer a, .footer p{
             display: inline-block;
@@ -1369,7 +1365,7 @@ body{
             width: 100%;
         }
 
-} */
+}
 
 @media screen and (max-width: 768px) {
        
