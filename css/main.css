@@ -484,7 +484,7 @@ body{
         width: 20%;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 768px) {
        
             .header a.logo{
              
@@ -928,7 +928,7 @@ body{
 
     }
 
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (max-width: 1024px) {
        
         .header a.logo{
          
@@ -1367,7 +1367,7 @@ body{
 
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width:600px) {
        
     .header a.logo{
      

@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form id="form" action="/">
+    <header>
+        <div class="header" id="myTopnav">
+            <a class="logo"><img src="images/new-png-mleage-1-7.png" alt=""></a>
+    
+            <div class="header-right">
+                <a class="active" href="index.html">Home</a>
+                <a href="innovateopp.html">Innovator Opportunity</a>
+                <a href="ipaccelerate.html">IP Acceleration</a>
+                <a href="ourlab.html">lab</a>
+                <a href="about.html">About us</a>
+                <a class="reg" href="#">Register</a> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> </a>
+            </div>
+        </div>
+    </header>
+    <form action="/" method="post" id="form">
         <h3> Create your MLG Account</h3>
         <p id="already" > Already have an account? <a href="login.html">Login Here</a></p>
 
@@ -95,7 +116,7 @@
         </div>
 
         <div class="input-control">
-            <div class="form-group"> <label for="form_email">Phone Number</label> 
+             <label for="form_email">Phone Number</label> 
                 <input id="phone_num" type="text" name="phone_num" value="" placeholder="+234810000000000"> 
                  <div class="error"></div>
         </div>
@@ -108,18 +129,25 @@
 
         <div class="input-control">
         
-            <input type="radio" id="Solver" class="check" name="UserType" value="I am a Solver." onclick="pwDisable()" > I am a Solver. <br>
+            <input type="radio" id="Solver" class="check" name="UserType" value="I am a Solver." onclick="pwDisable()" > <span> I am a Solver.</span> <br>
 
-            <input type="radio" id="Inventor" class="check" name="UserType" value="I have new Inventor or Idea." onclick="pwDisable()" > I have new Inventor or Idea. <br>
+            <input type="radio" id="Inventor" class="check" name="UserType" value="I have new Inventor or Idea." onclick="pwDisable()" ><span> I have new Inventor or Idea.</span> <br>
 
-            <input type="radio" id="intellectual"  class="check" name="UserType" value="I need intellectual property Suport/Service." onclick="pwEnable()" >I need intellectual property Suport/Service. <br>
+            <input type="radio" id="intellectual"  class="check" name="UserType" value="I need intellectual property Suport/Service." onclick="pwEnable()" ><span>I need intellectual property Suport/Service.</span> <br>
 
-            <input type="radio" id="expert" class="check" name="UserType" value="I am an intellectual property expert." onclick="pwDisable()" > I am an intellectual property expert. <br>
+            <input type="radio" id="expert" class="check" name="UserType" value="I am an intellectual property expert." onclick="pwDisable()" > <span>I am an intellectual property expert.</span> <br>
 
-            <!-- <input type="radio" class="check" id="L_ch" name="UserType" value="Launch Challenge." onclick="pwDisable()">  Launch Challenge. <br> -->
+            <input type="radio" class="check" id="L_ch" name="UserType" value="Launch Challenge." onclick="pwDisable()">  <span>Launch Challenge.</span> <br>
 
-            <input type="radio" class="check" id="Others" name="UserType" value="I want to do other things." onclick="pwDisable()">  I want to do other things. <br>
+            <input type="radio" class="check" id="Others" name="UserType" value="I want to do other things." onclick="pwDisable()"> <span> I want to do other things.</span> <br>
         </div>
-
+        <div class="input-control">
+                <label for="pword">Password</label>
+                <input type="password" name="pword" id="pword">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Create Account</button>
+    </form>
+        <script src="/js/index.js"></script>
 </body>
 </html>
