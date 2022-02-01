@@ -69,7 +69,7 @@ position:absolute;
 top: 40px;
 left: 0;
 width: 56px;
-height: 220vh;
+height: 180vh;
 background-color: var(--first-color);
 padding: 1.25rem .5rem 2rem;
 -webkit-transition: .5s;
@@ -286,5 +286,48 @@ h4{
     padding-top: 5px;
     background-color: coral;
 }
-  @media only screen and (max-width:px) {
+  @media screen and (max-width: 800px) {
+    .middle{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .middle1 {
+    margin-left: 40px;
+    width: 100%;
+}
+.middle2{
+    width: 100%;
+    margin-left: 40px;
+    
+}
+    .blue_left{
+      margin-left: 20px;
+    }
+    .open{
+      margin-left: 70px;
+    }
+    .left1{
+      margin-left: 50px;
+  }
+  .left2{
+    margin-left: 50px;
+  }
+  .status1{
+    margin-left: 30px;
+}
+.status1-1{
+    margin-left: 20px;
+}
+.comp1{
+    margin-left: 10px;
+}
+h4{
+    margin-left: 10px;
+}
+.done{
+    margin-left: 50px;
+}
+  
   }
