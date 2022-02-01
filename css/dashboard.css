@@ -69,7 +69,7 @@ position:absolute;
 top: 40px;
 left: 0;
 width: 56px;
-height: 120vh;
+height: 150vh;
 background-color: var(--first-color);
 padding: 1.25rem .5rem 2rem;
 -webkit-transition: .5s;
