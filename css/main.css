@@ -1,7 +1,9 @@
 body{
     box-sizing: border-box;
     overflow-x: hidden;
-    
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     }
     .header{
       overflow: hidden;
@@ -42,7 +44,7 @@ body{
     }
     .header-right{
       float: none;
-      margin-left: 400px;
+      margin-left: 300px;
     }
     .header-right a.reg{
       margin-left: 10px;
@@ -64,9 +66,10 @@ body{
       padding: 2px 8px;
       background-color: #fff;
       transition: opacity 1s ease;
-      width: 50%;
+      width: 400px;
       margin: 0 1%;
       display: flex;
+      flex-direction: column;
     }
     .hidden {
       opacity: 0;
@@ -79,7 +82,8 @@ body{
       background-color: rgba(243, 115, 53, 1);
       color: black;
       padding:8px;
-      margin: 50px;
+      text-align: center;
+      margin: 0 230px 0 50px;
       border-radius: 8px;
       font-size: 1.2em;
       font-family:'Poppins', sans-serif;
@@ -116,7 +120,158 @@ body{
       .sticky + .content {
         padding-top: 60px;
       }
+
+
+      .sectionfirst{
+          background-color: whitesmoke;
+          padding: 100px;
+          position: relative;
+          height: 250px;
+          border-radius: 10px;
+      }
+    .firsttext{
+        padding-top:30px ;
+        position: absolute;
+        top: 10px;  
+        left: 150px;  
+        font-size: 24px;
+      animation: fadeInAnimation ease 3s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation1 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation2 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation3 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation4 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation5 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInAnimation6 {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
     
+    .firsttext-1{
+        padding-top:30px ;
+        position: absolute;
+        top: 10px;
+        right: 150px;
+        /* -webkit-transform: rotate(50deg); 
+        -moz-transform: rotate(-50deg); */
+       font-size: 24px;
+       animation: fadeInAnimation1 ease 6s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+    .firsttext-2{
+        position: absolute;
+        top: 220px;
+        right: 150px;
+       font-size: 24px;
+       font-size: 24px;
+       animation: fadeInAnimation2 ease 9s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+    .firsttext-3{
+        position: absolute;
+        left: 150px;
+        top: 220px;
+        /* -webkit-transform: rotate(-30deg); 
+        -moz-transform: rotate(-50deg); */
+       font-size: 24px;
+       font-size: 24px;
+       animation: fadeInAnimation3 ease 12s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+    .firsttext-4{
+        position: absolute;
+        bottom: 50%;
+        top: 50%;
+        left: 50%;
+       font-size: 24px;
+       transform: translate(-50%, -50%);
+       animation: fadeInAnimation4 ease 15s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+    .firsttext-5{
+        position: absolute;
+        bottom: 10px;
+        left: 150px;
+       font-size: 24px;
+       animation: fadeInAnimation5 ease 18s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+    .firsttext-6{
+        position: absolute;
+        bottom: 10px;
+        right: 150px;
+       font-size: 24px;
+       animation: fadeInAnimation6 ease 21s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+
+
     .first-section{
         display: flex;
         flex-direction: row;
@@ -191,7 +346,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin: 0 500px 20px 500px;
+        margin: 0 400px 20px 400px;
     }
 
     .third-section{
@@ -316,11 +471,10 @@ body{
         width: 50%;
         margin: 10px;
     }
-    .fifty-section2{
-        width: 50%;
-        height: 200px;
-        margin: 10px;
-        background-color: red;
+    .fifty-section2 img{
+        width: 500px;
+        height: 500px;
+      
     }
     .connect{
     color:rgb(25,49,138);
@@ -484,7 +638,7 @@ body{
         width: 20%;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1100px) {
        
             .header a.logo{
              
@@ -495,7 +649,7 @@ body{
               margin: 0 70px 0 50px;
             }
             .header-right a.reg{
-              margin-right: 660px;
+              /* margin-right: 300px; */
               background-color: rgba(243, 115, 53, 1);
               border-radius: 8px;  
               padding: 10px 5px;
@@ -695,7 +849,7 @@ body{
             
             .forth-section{
                 display: flex;
-                /* flex-direction: column; */
+                flex-direction: column;
                 margin: 0;
                 background-color: black;
                 border-radius: 10px;
@@ -748,16 +902,13 @@ body{
         
             .fifty-section{
                 display: flex;
-                flex-direction: column;
             }
             .fifty-section1{
-                width: 100%;
+                width: 50%;
             }
-            .fifty-section2{
-                width: 100%;
-                height: 300px;
-                margin: 10px;
-                background-color: red;
+            .fifty-section2 img{
+                width: 50%;
+             
             }
             .connect{
             color:rgb(25,49,138);
@@ -765,27 +916,27 @@ body{
             font-weight: 600;
             font-style: normal;
             text-align: center;
-            margin: 5px 25px;
+            margin: 5px 10px;
             }
             .meet{
                 color:rgb(128,128,128); 
                 font-size: 16px;
                 font-weight: 500;
                 font-style: normal;
-                margin: 0 150px;
+                margin: 0 5px;
                 text-align: center;
                 padding-top: 10px;
             }
             .main-button1 {
                 background-color: rgba(243, 115, 53, 1);
                 border-radius: 8px;
-                padding: 10px;
+                padding: 20px;
                 border: none;
                 color: rgba(255, 255, 255, 1);
                 font-size:  1.2em;;
                 font-weight: 500;
                 font-style: normal;
-                margin: 10px 0 0 280px;
+                margin: 0;
             }
             .main-button1:hover{
               cursor: pointer;
@@ -816,7 +967,7 @@ body{
                 margin: 10px 150px;
             }
             input{
-                padding: 20px;
+                padding: 10px;
                 font-size:14px;
                 margin:15px 0 0 180px;
                 outline: none;
@@ -831,7 +982,7 @@ body{
                 border-radius: 8px;
             }
             .join-us{
-                padding: 20px;
+                padding: 10px;
                 background-color: rgba(243, 115, 53, 1);
                 border-radius: 8px;
                 border: none;
@@ -847,7 +998,6 @@ body{
             }
             .seventySection{
                 display: flex;
-                flex-direction: column;
             }
             .challenge{
                 background-color: white;
@@ -928,7 +1078,7 @@ body{
 
     }
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1200px) {
        
         .header a.logo{
          
@@ -939,7 +1089,7 @@ body{
           margin: 0 70px 0 50px;
         }
         .header-right a.reg{
-          margin-right: 900px;
+          margin-right: 800px;
           background-color: rgba(243, 115, 53, 1);
           border-radius: 8px;  
           padding: 10px 5px;
@@ -1188,24 +1338,24 @@ body{
     
         .fifty-section{
             display: flex;
-            /* flex-direction: column; */
+            flex-direction: column;
         }
         .fifty-section1{
             width: 100%;
             margin: 50px;
         }
-        .fifty-section2{
-            width: 900px;
-            height: 300px;
-            margin: 10px;
-            background-color: red;
+        .fifty-section2 img{
+            width: 500px;
+            height: 500px;
         }
+
         .connect{
         color:rgb(25,49,138);
         font-size: 30px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
+         margin:0;
         }
         .meet{
             color:rgb(128,128,128); 
@@ -1214,6 +1364,7 @@ body{
             font-style: normal;
             text-align: center;
             padding-top: 20px;
+            margin-right: 100px;
         }
         .main-button1 {
             background-color: rgba(243, 115, 53, 1);
@@ -1224,7 +1375,7 @@ body{
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
-            margin: 20px 0 0 260px;
+            margin: 10px 0 0 100px;
         }
         .main-button1:hover{
           cursor: pointer;
@@ -1252,12 +1403,12 @@ body{
             font-weight: 500;
             font-style: normal;
             text-align: center;
-            margin: 10px 400px 0 0;
+            margin: 10px 200px 0 0;
         }
         input{
             padding: 50px;
             font-size:14px;
-            margin:15px 0 0 300px;
+            margin:15px 0 0 100px;
             outline: none;
             border: none;
             background-color: aliceblue;
@@ -1367,7 +1518,7 @@ body{
 
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
        
     .header a.logo{
      
@@ -1440,6 +1591,59 @@ body{
       background-color: #555; 
     } */
 
+    .firsttext{
+        padding-top:30px ;
+        position: absolute;
+        top: 10px;  
+        left: 10px;  
+    }
+
+    .firsttext-1{
+        padding-top:30px ;
+        position: absolute;
+        top: 10px;  
+        right: 10px;  
+    }
+    .firsttext-2{
+        position: absolute;
+        top: 220px;
+        right: 10px;
+       font-size: 24px;
+       font-size: 24px;
+       animation: fadeInAnimation2 ease 9s;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+
+    .firsttext-3{
+        position: absolute;
+        left: 10px;
+        top: 220px;
+       font-size: 24px;
+    }
+
+    .firsttext-4{
+        position: absolute;
+        bottom: 50%;
+        top: 50%;
+        left: 50%;
+       font-size: 24px;
+    }
+    .firsttext-5{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+       font-size: 24px;
+    }
+
+    .firsttext-6{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+       font-size: 24px;
+    }
+
+
     .first-section{
         display: flex;
         flex-direction: column;
@@ -1482,18 +1686,21 @@ body{
     }
     .overla{
         display: flex;
+        flex-direction: column;
         /* flex-direction: column; */
     }
     .overla-1{
         box-shadow: 0 0 5px black;
         /* margin: 10px 60px 10px 60px; */
-        width: 33%;
+        width: 50%;
         text-align: center;
         color: rgba(79, 79, 79, 1); 
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
         padding: 2px;
+        height: 100px;
+        margin-left: 100px;
     }
     .trust{
         text-align: center;
@@ -1636,11 +1843,9 @@ body{
         width: 100%;
         margin: 10px;
     }
-    .fifty-section2{
-        width: 680px;
+    .fifty-section2 img{
+        width: 500px;
         height: 300px;
-        margin: 10px;
-        background-color: red;
     }
     .connect{
     color:rgb(25,49,138);
