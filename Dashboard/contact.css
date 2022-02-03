@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
     margin: auto;
   }
   html body .container {
@@ -19,19 +19,18 @@
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 205px;
     margin-right: 10px;
 }
   html body .container h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #163568;
+    color: black;
     text-align: center;
     margin-bottom: 10px;
   }
   html body .container h2 span {
-    color: #efefef;
+    color: rgba(243, 115, 53, 1);
     padding-right: 5px;
   }
   html body .container .box {
@@ -43,8 +42,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
-    color: #163568;
+    background-color:rgba(243, 115, 53, 1);
+    color: white;
   }
   html body .container .box .info h4 {
     margin: 10px 0;

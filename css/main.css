@@ -290,6 +290,13 @@ body{
         height: 200px;
         margin: 10px;
     }
+    .generation h4{
+        color:rgb(20,39,126); 
+        font-size: 40px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+    }
     .inspiring{
         color:rgb(20,39,126); 
         font-size: 30px;
@@ -328,7 +335,7 @@ body{
     }
     .trust{
         text-align: center;
-        background-color: cadetblue;
+        background-color: whitesmoke;
         height: 400px;
         border-radius:5px ;
     }
@@ -768,7 +775,7 @@ body{
             }
             .trust{
                 text-align: center;
-                background-color: cadetblue;
+                background-color: whitesmoke;
                 /* padding: 0px; */
                 border-radius:5px ;
                 width: 100%;
@@ -1208,7 +1215,7 @@ body{
         }
         .trust{
             text-align: center;
-            background-color: cadetblue;
+            background-color: whitesmoke;
            
             border-radius:5px ;
         }
@@ -1704,7 +1711,7 @@ body{
     }
     .trust{
         text-align: center;
-        background-color: cadetblue;
+        background-color: whitesmoke;
         /* padding: 0px; */
         border-radius:5px ;
     }
