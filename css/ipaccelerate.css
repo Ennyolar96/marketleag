@@ -129,13 +129,14 @@ body{
     .main-button {
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px; 
-        padding: 20px;
+        padding: 15px;
         border: none;
         color: rgba(255, 255, 255, 1);
         font-family:'Poppins', sans-serif;
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
+        text-decoration: none;
     }
     .main-button:hover{
       cursor: pointer;
@@ -346,6 +347,7 @@ body{
         font-weight: 500;
         font-style: normal;
         margin-left: 60px;
+        text-decoration: none;
     }
     .main-button1:hover{
       cursor: pointer;
@@ -456,7 +458,7 @@ body{
         .main-button {
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
-            padding: 20px;
+            padding: 15px;
             border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
@@ -464,6 +466,7 @@ body{
             font-weight: 500;
             font-style: normal;
             margin: 20px 400px;
+            text-decoration: none;
         }
         .main-button:hover{
           cursor: pointer;
@@ -678,6 +681,7 @@ body{
             font-weight: 500;
             font-style: normal;
             margin-left: 60px;
+            text-decoration: none;
         }
         .main-button1:hover{
           cursor: pointer;
@@ -795,6 +799,7 @@ body{
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
+            text-decoration: none;
         }
         .main-button:hover{
           cursor: pointer;
@@ -1013,6 +1018,7 @@ body{
             font-weight: 500;
             font-style: normal;
             margin-left: 200px;
+            text-decoration: none;
         }
         .main-button1:hover{
           cursor: pointer;
@@ -1130,6 +1136,7 @@ body{
             font-weight: 500;
             font-style: normal;
             margin: 10px 150px;
+            text-decoration: none;
         }
         .main-button:hover{
           cursor: pointer;
@@ -1346,6 +1353,7 @@ body{
             font-weight: 500;
             font-style: normal;
             margin-left: 60px;
+            text-decoration: none;
         }
         .main-button1:hover{
           cursor: pointer;

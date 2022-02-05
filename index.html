@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable =0">
-    <title>Home</title>
+    <title>HOME</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,15 +15,15 @@
     <div class="main-con content">
         <header>
             <div class="header" id="myTopnav">
-                <a class="logo"><img src="images/new-png-mleage-1-7.png" alt=""></a>
+                <a class="logo"><img src="/images/new-png-mleage-1-7.png" alt=""></a>
         
                 <div class="header-right">
-                    <a class="active" href="index.html">Home</a>
-                    <a href="innovateopp.html">Innovator Opportunity</a>
-                    <a href="ipaccelerate.html">IP Acceleration</a>
-                    <a href="ourlab.html">lab</a>
-                    <a href="about.html">About us</a>
-                    <a class="reg" href="#">Register</a> 
+                    <a class="active" href="/index.html">Home</a>
+                    <a href="/pages/innovateopp.html">Innovator Opportunity</a>
+                    <a href="/pages/ipaccelerate.html">IP Acceleration</a>
+                    <a href="/pages/ourlab.html">lab</a>
+                    <a href="/pages/about.html">About us</a>
+                    <a class="reg" href="/auth/register.html">Register</a> 
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i> </a>
                 </div>
@@ -115,7 +115,7 @@
             <div class="third-section-2">
                 <h1 class="we-are">Are you seeking complementary or new product ideas?</h1>
                 <p class="visit"> Visit our bazaar for innovative technologies and product concepts. Launch innovation challenge to seek new solutions.</p>
-                <button class=" main-button">Get Started</button>
+                <button id="getstarted" class=" main-button">Get Started</button>
             </div>
         </div>
 
@@ -144,7 +144,7 @@
                     Connect with Intellectual Property Experts in Africa and abroad at no cost.
                 </h3>
                 <p class="meet"> Meet amazing professionals in the field and gain invaluable insights on how to scale your product </p>
-                <button class=" main-button1">Get Started</button>
+                <button id="getstarted1" class=" main-button1">Get Started</button>
             </div>
             <div class="fifty-section2">
                 <img src="/images/connecting with IP Experts.jpg" alt="Connecting With Ip Expert" loading="lazy">
@@ -222,19 +222,19 @@
     <!-- footer-section -->
     <footer class="footer">
         <div class="footer1">
-            <img class="new-png-mleage-mark-2"src="images/new-png-mleage-mark-2-6.png"/>
+            <img class="new-png-mleage-mark-2"src="/images/new-png-mleage-mark-2-6.png"/>
             <p> Simplifying the innovation process</p>
         </div>
         <div class="footer2">
             <h3>Hotspots</h3>
-            <a href="#">Challenge</a>
+            <a href="/pages/innovateopp.html">Challenge</a>
             <a href="#">Bazzar</a>
-            <a href="#">IP Help Center</a>
-            <a href="#"> Lab</a>
+            <a href="/pages/maincontact.html">IP Help Center</a>
+            <a href="/pages/ourlab.html"> Lab</a>
         </div>
         <div class="footer3">
             <h3>About-Us</h3>
-            <a href="#">Company</a>
+            <a href="/pages/about.html">Company</a>
             <a href="#">Product</a>
             <a href="#"> Team</a>
             
@@ -258,7 +258,7 @@
         <div class="footer5">
             <h3>Contact Us</h3>
             <p>Customer services <br> support@marketleag.com </p>
-            <p> Need to talk to the specific department <a href="#">Enter here</a> </p>    
+            <p> Need to talk to the specific department <a href="/pages/maincontact.html" style="color: rgba(243, 115, 53, 1);">Enter here</a> </p>    
         </div>
     </footer>
 
@@ -268,7 +268,9 @@
        <a id="accept" href="#">Accept</a>
         </p>
       </div>
+      <script src="./js/btnlink.js"></script>
       <script src="./js/index.js"></script>
+      
 
     <!-- <script>
         // When the user scrolls the page, execute myFunction
