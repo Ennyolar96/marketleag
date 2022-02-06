@@ -34,7 +34,7 @@
 body {
   position: relative;
   margin: 0;
-  padding: 1rem 0 0 5rem;
+  padding: 1rem 0 0 4rem;
   font-family: var(--body-font);
   background-color: var(--white-color);
   -webkit-transition: .5s;
@@ -247,37 +247,58 @@ transition: .5s;
     color: black;
   } */
  .heading{
-   margin: 10px 0 0 200px;
-   list-style-type: none;
+   margin-top: 50px;
  }
- li{
-   float: left;
-   padding: 10px;
-   color: black;
-   border-bottom: 1px solid white;
-   background-color: wheat;
-   text-align: center;
+ .application{
+   display: flex;
  }
-.list2{
-   padding-left: 600px;
+ .application h3{
+   color: rgba(243, 115, 53, 1);
+   width: 50%;
  }
- .list1{
-  padding-left: 30px;
-} 
- .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+ .application h5{
+   text-align: right;
+   margin-left: 500px;
+   background-color: blue;
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+   font-size: 14px;
+   margin-top: 0;
+ }
+
+ table{
+  margin-top:0;
+  text-align: left;
+  width: 100%;
 }
-.myapp{
-  margin: 35px 0 0 200px;
-  display: flex;
-  color: white;
+th, td {
+  padding: 15px;
+  
 }
-.cover{
-  margin-left: 800px;
-  margin-top: 30px;
-  background-color: blue;
-  border-radius: 4px;
-  padding: 8px;
+thead{
+    background-color:rgba(243, 115, 53, 1);
+    color: white;
 }
+tr{
+  font-size: 14px;
+}
+
+@media (max-width:1200px)  {
+  .application h5{
+    margin-left: 390px;
+  }
+}
+
+@media (max-width:1100px)  {
+  .application h5{
+    margin-left: 260px;
+  }
+}
+
+@media (max-width:800px)  {
+  .application h5{
+    margin-left: 80px;
+  }
+}
+

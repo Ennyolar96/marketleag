@@ -129,12 +129,16 @@ body{
         font-style: normal;
         margin-right: 150px;
     }
+    .main-button a{
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1);
+
+    }
     .main-button {
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
         border: none;
-        color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
@@ -460,7 +464,7 @@ margin: 5px;
     margin: 0 70px 0 50px;
   }
   .header-right a.reg{
-    margin-right: 150px;
+    margin-right: 0;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;  
     padding: 10px 5px;
@@ -482,7 +486,7 @@ margin: 5px;
   .header.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   .first-section{
     display: flex;
@@ -844,7 +848,7 @@ width: 20%;
     margin: 0 70px 0 50px;
   }
   .header-right a.reg{
-    margin-right: 150px;
+    margin-right: 0;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;  
     padding: 10px 5px;
@@ -866,7 +870,7 @@ width: 20%;
   .header.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   .first-section{
     display: flex;
@@ -1233,7 +1237,7 @@ width: 100%;
     margin: 0 70px 0 50px;
   }
   .header-right a.reg{
-    margin-right: 150px;
+    margin-right: 0;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;  
     padding: 10px 5px;
@@ -1255,7 +1259,7 @@ width: 100%;
   .header.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   .first-section{
     display: flex;

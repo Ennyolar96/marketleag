@@ -678,7 +678,7 @@ body{
             .header.responsive a {
               float: none;
               display: block;
-              text-align: left;
+              text-align: center;
             }
             
             #consent-popup {
@@ -1096,7 +1096,7 @@ body{
           margin: 0 70px 0 50px;
         }
         .header-right a.reg{
-          margin-right: 800px;
+          margin-right: 0px;
           background-color: rgba(243, 115, 53, 1);
           border-radius: 8px;  
           padding: 10px 5px;
@@ -1118,7 +1118,7 @@ body{
         .header.responsive a {
           float: none;
           display: block;
-          text-align: left;
+          text-align: center;
         }
         
         #consent-popup {
@@ -1536,7 +1536,7 @@ body{
       margin: 0 70px 0 50px;
     }
     .header-right a.reg{
-      margin-right: 150px;
+      margin-right:0;
       background-color: rgba(243, 115, 53, 1);
       border-radius: 8px;  
       padding: 10px 5px;
@@ -1558,7 +1558,7 @@ body{
     .header.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
     
     #consent-popup {

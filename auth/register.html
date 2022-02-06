@@ -129,18 +129,35 @@
         </div>
 
         <div class="input-control">
-        
-            <input type="radio" id="Solver" class="check" name="UserType" value="I am a Solver." onclick="pwDisable()" > <span> I am a Solver.</span> <br>
+            <div class="c-check">
+                <label for="solver">I am a Solver</label>
+                <input type="checkbox" id="Solver" class="check" name="UserType" value="I am a Solver." onclick="pwDisable()"> 
+            </div>
 
-            <input type="radio" id="Inventor" class="check" name="UserType" value="I have new Inventor or Idea." onclick="pwDisable()" ><span> I have new Inventor or Idea.</span> <br>
+            <div class="c-check">
+                <label for="idea">I have new Inventor or Idea</label>
+                <input type="checkbox" id="Inventor" class="check" name="UserType" value="I have new Inventor or Idea." onclick="pwDisable()">
+            </div>
 
-            <input type="radio" id="intellectual"  class="check" name="UserType" value="I need intellectual property Suport/Service." onclick="pwEnable()" ><span>I need intellectual property Suport/Service.</span> <br>
+            <div class="c-check">
+                <label for="intellectual">I need intellectual property Suport/Service</label>
+                <input type="checkbox" id="intellectual"  class="check" name="UserType" value="I need intellectual property Suport/Service." onclick="pwEnable()">
+            </div>
 
-            <input type="radio" id="expert" class="check" name="UserType" value="I am an intellectual property expert." onclick="pwDisable()" > <span>I am an intellectual property expert.</span> <br>
+            <div class="c-check">
+                <label for="Expert">I am an intellectual property expert</label>
+                <input type="checkbox" id="expert" class="check" name="UserType" value="I am an intellectual property expert." onclick="pwDisable()">
+            </div>
 
-            <input type="radio" class="check" id="L_ch" name="UserType" value="Launch Challenge." onclick="pwDisable()">  <span>Launch Challenge.</span> <br>
+            <div class="c-check">
+                <label for="lauch challenge">Launch Challenge</label>
+                <input type="checkbox" class="check" id="L_ch" name="UserType" value="Launch Challenge." onclick="pwDisable()">
+            </div>
 
-            <input type="radio" class="check" id="Others" name="UserType" value="I want to do other things." onclick="pwDisable()"> <span> I want to do other things.</span> <br>
+            <div class="c-check">
+                <label for="others">I want to do other thing</label>
+                <input type="checkbox" class="check" id="Others" name="UserType" value="I want to do other things." onclick="pwDisable()">
+            </div>
         </div>
         <div class="input-control">
                 <label for="pword">Password</label>

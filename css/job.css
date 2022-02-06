@@ -76,15 +76,15 @@ body{
 }
 .job-item a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     padding: 0 20px;
     text-align: center;
 }
 h5{
-    font-size: 23px;
+    font-size: 20px;
 }
 h2{
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -120,7 +120,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
     .container{
         margin: 10px 10px 0 10px ;
@@ -139,7 +139,7 @@ h2{
     }
     .job-item a{
         text-decoration: none;
-        font-size: 20px;
+        font-size: 14px;
         padding: 0 10px;
         text-align: center;
     }
@@ -155,7 +155,7 @@ h2{
         margin: 0 70px 0 50px;
       }
       .header-right a.reg{
-        margin-right: 150px;
+        margin-right: 0;
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;  
         padding: 10px 5px;
@@ -177,7 +177,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
     .container{
         margin: 30px 30px 0 30px ;
@@ -196,7 +196,7 @@ h2{
     }
     .job-item a{
         text-decoration: none;
-        font-size: 20px;
+        font-size: 14px;
         padding: 0 10px;
         text-align: center;
     }
@@ -234,7 +234,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
     .container{
         margin: 0 ;
@@ -291,7 +291,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
     .container{
         margin: 20px 20px 0 20px ;
@@ -310,7 +310,7 @@ h2{
     }
     .job-item a{
         text-decoration: none;
-        font-size: 25px;
+        font-size: 14px;
         padding: 0 10px;
         text-align: center;
     }

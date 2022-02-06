@@ -34,7 +34,7 @@
 body {
   position: relative;
   margin: 0;
-  padding: 1rem 0 0 5rem;
+  padding: 1rem 0 0 4rem;
   font-family: var(--body-font);
   background-color: var(--white-color);
   -webkit-transition: .5s;
@@ -208,40 +208,61 @@ transition: .5s;
 .changecolor{
   color:  rgba(243, 115, 53, 1);
 }
- .heading{
-   margin: 10px 0 0 200px;
-   list-style-type: none;
-   /* width: 0.7em;
-  font-size: 400%;
-  font-family: algerian, courier;
-  line-height: 80%; */
- }
- li{
-   float: left;
-   padding: 10px;
-   color: white;
-   border-bottom: 4px solid white;
-   background-color: wheat;
-   text-align: center;
- }
-.list1, .list2, .list3, .list4{
-   padding-left: 180px;
- }
- 
- .clearfix::after {
+ /* .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
-.our{
-  margin: 50px 0 0 200px;
+} */
+.Activities{
+  margin: 50px 0 0 0;
   display: flex;
 }
+.Activities h2{
+  width: 50%;
+  color:rgba(243, 115, 53, 1);
+  font-size: 35px;
+  margin-top: 20px;
+}
 select{
-  margin-left:700px;
-  width: 40%;
+  margin-left:600px;
+  width: 400px;
   height: 40px;
   margin-top: 20px;
   outline:1;
-  border-radius:4px ;
+  border-radius:8px;
+  font-size: 20px;
+}
+table{
+  margin-top:0;
+  text-align: left;
+  width: 100%;
+}
+th, td {
+  padding: 15px;
+  
+}
+thead{
+    background-color:rgba(243, 115, 53, 1);
+    color: white;
+}
+tr{
+  font-size: 14px;
+}
+
+@media (max-width:1200px)  {
+  select{
+    margin-left: 390px;
+  }
+}
+
+@media (max-width:1100px)  {
+  select{
+    margin-left: 260px;
+  }
+}
+
+@media (max-width:800px)  {
+  select{
+    margin-left: 80px;
+  }
 }
