@@ -168,7 +168,7 @@ font-weight: 700;
 
 /*Show menu*/
 .show {
-width: 230px;
+width: 250px;
 }
 
 /*Rotate toggle*/
@@ -178,7 +178,9 @@ width: 230px;
 -webkit-transition: .5s;
 transition: .5s;
 }
-
+.changecolor{
+  color:  rgba(243, 115, 53, 1);
+}
 /*Active links menu*/
 .active {
 background-color: var(--second-color);
