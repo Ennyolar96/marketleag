@@ -38,6 +38,7 @@ body {
   background-color: var(--white-color);
   -webkit-transition: .5s;
   transition: .5s;
+  overflow-x: hidden;
 }
 
 .header_static{
@@ -69,7 +70,7 @@ position:absolute;
 top: 40px;
 left: 0;
 width: 56px;
-height: 180vh;
+height: 200vh;
 background-color: var(--first-color);
 padding: 1.25rem .5rem 2rem;
 -webkit-transition: .5s;
@@ -233,7 +234,7 @@ transition: .5s;
     margin-top: -10px;
     padding-top: 5px;
 }
-.comp{
+/* .comp{
     margin-left: 150px;
 }
 .status{
@@ -242,7 +243,7 @@ transition: .5s;
 p{
     margin-left: 20px;
     padding-top: 5px;
-}
+} */
 .blue_left{
     margin-left: 370px;
     border-radius: 4px;
@@ -256,7 +257,7 @@ p{
 .left2{
   margin-left: 440px;
 }
-.status1{
+/* .status1{
     margin-left: 230px;
 }
 .status1-1{
@@ -264,7 +265,7 @@ p{
 }
 .comp1{
     margin-left: 200px;
-}
+} */
 h4{
     margin-left: 10px;
 }
@@ -288,6 +289,24 @@ h4{
     margin-top: -10px;
     padding-top: 5px;
     background-color: coral;
+}
+table{
+  margin-top:0;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  
+}
+thead{
+    /* background-color:rgba(243, 115, 53, 1); */
+    color: black;
+}
+tr{
+  font-size: 14px;
 }
 
 /* @media (min-width:1280px) { 

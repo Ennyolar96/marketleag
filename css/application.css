@@ -70,7 +70,7 @@ position:absolute;
 top: 40px;
 left: 0;
 width: 56px;
-height: 180vh;
+height: 200vh;
 background-color: var(--first-color);
 padding: 1.25rem .5rem 2rem;
 -webkit-transition: .5s;
@@ -247,7 +247,7 @@ transition: .5s;
     color: black;
   } */
  .heading{
-   margin-top: 50px;
+   margin-top: 30px;
  }
  .application{
    display: flex;
@@ -265,15 +265,18 @@ transition: .5s;
    color: white;
    font-size: 14px;
    margin-top: 0;
+   margin-bottom: 10px;
  }
 
  table{
   margin-top:0;
   text-align: left;
   width: 100%;
+  border-collapse: collapse;
 }
 th, td {
-  padding: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
   
 }
 thead{

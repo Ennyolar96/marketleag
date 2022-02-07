@@ -34,7 +34,7 @@
   body {
     position: relative;
     margin: 0;
-    padding: 1rem 0 0 5rem;
+    padding: 1rem 0 0 3rem;
     font-family: var(--body-font);
     background-color: var(--white-color);
     -webkit-transition: .5s;
@@ -70,7 +70,7 @@ a {
   top: 40px;
   left: 0;
   width: 56px;
-  height: 180vh;
+  height: 200vh;
   background-color: var(--first-color);
   padding: 1.25rem .5rem 2rem;
   -webkit-transition: .5s;
