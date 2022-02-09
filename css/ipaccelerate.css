@@ -1072,7 +1072,9 @@ body{
     } 
 
     @media (max-width:800px) {
-       
+       body{
+           overflow-x: hidden;
+       }
         .header a.logo{
          
           display: block;
