@@ -2,10 +2,6 @@ body{
     box-sizing: border-box;
     overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
-    -ms-overflow-style:none;
-    scrollbar-width: none;
-    overflow: -moz-scrollables-none;
-    
     }
     body::-webkit-scrollbar{
         display: none;
@@ -1407,6 +1403,6 @@ body{
         .footer1, .footer2, .footer3, .footer4, .footer5{
             padding: 10px;
             margin: 20px;
-            width: 20%;
+            width: 100%;
         }
     } 
