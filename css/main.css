@@ -1741,7 +1741,7 @@ body{
     }
     #we-are{
     color:rgb(25,49,138);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     font-style: normal;
     margin: 0 15px;
@@ -1750,7 +1750,7 @@ body{
 
     #due-to{
         color:rgb(128,128,128); 
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         font-style: normal;
         margin: 5px 15px;
