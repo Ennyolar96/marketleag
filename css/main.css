@@ -382,6 +382,7 @@ body{
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
+        height: 120px;
     }
     .thirdSection-2{
         background-color: white;
@@ -392,6 +393,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
+        height: 120px;
     }
 
     .third-section-2{
@@ -439,6 +441,7 @@ body{
         font-style: normal;
         background: dimgray;
         border-radius: 8px;
+        height: 120px;
     }
     .forthSection-2{
         padding: 20px;
@@ -449,6 +452,22 @@ body{
         font-style: normal;
         background: dimgray;
         border-radius: 8px;
+        height: 120px;
+    }
+
+    .forth-sectionbtn{
+        background-color: rgba(243, 115, 53, 1);
+        border-radius: 8px;
+        padding: 10px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        font-size:  1.2em;;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .main-button:hover{
+      cursor: pointer;
+      opacity: 0.7;
     }
 
     .forth-section-2{
@@ -777,7 +796,6 @@ body{
         }
         .overla-1{
             box-shadow: 0 0 5px black;
-           
             width: 100%;
             text-align: center;
             color: rgba(79, 79, 79, 1); 
@@ -826,7 +844,7 @@ body{
             padding: 10px;
             margin: 10px 70px 0 30px;
             color:rgb(128,128,128); 
-            font-size: 25px;
+            font-size: 16px;
             font-weight: 500;
             font-style: normal;
             border-radius: 10px;
@@ -918,7 +936,7 @@ body{
     
         .fifty-section{
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
         }
         .fifty-section1{
             width: 100%;
@@ -1257,11 +1275,11 @@ body{
         
             .third-section{
                 display: flex;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 margin-top: 30px;
             }
             .third-section-1{
-                width: 95%;
+                width: 100%;
                 margin: 10px;
                 background-color: whitesmoke;
                 padding: 20px;
@@ -1270,22 +1288,24 @@ body{
             .thirdSection-1{
                 background-color: white;
                 padding: 10px;
-                margin: 10px 70px 0 30px;
+                margin: 10px 70px 0 250px;
                 color:rgb(128,128,128); 
                 font-size: 16px;
                 font-weight: 500;
                 font-style: normal;
                 border-radius: 10px;
+                width: 50%;
             }
             .thirdSection-2{
                 background-color: white;
                 border-radius: 10px;
                 padding: 10px;
-                margin: 20px 70px 0 50px;
+                margin: 20px 70px 0 350px;
                 color:rgb(128,128,128); 
                 font-size: 16px;
                 font-weight: 500;
                 font-style: normal;
+                width: 50%;
             }
         
             .third-section-2{
@@ -1297,7 +1317,7 @@ body{
             font-size: 30px;
             font-weight: 600;
             font-style: normal;
-            margin: 0 80px;
+            margin: 0 150px;
             text-align: center;
             }
             .visit{
@@ -1305,7 +1325,7 @@ body{
                 font-size: 14px;
                 font-weight: 500;
                 font-style: normal;
-                margin: 0 100px;
+                margin: 0 150px;
                 padding-top:10px;
             }
         
@@ -1325,23 +1345,25 @@ body{
             }
             .forthSection-1{
                 padding: 10px;
-                margin: 5px;
+                margin: 5px 200px;
                 color:white;
                 font-size: 14px;
                 font-weight: 500;
                 font-style: normal;
                 background: dimgray;
                 border-radius: 8px;
+                width: 50%;
             }
             .forthSection-2{
                 padding: 10px;
-                margin: 5px;
+                margin: 5px 200px;
                 font-size: 14px;
                 color: white;
                 font-weight: 500;
                 font-style: normal;
                 background: dimgray;
                 border-radius: 8px;
+                width: 50%;
             }
         
             .forth-section-2{
@@ -1353,7 +1375,7 @@ body{
             font-size: 24px;
             font-weight: 600;
             font-style: normal;
-            margin: 0 10px;
+            margin: 0 100px;
             }
             .bazaar{
                 color:white; 
@@ -1758,7 +1780,7 @@ body{
 
     .third-section{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 30px;
     }
     .third-section-1{
@@ -1777,6 +1799,7 @@ body{
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
+        width: 80%;
     }
     .thirdSection-2{
         background-color: white;
@@ -1787,6 +1810,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
+        width: 80%;
     }
 
     .third-section-2{
@@ -1833,6 +1857,7 @@ body{
         font-style: normal;
         background: dimgray;
         border-radius: 8px;
+        width: 100%;
     }
     .forthSection-2{
         padding: 10px;
@@ -1843,6 +1868,7 @@ body{
         font-style: normal;
         background: dimgray;
         border-radius: 8px;
+        width: 100%;
     }
 
     .forth-section-2{
