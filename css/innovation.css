@@ -13,7 +13,7 @@ body{
     /* styling the header link */
     .header a {
       float: left;
-      color: black;
+      color: gray;
       text-align: center;
       padding: 12px;
       text-decoration: none;
@@ -31,9 +31,8 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:hover{
-      background-color: #ddd;
-      color: black;
+    .header a:is(:link, :active, :visited).active {
+    color:rgba(243, 115, 53, 1);
     }
     .header a.logo:hover{
       background-color: white;
@@ -111,7 +110,7 @@ body{
     height: 580px;
 }
 .firstdiv h2{
-    color: black;
+    color: rgb(25,49,138);
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -172,7 +171,7 @@ body{
 }
 .company{
     width: 50%;
-    margin: 50px 50px 0 300px;
+    margin: 50px 0 0 300px;
 }
 .company label{
     color: black;
@@ -186,23 +185,23 @@ body{
 }
 .company button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .company button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
 }
 .sales{
     width: 50%;
-    margin: 50px 300px 0 50px;
+    margin: 50px 0 0 50px;
 }
 .sales label{
     color: black;
@@ -215,18 +214,18 @@ body{
 }
 .sales button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .sales button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
 }
 
@@ -329,7 +328,6 @@ body{
     height: 600px;
 }
 .firstdiv h2{
-    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -386,7 +384,7 @@ body{
 }
 .thirddiv{
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 .company{
     width: 100%;
@@ -404,18 +402,18 @@ body{
 }
 .company button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .company button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
 }
 .sales{
@@ -433,18 +431,18 @@ body{
 }
 .sales button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .sales button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
   }
    /* footer */
@@ -545,10 +543,9 @@ body{
 
   .mainsite{
     background-color: whitesmoke;
-    height: 600px;
+    height: 800px;
 }
 .firstdiv h2{
-    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -563,7 +560,7 @@ body{
     font-size: 15px;
     font-weight: 700;
     font-style: normal;
-    margin: 5px 100px;
+    margin: 20px 100px;
     text-align: center;
 }
 .seconddiv select{
@@ -605,7 +602,8 @@ body{
 }
 .thirddiv{
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    width: 100%;
 }
 .company{
     width: 100%;
@@ -623,49 +621,50 @@ body{
 }
 .company button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .company button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
 }
 .sales{
-    width: 100%;
-    margin: 50px;
+  width: 100%;
+  margin: 20px 50px;
 }
 .sales label{
-    color: black;
-    font-family:'Poppins', sans-serif;
-    font-size:30px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    padding: 15px;
+  color: black;
+  font-family:'Poppins', sans-serif;
+  font-size:30px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  padding: 15px;
 }
 .sales button{
-    background-color: rgba(243, 115, 53, 1);
-    padding:20px;
-    border: none;
-    color: rgba(255, 255, 255, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:  1.2em;;
-    font-weight: 500;
-    font-style: normal;
-    width: 300px;
-    transition: width ease-in;
+  background-color: rgba(243, 115, 53, 1);
+  padding:5px;
+  margin-right:400px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family:'Poppins', sans-serif;
+  font-size:  1.2em;;
+  font-weight: 500;
+  font-style: normal;
+  width: 400px;
+  transition: width ease-in;
 }
 .sales button:hover{
-    width: 320px;
-    cursor: pointer;
-  }
+  width: 420px;
+  cursor: pointer;
+}
    /* footer */
    .footer{
     display: flex;
@@ -769,7 +768,6 @@ body{
     height: 700px;
 }
 .firstdiv h2{
-    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -845,23 +843,23 @@ body{
 }
 .company button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .company button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
 }
 .sales{
     width: 100%;
-    margin: -20px 50px;
+    margin: 20px 50px;
 }
 .sales label{
     color: black;
@@ -874,18 +872,18 @@ body{
 }
 .sales button{
     background-color: rgba(243, 115, 53, 1);
-    padding:20px;
+    padding:5px;
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 300px;
+    width: 400px;
     transition: width ease-in;
 }
 .sales button:hover{
-    width: 320px;
+    width: 420px;
     cursor: pointer;
   }
    /* footer */

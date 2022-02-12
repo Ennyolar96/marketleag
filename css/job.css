@@ -15,7 +15,7 @@ body{
     /* styling the header link */
     .header a {
       float: left;
-      color: black;
+      color: gray;
       text-align: center;
       padding: 12px;
       text-decoration: none;
@@ -33,9 +33,8 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:hover{
-      background-color: #ddd;
-      color: black;
+    .header a:is(:link, :active, :visited).active {
+      color:rgba(243, 115, 53, 1);
     }
     .header a.logo:hover{
       background-color: white;

@@ -13,7 +13,7 @@ body{
   /* styling the header link */
   .header a {
     float: left;
-    color: black;
+    color: gray;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -31,9 +31,8 @@ body{
     padding: 0;
   }
   /* hover */
-  .header a:hover{
-    background-color: #ddd;
-    color: black;
+  .header a:is(:link, :active, :visited).active {
+    color:rgba(243, 115, 53, 1);
   }
   .header a.logo:hover{
     background-color: white;
@@ -107,19 +106,20 @@ body{
 
     .first-section{
         display: flex;
-        margin: 20px;
+        margin-top: 60px;
     }
     .first-section1{
         width: 50%;
         padding: 20px;
     }
     .first-section1 h1{
-        color: rgba(15, 28, 112, 1); 
+    color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
-    font-size: 49px; 
+    font-size: 50px; 
     font-weight: 600;
     font-style: normal;
-    margin-right: 150px;
+    margin: 50px 150px 0 20px;
+
     }
     .first-section1 p{
         color: rgba(128, 128, 128, 1);
@@ -127,7 +127,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin-right: 150px;
+        margin: 20px 150px 20px 20px;
     }
     .main-button a{
       text-decoration: none;
@@ -142,54 +142,64 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
+        margin-left:20px;
     }
     .main-button:hover{
       cursor: pointer;
       opacity: 0.7;
     }
-
     .first-section2 img{
       width: 600px;
       height: 500px;
     }
     /* second section */
-    .second-section h2{
-        color: rgba(15, 28, 112, 1); 
-        font-family: 'Poppins', sans-serif;
-        font-size: 37px;
-        font-weight: 600;
-        font-style: normal;
-        text-align: center;
-        text-transform: uppercase;
-        background-image: url("/images/rectangle-392-2-lab.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 50px;
-        padding: 50px;
-    }
 .tech-design, .tech-design-2{
     display: flex;
-}
-.tech-design1, .tech-design2{
-    padding: 10px;
     margin: 20px;
-    box-shadow: 0 0 5px gray;
+}
+.tech-design1-1 {
+    padding: 10px;
     border-radius: 8px;
-    width: 100%;
+    width: 33%;
+    margin: 10px;
 }
-.tech-design1 a, .tech-design2 a{
-    text-decoration: none;
+
+.tech-design1-2 {
+  padding: 10px;
+  
+  border-radius: 8px;
+  width: 33%;
+  margin: 10px;
 }
-.tech-design1 h4, .tech-design2 h4{
-    text-align: center;
+
+.tech-design1-3 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 10px;
+}
+.tech-design-2-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 10px;
+}
+.tech-design-2-2 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 10px;
+}
+h4{
+    text-align: left;
     color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600;
     font-style: normal;
+    margin: 0 0 20px 0;
 }
-.tech-design1 p, .tech-design2 p{
+p{
     margin: 5px;
     color: rgba(128, 128, 128, 1);
     font-family: 'Poppins', sans-serif;
@@ -197,233 +207,131 @@ body{
     font-weight: 500;
     font-style: normal;
 }
-.tech-design1 span, .tech-design2 span{
-    background-color:rgba(243, 115, 53, 1);
-    padding: 1px 8px;
-    color: white;
-    margin: 5px;
+.second-section button, .third-section button, .forth-section button, .fifty-section button, .sixty-section button{
+  width: 100%;
+  background-color:rgba(243, 115, 53, 1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
 }
+/* .second-section a, .third-section a, .forth-section a, .fifty-section a, .sixty-section a{
+  text-decoration: none;
+  background-color:rgba(243, 115, 53, 1);
+  color: #fff;
+  padding: 10px 100px;
+} */
+.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+  background-image: url("/images/rectangle-392-2-lab.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+  
+}
+
 /* third section */
-.third-section{
-    background-color: whitesmoke;
-    padding: 50px;
-}
-.third-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px;
-}
-.lit-art{
-display: flex;
-}
-.lit-art1{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
-width: 100%;
-}
-.lit-art a{
-text-decoration: none;
-}
-.lit-art1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
-}
-.lit-art p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.lit-art1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
-/* forth section */
-.forth-section{
-    background-color: whitesmoke;
-    padding: 50px;
-}
-.forth-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px;
-}
 .executive-int{
-display: flex;
+  display: flex;
+  margin: 10px;
 }
-.executive-int1{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
-width: 100%;
+.executive-int1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.executive-int a{
-text-decoration: none;
+.executive-int1-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.executive-int1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.executive-int1-2 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.executive-int p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+/* forth-section */
+
+.lit-art{
+  display: flex;
+  margin: 10px;
 }
-.executive-int1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.lit-art1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
+}
+.lit-art1-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
 }
 
-/* fifty section */
-.fifty-section{
-    background-color: whitesmoke;
-    padding: 50px;
-}
-.fifty-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px;
-}
+/* fifty- section */
+
 .talent-man{
-display: flex;
+  display: flex;
+  margin: 10px;
 }
-.talent-man1{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
-width: 100%;
+.talent-man1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.talent-man a{
-text-decoration: none;
+.talent-man1-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.talent-man1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.talent-man1-2 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.talent-man p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.talent-man1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
+/* sixty-section */
 
-/* sixty section */
-.sixty-section{
-    background-color: whitesmoke;
-    padding: 50px;
-}
-.sixty-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px;
-}
 .general, .general-2{
-display: flex;
+  display: flex;
+  margin: 10px;
 }
-.general1, .general2{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
-width: 100%;
+.general1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.general a, .general-2 a{
-text-decoration: none;
+.general1-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.general1 h4, .general2 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.general1-2 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.general p, .general-2 p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+.general2-1 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
-.general1 span, .general2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.general2-2 {
+  padding: 10px;
+  border-radius: 8px;
+  width: 33%;
+  margin: 20px;
 }
 /* footer */
 .footer{
@@ -488,21 +396,23 @@ margin: 5px;
     display: block;
     text-align: center;
   }
+  
   .first-section{
     display: flex;
-    margin: 20px;
+    margin-top: 60px;
 }
 .first-section1{
     width: 50%;
     padding: 20px;
 }
 .first-section1 h1{
-    color: rgba(15, 28, 112, 1); 
+color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
-font-size: 49px; 
+font-size: 50px; 
 font-weight: 600;
 font-style: normal;
-margin-right: 30px;
+margin: 50px 150px 0 20px;
+
 }
 .first-section1 p{
     color: rgba(128, 128, 128, 1);
@@ -510,66 +420,79 @@ margin-right: 30px;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    margin-right: 50px;
+    margin: 20px 150px 20px 20px;
+}
+.main-button a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+
 }
 .main-button {
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
     padding: 20px;
     border: none;
-    color: rgba(255, 255, 255, 1);
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
+    margin-left:20px;
 }
 .main-button:hover{
   cursor: pointer;
   opacity: 0.7;
 }
-
 .first-section2 img{
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
 }
 /* second section */
-.second-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 60px;
-}
 .tech-design, .tech-design-2{
 display: flex;
-flex-direction: column;
-}
-.tech-design1, .tech-design2{
-padding: 10px;
 margin: 20px;
-box-shadow: 0 0 5px gray;
+}
+.tech-design1-1 {
+padding: 10px;
 border-radius: 8px;
-width: 95%;
+width: 33%;
+margin: 10px;
 }
-.tech-design1 a, .tech-design2 a{
-text-decoration: none;
+
+.tech-design1-2 {
+padding: 10px;
+
+border-radius: 8px;
+width: 33%;
+margin: 10px;
 }
-.tech-design1 h4, .tech-design2 h4{
-text-align: center;
+
+.tech-design1-3 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 10px;
+}
+.tech-design-2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 10px;
+}
+.tech-design-2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 10px;
+}
+h4{
+text-align: left;
 color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
 font-size: 24px;
 font-weight: 600;
 font-style: normal;
+margin: 0 0 20px 0;
 }
-.tech-design1 p, .tech-design2 p{
+p{
 margin: 5px;
 color: rgba(128, 128, 128, 1);
 font-family: 'Poppins', sans-serif;
@@ -577,238 +500,132 @@ font-size: 16px;
 font-weight: 500;
 font-style: normal;
 }
-.tech-design1 span, .tech-design2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
-/* third section */
-.third-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.third-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 60px;
-}
-.lit-art{
-display: flex;
-flex-direction: column;
-}
-.lit-art1{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
+.second-section button, .third-section button, .forth-section button, .fifty-section button, .sixty-section button{
 width: 100%;
-}
-.lit-art a{
-text-decoration: none;
-}
-.lit-art1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
-}
-.lit-art p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.lit-art1 span{
 background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 10px;
 }
-/* forth section */
-.forth-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.forth-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
+/* .second-section a, .third-section a, .forth-section a, .fifty-section a, .sixty-section a{
+text-decoration: none;
+background-color:rgba(243, 115, 53, 1);
+color: #fff;
+padding: 10px 100px;
+} */
+.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
 background-image: url("/images/rectangle-392-2-lab.png");
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 60px;
+margin: 90px 70px 0 70px;
+height: 250px;
+
 }
+
+/* third section */
 .executive-int{
 display: flex;
-flex-direction: column;
+margin: 10px;
 }
-.executive-int1{
+.executive-int1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 100%;
+width: 33%;
+margin: 20px;
 }
-.executive-int a{
-text-decoration: none;
+.executive-int1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.executive-int1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.executive-int1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.executive-int p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+/* forth-section */
+
+.lit-art{
+display: flex;
+margin: 10px;
 }
-.executive-int1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.lit-art1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
+}
+.lit-art1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
 }
 
-/* fifty section */
-.fifty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.fifty-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 60px;
-}
+/* fifty- section */
+
 .talent-man{
 display: flex;
-flex-direction: column;
+margin: 10px;
 }
-.talent-man1{
+.talent-man1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 100%;
+width: 33%;
+margin: 20px;
 }
-.talent-man a{
-text-decoration: none;
+.talent-man1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.talent-man1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.talent-man1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.talent-man p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.talent-man1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
+/* sixty-section */
 
-/* sixty section */
-.sixty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.sixty-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 60px;
-}
 .general, .general-2{
 display: flex;
-flex-direction: column;
+margin: 10px;
 }
-.general1, .general2{
+.general1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 100%;
+width: 33%;
+margin: 20px;
 }
-.general a, .general-2 a{
-text-decoration: none;
+.general1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.general1 h4, .general2 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.general1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.general p, .general-2 p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+.general2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
-.general1 span, .general2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.general2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 33%;
+margin: 20px;
 }
+
 /* footer */
 .footer{
 display: flex;
@@ -872,22 +689,24 @@ width: 20%;
     display: block;
     text-align: center;
   }
+  
   .first-section{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-top: 60px;
 }
 .first-section1{
     width: 100%;
     padding: 20px;
 }
 .first-section1 h1{
-    color: rgba(15, 28, 112, 1); 
+color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
-font-size: 49px; 
+font-size: 50px; 
 font-weight: 600;
 font-style: normal;
-margin:0 30px;
+margin: 50px 150px 0 20px;
+
 }
 .first-section1 p{
     color: rgba(128, 128, 128, 1);
@@ -895,306 +714,187 @@ margin:0 30px;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    margin:0 180px;
+    margin: 20px 150px 20px 20px;
+}
+.main-button a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+
 }
 .main-button {
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
     padding: 20px;
     border: none;
-    color: rgba(255, 255, 255, 1);
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    margin: 0 250px;
+    margin-left:20px;
 }
 .main-button:hover{
   cursor: pointer;
   opacity: 0.7;
 }
-
 .first-section2 img{
   width: 100%;
   height: 500px;
 }
 /* second section */
-.second-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px;
-}
 .tech-design, .tech-design-2{
 display: flex;
 flex-direction: column;
-}
-.tech-design1, .tech-design2{
-padding: 10px;
 margin: 20px;
-box-shadow: 0 0 5px gray;
-border-radius: 8px;
-width: 95%;
 }
-.tech-design1 a, .tech-design2 a{
-text-decoration: none;
-}
-.tech-design1 h4, .tech-design2 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
-}
-.tech-design1 p, .tech-design2 p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.tech-design1 span, .tech-design2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
-/* third section */
-.third-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.third-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 50px;
-}
-.lit-art{
-display: flex;
-flex-direction: column;
-}
-.lit-art1{
+.tech-design1-1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
 width: 100%;
+margin: 10px;
 }
-.lit-art a{
-text-decoration: none;
+
+.tech-design1-2 {
+padding: 10px;
+
+border-radius: 8px;
+width: 100%;
+margin: 10px;
 }
-.lit-art1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+
+.tech-design1-3 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
 }
-.lit-art p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+.tech-design-2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
 }
-.lit-art1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.tech-design-2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
 }
-/* forth section */
-.forth-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.forth-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
+
+.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
 background-image: url("/images/rectangle-392-2-lab.png");
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 50px;
+margin: 90px 70px 0 70px;
+height: 250px;
+
 }
+
+/* third section */
 .executive-int{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.executive-int1{
+.executive-int1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
+border-radius: 8px;
+width: 100%;
+margin: 0;
+}
+.executive-int1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
+}
+.executive-int1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
+}
+/* forth-section */
+
+.lit-art{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+.lit-art1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin:0;
+}
+.lit-art1-1 {
+padding: 10px;
 border-radius: 8px;
 width: 100%;
 }
-.executive-int a{
-text-decoration: none;
-}
-.executive-int1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
-}
-.executive-int p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.executive-int1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
 
-/* fifty section */
-.fifty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.fifty-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 50px;
-}
+/* fifty- section */
+
 .talent-man{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.talent-man1{
+.talent-man1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
+border-radius: 8px;
+width:100%;
+margin: 0;
+}
+.talent-man1-1 {
+padding: 10px;
 border-radius: 8px;
 width: 100%;
+margin: 0;
 }
-.talent-man a{
-text-decoration: none;
+.talent-man1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.talent-man1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
-}
-.talent-man p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.talent-man1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
+/* sixty-section */
 
-/* sixty section */
-.sixty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.sixty-section h2{
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 37px;
-font-weight: 600;
-font-style: normal;
-text-align: center;
-text-transform: uppercase;
-background-image: url("/images/rectangle-392-2-lab.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 50px;
-    padding: 50px;
-}
 .general, .general-2{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.general1, .general2{
+.general1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
 width: 100%;
+margin: 0;
 }
-.general a, .general-2 a{
-text-decoration: none;
+.general1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general1 h4, .general2 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: 600;
-font-style: normal;
+.general1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general p, .general-2 p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+.general2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general1 span, .general2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.general2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
+
 /* footer */
 .footer{
 display: flex;
@@ -1267,83 +967,98 @@ width: 100%;
     margin: 20px;
 }
 .first-section1{
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
 }
 .first-section1 h1{
-    color: rgba(15, 28, 112, 1); 
+color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
-font-size: 39px; 
+font-size: 50px; 
 font-weight: 600;
 font-style: normal;
+margin: 50px 50px 0 20px;
+
 }
 .first-section1 p{
-    color: rgba(128, 128, 128, 1);
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    margin:0 50px;
+  color: rgba(128, 128, 128, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 50px 20px 20px;
+}
+.main-button a{
+text-decoration: none;
+color: rgba(255, 255, 255, 1);
+
 }
 .main-button {
-    background-color: rgba(243, 115, 53, 1);
-    border-radius: 8px;
-    padding: 20px;
-    border: none;
-    color: rgba(255, 255, 255, 1);
-    font-size:  1.2em;;
-    font-weight: 500;
-    font-style: normal;
-    margin: 0 100px;
+  background-color: rgba(243, 115, 53, 1);
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+  font-size:  1.2em;;
+  font-weight: 500;
+  font-style: normal;
+  margin-left:20px;
 }
 .main-button:hover{
-  cursor: pointer;
-  opacity: 0.7;
+cursor: pointer;
+opacity: 0.7;
 }
-
 .first-section2 img{
-  width: 100%;
-  height: 400px;
+width: 100%;
+height: 500px;
 }
 /* second section */
-.second-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px 0 50px 0;
-}
 .tech-design, .tech-design-2{
 display: flex;
 flex-direction: column;
-}
-.tech-design1, .tech-design2{
-padding: 10px;
 margin: 20px;
-box-shadow: 0 0 5px gray;
+}
+.tech-design1-1 {
+padding: 10px;
 border-radius: 8px;
-width: 90%;
+width: 100%;
+margin: 10px;
 }
-.tech-design1 a, .tech-design2 a{
-text-decoration: none;
+
+.tech-design1-2 {
+padding: 10px;
+
+border-radius: 8px;
+width: 100%;
+margin: 10px;
 }
-.tech-design1 h4, .tech-design2 h4{
-text-align: center;
+
+.tech-design1-3 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
+}
+.tech-design-2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
+}
+.tech-design-2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 10px;
+}
+h4{
+text-align: left;
 color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
-font-size: 20px;
+font-size: 24px;
 font-weight: 600;
 font-style: normal;
+margin: 0 0 20px 0;
 }
-.tech-design1 p, .tech-design2 p{
+p{
 margin: 5px;
 color: rgba(128, 128, 128, 1);
 font-family: 'Poppins', sans-serif;
@@ -1351,238 +1066,136 @@ font-size: 16px;
 font-weight: 500;
 font-style: normal;
 }
-.tech-design1 span, .tech-design2 span{
+.second-section button, .third-section button, .forth-section button, .fifty-section button, .sixty-section button{
+width: 100%;
 background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 10px;
 }
+/* .second-section a, .third-section a, .forth-section a, .fifty-section a, .sixty-section a{
+text-decoration: none;
+background-color:rgba(243, 115, 53, 1);
+color: #fff;
+padding: 10px 100px;
+} */
+.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+background-image: url("/images/rectangle-392-2-lab.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 90px 70px 0 70px;
+height: 200px;
+
+}
+
 /* third section */
-.third-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.third-section h2{
-    color: rgba(15, 28, 112, 1); 
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    background-image: url("/images/rectangle-392-2-lab.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding: 50px 0 50px 0;
-}
-.lit-art{
-display: flex;
-flex-direction: column;
-}
-.lit-art1{
-padding: 10px;
-margin: 20px;
-background-color: white;
-border-radius: 8px;
-width: 90%;
-}
-.lit-art a{
-text-decoration: none;
-}
-.lit-art1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-font-weight: 600;
-font-style: normal;
-}
-.lit-art p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.lit-art1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
-/* forth section */
-.forth-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.forth-section h2{
-  color: rgba(15, 28, 112, 1); 
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  background-image: url("/images/rectangle-392-2-lab.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50px;
-  padding: 50px 0 50px 0;
-}
 .executive-int{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.executive-int1{
+.executive-int1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 90%;
+width: 100%;
+margin: 0;
 }
-.executive-int a{
-text-decoration: none;
+.executive-int1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.executive-int1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-font-weight: 600;
-font-style: normal;
+.executive-int1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.executive-int p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+/* forth-section */
+
+.lit-art{
+display: flex;
+flex-direction: column;
+margin: 10px;
 }
-.executive-int1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.lit-art1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
+}
+.lit-art1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
 }
 
-/* fifty section */
-.fifty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.fifty-section h2{
-  color: rgba(15, 28, 112, 1); 
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  background-image: url("/images/rectangle-392-2-lab.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50px;
-  padding: 50px 0 50px 0;
-}
+/* fifty- section */
+
 .talent-man{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.talent-man1{
+.talent-man1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 90%;
+width: 100%;
+margin: 0;
 }
-.talent-man a{
-text-decoration: none;
+.talent-man1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.talent-man1 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-font-weight: 600;
-font-style: normal;
+.talent-man1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.talent-man p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
-}
-.talent-man1 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
-}
+/* sixty-section */
 
-/* sixty section */
-.sixty-section{
-background-color: whitesmoke;
-padding: 50px;
-}
-.sixty-section h2{
-  color: rgba(15, 28, 112, 1); 
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  background-image: url("/images/rectangle-392-2-lab.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50px;
-  padding: 50px 0 50px 0;
-}
 .general, .general-2{
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
-.general1, .general2{
+.general1 {
 padding: 10px;
-margin: 20px;
-background-color: white;
 border-radius: 8px;
-width: 90%;
+width: 100%;
+margin: 0;
 }
-.general a, .general-2 a{
-text-decoration: none;
+.general1-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general1 h4, .general2 h4{
-text-align: center;
-color: rgba(15, 28, 112, 1); 
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-font-weight: 600;
-font-style: normal;
+.general1-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general p, .general-2 p{
-margin: 5px;
-color: rgba(128, 128, 128, 1);
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-style: normal;
+.general2-1 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
-.general1 span, .general2 span{
-background-color:rgba(243, 115, 53, 1);
-padding: 1px 8px;
-color: white;
-margin: 5px;
+.general2-2 {
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+margin: 0;
 }
+
 /* footer */
 .footer{
 display: flex;

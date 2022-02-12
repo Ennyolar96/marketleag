@@ -5,9 +5,6 @@ body{
     margin: 0;
     padding: 0;
     }
-    body::-webkit-scrollbar{
-        display: none;
-    }
     .header{
       overflow: hidden;
       background-color:rgba(255, 255, 255, 1);
@@ -16,7 +13,7 @@ body{
     /* styling the header link */
     .header a {
       float: left;
-      color: black;
+      color: gray;
       text-align: center;
       padding: 12px;
       text-decoration: none;
@@ -34,13 +31,9 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:hover{
-      background-color: #ddd;
-      color: black;
-    }
-    .header a.logo:hover{
-      background-color: white;
-    }
+    .header a:is(:link, :active, :visited).active {
+    color:rgba(243, 115, 53, 1); 
+      }
     .header a.icon {
         display: none;
       }
@@ -120,6 +113,7 @@ body{
         font-size: 49px; 
         font-weight: 600;
         font-style: normal;
+        margin-top: 100px;
     }
     .first-section1 p{
         color: rgba(128, 128, 128, 1);
@@ -172,15 +166,15 @@ body{
     .overlay1 p{
         color: rgba(128, 128, 128, 1);
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
         font-style: normal;
         margin: 10px 20px;
     }
     .overlay1 h5{
-        color: rgba(79, 79, 79, 1);
+        color: black;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         font-style: normal;
         margin: 10px 20px;
@@ -199,15 +193,15 @@ body{
     .overlay2 p{
         color: rgba(128, 128, 128, 1);
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
         font-style: normal;
         margin: 10px 20px;
     }
     .overlay2 h5{
-        color: rgba(79, 79, 79, 1);
+        color: black;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         font-style: normal;
         margin: 10px 20px;
@@ -260,7 +254,6 @@ body{
         width: 33%;
         margin: 20px;
         padding: 10px;
-        box-shadow: 0 0 5px gray;
         border-radius: 8px;
     }
     .solution1 h4{
@@ -270,6 +263,7 @@ body{
         font-weight: 600;
         font-style: normal;
         text-align: center;
+        margin: 20px 0 0 10px;
     }
     .solution1 p{
         color: rgba(128, 128, 128, 1);
@@ -279,6 +273,39 @@ body{
         font-style: normal;
         margin-left: 15px;
     }
+
+    .solution2{
+        width: 33%;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: -5px 0 100px 50px whitesmoke;
+        border-radius: 8px;
+    }
+    .solution2 h4{
+        color: rgba(51, 51, 51, 1);
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        margin: 20px 0 0 10px;
+    }
+    .solution2 p{
+        color: rgba(128, 128, 128, 1);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 15px;
+    }
+    .solution_image_text{
+        display:flex;
+    }
+    .solution_image_text img{
+        width: 80px;
+        height: 80px;
+    }
+
     .testimonials{
         background-color: rgb(247,247,247);
         padding: 20px;
@@ -299,7 +326,7 @@ body{
         width: 33%;
         margin: 20px;
         padding: 10px;
-        box-shadow: 0 0 5px gray;
+        background-color: white;
         border-radius: 8px;
     }
     .testimonial1 h5{
@@ -499,17 +526,13 @@ body{
             box-shadow: 0 0 2px gray;
         }
         .overlay1 p{
-            color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
         }
         .overlay1 h5{
-            color: rgba(79, 79, 79, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -529,15 +552,12 @@ body{
         .overlay2 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
         }
         .overlay2 h5{
-            color: rgba(79, 79, 79, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -608,6 +628,30 @@ body{
             font-style: normal;
             margin-left: 15px;
         }
+        .solution2{
+            width: 33%;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: -5px 0 100px 50px whitesmoke;
+            border-radius: 8px;
+        }
+        .solution2 h4{
+            color: rgba(51, 51, 51, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+            margin: 20px 0 0 10px;
+        }
+        .solution2 p{
+            color: rgba(128, 128, 128, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            margin-left: 15px;
+        }
         .testimonials{
             background-color: rgb(247,247,247);
             padding: 20px;
@@ -628,7 +672,6 @@ body{
             width: 33%;
             margin: 20px;
             padding: 10px;
-            box-shadow: 0 0 5px gray;
             border-radius: 8px;
         }
         .testimonial1 h5{
@@ -836,15 +879,12 @@ body{
         .overlay1 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
         }
         .overlay1 h5{
-            color: rgba(79, 79, 79, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -853,7 +893,6 @@ body{
         .overlay2{
             background-color: white;
             padding: 5px;
-            /* margin: 20px 200px 0 0; */
             width: 300px;
             position: absolute;
             right: 0;
@@ -865,15 +904,12 @@ body{
         .overlay2 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
         }
         .overlay2 h5{
-            color: rgba(79, 79, 79, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -945,6 +981,30 @@ body{
             font-style: normal;
             margin-left: 15px;
         }
+        .solution2{
+            width: 33%;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: -5px 0 100px 50px whitesmoke;
+            border-radius: 8px;
+        }
+        .solution2 h4{
+            color: rgba(51, 51, 51, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+            margin: 20px 0 0 10px;
+        }
+        .solution2 p{
+            color: rgba(128, 128, 128, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            margin-left: 15px;
+        }
         .testimonials{
             background-color: rgb(247,247,247);
             padding: 20px;
@@ -965,7 +1025,6 @@ body{
             width: 33%;
             margin: 20px;
             padding: 10px;
-            box-shadow: 0 0 5px gray;
             border-radius: 8px;
         }
         .testimonial1 h5{
@@ -1160,7 +1219,6 @@ body{
         .overlay1{
             background-color: white;
             padding: 10px;
-            /* margin: 20px 200px 0 0; */
             width: 300px;
             position: absolute;
             left:0;
@@ -1171,15 +1229,12 @@ body{
         .overlay1 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
         }
         .overlay1 h5{
-            color: rgba(79, 79, 79, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -1257,6 +1312,7 @@ body{
         .solution{
             display: flex;
             flex-direction: column;
+            box-shadow: 0px -4px 50px;
         }
         .solution1{
             width: 90%;
@@ -1274,6 +1330,30 @@ body{
             text-align: center;
         }
         .solution1 p{
+            color: rgba(128, 128, 128, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            margin-left: 15px;
+        }
+        .solution2{
+            width: 90%;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: -5px 0 100px 50px whitesmoke;
+            border-radius: 8px;
+        }
+        .solution2 h4{
+            color: rgba(51, 51, 51, 1);
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+            margin: 20px 0 0 10px;
+        }
+        .solution2 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
@@ -1302,7 +1382,6 @@ body{
             width: 90%;
             margin: 20px;
             padding: 10px;
-            box-shadow: 0 0 5px gray;
             border-radius: 8px;
         }
         .testimonial1 h5{
