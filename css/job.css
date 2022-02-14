@@ -33,9 +33,9 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:is(:link, :active, :visited).active {
+    /* .header a:is(:link, :active, :visited).active {
       color:rgba(243, 115, 53, 1);
-    }
+    } */
     .header a.logo:hover{
       background-color: white;
     }
@@ -119,7 +119,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
       }
     .container{
         margin: 10px 10px 0 10px ;
@@ -176,7 +176,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
       }
     .container{
         margin: 30px 30px 0 30px ;
@@ -233,7 +233,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
       }
     .container{
         margin: 0 ;
@@ -290,7 +290,7 @@ h2{
       .header.responsive a {
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
       }
     .container{
         margin: 20px 20px 0 20px ;

@@ -31,8 +31,51 @@
     </header>
 
     <form action="/" method="post" id="regForm">
-        <h3> Create your MLG Account</h3>
+        <h3> Create Your Account</h3>
         <p id="already" > Already have an account? <a href="./login.html">Login Here</a></p>
+
+            <label>Select Your Account Type </label> 
+
+        <div class="input-control">
+            <div style="visibility:hidden; color:red; " id="chk_option_error">
+                Please Choose Your Niche.
+                </div>
+            <div class="c-check">
+                <label for="solver">I am a Solver</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="I am a Solver." > 
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="idea">I have new Inventor or Idea</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="I have new Inventor or Idea.">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="intellectual">I need intellectual property Suport/Service</label>
+                <input type="checkbox" id=""  class="check" name="UserType[]" value="I need intellectual property Suport/Service.">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Expert">I am an intellectual property expert</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="I am an intellectual property expert.">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="lauch challenge">Launch Challenge</label>
+                <input type="checkbox" class="check" id="" name="UserType[]" value="Launch Challenge.">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="others">I want to do other thing</label>
+                <input type="checkbox" class="check" id="" name="UserType[]" value="I want to do other things.">
+                <div id="error"></div>
+            </div>
+        </div>
 
         <div class="input-control">
             <label for="form_name">Country </label> 
@@ -129,46 +172,6 @@
             <div class="error"></div>
         </div>
 
-        <div class="input-control">
-            <div style="visibility:hidden; color:red; " id="chk_option_error">
-                Please Choose Your Niche.
-                </div>
-            <div class="c-check">
-                <label for="solver">I am a Solver</label>
-                <input type="checkbox" id="" class="check" name="UserType[]" value="I am a Solver." > 
-                <div id="error"></div>
-            </div>
-
-            <div class="c-check">
-                <label for="idea">I have new Inventor or Idea</label>
-                <input type="checkbox" id="" class="check" name="UserType[]" value="I have new Inventor or Idea.">
-                <div id="error"></div>
-            </div>
-
-            <div class="c-check">
-                <label for="intellectual">I need intellectual property Suport/Service</label>
-                <input type="checkbox" id=""  class="check" name="UserType[]" value="I need intellectual property Suport/Service.">
-                <div id="error"></div>
-            </div>
-
-            <div class="c-check">
-                <label for="Expert">I am an intellectual property expert</label>
-                <input type="checkbox" id="" class="check" name="UserType[]" value="I am an intellectual property expert.">
-                <div id="error"></div>
-            </div>
-
-            <div class="c-check">
-                <label for="lauch challenge">Launch Challenge</label>
-                <input type="checkbox" class="check" id="" name="UserType[]" value="Launch Challenge.">
-                <div id="error"></div>
-            </div>
-
-            <div class="c-check">
-                <label for="others">I want to do other thing</label>
-                <input type="checkbox" class="check" id="" name="UserType[]" value="I want to do other things.">
-                <div id="error"></div>
-            </div>
-        </div>
         <div class="input-control">
             <label for="psw">Password</label>
             <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>

@@ -31,13 +31,14 @@ body{
       padding: 0;
     }
     /* hover */
-    /* .active, .btn:hover {
+    .btn:hover {
         background-color:rgba(243, 115, 53, 1);
         color: white;
-      } */
-      .header a:is(:link, :active, :visited).active {
-        color:rgba(243, 115, 53, 1);
       }
+     .header .active{
+          color: rgba(243, 115, 53, 1);
+      }
+      
     .header a.logo:hover{
       background-color: white;
     }
@@ -749,7 +750,7 @@ body{
         .header.responsive a {
           float: none;
           display: block;
-          text-align: center;
+          text-align: left;
         }
         
         .first-section{
@@ -1175,7 +1176,7 @@ body{
             .header.responsive a {
               float: none;
               display: block;
-              text-align: center;
+              text-align: left;
             }
             
             #consent-popup {
@@ -1676,7 +1677,7 @@ body{
     .header.responsive a {
       float: none;
       display: block;
-      text-align: center;
+      text-align: left;
     }
     
     #consent-popup {

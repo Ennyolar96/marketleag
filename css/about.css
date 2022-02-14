@@ -31,13 +31,13 @@ body{
       padding: 0;
     }
     /* hover */
-    /* .active, .btn:hover {
+   .btn:hover {
         background-color:rgba(243, 115, 53, 1);
         color: white;
-      } */
-      .header a:is(:link, :active, :visited).active {
-        color:rgba(243, 115, 53, 1);
       }
+     .header .active{
+        color: rgba(243, 115, 53, 1);
+    }
     .header a.logo:hover{
       background-color: white;
     }
@@ -313,6 +313,12 @@ body{
         font-style: normal;
         margin: 0 20px;
     }
+    .meeting-team{
+        margin: 20px 5px 5px 50px;
+        border-radius: 10px;
+        padding: 50px;
+        background-color: whitesmoke;
+    }
     .meeting-team h2{
         color:  rgba(15, 28, 112, 1); 
         font-family: 'Poppins', sans-serif;
@@ -384,25 +390,10 @@ body{
         width: 700px;
         height: 500px;
     }
-    .meettheteam2{
+    .meettheteam2 p{
         margin: 20px;
         color: gray;
         font-size:16px;
-    }
-    .ourmember{
-        background-image: url("/images/Meet Team.jpg");
-        width:100%;
-        height: 500px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 50px 0;
-    }
-    .ourmember1{
-        color: whitesmoke;
-        text-shadow: 0 10px 15px black;
-        padding: 350px 0;
-        margin: 0 50px;   
     }
     .career{
         padding: 50px;
@@ -502,7 +493,7 @@ body{
         .header.responsive a {
           float: none;
           display: block;
-          text-align: center;
+          text-align: left;
         }
         .first-section{
             display: flex;
@@ -902,7 +893,7 @@ body{
         .header.responsive a {
           float: none;
           display: block;
-          text-align: center;
+          text-align: left;
         }
         .first-section{
             display: flex;
@@ -1307,7 +1298,7 @@ body{
         .header.responsive a {
           float: none;
           display: block;
-          text-align: center;
+          text-align: left;
         }
         .first-section{
             display: flex;
@@ -1532,6 +1523,9 @@ body{
             text-align: center;
         }
         .meeting-team{
+            margin: 5px;
+            border-radius: 10px;
+            padding: 50px;
             background-color: whitesmoke;
         }
         /* .meeting-team img{

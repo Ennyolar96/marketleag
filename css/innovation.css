@@ -31,13 +31,13 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:is(:link, :active, :visited).active {
+    /* .header a:is(:link, :active, :visited).active {
     color:rgba(243, 115, 53, 1);
-    }
+    } */
     .header a.logo:hover{
       background-color: white;
     }
-    .header a.active{
+    .header .active{
       /* background-color: dodgerblue; */
       color: rgba(243, 115, 53, 1);
     }
@@ -290,7 +290,7 @@ body{
   .header.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
   
   #consent-popup {
@@ -508,7 +508,7 @@ body{
   .header.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
   
   #consent-popup {
@@ -730,7 +730,7 @@ body{
   .header.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
   
   #consent-popup {

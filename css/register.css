@@ -32,9 +32,9 @@ body{
       padding: 0;
     }
     /* hover */
-    .header a:is(:link, :active, :visited).active {
+    /* .header a:is(:link, :active, :visited).active {
       color:rgba(243, 115, 53, 1);
-    }
+    } */
     .header a.logo:hover{
       background-color:transparent;
     }
@@ -184,6 +184,10 @@ body{
   margin-top: 10px;
 }
 
+#message h3{
+  font-size: 18px;
+}
+
 #message p {
   padding: 10px 35px;
   font-size: 18px;
@@ -243,7 +247,7 @@ body{
           .header.responsive a {
             float: none;
             display: block;
-            text-align: center;
+            text-align: left;
           }
         #regForm {
             margin: 100px 200px;
@@ -281,7 +285,7 @@ body{
           .header.responsive a {
             float: none;
             display: block;
-            text-align: center;
+            text-align: left;
           }
         #regForm {
             margin: 100px 100px;
@@ -319,7 +323,7 @@ body{
           .header.responsive a {
             float: none;
             display: block;
-            text-align: center;
+            text-align: left;
           }
         #regForm {
             margin:0 20px;
