@@ -1143,7 +1143,7 @@ body{
             margin: 20px;
             width: 20%;
         }
-    @media screen and (max-width: 1100px) {
+        @media screen and (max-width:992px) {
        
             .header a.logo{
              
@@ -1644,7 +1644,7 @@ body{
             }
     }
 
-@media (max-width:800px) {
+    @media screen and (max-width:768px) {
        
     .header a.logo{
      
@@ -2199,4 +2199,8 @@ body{
         width: 100%;
         }
     }
+}
+
+@media screen and (max-width:600px){
+    
 }
