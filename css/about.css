@@ -1679,6 +1679,359 @@ body{
         }
     
     }
-    @media (max-width:800px) {
+    @media (max-width:280px) {
+        .header a.logo{
+         
+            display: block;
+          }
+          .header-right{
+            float: none;
+            margin: 0;
+            font-size: 14px;
+          }
+          .header-right a.reg{
+            margin-right: 0;
+            background-color: rgba(243, 115, 53, 1);
+            border-radius: 8px;  
+            padding: 10px 5px;
+            color: rgba(255, 255, 255, 1);
+            font-family:'Poppins', sans-serif;
+          }
+          .header a{display: none;}
+          .header a.icon {
+            float: right;
+            display: block;
+          }
         
+          .header.responsive {position: relative;}
+          .header.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .header.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          .first-section{
+              display: flex;
+              margin-top: 50px;
+              flex-direction: column;
+              width: 100%;
+          }
+          .banner-section{
+              width: 100%;
+          }
+          .banner-section h1{
+              color:  rgba(15, 28, 112, 1);
+              font-family: 'Poppins', sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              font-style: normal;
+              margin: 10px 10px;
+          }
+          .banner-section p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:12px;
+              font-weight: 500;
+              font-style: normal;
+              margin: 10px 10px;
+          }
+          .bannersection{
+              width: 100%;
+          }
+          .bannersection img{
+              height: 400px;
+              width: 100%;
+              margin: 0;
+          }
+      
+          .brandstory h2{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 30px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .brand-story{
+              display: flex;
+              flex-direction: column;
+          }
+          .brand-story1{
+              margin: 5px;
+              width: 100%;
+          }
+          .brand-story1 img{
+              height: 400px;
+              width: 100%;
+              margin: 0;
+          }
+          .brand-story2{
+              margin: 5px;
+              width: 100%;
+          }
+          .brand-section2 img{
+              height: 200px;
+              width: 100%;
+          }
+          .brand-story2 h5{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .brand-story2 p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:16px;
+              font-weight: 500;
+              font-style: normal;
+              margin: 5px;
+          }
+          .brand-section{
+              background-color: black;
+              display: flex;
+              flex-direction: column-reverse;
+              margin: 5px;
+              border-radius: 10px;
+              padding: 50px;
+          }
+          .brand-section1 h5{
+              color:  rgba(255, 255, 255, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .brand-section1 p{
+              color: rgba(255, 255, 255, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:14px;
+              font-weight: 500;
+              font-style: normal;
+              margin: 5px;
+          }
+          .new-png-mleage-2{
+              width: 90%;
+              margin: 30px 20px;
+          }
+          .marketleag-logo p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:12px;
+              font-weight: 500;
+              font-style: normal;
+              text-align: center;
+              text-align: center;
+              margin: 5px;
+          }
+          .ourcore{
+              background-color: whitesmoke;
+              padding: 20px 20px 0px 20px;
+              border-radius: 10px;
+              width: 100%;
+          }
+          .our-core h2{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .our-core p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:12px;
+              font-weight: 500;
+              font-style: normal;
+              text-align: center;
+              text-align: center;
+              margin: 5px;
+          }
+          .core-values{
+              display: flex;
+              flex-direction: column;
+              margin-left: 10px;
+              width: 100%;
+          }
+          .core1{
+              color: rgba(51, 51, 51, 1);
+              font-family:'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .product-ser{
+              background-color: whitesmoke;
+              padding:5px;
+              width: 100%;
+          }
+          .product-ser h2{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .product{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+          }
+          .product1, .product2, .product3{
+              width: 85%;
+              margin: 10px;
+              background-color: white;
+              border-radius: 10px;
+              padding: 10px;
+          }
+          .product1 p, .product2 p, .product3 p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:14px;
+              font-weight: 500;
+              font-style: normal;
+          }
+          .product1 h4, .product2 h4, .product3 h4{
+              color: rgba(51, 51, 51, 1);
+              font-family:'Poppins', sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              font-style: normal;
+          }
+          .services{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+          }
+          .product4, .product5{
+              width: 85%;
+              margin: 10px;
+              background-color: white;
+              border-radius: 10px;
+              padding: 10px;
+          }
+          .product4 p, .product5 p{
+              color: rgba(128, 128, 128, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:14px;
+              font-weight: 500;
+              font-style: normal;
+          }
+          .product4 h4, .product5 h4{
+              color: rgba(51, 51, 51, 1);
+              font-family:'Poppins', sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              font-style: normal;
+          }
+          .meeting-team {
+              width: 100%;
+          }
+          .meeting-team h2{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+          }
+          .meeting-team{
+              margin: 5px;
+              border-radius: 10px;
+              padding: 50px;
+              background-color: whitesmoke;
+          }
+          .meettheteam{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+          }
+          .meettheteam1 img{
+              width: 100%;
+              height: 200px;
+              margin: 0 0 0 -40px;
+          }
+          .meettheteam2 p{
+            margin: 0 0 0 -50px;
+              color: gray;
+              font-size:16px;
+              width: 100%;
+          }
+          
+          .career{
+              padding: 50px;
+              width: 100%;
+          }
+          .career h2{
+              color:  rgba(15, 28, 112, 1); 
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600;
+              font-style: normal;
+              text-align: center;
+              margin: 20px 0 20px -50px;
+          }
+          .career p{
+              color: rgba(128, 128, 128, 1);
+              font-family: 'Poppins', sans-serif;
+              font-size:14px;
+              font-weight: 400;
+              font-style: normal;
+              text-align: center;
+              margin: 0 50px 0 -40px;
+          }
+          .main-btn {
+              background-color: rgba(243, 115, 53, 1);
+              border-radius: 8px;
+              padding: 20px;
+              border: none;
+              color: rgba(255, 255, 255, 1);
+              font-family:'Poppins', sans-serif;
+              font-size:  1.2em;;
+              font-weight: 500;
+              font-style: normal;
+              margin: 20px 0;
+          }
+          .main-btn:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+      
+          .footer{
+              display: flex;
+              flex-direction: column;
+              background-color: black;
+              padding: 50px;
+          }
+          .footer a, .footer p{
+              display: block;
+              padding: 5px;
+              text-decoration: none;
+              color: rgba(255, 255, 255, 1);
+              font-size:  12px;;
+              font-weight: 500;
+              font-style: normal;
+          }
+          .footer h3{
+              color: rgba(255, 255, 255, 1);
+              font-family:'Poppins', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              font-style: normal;
+          }
+          .footer1, .footer2, .footer3, .footer4, .footer5{
+              padding: 10px;
+              margin: 20px;
+              width: 100%;
+          }
     }
