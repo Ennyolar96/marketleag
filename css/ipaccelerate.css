@@ -1654,12 +1654,14 @@ body{
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
+            font-size: 10px;
         }
         .overlay1 h5{
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
+            font-size: 12px;
         }
     
         .overlay2{
@@ -1669,14 +1671,14 @@ body{
             position: absolute;
             left: 170px;
             right: 0;
-            top: 380px;
+            top: 350px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
         .overlay2 p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 500;
             font-style: normal;
             margin: 10px 20px;
@@ -1686,6 +1688,7 @@ body{
             font-family: 'Poppins', sans-serif;
             font-size: 20px;
             font-weight: 500;
+            font-size: 12px;
             font-style: normal;
             margin: 10px 20px;
         }
