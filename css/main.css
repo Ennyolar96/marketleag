@@ -5,6 +5,10 @@ body{
     margin: 0;
     padding: 0;
     }
+    .main-con{
+        overflow-x: hidden;
+        position: relative;
+    }
     .header{
       overflow: hidden;
       background-color:rgba(255, 255, 255, 1);
@@ -2202,5 +2206,5 @@ body{
 }
 
 @media screen and (max-width:600px){
-    
+
 }
