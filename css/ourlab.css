@@ -226,14 +226,46 @@ p{
   color: #fff;
   padding: 10px 100px;
 } */
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-  background-image: url("/images/rectangle-392-2-lab.png");
+.second-section h2{
+  background-image: url("/images/lab-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 90px 70px 0 70px;
   height: 250px;
   
+}
+.third-section h2{
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.forth-section h2{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.fifty-section h2{
+  background-image: url("/images/lab-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.sixty-section h2{
+  background-image: url("/images/lab-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
 }
 
 /* third section */
@@ -522,14 +554,47 @@ background-color:rgba(243, 115, 53, 1);
 color: #fff;
 padding: 10px 100px;
 } */
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-background-image: url("/images/rectangle-392-2-lab.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 90px 70px 0 70px;
-height: 250px;
 
+.second-section h2{
+  background-image: url("/images/lab-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+  
+}
+.third-section h2{
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.forth-section h2{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.fifty-section h2{
+  background-image: url("/images/lab-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.sixty-section h2{
+  background-image: url("/images/lab-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
 }
 
 /* third section */
@@ -793,15 +858,46 @@ border-radius: 8px;
 width: 100%;
 margin: 10px;
 }
-
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-background-image: url("/images/rectangle-392-2-lab.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 90px 70px 0 70px;
-height: 250px;
-
+.second-section h2{
+  background-image: url("/images/lab-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+  
+}
+.third-section h2{
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.forth-section h2{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.fifty-section h2{
+  background-image: url("/images/lab-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
+}
+.sixty-section h2{
+  background-image: url("/images/lab-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 70px 0 70px;
+  height: 250px;
 }
 
 /* third section */
@@ -1091,14 +1187,46 @@ border-radius: 8px;
 padding: 10px;
 }
 
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-background-image: url("/images/rectangle-392-2-lab.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 90px 20px 0 20px;
-height: 200px;
-
+.second-section h2{
+  background-image: url("/images/lab-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+  
+}
+.third-section h2{
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.forth-section h2{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.fifty-section h2{
+  background-image: url("/images/lab-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.sixty-section h2{
+  background-image: url("/images/lab-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 200px;
 }
 
 /* third section */
@@ -1386,14 +1514,46 @@ border-radius: 8px;
 padding: 10px;
 }
 
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-background-image: url("/images/rectangle-392-2-lab.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 90px 20px 0 20px;
-height: 200px;
-
+.second-section h2{
+  background-image: url("/images/lab-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+  
+}
+.third-section h2{
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.forth-section h2{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.fifty-section h2{
+  background-image: url("/images/lab-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 250px;
+}
+.sixty-section h2{
+  background-image: url("/images/lab-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 90px 20px 0 20px;
+  height: 200px;
 }
 
 /* third section */

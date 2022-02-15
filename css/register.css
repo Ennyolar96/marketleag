@@ -6,9 +6,12 @@ body{
     padding: 0;
     background-color: whitesmoke;
     }
+    .container{
+      overflow-x: hidden;
+      position: relative;
+    }
     .header{
       overflow: hidden;
-      /* background-color:rgba(255, 255, 255, 1); */
       padding: 20px 30px;
     }
     /* styling the header link */
@@ -93,12 +96,14 @@ body{
     .c-check{
         display: flex;
     }
+    .c-check input{
+      width: 20px;
+    }
     .c-check label{
         width: 100%;
         padding: 10px;
         font-size:1rem;
-    }
-    
+    }    
     .input-control input {
         border: 2px solid #f0f0f0;
         border-radius: 4px;
@@ -222,7 +227,8 @@ body{
           }
           .header-right{
             float: none;
-            margin: 0 70px 0 50px;
+            margin: 0;
+            font-size: 14px;
           }
           .header-right a.reg{
             /* margin-right: 300px; */
@@ -252,6 +258,9 @@ body{
         #regForm {
             margin: 100px 200px;
         }
+        .c-check input{
+          width: 20px;
+        }
     }
     @media only screen and (max-width:1100px) {
         .header a.logo{
@@ -260,7 +269,8 @@ body{
           }
           .header-right{
             float: none;
-            margin: 0 70px 0 50px;
+          margin: 0;
+          font-size: 14px;
           }
           .header-right a.reg{
             /* margin-right: 300px; */
@@ -290,6 +300,9 @@ body{
         #regForm {
             margin: 100px 100px;
         }
+        .c-check input{
+          width: 20px;
+        }
     }
     @media only screen and (max-width:800px) {
         .header a.logo{
@@ -298,7 +311,8 @@ body{
           }
           .header-right{
             float: none;
-            margin: 0 70px 0 50px;
+            margin: 0;
+            font-size: 14px;
           }
           .header-right a.reg{
             /* margin-right: 300px; */
@@ -328,4 +342,50 @@ body{
         #regForm {
             margin:0 20px;
         }
+      .c-check input{
+        width: 20px;
+      }
+    }
+
+    @media only screen and (max-width:400px){
+      .header a.logo{
+             
+        display: block;
+      }
+      .header-right{
+        float: none;
+          margin: 0;
+          font-size: 14px;
+      }
+      .header-right a.reg{
+        /* margin-right: 300px; */
+        background-color: rgba(243, 115, 53, 1);
+        border-radius: 8px;  
+        padding: 10px 5px;
+        color: rgba(255, 255, 255, 1);
+        font-family:'Poppins', sans-serif;
+      }
+      .header a{display: none;}
+      .header a.icon {
+        float: right;
+        display: block;
+      }
+
+      .header.responsive {position: relative;}
+      .header.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .header.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    #regForm {
+        margin:0 20px;
+      }
+      .c-check input{
+        width: 20px;
+      }
     }

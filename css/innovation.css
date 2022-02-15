@@ -1007,28 +1007,32 @@ body{
     margin: 10px 20px;
     text-align: center;
 }
+.seconddiv{
+  display: flex;
+  flex-direction: column;
+}
 .seconddiv select{
-    width: 30%;
+    width: 90%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
     font-family:'Poppins', sans-serif;
     font-size:16px;
     font-weight: 500;
     font-style: normal;
-    margin-left: 5px;
+    margin:10px 0 15px 20px;
     outline: none;
     border: none;
     border-right:3px solid gray ;
 }
 .seconddiv input{
-    width: 30%;
+    width: 90%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
     font-family:'Poppins', sans-serif;
     font-size:16px;
     font-weight: 500;
     font-style: normal;
-    margin-left: -4px;
+    margin: 0 0 15px 20px;
     outline: none;
     border: none;
 }
@@ -1042,7 +1046,8 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 0 -5px;
+        margin: 0 0 50px 20px;
+        width: 90%;
 }
 .thirddiv{
     display: flex;
@@ -1056,7 +1061,7 @@ body{
 .company label{
     color: black;
     font-family:'Poppins', sans-serif;
-    font-size:30px;
+    font-size:20px;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -1086,7 +1091,7 @@ body{
 .sales label{
     color: black;
     font-family:'Poppins', sans-serif;
-    font-size:30px;
+    font-size:20px;
     font-weight: 500;
     font-style: normal;
     text-align: center;

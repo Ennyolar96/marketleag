@@ -777,13 +777,13 @@ body{
         }
         .inspiring{
             color:rgb(20,39,126); 
-            font-size: 35px;
+            font-size: 50px;
             font-weight: 600;
             font-style: normal;
             margin: 70px 0 0 0;
         }
         .enabling{
-            font-size: 14px;
+            font-size: 16px;
             color: gray;
             margin: 20px 20px 0 0;
         }
@@ -806,13 +806,13 @@ body{
         .overla{
             display: flex;
             flex-direction: row;
-            margin-left: 50px;
+            margin:20px;
         }
         .overla-1{
             margin: 10px 10px 10px 10px;
             width: 250px;
             color: rgba(79, 79, 79, 1); 
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             border-radius: 10px;
@@ -824,7 +824,7 @@ body{
             margin: 10px 10px 10px 10px;
             width: 250px;
             color: rgba(79, 79, 79, 1); 
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             border-radius: 20px;
@@ -834,7 +834,7 @@ body{
             margin: 10px 10px 10px 10px;
             width: 250px;
             color: rgba(79, 79, 79, 1); 
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 500;
             font-style: normal;
             border-radius: 10px;
@@ -860,7 +860,7 @@ body{
         }
         .third-section-1{
             width: 40%;
-            margin: 10px;
+            margin: 80px 10px 10px 10px;
             padding: 30px;
             border-radius: 10px;
         }
@@ -1229,14 +1229,14 @@ body{
                 font-size: 50px;
                 font-weight: 600;
                 font-style: normal;
-                margin:0 100px;
-                text-align: center;
+                margin:0 20px;
+                text-align:left;
             }
             .enabling{
                 font-size: 16px;
                 color: gray;
-                margin:0 100px;
-                text-align: center;
+                margin:20px;
+                text-align: left;
             }
         
             .main-button {
@@ -1248,7 +1248,7 @@ body{
                 font-size:  1.2em;;
                 font-weight: 500;
                 font-style: normal;
-                margin: 30px 0 0 250px;
+                margin: 30px 20px;
             }
             .main-button:hover{
               cursor: pointer;
@@ -1257,13 +1257,13 @@ body{
             .overla{
                 display: flex;
                 flex-direction: row;
-                margin-left: 50px;
+                margin: 20px;
             }
             .overla-1{
                 margin: 10px 10px 10px 10px;
                 width: 250px;
                 color: rgba(79, 79, 79, 1); 
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 500;
                 font-style: normal;
                 border-radius: 10px;
@@ -1275,7 +1275,7 @@ body{
                 margin: 10px 10px 10px 10px;
                 width: 250px;
                 color: rgba(79, 79, 79, 1); 
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 500;
                 font-style: normal;
                 border-radius: 20px;
@@ -1321,7 +1321,7 @@ body{
             .third-section{
                 display: flex;
                 flex-direction: column-reverse;
-                margin-top: 30px;
+                margin-top: 80px;
                 height: 800px;
             }
             .third-section-1{
@@ -1374,7 +1374,7 @@ body{
             .forth-section{
                 display: flex;
                 flex-direction: column;
-                margin: 50px 0 50px 0;
+                margin: 80px 0;
                 background-color: black;
                 border-radius: 10px;
                 padding: 50px;
@@ -1436,7 +1436,7 @@ body{
             }
             .can-you{
             color:lavender;
-            font-size: 43px;
+            font-size: 40px;
             font-weight: 600;
             font-style: normal;
             margin:0;
@@ -1785,12 +1785,12 @@ body{
         font-weight: 600;
         font-style: normal;
         margin:0;
-        text-align:center;
+        text-align:left;
     }
     .enabling{
-        font-size: 14px;
+        font-size: 16px;
         color: gray;
-        margin: 20px 50px 0 50px;
+        margin: 20px 0;
     }
 
     .main-button {
@@ -1802,7 +1802,7 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 30px 0 0 200px;
+        margin: 30px 0;
     }
     .main-button:hover{
       cursor: pointer;
@@ -1811,13 +1811,13 @@ body{
     .overla{
         display: flex;
         flex-direction: column;
-        margin-left: 150px;
+        margin: 0 20px;
     }
     .overla-1{
-        margin: 10px 10px 10px 10px;
-        width: 250px;
+        margin: 10px;
+        width: 70%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
@@ -1826,27 +1826,27 @@ body{
 
     .overla-2{
         box-shadow: -5px 0 100px 50px whitesmoke;
-        margin: 10px 10px 10px 10px;
-        width: 250px;
+        margin: 10px;
+        width:70%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 20px;
         padding: 5px;
     }
     .overla-3{
-        margin: 10px 10px 10px 10px;
-        width: 250px;
+        margin: 10px ;
+        width: 70%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
         padding: 5px;
     }
     .overla-1:hover, .overla-2:hover, .overla-3:hover{
-        width: 300px;
+        width: 80%;
         cursor: pointer;
     }
     .trust{
@@ -1857,7 +1857,7 @@ body{
     }
     #we-are{
     color:rgb(25,49,138);
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     margin: 20px 0;
@@ -1865,7 +1865,7 @@ body{
     }
     #due-to{
         color:rgb(128,128,128); 
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         margin: 0 0 20px 0;
@@ -1874,7 +1874,7 @@ body{
     .third-section{
         display: flex;
         flex-direction: column-reverse;
-        margin: 30px 0 0 0;
+        margin: 80px 0;
         height: 800px;
     }
     .third-section-1{
@@ -1886,7 +1886,7 @@ body{
     .thirdSection-1{
         box-shadow: -5px 0 100px 50px whitesmoke;
         padding: 20px;
-        margin: 60px 0 0 30px;
+        margin: 60px 0;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -1899,7 +1899,7 @@ body{
         box-shadow: -5px 0 100px 50px whitesmoke;
         border-radius: 10px;
         padding: 20px;
-        margin: 20px 0 60px 60px;
+        margin: 20px 0;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -1913,7 +1913,7 @@ body{
     }
     .we-are{
     color:rgb(25,49,138);
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -1926,7 +1926,7 @@ body{
     .forth-section{
         display: flex;
         flex-direction: column;
-        margin:0;
+        margin:30px 0;
         background-color: black;
         border-radius: 10px;
         padding: 50px;
@@ -1941,7 +1941,7 @@ body{
         margin: 20px 0;
         width: 90%;
         color:white;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         background: rgb(33,33,33);
@@ -1961,7 +1961,7 @@ body{
     .forthSection-2{
         padding: 20px;
         margin: 20px 0 60px 20px;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         width: 90%;
         font-weight: 500;
@@ -1992,7 +1992,7 @@ body{
     }
     .can-you{
     color:lavender;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     margin-right: 0;
@@ -2025,20 +2025,20 @@ body{
     }
     .connect{
     color:rgb(25,49,138);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     margin: 20px 0;
-    text-align: center;
+    text-align: left;
     }
     .meet{
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin: 20px;
+        margin: 20px 0;
         padding-top: 20px;
-        text-align: center;
+        text-align: left;
     }
     .main-button1 {
         background-color: rgba(243, 115, 53, 1);
@@ -2049,7 +2049,7 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 30px 0 0 200px;
+        margin: 32px 0 0 0;
     }
     .main-button1:hover{
       cursor: pointer;
@@ -2065,7 +2065,7 @@ body{
     }
     .industrial{
         color:rgb(25,49,138);
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2114,7 +2114,7 @@ body{
     }
     .challenge{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2125,7 +2125,7 @@ body{
     }
     .bazzar{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2137,7 +2137,7 @@ body{
     }
     .ip-center{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0;
         padding: 10px;
         border-radius: 10px; 
         width:100%;
@@ -2158,7 +2158,7 @@ body{
     }
     .seventy-section h1{
         color:rgb(25,49,138);
-        font-size: 40px;
+        font-size: 24px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2254,7 +2254,7 @@ body{
         text-decoration: none;
         background-color: rgba(243, 115, 53, 1);
         color: black;
-        margin: 5px 150px 0 100px;
+        margin: 5px 100px 0 100px;
         border-radius: 8px;
         font-size: 14px;
         font-family:'Poppins', sans-serif;
@@ -2285,14 +2285,14 @@ body{
     }
     .inspiring{
         color:rgb(20,39,126); 
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 600;
         font-style: normal;
         margin:20px 0;
-        text-align:center;
+        text-align:left;
     }
     .enabling{
-        font-size: 14px;
+        font-size: 16px;
         color: gray;
         margin: 0;
     }
@@ -2306,7 +2306,7 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 30px 0 0 150px;
+        margin: 30px 0 0 0;
     }
     .main-button:hover{
       cursor: pointer;
@@ -2315,13 +2315,13 @@ body{
     .overla{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin:0;
     }
     .overla-1{
         margin: 10px 10px 10px 10px;
-        width: 300px;
+        width: 80%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
@@ -2331,9 +2331,9 @@ body{
     .overla-2{
         box-shadow: -5px 0 100px 50px whitesmoke;
         margin: 10px 10px 10px 10px;
-        width: 300px;
+        width: 80%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 20px;
@@ -2341,16 +2341,16 @@ body{
     }
     .overla-3{
         margin: 10px 10px 10px 10px;
-        width: 300px;
+        width: 80%;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
         padding: 5px;
     }
     .overla-1:hover, .overla-2:hover, .overla-3:hover{
-        width: 350px;
+        width: 90%;
         cursor: pointer;
     }
     .trust{
@@ -2361,7 +2361,7 @@ body{
     }
     #we-are{
     color:rgb(25,49,138);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     font-style: normal;
     margin: 20px 0;
@@ -2369,7 +2369,7 @@ body{
     }
     #due-to{
         color:rgb(128,128,128); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         margin: 20px;
@@ -2390,7 +2390,7 @@ body{
     .thirdSection-1{
         box-shadow: -5px 0 100px 50px whitesmoke;
         padding: 20px;
-        margin: 60px 0 0 0;
+        margin: 60px 0 0 -20px;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -2403,7 +2403,7 @@ body{
         box-shadow: -5px 0 100px 50px whitesmoke;
         border-radius: 10px;
         padding: 20px;
-        margin: 60px 0 0 0;
+        margin: 60px 0 0 -20px;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -2417,7 +2417,7 @@ body{
     }
     .we-are{
     color:rgb(25,49,138);
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -2442,7 +2442,7 @@ body{
     }
     .forthSection-1{
         padding: 20px;
-        margin: 20px 0 60px 20px;
+        margin: 20px 0 60px 0;
         width: 90%;
         color:white;
         font-size: 16px;
@@ -2464,7 +2464,7 @@ body{
     }
     .forthSection-2{
         padding: 20px;
-        margin: 20px 0 60px 20px;
+        margin: 20px 0 60px 0;
         font-size: 16px;
         color: white;
         width: 90%;
@@ -2496,7 +2496,7 @@ body{
     }
     .can-you{
     color:lavender;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     margin-right: 0;
@@ -2529,15 +2529,15 @@ body{
     }
     .connect{
     color:rgb(25,49,138);
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
-    margin: 20px 0 0 0;
-    text-align: center;
+    margin: 80px 0 0 0;
+    text-align: left;
     }
     .meet{
         color:rgb(128,128,128); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         margin: 0;
@@ -2552,7 +2552,7 @@ body{
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin: 30px 0 0 100px;
+        margin: 30px 0 
     }
     .main-button1:hover{
       cursor: pointer;
@@ -2568,7 +2568,7 @@ body{
     }
     .industrial{
         color:rgb(25,49,138);
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2576,7 +2576,7 @@ body{
     }
     .join-our{
         color:rgb(128,128,128); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         text-align: center;
@@ -2584,7 +2584,7 @@ body{
     }
     input{
         padding: 20px;
-        width: 150px;
+        width: 120px;
         font-size:16px;
         margin-left: 0px;
         outline: none;
@@ -2618,7 +2618,7 @@ body{
     }
     .challenge{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0 10px -10px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2629,7 +2629,7 @@ body{
     }
     .bazzar{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0 10px -10px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2641,7 +2641,7 @@ body{
     }
     .ip-center{
         background-color: white;
-        margin: 10px;
+        margin: 10px 0 10px -10px;
         padding: 10px;
         border-radius: 10px; 
         width:100%;
