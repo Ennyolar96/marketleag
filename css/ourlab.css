@@ -1311,7 +1311,7 @@ color: rgba(255, 255, 255, 1);
   font-size:  1.2em;;
   font-weight: 500;
   font-style: normal;
-  margin-left:130px;
+  margin-left:110px;
 }
 .main-button:hover{
 cursor: pointer;
@@ -1364,7 +1364,7 @@ h4{
 text-align: left;
 color: rgba(15, 28, 112, 1); 
 font-family: 'Poppins', sans-serif;
-font-size: 24px;
+font-size: 20px;
 font-weight: 600;
 font-style: normal;
 margin: 0 0 20px 0;
@@ -1373,7 +1373,7 @@ p{
 margin: 5px;
 color: rgba(128, 128, 128, 1);
 font-family: 'Poppins', sans-serif;
-font-size: 16px;
+font-size: 14px;
 font-weight: 500;
 font-style: normal;
 }
