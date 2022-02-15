@@ -1287,7 +1287,7 @@ font-family: 'Poppins', sans-serif;
 font-size: 50px; 
 font-weight: 600;
 font-style: normal;
-margin: 50px 0 0 0;
+margin: 50px 50px 0 0;
 
 }
 .first-section1 p{
@@ -1296,7 +1296,7 @@ margin: 50px 0 0 0;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
-  margin: 20px 0;
+  margin: 20px 50px 20px 0;
 }
 .main-button a{
 text-decoration: none;
@@ -1378,7 +1378,7 @@ font-weight: 500;
 font-style: normal;
 }
 .second-section button, .third-section button, .forth-section button, .fifty-section button, .sixty-section button{
-width: 100%;
+width: 90%;
 background-color:rgba(243, 115, 53, 1);
 color: #fff;
 border: none;
