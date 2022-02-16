@@ -134,6 +134,7 @@ body{
       padding: 10px 15px;
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
+      cursor: pointer;
     }
     .header .icon {
         display: none;
@@ -431,6 +432,17 @@ body{
     label{
       font-size: .8rem;
   }
+  .new-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 115, 53, 1);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+ }
     }
 
     @media only screen and (max-width:400px){
@@ -482,4 +494,15 @@ body{
     label{
       font-size: .8rem;
   }
+  .new-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 115, 53, 1);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+ }
     }

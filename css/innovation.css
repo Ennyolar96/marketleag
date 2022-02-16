@@ -134,6 +134,7 @@ body{
       padding: 10px 15px;
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
+      cursor: pointer;
     }
     
     #consent-popup {
@@ -1066,6 +1067,18 @@ body{
     font-family:'Poppins', sans-serif;
   }
 
+  .new-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 115, 53, 1);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ 
   .mainsite{
     background-color: whitesmoke;
 }

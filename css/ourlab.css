@@ -59,6 +59,7 @@ body{
     padding: 10px 15px;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
+    cursor: pointer;
   }
   #consent-popup {
       position: fixed;
@@ -1477,6 +1478,19 @@ width: 100%;
     display: block;
     text-align: left;
   }
+
+  .new-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 115, 53, 1);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ 
   .first-section{
     display: flex;
     flex-direction: column;

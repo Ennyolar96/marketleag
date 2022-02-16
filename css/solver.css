@@ -226,7 +226,7 @@ a {
     margin-top: 10px;
     width: 100%;
     color: white;
-    background-color: rgb(41, 57, 194);
+    background-color: rgba(243, 115, 53, 1);
     border: none;
     border-radius: 4px;
     font-size: 1em;
@@ -329,7 +329,7 @@ label{
     margin-top: 10px;
     width: 100%;
     color: white;
-    background-color: rgb(41, 57, 194);
+    background-color: rgba(243, 115, 53, 1);
     border: none;
     border-radius: 4px;
     font-size: 1em;
@@ -360,7 +360,7 @@ label{
 
 #Agreement{
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .input-control textarea {
@@ -408,8 +408,11 @@ p{
     height: 13px;
 }
 label{
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
+.show {
+    width: 260px;
+  }
 
 }
 
@@ -433,7 +436,7 @@ label{
     margin-top: 10px;
     width: 100%;
     color: white;
-    background-color: rgb(41, 57, 194);
+    background-color: rgba(243, 115, 53, 1);
     border: none;
     border-radius: 4px;
     font-size: 1em;
