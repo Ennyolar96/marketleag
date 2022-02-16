@@ -345,6 +345,14 @@ body{
       .c-check input{
         width: 20px;
       }
+      .c-check label{
+        width: 100%;
+        padding: 10px;
+        font-size:.8rem;
+    } 
+    label{
+      font-size: .8rem;
+  }
     }
 
     @media only screen and (max-width:400px){
@@ -388,4 +396,12 @@ body{
       .c-check input{
         width: 20px;
       }
+      .c-check label{
+        width: 100%;
+        padding: 10px;
+        font-size:.8rem;
+    } 
+    label{
+      font-size: .8rem;
+  }
     }
