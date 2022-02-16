@@ -470,16 +470,16 @@ h4{
 
   @media screen and (max-width: 400px){
     .blue_left{
-      margin-left: 300px;
+      margin-left: 100px;
       border-radius: 4px;
       padding: 8px;
       background-color: black;
       color: white;
   }
   .left1{
-      margin-left: 400px;
+      margin-left: 100px;
   }
   .left2{
-    margin-left: 400px;
+    margin-left: 100px;
     }
 }
