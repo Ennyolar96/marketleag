@@ -308,9 +308,7 @@ body{
     }
     .second-section1 a{
         text-decoration: none;
-        background-color: rgba(243, 115, 53, 1);
-        color: white;
-        padding: 10px;
+        color: rgba(243, 115, 53, 1);
         border-radius: 10px;
         margin: 20px;
         font-size: 14px;
@@ -334,9 +332,8 @@ body{
     }
     .second-section2 {
         position: relative;
-        
         width: 700px;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
         border-radius: 5px;
       }
@@ -353,10 +350,7 @@ body{
         width: 100%;
         height: 100%;
       
-        /* background-image: url("/image/woman-game.jpg"); */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background-color: rgba(140, 22, 115, 0.2); */
       }
       
       .card_part {
@@ -370,7 +364,10 @@ body{
         width: 100%;
         height: 100%;
         
-        transform: translateX( 700px );  
+        transform: translateX( 700px );
+        background-image: url(/images/woman-game.png );
+        background-repeat: no-repeat;
+        
         -webkit-animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
         
                 animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
@@ -379,23 +376,23 @@ body{
       
       .card_part.card_part-two {
         z-index: 6;
+        background-image: url( /images/game1.png);
         -webkit-animation-delay: 7s;
                 animation-delay: 7s;
       }
       
       .card_part.card_part-three {
         z-index: 5;
+        background-image: url( /images/game2.png);
         -webkit-animation-delay: 14s;
                 animation-delay: 14s;
       }
       
       .card_part.card_part-four {
         z-index: 4;
+        background-image: url( /images/game3.png );
         -webkit-animation-delay: 21s;
                 animation-delay: 21s;
-      }
-      .card-4 img{
-          width: 100%;
       }
       
       
@@ -1773,15 +1770,14 @@ body{
         .new-container a{
             text-align: center;
             text-decoration: none;
-            background-color: rgba(243, 115, 53, 1);
+            color: rgba(243, 115, 53, 1);
             padding: 20px;
             margin: 20px 0;
-            color: white;
             border-radius: 10px;
             font-size: 14px;
             font-weight: 500;
          }
-         
+
         .first-section{
             display: flex;
             flex-direction: column;
@@ -1893,7 +1889,7 @@ body{
             background-color: black;
             display: flex;
             flex-direction: column;
-            margin: 100px 5px;
+            margin: 100px 0;
             border-radius: 10px;
             padding: 50px;
         }
@@ -1919,9 +1915,7 @@ body{
         }
         .second-section1 a{
             text-decoration: none;
-            background-color: rgba(243, 115, 53, 1);
-            color: white;
-            padding: 5px;
+           color: rgba(243, 115, 53, 1);
             border-radius: 10px;
             margin: 20px -30px;
         }
@@ -1934,6 +1928,13 @@ body{
             border-radius: 10px;
             margin: 0;
         }
+        .second-section2 {
+            position: relative;
+            width: 700px;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 5px;
+          }
         .solutions{
             background-color: rgb(253,253,253);
             margin-top: 50px;
