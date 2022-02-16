@@ -434,8 +434,9 @@ body{
           display: block;
         }
         .header-right{
-          float: none;
-          margin: 0 70px 0 50px;
+            float: none;
+            margin: 0;
+            font-size: 14px;
         }
         .header-right a.reg{
           margin-right: 0;
@@ -789,7 +790,8 @@ body{
           }
           .header-right{
             float: none;
-            margin: 0 70px 0 50px;
+             margin: 0;
+             font-size: 14px;
           }
           .header-right a.reg{
             margin-right: 0;
@@ -1151,8 +1153,9 @@ body{
           display: block;
         }
         .header-right{
-          float: none;
-          margin: 0 70px 0 50px;
+            float: none;
+            margin: 0;
+            font-size: 14px;
         }
         .header-right a.reg{
           margin-right: 0;
@@ -1556,7 +1559,7 @@ body{
             font-size: 30px;
             font-weight: 600;
             font-style: normal;
-            margin: 100px 10px 0 10px;
+            margin: 50px 10px 0 10px;
         }
         .banner-section p{
             color: rgba(128, 128, 128, 1);
@@ -1578,7 +1581,7 @@ body{
         .brandstory h2{
             color:  rgba(15, 28, 112, 1); 
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1635,15 +1638,15 @@ body{
             font-size: 18px;
             font-weight: 600;
             font-style: normal;
-            text-align: center;
+            text-align: left;
         }
         .brand-section1 p{
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
-            font-size:12px;
+            font-size:14px;
             font-weight: 500;
             font-style: normal;
-            margin: 20px;
+            margin: 0 -20px;
         }
         .brand-section2{
             width: 100%;
@@ -1663,7 +1666,7 @@ body{
         .marketleag-logo p{
             color: rgba(128, 128, 128, 1);
             font-family:'Poppins', sans-serif;
-            font-size:12px;
+            font-size:14px;
             font-weight: 500;
             font-style: normal;
             text-align: center;
@@ -1678,7 +1681,7 @@ body{
         .our-core h2{
             color:  rgba(15, 28, 112, 1); 
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1700,7 +1703,7 @@ body{
         .product-ser h2{
             color:  rgba(15, 28, 112, 1); 
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1715,7 +1718,7 @@ body{
         }
         .product1, .product2, .product3{
             width: 95%;
-            margin:20px 10px 10px 10px;
+            margin:20px 10px 10px -10px;
             background-color: white;
             border-radius: 10px;
             padding: 10px;
@@ -1743,7 +1746,7 @@ body{
         }
         .product4, .product5{
             width: 95%;
-            margin:50px 10px 10px 10px;
+            margin:50px 10px 10px -10px;
             background-color: white;
             border-radius: 10px;
             padding: 10px;
@@ -1773,7 +1776,7 @@ body{
         .meeting-team h2{
             color:  rgba(15, 28, 112, 1); 
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1787,14 +1790,15 @@ body{
             width: 100%;
         }
         .meettheteam1 img{
-            width: 100%;
+            width: 110%;
             height: 300px;
+            margin: 20px 0 0 -20px;
         }
         .meettheteam2{
             width: 100%;
         }
         .meettheteam2 p{
-            margin:10px;
+            margin:20px -20px;
             color: gray;
             font-size:14px;
         }
@@ -1805,7 +1809,7 @@ body{
         .career h2{
             color:  rgba(15, 28, 112, 1); 
             font-family: 'Poppins', sans-serif;
-            font-size: 25px;
+            font-size: 24px;
             font-weight: 600;
             font-style: normal;
             text-align: center;
@@ -1813,7 +1817,7 @@ body{
         .career p{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
-            font-size:12px;
+            font-size:14px;
             font-weight: 400;
             font-style: normal;
             text-align: center;
