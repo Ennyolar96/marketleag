@@ -15,10 +15,11 @@
   
   /* Modal Content/Box */
   .modal-content {
+    border-radius: 10px;
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
@@ -54,3 +55,22 @@
     from {transform: scale(0)}
     to {transform: scale(1)}
   }
+  .new-container{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+  }
+ .new-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .new-container a:hover{
+     opacity: 0.5;
+ }

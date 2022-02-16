@@ -24,14 +24,28 @@
                     <a  href="/pages/ipaccelerate.html">IP Accelerate</a>
                     <a class="active" href="/pages/ourlab.html">lab</a>
                     <a href="/pages/about.html">About us</a>
-                    <a class="reg" href="/auth/register.html">Create Account</a> 
+                    <a class="reg" onclick="document.getElementById('id01').style.display='block'">Sign in</a> 
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i> </a>
                 </div>
             </div>
         </header>
-    <main>
 
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close">&times;</span>
+          
+            <!-- Modal Content -->
+            <div class="modal-content animate">
+                <div class="new-container">
+                  <a href="/auth/login.html"> Login </a>
+                  <a href="/auth/register.html">Create Account</a>
+                  <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</a>
+                  </div>
+              </div>
+          </div>
+
+    <main>
         <div class="first-section">
             <div class="first-section1">
                 <h1>Welcome to Lab</h1>
