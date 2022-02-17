@@ -65,7 +65,10 @@ body{
     .header .icon {
         display: none;
       }
-    
+      .header a:hover{
+        cursor: pointer;
+    }
+
     #consent-popup {
       position: fixed;
       bottom: 0;
@@ -399,7 +402,7 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
+        border-bottom: 1px solid black;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -419,7 +422,7 @@ body{
         margin: 10px 10px 10px 10px;
         width: 250px;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
@@ -431,7 +434,7 @@ body{
         margin: 10px 10px 10px 10px;
         width: 250px;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 20px;
@@ -441,7 +444,7 @@ body{
         margin: 10px 10px 10px 10px;
         width: 250px;
         color: rgba(79, 79, 79, 1); 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
         border-radius: 10px;
@@ -454,17 +457,16 @@ body{
     .trust{
         text-align: center;
         background-color: whitesmoke;
-        height: 400px;
         border-radius:5px;
-        height: 500px;
+       padding: 80px;
     }
     #we-are{
     color:rgb(25,49,138);
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
-    margin: 50px 300px 20px 300px;
-    padding-top: 80px;
+    margin:0 200px;
+   
     }
     #due-to{
         color:rgb(128,128,128); 
@@ -496,6 +498,7 @@ body{
         font-style: normal;
         border-radius: 10px;
         height: 120px;
+        width: 300px;
     }
    
     .thirdSection-2{
@@ -508,6 +511,7 @@ body{
         font-weight: 500;
         font-style: normal;
         height: 120px;
+        width: 300px;
     }
 
     .third-section-2{
@@ -519,8 +523,8 @@ body{
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
-    text-align: left;
-    margin:100px 150px 0 50px;
+    text-align: center;
+    margin:0;
     }
     .visit{
         color:rgb(128,128,128); 
@@ -629,16 +633,17 @@ body{
     }
     .fifty-section2 img{
         width: 500px;
-        height: 500px;
+        height: 300px;
         border-radius: 10px;
+        margin: 0 0 0 50px;
     }
     .connect{
     color:rgb(25,49,138);
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     font-style: normal;
     margin: 0 0 0 50px;
-    text-align: justify;
+    text-align:left;
     }
     .meet{
         color:rgb(128,128,128); 
@@ -652,7 +657,7 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
+        border-bottom: 1px solid black;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -688,7 +693,7 @@ body{
         margin: 20px 300px;
     }
     input{
-        padding: 30px;
+        padding: 20px;
         width: 300px;
         font-size:16px;
         margin-left: 350px;
@@ -703,15 +708,14 @@ body{
         border-radius: 8px;
     }
     .join-us{
-        padding: 10px 15px;
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
-        border: none;
+        border-bottom: 1px solid black;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        padding: 30px;
+        padding: 20px;
     }
     .seventy-section{
         background-color: white;
@@ -772,9 +776,17 @@ body{
         text-align: center;
     }
     /* footer */
+    footer{
+        background-color: black;
+    }
+    .copyright p{ 
+        color: white;
+        text-align: center;
+       padding: 20px;
+       font-size: 14px;
+    }
     .footer{
         display: flex;
-        background-color: black;
         padding: 50px;
     }
     .footer a, .footer p{
@@ -792,6 +804,11 @@ body{
         font-size: 16px;
         font-weight: 600;
         font-style: normal;
+    }
+    .footer1 img{
+        width: 55px;
+        height: 50px;
+        margin: 0 0 0 20px;
     }
     .footer1, .footer2, .footer3, .footer4, .footer5{
         padding: 10px;
@@ -871,7 +888,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px;
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-size:  1.2em;;
             font-weight: 500;
@@ -927,11 +943,10 @@ body{
             text-align: center;
             background-color: whitesmoke;
             border-radius:5px;
-            height: 500px;
+            padding: 80px;
         }
         #we-are{
-        margin: 50px 200px 20px 200px;
-        padding-top: 80px;
+        margin: 0 150px;
         font-size: 40px;
         }
         #due-to{
@@ -1052,19 +1067,19 @@ body{
         }
         .fifty-section2 img{
             width: 500px;
-            height: 500px;
+            height: 400px;
           
         }
         .connect{
         color:rgb(25,49,138);
-        font-size: 20px;
+        font-size: 40px;
         font-weight: 600;
         font-style: normal;
         margin: 0;
         }
         .meet{
             color:rgb(128,128,128); 
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
             font-style: normal;
             margin: 0;
@@ -1074,12 +1089,11 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px;
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
-            margin: 30px 0 0 50px;
+            margin: 30px 0;
         }
         .main-button1:hover{
           cursor: pointer;
@@ -1322,7 +1336,6 @@ body{
                 background-color: rgba(243, 115, 53, 1);
                 border-radius: 8px;
                 padding: 20px;
-                border: none;
                 color: rgba(255, 255, 255, 1);
                 font-size:  1.2em;;
                 font-weight: 500;
@@ -1377,17 +1390,15 @@ body{
             .trust{
                 text-align: center;
                 background-color: whitesmoke;
-                height: 400px;
                 border-radius:5px;
-                height: 500px;
+                padding: 80px;
             }
             #we-are{
             color:rgb(25,49,138);
             font-size: 40px;
             font-weight: 600;
             font-style: normal;
-            margin: 80px 100px 20px 100px;
-            padding-top: 80px;
+            margin: 0 100px;
             }
             #due-to{
                 color:rgb(128,128,128); 
@@ -1541,35 +1552,34 @@ body{
             }
             .fifty-section2 img{
                 width: 100%;
-                height: 500px;
+                height: 400px;
+                margin: 30px -0;
               
             }
             .connect{
             color:rgb(25,49,138);
-            font-size: 25px;
+            font-size: 40px;
             font-weight: 600;
             font-style: normal;
-            margin: 0 50px 0 50px;
-            text-align: justify;
+            margin: 0 50px 0 0;
+            text-align: left;
             }
             .meet{
                 color:rgb(128,128,128); 
                 font-size: 16px;
                 font-weight: 500;
                 font-style: normal;
-                margin: 0 100px 0 50px;
-                padding-top: 20px;
+                margin: 20px 100px 0 0;
             }
             .main-button1 {
                 background-color: rgba(243, 115, 53, 1);
                 border-radius: 8px;
                 padding: 20px;
-                border: none;
                 color: rgba(255, 255, 255, 1);
                 font-size:  1.2em;;
                 font-weight: 500;
                 font-style: normal;
-                margin: 30px 0 0 50px;
+                margin: 30px 0 0 0;
             }
             .main-button1:hover{
               cursor: pointer;
@@ -1618,7 +1628,6 @@ body{
                 padding: 10px 15px;
                 background-color: rgba(243, 115, 53, 1);
                 border-radius: 8px;
-                border: none;
                 color: rgba(255, 255, 255, 1);
                 font-size:  1.2em;;
                 font-weight: 500;
@@ -1876,7 +1885,6 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -1932,15 +1940,14 @@ body{
         text-align: center;
         background-color: whitesmoke;
         border-radius:5px;
-        height: 500px;
+        padding: 80px;
     }
     #we-are{
     color:rgb(25,49,138);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     font-style: normal;
     margin: 20px 0;
-    padding-top: 80px;
     }
     #due-to{
         color:rgb(128,128,128); 
@@ -1992,7 +1999,7 @@ body{
     }
     .we-are{
     color:rgb(25,49,138);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -2071,7 +2078,7 @@ body{
     }
     .can-you{
     color:lavender;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     font-style: normal;
     margin-right: 0;
@@ -2099,12 +2106,12 @@ body{
     }
     .fifty-section2 img{
         width: 100%;
-        height: 500px;
+        height: 400px;
       
     }
     .connect{
     color:rgb(25,49,138);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     font-style: normal;
     margin: 20px 0;
@@ -2123,7 +2130,6 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -2144,7 +2150,7 @@ body{
     }
     .industrial{
         color:rgb(25,49,138);
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2237,7 +2243,7 @@ body{
     }
     .seventy-section h1{
         color:rgb(25,49,138);
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2391,7 +2397,6 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -2447,15 +2452,13 @@ body{
         text-align: center;
         background-color: whitesmoke;
         border-radius:5px;
-        height: 500px;
+        padding: 80px;
     }
     #we-are{
     color:rgb(25,49,138);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
-    margin: 20px 0;
-    padding-top: 80px;
     }
     #due-to{
         color:rgb(128,128,128); 
@@ -2532,7 +2535,7 @@ body{
     }
     .forthSection-1{
         padding: 20px;
-        margin: 20px 0 60px 0;
+        margin: 20px 0 60px -20px;
         width: 90%;
         color:white;
         font-size: 16px;
@@ -2554,7 +2557,7 @@ body{
     }
     .forthSection-2{
         padding: 20px;
-        margin: 20px 0 60px 0;
+        margin: 20px 0 60px -20px;
         font-size: 16px;
         color: white;
         width: 90%;
@@ -2614,7 +2617,7 @@ body{
     }
     .fifty-section2 img{
         width: 100%;
-        height: 500px;
+        height: 400px;
       
     }
     .connect{
@@ -2637,7 +2640,6 @@ body{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
         padding: 20px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -2658,7 +2660,7 @@ body{
     }
     .industrial{
         color:rgb(25,49,138);
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
@@ -2708,7 +2710,7 @@ body{
     }
     .challenge{
         background-color: white;
-        margin: 10px 0 10px -10px;
+        margin: 10px 0 10px -50px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2719,7 +2721,7 @@ body{
     }
     .bazzar{
         background-color: white;
-        margin: 10px 0 10px -10px;
+        margin: 10px 0 10px -50px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2731,7 +2733,7 @@ body{
     }
     .ip-center{
         background-color: white;
-        margin: 10px 0 10px -10px;
+        margin: 10px 0 10px -50px;
         padding: 10px;
         border-radius: 10px; 
         width:100%;

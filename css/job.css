@@ -8,6 +8,10 @@ body{
     font-family: 'Poppins', sans-serif;
     }
 
+    .header a:hover{
+      cursor: pointer;
+  }
+
         /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */

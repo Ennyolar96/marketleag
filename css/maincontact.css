@@ -6,7 +6,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.header a:hover{
+  cursor: pointer;
+}
     /* The Modal (background) */
     .modal {
       display: none; /* Hidden by default */

@@ -107,7 +107,9 @@ body{
       font-family:'Poppins', sans-serif;
     }
     /* styling the logo */
-    
+    .header a:hover{
+        cursor: pointer;
+    }
     .header a.logo{
       font-size: 1.7em;
       font-weight: bold;
@@ -201,7 +203,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin:0 200px 0 50px;
+        margin:20px 200px 20px 50px;
     }
     .main-button a{
         text-decoration: none;
@@ -211,8 +213,9 @@ body{
     .main-button {
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px; 
+        color: white;
         padding: 15px;
-        border: none;
+        border-bottom: 1px solid black;
         font-family:'Poppins', sans-serif;
         font-size:  1.2em;;
         font-weight: 500;
@@ -233,6 +236,13 @@ body{
         height: 500px;
         position: relative;
     }
+    .imagetext{
+        display: flex;
+    }
+    .imagetext img{
+        width: 70px;
+        height: 70px;
+    }
     .overlay1{
         background-color: white;
         padding: 10px;
@@ -243,21 +253,30 @@ body{
         border-radius: 8px;
         box-shadow: 0 0 2px gray;
     }
-    .overlay1 p{
+    .overlay1 h6,  .overlay2 h6{
+        color: rgba(128, 128, 128, 1);
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        font-style: normal;
+        margin: -25px 90px 0 90px;
+    }
+    .overlay1 p, .overlay2 p{
         color: rgba(128, 128, 128, 1);
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
-        margin: 10px 20px;
+        margin: 20px 20px 0 20px;
     }
-    .overlay1 h5{
+    .overlay1 h5, .overlay2 h5{
         color: black;
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         font-style: normal;
-        margin: 10px 20px;
+        margin: 10px 0;
     }
 
     .overlay2{
@@ -266,31 +285,14 @@ body{
         width: 50%;
         position: absolute;
         left: 290px;
-        top: 380px;
+        top: 430px;
         border-radius: 8px;
         box-shadow: 0 0 2px gray;
     }
-    .overlay2 p{
-        color: rgba(128, 128, 128, 1);
-        font-family: 'Poppins', sans-serif;
-        font-size: 12px;
-        font-weight: 500;
-        font-style: normal;
-        margin: 10px 20px;
-    }
-    .overlay2 h5{
-        color: black;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        font-style: normal;
-        margin: 10px 20px;
-    }
-
     .second-section{
         background-color: black;
         display: flex;
-        margin: 50px 5px 5px 100px;
+        margin: 120px 5px 5px 100px;
         border-radius: 10px;
         padding: 50px;
     }
@@ -308,7 +310,7 @@ body{
     }
     .second-section1 a{
         text-decoration: none;
-        color: rgba(243, 115, 53, 1);
+        color: white;
         border-radius: 10px;
         margin: 20px;
         font-size: 14px;
@@ -412,7 +414,7 @@ body{
       }
     .solutions{
         background-color: rgb(253,253,253);
-        margin-top: 50px;
+        margin: 100px 0 0 0;
     }
     .solutions h2{
         text-align: center;
@@ -421,7 +423,7 @@ body{
         font-size: 40px;
         font-weight: 600;
         font-style: normal;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     .solution{
         display: flex;
@@ -524,6 +526,7 @@ body{
     }
     .forth-section{
         display: flex;
+        margin: 50px 0 100px 0;
     }
     .forth-section1 img{
         border-radius: 20px;
@@ -538,6 +541,7 @@ body{
         font-weight: 600;
         font-style: normal;
         text-align: center;
+        margin: 0;
     }
     ul{
         list-style-type: none;
@@ -552,14 +556,15 @@ body{
     .main-button1 {
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px; 
-        padding: 20px;
-        border: none;
-        color: rgba(255, 255, 255, 1);
+        padding: 15px;
+        border-bottom: 1px solid black;
         font-family:'Poppins', sans-serif;
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
-        margin-left: 60px;
+        text-decoration: none;
+        color: white;
+        margin: 20px 0 0 50px;
         text-decoration: none;
     }
     .main-button1:hover{
@@ -581,9 +586,17 @@ body{
     }
 
      /* footer */
-     .footer{
-        display: flex;
+     footer{
         background-color: black;
+    }
+    .copyright p{ 
+        color: white;
+        text-align: center;
+       padding: 20px;
+       font-size: 14px;
+    }
+    .footer{
+        display: flex;
         padding: 50px;
     }
     .footer a, .footer p{
@@ -602,12 +615,16 @@ body{
         font-weight: 600;
         font-style: normal;
     }
+    .footer1 img{
+        width: 55px;
+        height: 50px;
+        margin: 0 0 0 20px;
+    }
     .footer1, .footer2, .footer3, .footer4, .footer5{
         padding: 10px;
         margin: 20px;
         width: 20%;
     }
-
     @media screen and (max-width:1200px) {
        
         .header a.logo{
@@ -673,7 +690,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 15px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -915,7 +931,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1036,7 +1051,6 @@ body{
             border-radius: 8px; 
             padding: 20px;
             margin:20px 50px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1314,7 +1328,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1432,7 +1445,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1465,53 +1477,50 @@ body{
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
-        .overlay1 p{
+        .overlay1 h6,  .overlay2 h6{
             color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
+            font-size: 12px;
             font-weight: 500;
+            text-align: left;
             font-style: normal;
-            margin: 10px 20px;
+            margin: -15px 90px 0 90px;
         }
-        .overlay1 h5{
+        .overlay1 p, .overlay2 p{
+            color: rgba(128, 128, 128, 1);
             font-family: 'Poppins', sans-serif;
+            font-size: 12px;
             font-weight: 500;
             font-style: normal;
-            margin: 10px 20px;
+            margin: 20px 20px 0 20px;
         }
+        .overlay1 h5, .overlay2 h5{
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            font-style: normal;
+            margin: 10px 0;
+        }
+    
     
         .overlay2{
             background-color: white;
             padding: 5px;
             width: 300px;
             position: absolute;
-            left: 185px;
+            left: 280px;
             right: 0;
-            top: 380px;
+            top: 420px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
-        }
-        .overlay2 p{
-            color: rgba(128, 128, 128, 1);
-            font-family: 'Poppins', sans-serif;
-            font-size: 14px;
-            font-weight: 500;
-            font-style: normal;
-            margin: 10px 20px;
-        }
-        .overlay2 h5{
-            color: rgba(79, 79, 79, 1);
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            font-weight: 500;
-            font-style: normal;
-            margin: 10px 20px;
         }
 
         .second-section{
             background-color: black;
             display: flex;
             flex-direction: column;
-            margin: 50px 5px;
+            margin: 120px 5px 80px 0;
             border-radius: 10px;
             padding: 50px;
         }
@@ -1677,7 +1686,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1810,7 +1818,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 10px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;
@@ -1864,9 +1871,9 @@ body{
             padding: 5px;
             width: 300px;
             position: absolute;
-            left: 150px;
+            left: 120px;
             right: 0;
-            top: 390px;
+            top: 430px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
@@ -1941,7 +1948,7 @@ body{
           }
         .solutions{
             background-color: rgb(253,253,253);
-            margin-top: 50px;
+            margin:50px 0 0 -20px;
         }
         .solutions h2{
             text-align: center;
@@ -2071,7 +2078,6 @@ body{
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px; 
             padding: 20px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-family:'Poppins', sans-serif;
             font-size:  1.2em;;

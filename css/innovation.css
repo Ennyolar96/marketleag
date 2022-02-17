@@ -167,6 +167,10 @@ body{
       font-size: 1.2em;
       font-family:'Poppins', sans-serif;
     }
+
+    .header a:hover{
+      cursor: pointer;
+  }
     
     #myBtn {
       display: none; 
@@ -194,7 +198,7 @@ body{
     font-size: 50px;
     font-weight: 700;
     font-style: normal;
-    margin: 20px 80px;
+    margin: 50px 80px 20px 80px;
     text-align: center;
     padding: 20px;
 }
@@ -208,7 +212,7 @@ body{
     text-align: center;
 }
 .seconddiv{
-  margin: 0;
+  margin: 50px 0 0 0;
 }
 .seconddiv select{
     width: 30%;
@@ -315,9 +319,17 @@ body{
 }
 
  /* footer */
- .footer{
-  display: flex;
+ footer{
   background-color: black;
+}
+.copyright p{ 
+  color: white;
+  text-align: center;
+ padding: 20px;
+ font-size: 14px;
+}
+.footer{
+  display: flex;
   padding: 50px;
 }
 .footer a, .footer p{
@@ -335,6 +347,11 @@ body{
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
+}
+.footer1 img{
+  width: 55px;
+  height: 50px;
+  margin: 0 0 0 20px;
 }
 .footer1, .footer2, .footer3, .footer4, .footer5{
   padding: 10px;
@@ -1174,7 +1191,7 @@ body{
     font-style: normal;
     width: 400px;
     transition: width ease-in;
-    margin: 0 0 0 -20px;
+    margin: 0 0 0 -45px;
 }
 .company button:hover{
     width: 420px;
@@ -1200,7 +1217,7 @@ body{
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;
-    margin: 0 0 0 -20px;
+    margin: 0 0 0 -45px;
     font-weight: 500;
     font-style: normal;
     width: 400px;

@@ -10,6 +10,9 @@ body{
       overflow-x: hidden;
       position: relative;
     }
+    .header a:hover{
+      cursor: pointer;
+  }
 
         /* The Modal (background) */
 .modal {
