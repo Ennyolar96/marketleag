@@ -240,6 +240,7 @@ body{
     .brand-story1 img{
         height: 500px;
         width: 100%;
+        border-radius: 20px;
     }
     .brand-story2{
         margin: 5px;
@@ -294,6 +295,7 @@ body{
     .brand-section2 img{
         width: 500px;
         height: 500px;
+        border-radius: 10px;
     }
     .marketleag-logo{
         margin: 100px 0;
@@ -1716,7 +1718,7 @@ body{
             background-color: black;
             display: flex;
             flex-direction: column-reverse;
-            margin: 5px;
+            margin: 0;
             border-radius: 10px;
             padding: 50px;
             width: 80%;
@@ -1753,7 +1755,7 @@ body{
         }
         .new-png-mleage-2{
             width: 400px;
-            margin: 30px 0;
+            margin: 30px 10px;
         }
         .marketleag-logo p{
             color: rgba(128, 128, 128, 1);

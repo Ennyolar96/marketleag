@@ -630,7 +630,7 @@ body{
     .fifty-section2 img{
         width: 500px;
         height: 500px;
-      
+        border-radius: 10px;
     }
     .connect{
     color:rgb(25,49,138);

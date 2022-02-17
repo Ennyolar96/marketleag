@@ -525,6 +525,9 @@ body{
     .forth-section{
         display: flex;
     }
+    .forth-section1 img{
+        border-radius: 20px;
+    }
     .forth-section2{
         margin: 20px;
     }
@@ -1889,7 +1892,7 @@ body{
             background-color: black;
             display: flex;
             flex-direction: column;
-            margin: 100px 0;
+            margin: 100px 0px;
             border-radius: 10px;
             padding: 50px;
         }
@@ -1934,6 +1937,7 @@ body{
             height: 500px;
             overflow: hidden;
             border-radius: 5px;
+            margin: 0 -70px;
           }
         .solutions{
             background-color: rgb(253,253,253);

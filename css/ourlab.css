@@ -304,7 +304,7 @@ p{
   color: #fff;
   padding: 10px 100px;
 } */
-.second-section h2{
+.second-section .courseimage {
   background-image: url("/images/lab-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -1490,7 +1490,7 @@ width: 100%;
     font-size: 14px;
     font-weight: 500;
  }
- 
+
   .first-section{
     display: flex;
     flex-direction: column;
