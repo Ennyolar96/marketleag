@@ -985,7 +985,7 @@ body{
           }
           .brand-story{
               display: flex;
-              flex-direction: column;
+              flex-direction: column-reverse;
               width: 100%;
           }
           .brand-story1{
@@ -994,8 +994,8 @@ body{
           }
           .brand-story1 img{
               height: 500px;
-              width: 80%;
-              margin: 0;
+              width: 100%;
+              margin:0 -100px;
           }
           .brand-story2{
               margin: 5px;
@@ -1020,7 +1020,7 @@ body{
           .brand-section{
               background-color: black;
               display: flex;
-              flex-direction: column-reverse;
+              flex-direction: column;
               margin: 5px;
               border-radius: 10px;
               padding: 50px;
@@ -1356,9 +1356,9 @@ body{
             width: 100%;
         }
         .brand-story1 img{
-            height: 500px;
-            width: 80%;
-            margin:0 0 0 -50px;
+            height: 400px;
+            width: 100%;
+            margin:0 0 0 -100px;
         }
         .brand-story2{
             margin: 5px;
@@ -1383,7 +1383,7 @@ body{
         .brand-section{
             background-color: black;
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
             margin: 5px;
             border-radius: 10px;
             padding: 50px;
@@ -1722,7 +1722,7 @@ body{
         }
         .brand-story{
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             width: 100%;
         }
         .brand-story1{
@@ -1731,8 +1731,8 @@ body{
         }
         .brand-story1 img{
             height: 400px;
-            width: 80%;
-            margin: 0;
+            width: 100%;
+            margin:0 -50px;
         }
         .brand-story2{
             margin: 5px;
@@ -1757,7 +1757,7 @@ body{
         .brand-section{
             background-color: black;
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
             margin: 0;
             border-radius: 10px;
             padding: 50px;
@@ -1787,7 +1787,8 @@ body{
         }
         .brand-section2 img{
             width: 100%;
-            height: 400px;
+            height: 300px;
+            margin: 30px 0 0 0;
         }
         .marketleag-logo{
             margin: 50px 0;

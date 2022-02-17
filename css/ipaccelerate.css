@@ -1872,9 +1872,9 @@ body{
             padding: 5px;
             width: 300px;
             position: absolute;
-            left: 90px;
+            left: 110px;
             right: 0;
-            top: 440px;
+            top: 450px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
@@ -1900,7 +1900,7 @@ body{
             background-color: black;
             display: flex;
             flex-direction: column-reverse;
-            margin: 120px 0px;
+            margin: 150px 0px;
             border-radius: 10px;
             padding: 50px;
         }
