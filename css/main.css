@@ -58,6 +58,7 @@ body{
       background-color: rgba(243, 115, 53, 1);
       border-radius: 8px;  
       padding: 10px 15px;
+      border-bottom: 1px solid black;
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
       cursor: pointer;
@@ -2452,13 +2453,15 @@ body{
         text-align: center;
         background-color: whitesmoke;
         border-radius:5px;
-        padding: 80px;
+        margin: 0;
+        padding: 80px 10px;
     }
     #we-are{
     color:rgb(25,49,138);
     font-size: 24px;
     font-weight: 600;
     font-style: normal;
+    text-align: left;
     }
     #due-to{
         color:rgb(128,128,128); 
@@ -2617,8 +2620,7 @@ body{
     }
     .fifty-section2 img{
         width: 100%;
-        height: 400px;
-      
+        height: 300px;
     }
     .connect{
     color:rgb(25,49,138);
@@ -2710,7 +2712,7 @@ body{
     }
     .challenge{
         background-color: white;
-        margin: 10px 0 10px -50px;
+        margin: 10px 0 10px -20px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2721,7 +2723,7 @@ body{
     }
     .bazzar{
         background-color: white;
-        margin: 10px 0 10px -50px;
+        margin: 10px 0 10px -20px;
         padding: 10px;
         border-radius: 10px;
         width: 100%;
@@ -2733,7 +2735,7 @@ body{
     }
     .ip-center{
         background-color: white;
-        margin: 10px 0 10px -50px;
+        margin: 10px 0 10px -20px;
         padding: 10px;
         border-radius: 10px; 
         width:100%;

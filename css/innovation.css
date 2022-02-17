@@ -132,6 +132,7 @@ body{
       background-color: rgba(243, 115, 53, 1);
       border-radius: 8px;  
       padding: 10px 15px;
+      border-bottom: 1px solid black;
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
       cursor: pointer;
@@ -554,7 +555,7 @@ body{
     padding: 50px;
 }
 .footer a, .footer p{
-    display: inline-block;
+    display:block;
     padding: 5px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -775,7 +776,7 @@ body{
     flex-direction: column;
 }
 .footer a, .footer p{
-    display: inline-block;
+    display:block;
     padding: 5px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -996,7 +997,7 @@ body{
     flex-direction: column;
 }
 .footer a, .footer p{
-    display: inline-block;
+    display: block;
     padding: 5px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -1105,17 +1106,17 @@ body{
     font-weight: 700;
     font-style: normal;
     margin: 20px;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 .firstdiv p{
-    color: black;
+    color: gray;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 700;
     font-style: normal;
     margin: 10px 20px;
-    text-align: center;
+    text-align: left;
 }
 .seconddiv{
   display: flex;
@@ -1186,15 +1187,15 @@ body{
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
-    font-size:  1.2em;;
+    font-size:  .9em;;
     font-weight: 500;
     font-style: normal;
-    width: 400px;
+    width: 70%;
     transition: width ease-in;
     margin: 0 0 0 -45px;
 }
 .company button:hover{
-    width: 420px;
+    width: 80%;
     cursor: pointer;
 }
 .sales{
@@ -1216,15 +1217,15 @@ body{
     border: none;
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
-    font-size:  1.2em;
+    font-size:  .9em;
     margin: 0 0 0 -45px;
     font-weight: 500;
     font-style: normal;
-    width: 400px;
+    width: 70%;
     transition: width ease-in;
 }
 .sales button:hover{
-    width: 420px;
+    width: 80%;
     cursor: pointer;
   }
    /* footer */
@@ -1235,7 +1236,7 @@ body{
     flex-direction: column;
 }
 .footer a, .footer p{
-    display: inline-block;
+    display: block;
     padding: 5px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);

@@ -129,7 +129,8 @@ body{
     .header-right a.reg{
       margin-left: 10px;
       background-color: rgba(243, 115, 53, 1);
-      border-radius: 8px;  
+      border-radius: 8px; 
+      border-bottom: 1px solid black; 
       padding: 10px 15px;
       color: rgba(255, 255, 255, 1);
       font-family:'Poppins', sans-serif;
@@ -195,7 +196,7 @@ body{
         font-size: 49px; 
         font-weight: 600;
         font-style: normal;
-        margin: 100px 0 0 50px;
+        margin: 100px 0 0 10px;
     }
     .first-section1 p{
         color: rgba(128, 128, 128, 1);
@@ -203,7 +204,7 @@ body{
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
-        margin:20px 200px 20px 50px;
+        margin:20px 200px 20px 10px;
     }
     .main-button a{
         text-decoration: none;
@@ -221,7 +222,7 @@ body{
         font-weight: 500;
         font-style: normal;
         text-decoration: none;
-        margin: 20px 0 0 50px;
+        margin: 20px 0 0 10px;
     }
     .main-button:hover{
       cursor: pointer;
@@ -1105,7 +1106,7 @@ body{
             position: absolute;
             right: 0;
             left: 360px;
-            top: 355px;
+            top: 400px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
@@ -1126,8 +1127,8 @@ body{
         .second-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
-            margin: 50px 5px ;
+            flex-direction: column-reverse;
+            margin: 100px 5px ;
             border-radius: 10px;
             padding: 50px;
         }
@@ -1202,7 +1203,7 @@ body{
             font-size: 40px;
             font-weight: 600;
             font-style: normal;
-            text-transform: uppercase;
+            text-transform: capitalize;
         }
         .solution{
             display: flex;
@@ -1450,7 +1451,7 @@ body{
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
-            margin: 10px 150px;
+            margin: 10px 0px;
             text-decoration: none;
         }
         .main-button:hover{
@@ -1519,7 +1520,7 @@ body{
         .second-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin: 120px 5px 80px 0;
             border-radius: 10px;
             padding: 50px;
@@ -1871,9 +1872,9 @@ body{
             padding: 5px;
             width: 300px;
             position: absolute;
-            left: 120px;
+            left: 90px;
             right: 0;
-            top: 430px;
+            top: 440px;
             border-radius: 8px;
             box-shadow: 0 0 2px gray;
         }
@@ -1898,8 +1899,8 @@ body{
         .second-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
-            margin: 100px 0px;
+            flex-direction: column-reverse;
+            margin: 120px 0px;
             border-radius: 10px;
             padding: 50px;
         }
@@ -1925,7 +1926,6 @@ body{
         }
         .second-section1 a{
             text-decoration: none;
-           color: rgba(243, 115, 53, 1);
             border-radius: 10px;
             margin: 20px -30px;
         }
