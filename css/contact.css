@@ -97,7 +97,7 @@
   }
   html body .container .box form .submit input[type=submit] {
     cursor: pointer;
-    background: #61b1f3;
+    background: rgba(243, 115, 53, 1);
     letter-spacing: 0.2em;
     padding: 10px;
     outline: none;
@@ -323,7 +323,7 @@ transition: .5s;
 }
   html body .container .box form .submit input[type=submit]:hover, html body .container .box form .submit input[type=submit]:focus {
     color: #efefef;
-    background: #163568;
+    background: black;
   }
   @media (min-width: 700px) {
     html body .container h2 {

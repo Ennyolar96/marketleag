@@ -186,6 +186,7 @@ body{
     background-color: rgba(243, 115, 53, 1);
     padding: 20px;
     margin: 20px 0;
+    border-bottom: 2px solid black;
     color: white;
     border-radius: 10px;
     font-size: 20px;
