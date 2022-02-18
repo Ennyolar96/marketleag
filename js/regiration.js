@@ -11,7 +11,7 @@ const capital = document.getElementById("capital");
 const number = document.getElementById("number");
 const length = document.getElementById("length");
 const message = document.getElementById("text-message");
-
+const purpose = document.getElementById('Purpose');
 
 regForm.addEventListener('submit', e => {
     e.preventDefault();
@@ -50,6 +50,7 @@ const validateInputs = () => {
     const orgValue = org.value.trim();
     const countryValue = country.value.trim();
     const messageValue = message.value.trim();
+    const purposeValue = purpose.value.trim();
     // const myInputValue = myInput.value.trim();
     // const password2Value = password2.value.trim();
 
@@ -93,6 +94,12 @@ const validateInputs = () => {
         setError(message, 'Please specific your needs or question');
     } else {
         setSuccess(message);
+    }
+
+    if(purposeValue == 'Purpose') {
+        setError(purpose, 'Select Your Purpose');
+    } else {
+        setSuccess(purpose);
     }
 
     // Checkbox validation
