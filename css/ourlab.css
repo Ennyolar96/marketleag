@@ -321,7 +321,7 @@ p{
   height: 250px;
 }
 
-.second-section h2{
+.second-section h2, .fifty-section h2{
   text-align: left;
     color: white; 
     font-family: 'Poppins', sans-serif;
@@ -333,7 +333,7 @@ p{
     left: 50px;
 }
 
-.third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+.third-section h2, .forth-section h2, .sixty-section h2{
   text-align: left;
     color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
@@ -1457,7 +1457,7 @@ height: 350px;
 }
 
 .second-section .courseimage,.third-section .courseimage1,.forth-section .courseimage2,.fifty-section .courseimage3,.sixty-section .courseimage4{
-  margin: 90px -70px 0 -35px;
+  margin: 90px -0 0 -0;
 }
 
 
@@ -1468,7 +1468,7 @@ height: 350px;
 
  .second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
     top: 30px;
-    left: 70px;
+    left: 30px;
     font-size: 35px;
 } 
 
