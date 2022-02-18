@@ -1469,6 +1469,7 @@ height: 350px;
  .second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
     top: 30px;
     left: 70px;
+    font-size: 35px;
 } 
 
 /* second section */
