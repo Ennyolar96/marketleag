@@ -240,6 +240,7 @@ body{
     .first-section2 img{
       width: 600px;
       height: 500px;
+      border-radius: 10px;
     }
     /* second section */
 .tech-design, .tech-design-2{
@@ -255,7 +256,6 @@ body{
 
 .tech-design1-2 {
   padding: 10px;
-  
   border-radius: 8px;
   width: 33%;
   margin: 10px;
@@ -316,39 +316,67 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 90px 70px 0 35px;
-  height: 250px;
-  
-}
-.third-section h2{
-  background-image: url("/images/lab-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
   margin: 90px 70px 0 35px;
   height: 250px;
 }
-.forth-section h2{
-  background-image: url("/images/lab-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 35px;
-  height: 250px;
+
+.second-section h2{
+  text-align: left;
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 30px;
+    left: 50px;
 }
-.fifty-section h2{
+
+.third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+  text-align: left;
+    color: rgba(15, 28, 112, 1); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.third-section .courseimage1 {
   background-image: url("/images/lab-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   margin: 90px 70px 0 35px;
   height: 250px;
 }
-.sixty-section h2{
+.forth-section .courseimage2 {
+  background-image: url("/images/lab-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 90px 70px 0 35px;
+  height: 250px;
+}
+.fifty-section .courseimage3 {
   background-image: url("/images/lab-4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  margin: 90px 70px 0 35px;
+  height: 250px;
+}
+.sixty-section .courseimage4{
+  background-image: url("/images/lab-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   margin: 90px 70px 0 35px;
   height: 250px;
 }
@@ -567,7 +595,6 @@ margin: 70px 150px 0 20px;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
     padding: 20px;
-    border: none;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
@@ -646,54 +673,6 @@ color: #fff;
 border: none;
 border-radius: 8px;
 padding: 10px;
-}
-/* .second-section a, .third-section a, .forth-section a, .fifty-section a, .sixty-section a{
-text-decoration: none;
-background-color:rgba(243, 115, 53, 1);
-color: #fff;
-padding: 10px 100px;
-} */
-
-.second-section h2{
-  background-image: url("/images/lab-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-  
-}
-.third-section h2{
-  background-image: url("/images/lab-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.forth-section h2{
-  background-image: url("/images/lab-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.fifty-section h2{
-  background-image: url("/images/lab-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.sixty-section h2{
-  background-image: url("/images/lab-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
 }
 
 /* third section */
@@ -878,8 +857,8 @@ font-family: 'Poppins', sans-serif;
 font-size: 50px; 
 font-weight: 600;
 font-style: normal;
-margin: 20px 150px;
-text-align: center;
+margin: 20px 0;
+text-align: cleft;
 
 }
 .first-section1 p{
@@ -887,9 +866,9 @@ text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    text-align: center;
+    text-align:left;
     font-style: normal;
-    margin: 20px 200px;
+    margin: 20px 150px 20px 0;
 }
 .main-button a{
   text-decoration: none;
@@ -900,11 +879,10 @@ text-align: center;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
     padding: 20px;
-    border: none;
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    margin-left:300px;
+    margin:20px 0;
 }
 .main-button:hover{
   cursor: pointer;
@@ -956,47 +934,6 @@ padding: 10px;
 border-radius: 8px;
 width: 100%;
 margin: 10px;
-}
-.second-section h2{
-  background-image: url("/images/lab-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-  
-}
-.third-section h2{
-  background-image: url("/images/lab-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.forth-section h2{
-  background-image: url("/images/lab-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.fifty-section h2{
-  background-image: url("/images/lab-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
-}
-.sixty-section h2{
-  background-image: url("/images/lab-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 70px 0 70px;
-  height: 250px;
 }
 
 /* third section */
@@ -1187,16 +1124,17 @@ font-family: 'Poppins', sans-serif;
 font-size: 50px; 
 font-weight: 600;
 font-style: normal;
-margin: 50px 50px 0 20px;
+margin: 50px 50px 0 0;
 
 }
 .first-section1 p{
   color: rgba(128, 128, 128, 1);
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  text-align: left;
   font-weight: 500;
   font-style: normal;
-  margin: 20px 50px 20px 20px;
+  margin: 20px 100px 20px 0;
 }
 .main-button a{
 text-decoration: none;
@@ -1207,11 +1145,10 @@ color: rgba(255, 255, 255, 1);
   background-color: rgba(243, 115, 53, 1);
   border-radius: 8px;
   padding: 20px;
-  border: none;
   font-size:  1.2em;;
   font-weight: 500;
   font-style: normal;
-  margin-left:150px;
+  margin:20px 0;
 }
 .main-button:hover{
 cursor: pointer;
@@ -1284,48 +1221,6 @@ color: #fff;
 border: none;
 border-radius: 8px;
 padding: 10px;
-}
-
-.second-section h2{
-  background-image: url("/images/lab-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-  
-}
-.third-section h2{
-  background-image: url("/images/lab-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.forth-section h2{
-  background-image: url("/images/lab-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.fifty-section h2{
-  background-image: url("/images/lab-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.sixty-section h2{
-  background-image: url("/images/lab-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 200px;
 }
 
 /* third section */
@@ -1547,11 +1442,10 @@ color: rgba(255, 255, 255, 1);
   background-color: rgba(243, 115, 53, 1);
   border-radius: 8px;
   padding: 20px;
-  border: none;
   font-size:  1.2em;;
   font-weight: 500;
   font-style: normal;
-  margin-left:110px;
+  margin:0;
 }
 .main-button:hover{
 cursor: pointer;
@@ -1559,8 +1453,24 @@ opacity: 0.7;
 }
 .first-section2 img{
 width: 100%;
-height: 400px;
+height: 350px;
 }
+
+.second-section .courseimage,.third-section .courseimage1,.forth-section .courseimage2,.fifty-section .courseimage3,.sixty-section .courseimage4{
+  margin: 90px -70px 0 -35px;
+}
+
+
+/* .second-section h2{
+    top: 30px;
+    left: 50px;
+} */
+
+ .second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+    top: 30px;
+    left: 70px;
+} 
+
 /* second section */
 .tech-design, .tech-design-2{
 display: flex;
@@ -1624,48 +1534,6 @@ color: #fff;
 border: none;
 border-radius: 8px;
 padding: 10px;
-}
-
-.second-section h2{
-  background-image: url("/images/lab-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-  
-}
-.third-section h2{
-  background-image: url("/images/lab-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.forth-section h2{
-  background-image: url("/images/lab-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.fifty-section h2{
-  background-image: url("/images/lab-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 250px;
-}
-.sixty-section h2{
-  background-image: url("/images/lab-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 90px 20px 0 20px;
-  height: 200px;
 }
 
 /* third section */

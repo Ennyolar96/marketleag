@@ -378,6 +378,7 @@ body{
     .first-section-2 img{
         width: 600px;
         height: 500px;
+        border-radius: 10px;
    
     }
     .generation h4{
@@ -525,8 +526,8 @@ body{
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
-    text-align: center;
-    margin:0;
+    text-align: left;
+    margin:150px 0 0 0;
     }
     .visit{
         color:rgb(128,128,128); 
@@ -786,6 +787,12 @@ body{
         text-align: center;
        padding: 20px;
        font-size: 14px;
+    }
+    .follow{
+        margin: -10px 0 10px 0;
+    }
+    .sociallink{
+        display: flex;
     }
     .footer{
         display: flex;

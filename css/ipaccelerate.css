@@ -231,12 +231,13 @@ body{
     }
     .first-section2{
         width: 50%;
-        background-image:url("/images/acceleration-rectangle-396-4.png");
+        background-image:url("/images/ip accelerator.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
         position: relative;
+        border-radius: 10px;
     }
     .imagetext{
         display: flex;
@@ -706,7 +707,6 @@ body{
         }
         .first-section2{
             width: 50%;
-            background-image:url("/images/acceleration-rectangle-396-4.png");
             background-position: center;
             height: 500px;
             position: relative;
@@ -1067,7 +1067,6 @@ body{
         .first-section2{
             width: 80%;
             margin-left: 70px;
-            background-image:url("/images/acceleration-rectangle-396-4.png");
             height: 500px;
             position: relative;
             background-repeat: no-repeat;
@@ -1461,7 +1460,6 @@ body{
         }
         .first-section2{
             width: 100%;
-            background-image:url("/images/acceleration-rectangle-396-4.png");
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -1834,7 +1832,6 @@ body{
         }
         .first-section2{
             width: 100%;
-            background-image:url("/images/acceleration-rectangle-396-4.png");
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
