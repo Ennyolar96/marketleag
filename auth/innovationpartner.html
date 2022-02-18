@@ -47,7 +47,7 @@
 
     <form action="/" method="post" id="regForm">
         <h3>You are welcome!</h3>
-        <p id="already" >We help Organizations to access Breakthrough Innovations and Technological Solutions <br> from Africa within a short space of time. <br> <br> Kindly fill the form below and we will follow up shortly</p>
+        <p id="already" >Kindly fill the form below. <br> Marketleag wish to partner with you.</p>
 
         <div class="input-control">
             <label for="form_name">Firstname </label> 
@@ -368,6 +368,24 @@
                     <div class="error"></div>
                 </div>
 
+             <div class="input-control">
+                    <label for="form_Twitter">Twitter</label> 
+                <input id="Twitter" type="text" name="Twitter" placeholder="provide your twitter link" value="">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="form_Facebook">Facebook</label> 
+                <input id="Facebook" type="text" name="Facebook" placeholder="Provide your Facebook link" value="">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="form_Linkedin">Linkedin</label> 
+            <input id="Linkedin" type="text" name="Linkedin" placeholder="Provide your linkedin link" value="">
+            <div class="error"></div>
+            </div>
+
             <label>Select Your Profile </label> 
 
             <div class="input-control">
@@ -375,27 +393,52 @@
                     Please select your profile.
                  </div>
                 <div class="c-check">
-                    <label for="Launching ">Launching Innovation Challenge</label>
-                    <input type="checkbox" id="" class="check" name="UserType[]" value="Launching Innovation challenge" > 
+                    <label for="Researcher">Researcher Institution</label>
+                    <input type="checkbox" id="" class="check" name="UserType[]" value="Researcher Institution." > 
                     <div id="error"></div>
                 </div>
     
                 <div class="c-check">
-                    <label for="Scouting"> Scouting Technology/New Product Idea</label>
-                    <input type="checkbox" id="" class="check" name="UserType[]" value="Scouting Technology/New Product Idea">
+                    <label for="Incubator">Incubator Center </label>
+                    <input type="checkbox" id="" class="check" name="UserType[]" value="Incubator Center.">
+                    <div id="error"></div>
+                </div>
+    
+                <div class="c-check">
+                    <label for="Innovation">Innovation/Technology Sponsor </label>
+                    <input type="checkbox" id=""  class="check" name="UserType[]" value="Innovation/Technology Sponsor.">
+                    <div id="error"></div>
+                </div>
+
+                <div class="c-check">
+                    <label for="IP Office">IP Office</label>
+                    <input type="checkbox" id=""  class="check" name="UserType[]" value="IP Office.">
+                    <div id="error"></div>
+                </div>
+    
+                <div class="c-check">
+                    <label for="science & Technology">science & Technology Institution/Agency </label>
+                    <input type="checkbox" id=""  class="check" name="UserType[]" value="science & Technology Institution/Agency">
+                    <div id="error"></div>
+                </div>
+    
+    
+                <div class="c-check">
+                    <label for="engineering">Engineering Fabrication Center/Workshop/Institution</label>
+                    <input type="checkbox" id="" class="check" name="UserType[]" value="I am an intellectual property expert.">
+                    <div id="error"></div>
+                </div>
+
+                <div class="c-check">
+                    <label for="others">Others</label>
+                    <input type="checkbox" id="" class="check" name="UserType[]" value="I am an intellectual property expert.">
                     <div id="error"></div>
                 </div>
             </div>
-
-            <div class="input-control">
-                <label for="form_message">Message us</label> 
-               <textarea name="message" id="text-message" cols="30" rows="10" placeholder="Send us message on your specific needs or questions" value=""></textarea>
-               <div class="error"></div>
-           </div>
-        <button type="submit">Submit</button>
+         <button type="submit">Submit</button>
     </form>
         <script src="/js/index.js"></script>
-        <script src="/js/allregistration.js"></script>
+        <!-- <script src="/js/regiration.js"></script> -->
 </div>
 </body>
 </html>
