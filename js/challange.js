@@ -11,7 +11,13 @@ const capital = document.getElementById("capital");
 const number = document.getElementById("number");
 const length = document.getElementById("length");
 const message = document.getElementById("text-message");
-const purpose = document.getElementById('Purpose');
+const offices = document.getElementById("offices-address");
+const job = document.getElementById("jobTitle");
+
+
+
+
+
 
 regForm.addEventListener('submit', e => {
     e.preventDefault();
@@ -41,7 +47,8 @@ const setSuccess = element => {
 const isValidEmail = email => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
-} 
+}
+
 const validateInputs = () => {
     const fnameValue = fname.value.trim();
     const emailValue = email.value.trim();
@@ -50,9 +57,9 @@ const validateInputs = () => {
     const orgValue = org.value.trim();
     const countryValue = country.value.trim();
     const messageValue = message.value.trim();
-    const purposeValue = purpose.value.trim();
-    // const myInputValue = myInput.value.trim();
-    // const password2Value = password2.value.trim();
+    const officesValue = offices.value.trim();
+    const jobValue = job.value.trim();
+
 
     if(fnameValue === '') {
         setError(fname, 'This area is required');
@@ -95,31 +102,38 @@ const validateInputs = () => {
     } else {
         setSuccess(message);
     }
-
-    if(purposeValue == 'Purpose') {
-        setError(purpose, 'Select Your Purpose');
-    } else {
-        setSuccess(purpose);
-    }
-
-    // Checkbox validation
-        let checkbox = document.getElementsByName("UserType[]"),
-        i,
-        checked;
-        for (i = 0; i < checkbox.length; i += 1) {
-        checked = (checkbox[i].checked||checked===true)?true:false;
-    }
-
-        if (checked == false) {
-            document.getElementById("chk_option_error").style.visibility = "visible";
-        //   e.preventDefault();
-        return false;
-    } else {
-            document.getElementById("chk_option_error").style.visibility = "hidden";
-        return true;
-    }
     
+    if(officesValue === '') {
+        setError(offices, 'Kindly provide your Office Address');
+    } else {
+        setSuccess(offices);
+    }
+
+    if(jobValue === '') {
+        setError(job, 'Kindly provide your Position');
+    } else {
+        setSuccess(job);
+    }
+
+        // Checkbox validation
+    let checkbox = document.getElementsByName("UserType[]"),
+    i,
+    checked;
+    for (i = 0; i < checkbox.length; i += 1) {
+    checked = (checkbox[i].checked||checked===true)?true:false;
+    }
+
+    if (checked == false) {
+        document.getElementById("chk_option_error").style.visibility = "visible";
+    //   e.preventDefault();
+    return false;
+    } else {
+        document.getElementById("chk_option_error").style.visibility = "hidden";
+    return true;
+    }
 }
+
+
 // When the user clicks on the password field, show the message box
 myInput.onfocus = function() {
     document.getElementById("message").style.display = "block";
@@ -171,4 +185,5 @@ myInput.onfocus = function() {
       length.classList.add("invalid");
     }
   }
+
 

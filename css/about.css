@@ -518,6 +518,12 @@ body{
        padding: 20px;
        font-size: 14px;
     }
+    .follow{
+        margin: -10px 0 10px 0;
+    }
+    .sociallink{
+        display: flex;
+    }
     .footer{
         display: flex;
         padding: 50px;
@@ -1797,7 +1803,7 @@ body{
             width: 100%;
         }
         .new-png-mleage-2{
-            width: 350px;
+            width: 300px;
             margin: 30px -0;
         }
         .marketleag-logo p{

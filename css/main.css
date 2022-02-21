@@ -459,12 +459,15 @@ body{
     }
     .trust{
         text-align: center;
-        background-color: whitesmoke;
+        background-image: url(/images/world.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         border-radius:5px;
        padding: 80px;
     }
     #we-are{
-    color:rgb(25,49,138);
+    color:white;
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
@@ -950,7 +953,6 @@ body{
         }
         .trust{
             text-align: center;
-            background-color: whitesmoke;
             border-radius:5px;
             padding: 80px;
         }
@@ -1151,7 +1153,6 @@ body{
             padding: 10px 15px;
             background-color: rgba(243, 115, 53, 1);
             border-radius: 8px;
-            border: none;
             color: rgba(255, 255, 255, 1);
             font-size:  1.2em;;
             font-weight: 500;
@@ -1398,12 +1399,10 @@ body{
             }
             .trust{
                 text-align: center;
-                background-color: whitesmoke;
                 border-radius:5px;
                 padding: 80px;
             }
             #we-are{
-            color:rgb(25,49,138);
             font-size: 40px;
             font-weight: 600;
             font-style: normal;
@@ -1947,12 +1946,10 @@ body{
     }
     .trust{
         text-align: center;
-        background-color: whitesmoke;
         border-radius:5px;
         padding: 80px;
     }
     #we-are{
-    color:rgb(25,49,138);
     font-size: 30px;
     font-weight: 600;
     font-style: normal;
@@ -2191,7 +2188,6 @@ body{
     .join-us{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
@@ -2459,13 +2455,11 @@ body{
     }
     .trust{
         text-align: center;
-        background-color: whitesmoke;
         border-radius:5px;
         margin: 0;
-        padding: 80px 10px;
+        padding: 80px 10px 50px 10px;
     }
     #we-are{
-    color:rgb(25,49,138);
     font-size: 24px;
     font-weight: 600;
     font-style: normal;
@@ -2494,7 +2488,7 @@ body{
     .thirdSection-1{
         box-shadow: -5px 0 100px 50px whitesmoke;
         padding: 20px;
-        margin: 60px 0 0 -20px;
+        margin: 60px 0 0 -30px;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -2507,7 +2501,7 @@ body{
         box-shadow: -5px 0 100px 50px whitesmoke;
         border-radius: 10px;
         padding: 20px;
-        margin: 60px 0 0 -20px;
+        margin: 60px 0 0 -30px;
         color:rgb(128,128,128); 
         font-size: 16px;
         font-weight: 500;
@@ -2538,7 +2532,7 @@ body{
         background-color: black;
         border-radius: 10px;
         padding: 50px;
-        height: 1000px;
+        height: 900px;
     }
     .forth-section-1{
         width: 100%;
@@ -2673,7 +2667,7 @@ body{
         font-size: 24px;
         font-weight: 600;
         font-style: normal;
-        text-align: center;
+        text-align: left;
         margin:0;
     }
     .join-our{
@@ -2686,7 +2680,7 @@ body{
     }
     input{
         padding: 20px;
-        width: 120px;
+        width: 88%;
         font-size:16px;
         margin-left: 0px;
         outline: none;
@@ -2699,15 +2693,20 @@ body{
         border:1px solid rgba(243, 115, 53, 1);
         border-radius: 8px;
     }
+    form{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
     .join-us{
         background-color: rgba(243, 115, 53, 1);
         border-radius: 8px;
-        border: none;
         color: rgba(255, 255, 255, 1);
         font-size:  1.2em;;
         font-weight: 500;
         font-style: normal;
         padding: 20px;
+        margin: 10px 0 0 0;
     }
     .seventy-section{
         background-color: white;
@@ -2764,10 +2763,10 @@ body{
     }
     .seventy-section h1{
         color:rgb(25,49,138);
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
         font-style: normal;
-        text-align: center;
+        text-align: left;
     }
     /* footer */
     .footer{

@@ -192,7 +192,17 @@ body{
       background-color: #555; 
     }
 .mainsite{
-    background-color: whitesmoke;
+  display: flex;
+}
+.firstdiv{
+  width: 50%;
+}
+.firstdiv2{
+  width: 50%;
+}
+.firstdiv2 img{
+  width: 100%;
+  height: 500px;
 }
 .firstdiv h2{
     color: rgb(25,49,138);
@@ -200,26 +210,110 @@ body{
     font-size: 50px;
     font-weight: 700;
     font-style: normal;
-    margin: 50px 80px 20px 80px;
-    text-align: center;
+    margin: 50px 80px 20px 10px;
+    text-align:left;
     padding: 20px;
 }
 .firstdiv p{
     color: gray;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;
-    margin: 20px 80px;
-    text-align: center;
+    margin: 20px 80px 20px 20px;
+    text-align: left;
 }
+
 .seconddiv{
-  margin: 50px 0 0 0;
+  display: flex;
+  width: 100%;
 }
-.seconddiv select{
+.company{
+  width: 50%;
+  margin: 50px 0 0 150px;
+}
+.company label{
+  color: black;
+  font-family:'Poppins', sans-serif;
+  font-size:30px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-left: 20px;
+  padding: 15px;
+}
+.company button{
+  padding:5px;
+  border: none;
+  border-top: 5px solid rgba(243, 115, 53, 1);
+  border-radius: 10px;
+  color:gray;
+  font-family:'Poppins', sans-serif;
+  font-size:  1.2em;;
+  font-weight: 500;
+  font-style: normal;
+  width: 400px;
+  transition: width ease-in;
+}
+.company button:hover{
+  width: 450px;
+  cursor: pointer;
+}
+.sales{
+  width: 50%;
+  margin: 50px 0 0 50px;
+}
+.sales label{
+  color: black;
+  font-family:'Poppins', sans-serif;
+  font-size:30px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  padding: 15px;
+}
+.sales button{
+   border: none;
+  border-top: 5px solid rgba(243, 115, 53, 1);
+  border-radius: 10px;
+   color:gray;
+  padding:5px;
+  border-radius: 10px;
+  font-family:'Poppins', sans-serif;
+  font-size:  1.2em;;
+  font-weight: 500;
+  font-style: normal;
+  width: 400px;
+  transition: width ease-in;
+}
+.sales button:hover{
+  width: 450px;
+  cursor: pointer;
+}
+
+.thirddiv{
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+.thirddiv p{
+  color: rgb(25,49,138);
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 80px;
+  text-align: center;
+}
+
+.forthdiv{
+  margin: 50px 0 0 0;
+  padding: 0 0 100px 0 ;
+}
+.forthdiv select{
     width: 30%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
+    background-color: whitesmoke;
     font-family:'Poppins', sans-serif;
     font-size:16px;
     font-weight: 500;
@@ -229,19 +323,20 @@ body{
     border: none;
     border-right:3px solid gray ;
 }
-.seconddiv input{
+.forthdiv input{
     width: 30%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
     font-family:'Poppins', sans-serif;
     font-size:16px;
     font-weight: 500;
+    background-color: whitesmoke;
     font-style: normal;
     margin-left: -4px;
     outline: none;
     border: none;
 }
-.seconddiv button{
+.forthdiv button{
     background-color: rgba(243, 115, 53, 1);
         padding:20px;
         border: none;
@@ -253,73 +348,6 @@ body{
         font-style: normal;
         margin: 0 -5px;
 }
-.thirddiv{
-    display: flex;
-    width: 100%;
-}
-.company{
-    width: 50%;
-    margin: 50px 0 0 150px;
-}
-.company label{
-    color: black;
-    font-family:'Poppins', sans-serif;
-    font-size:30px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin-left: 20px;
-    padding: 15px;
-}
-.company button{
-    padding:5px;
-    border: none;
-    border-top: 5px solid rgba(243, 115, 53, 1);
-    border-radius: 10px;
-    color:gray;
-    font-family:'Poppins', sans-serif;
-    font-size:  1.2em;;
-    font-weight: 500;
-    font-style: normal;
-    width: 400px;
-    transition: width ease-in;
-}
-.company button:hover{
-    width: 450px;
-    cursor: pointer;
-}
-.sales{
-    width: 50%;
-    margin: 50px 0 0 50px;
-}
-.sales label{
-    color: black;
-    font-family:'Poppins', sans-serif;
-    font-size:30px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    padding: 15px;
-}
-.sales button{
-     border: none;
-    border-top: 5px solid rgba(243, 115, 53, 1);
-    border-radius: 10px;
-     color:gray;
-    padding:5px;
-    border-radius: 10px;
-    font-family:'Poppins', sans-serif;
-    font-size:  1.2em;;
-    font-weight: 500;
-    font-style: normal;
-    width: 400px;
-    transition: width ease-in;
-    margin-bottom: 100px;
-}
-.sales button:hover{
-    width: 450px;
-    cursor: pointer;
-}
 
  /* footer */
  footer{
@@ -330,6 +358,12 @@ body{
   text-align: center;
  padding: 20px;
  font-size: 14px;
+}
+.follow{
+  margin: -10px 0 10px 0;
+}
+.sociallink{
+  display: flex;
 }
 .footer{
   display: flex;
@@ -430,64 +464,38 @@ body{
   }
 
   .mainsite{
-    background-color: whitesmoke;
-}
-.firstdiv h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    font-style: normal;
-    margin: 20px 0;
-    text-align: center;
-    padding: 20px;
-}
-.firstdiv p{
-    color: gray;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: normal;
-    margin: 5px 100px;
-    text-align: center;
-}
-.seconddiv select{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: 20px 30px;
-    outline: none;
-    border: none;
-    border-right:3px solid gray ;
-}
-.seconddiv input{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: -4px;
-    outline: none;
-    border: none;
-}
-.seconddiv button{
-    background-color: rgba(243, 115, 53, 1);
-        padding:20px;
-        border: none;
-        cursor: pointer;
-        color: rgba(255, 255, 255, 1);
-        font-family:'Poppins', sans-serif;
-        font-size:  1.2em;;
-        font-weight: 500;
-        font-style: normal;
-        margin: 0 -5px;
-}
-.thirddiv{
+    display: flex;
+  }
+  .firstdiv{
+    width: 50%;
+  }
+  .firstdiv2{
+    width: 50%;
+  }
+  .firstdiv2 img{
+    width: 100%;
+    height: 500px;
+  }
+  .firstdiv h2{
+      color: rgb(25,49,138);
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      font-style: normal;
+      margin: 50px 80px 20px 10px;
+      text-align:left;
+      padding: 20px;
+  }
+  .firstdiv p{
+      color: gray;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      margin: 20px 80px 20px 20px;
+      text-align: left;
+  }
+  .seconddiv{
     display: flex;
     width: 100%;
 }
@@ -512,7 +520,6 @@ body{
    color:gray;
   padding:5px;
   border-radius: 10px;
-    color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     font-size:  1.2em;;
     font-weight: 500;
@@ -555,6 +562,57 @@ body{
     width: 420px;
     cursor: pointer;
   }
+  
+  .thirddiv{
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .thirddiv p{
+    color: rgb(25,49,138);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px 80px;
+    text-align: center;
+  }
+.forthdiv select{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20px 30px;
+    outline: none;
+    border: none;
+    border-right:3px solid gray ;
+}
+.forthdiv input{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: -4px;
+    outline: none;
+    border: none;
+}
+.forthdiv button{
+    background-color: rgba(243, 115, 53, 1);
+        padding:20px;
+        border: none;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 1);
+        font-family:'Poppins', sans-serif;
+        font-size:  1.2em;;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0 -5px;
+}
    /* footer */
    .footer{
     display: flex;
@@ -653,64 +711,39 @@ body{
   }
 
   .mainsite{
-    background-color: whitesmoke;
-}
-.firstdiv h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    font-style: normal;
-    margin: 20px 0px;
-    text-align: center;
-    padding: 20px;
-}
-.firstdiv p{
-    color: gray;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: normal;
-    margin: 20px 50px;
-    text-align: center;
-}
-.seconddiv select{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left:50px;
-    outline: none;
-    border: none;
-    border-right:3px solid gray ;
-}
-.seconddiv input{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: -4px;
-    outline: none;
-    border: none;
-}
-.seconddiv button{
-    background-color: rgba(243, 115, 53, 1);
-        padding:20px;
-        border: none;
-        cursor: pointer;
-        color: rgba(255, 255, 255, 1);
-        font-family:'Poppins', sans-serif;
-        font-size:  1.2em;;
-        font-weight: 500;
-        font-style: normal;
-        margin: 0 -5px;
-}
-.thirddiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .firstdiv{
+    width: 100%;
+  }
+  .firstdiv2{
+    width: 100%;
+  }
+  .firstdiv2 img{
+    width: 100%;
+    height: 500px;
+  }
+  .firstdiv h2{
+      color: rgb(25,49,138);
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      font-style: normal;
+      margin: 50px 80px 20px 10px;
+      text-align:left;
+      padding: 20px;
+  }
+  .firstdiv p{
+      color: gray;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      margin: 20px 80px 20px 20px;
+      text-align: left;
+  }
+  .seconddiv{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -740,7 +773,7 @@ body{
     font-size:  1.2em;;
     font-weight: 500;
     font-style: normal;
-    width: 400px;
+    width: 500px;
     transition: width ease-in;
 }
 .company button:hover{
@@ -772,12 +805,62 @@ body{
   font-size:  1.2em;;
   font-weight: 500;
   font-style: normal;
-  width: 400px;
+  width: 500px;
   transition: width ease-in;
 }
 .sales button:hover{
   width: 420px;
   cursor: pointer;
+}
+  .thirddiv{
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .thirddiv p{
+    color: rgb(25,49,138);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px 80px;
+    text-align: center;
+  }
+.forthdiv select{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left:50px;
+    outline: none;
+    border: none;
+    border-right:3px solid gray ;
+}
+.forthdiv input{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: -4px;
+    outline: none;
+    border: none;
+}
+.forthdiv button{
+    background-color: rgba(243, 115, 53, 1);
+        padding:20px;
+        border: none;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 1);
+        font-family:'Poppins', sans-serif;
+        font-size:  1.2em;;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0 -5px;
 }
    /* footer */
    .footer{
@@ -879,64 +962,39 @@ body{
   }
 
   .mainsite{
-    background-color: whitesmoke;
-}
-.firstdiv h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    font-style: normal;
-    margin: 20px;
-    text-align: center;
-    padding: 20px;
-}
-.firstdiv p{
-    color: gray;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: normal;
-    margin: 5px 20px;
-    text-align: center;
-}
-.seconddiv select{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: 20px;
-    outline: none;
-    border: none;
-    border-right:3px solid gray ;
-}
-.seconddiv input{
-    width: 30%;
-    height: 70px;
-    color: rgba(128, 128, 128, 1);
-    font-family:'Poppins', sans-serif;
-    font-size:16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: -4px;
-    outline: none;
-    border: none;
-}
-.seconddiv button{
-    background-color: rgba(243, 115, 53, 1);
-        padding:20px;
-        border: none;
-        cursor: pointer;
-        color: rgba(255, 255, 255, 1);
-        font-family:'Poppins', sans-serif;
-        font-size:  1.2em;;
-        font-weight: 500;
-        font-style: normal;
-        margin: 0 -5px;
-}
-.thirddiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .firstdiv{
+    width: 100%;
+  }
+  .firstdiv2{
+    width: 100%;
+  }
+  .firstdiv2 img{
+    width: 100%;
+    height: 500px;
+  }
+  .firstdiv h2{
+      color: rgb(25,49,138);
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      font-style: normal;
+      margin: 50px 80px 20px 10px;
+      text-align:left;
+      padding: 20px;
+  }
+  .firstdiv p{
+      color: gray;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      margin: 20px 80px 20px 20px;
+      text-align: left;
+  }
+  .seconddiv{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -1004,6 +1062,57 @@ body{
     width: 420px;
     cursor: pointer;
   }
+
+  .thirddiv{
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .thirddiv p{
+    color: rgb(25,49,138);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px 80px;
+    text-align: center;
+  }
+.forthdiv select{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-right:3px solid gray ;
+}
+.forthdiv input{
+    width: 30%;
+    height: 70px;
+    color: rgba(128, 128, 128, 1);
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: -4px;
+    outline: none;
+    border: none;
+}
+.forthdiv button{
+    background-color: rgba(243, 115, 53, 1);
+        padding:20px;
+        border: none;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 1);
+        font-family:'Poppins', sans-serif;
+        font-size:  1.2em;;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0 -5px;
+}
    /* footer */
    .footer{
     display: flex;
@@ -1112,33 +1221,131 @@ body{
     font-weight: 500;
  }
  
-  .mainsite{
-    background-color: whitesmoke;
+ .mainsite{
+  display: flex;
+  flex-direction: column;
+}
+.firstdiv{
+  width: 100%;
+}
+.firstdiv2{
+  width: 100%;
+}
+.firstdiv2 img{
+  width: 100%;
+  height: 500px;
 }
 .firstdiv h2{
+    color: rgb(25,49,138);
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
     font-style: normal;
-    margin:20px;
-    text-align: left;
-    padding: 0px;
+    margin: 50px 80px 20px 10px;
+    text-align:left;
+    padding: 20px;
 }
 .firstdiv p{
     color: gray;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;
-    margin: 20px;
+    margin: 20px 80px 20px 20px;
     text-align: left;
 }
 .seconddiv{
   display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.company{
+  width: 100%;
+  margin:20px 50px;
+}
+.company label{
+  color: black;
+  font-family:'Poppins', sans-serif;
+  font-size:20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-left: 20px;
+  padding: 15px;
+}
+.company button{
+border: none;
+border-top: 5px solid rgba(243, 115, 53, 1);
+border-radius: 10px;
+ color:gray;
+padding:5px;
+border-radius: 10px;
+  font-family:'Poppins', sans-serif;
+  font-size:  .9em;;
+  font-weight: 500;
+  font-style: normal;
+  width: 70%;
+  transition: width ease-in;
+  margin: 0 0 0 -15px;
+}
+.company button:hover{
+  width: 80%;
+  cursor: pointer;
+}
+.sales{
+  width: 100%;
+  margin: 20px 50px;
+}
+.sales label{
+  color: black;
+  font-family:'Poppins', sans-serif;
+  font-size:20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  padding: 15px;
+}
+.sales button{
+border: none;
+border-top: 5px solid rgba(243, 115, 53, 1);
+border-radius: 10px;
+ color:gray;
+padding:5px;
+border-radius: 10px;
+  font-family:'Poppins', sans-serif;
+  font-size:  .9em;
+  margin: 0 0 0 -15px;
+  font-weight: 500;
+  font-style: normal;
+  width: 70%;
+  transition: width ease-in;
+}
+.sales button:hover{
+  width: 80%;
+  cursor: pointer;
+}
+
+
+.thirddiv{
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+.thirddiv p{
+  color: rgb(25,49,138);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px;
+  text-align: left;
+}
+
+.forthdiv{
+  display: flex;
   flex-direction: column;
   margin: 0;
 }
-.seconddiv select{
+.forthdiv select{
     width: 90%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
@@ -1151,7 +1358,7 @@ body{
     border: none;
     border-right:3px solid gray ;
 }
-.seconddiv input{
+.forthdiv input{
     width: 90%;
     height: 70px;
     color: rgba(128, 128, 128, 1);
@@ -1163,7 +1370,7 @@ body{
     outline: none;
     border: none;
 }
-.seconddiv button{
+.forthdiv button{
     background-color: rgba(243, 115, 53, 1);
         padding:20px;
         border: none;
@@ -1177,76 +1384,6 @@ body{
         margin: 0 0 50px 20px;
         width: 90%;
 }
-.thirddiv{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-.company{
-    width: 100%;
-    margin:20px 50px;
-}
-.company label{
-    color: black;
-    font-family:'Poppins', sans-serif;
-    font-size:20px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin-left: 20px;
-    padding: 15px;
-}
-.company button{
-  border: none;
-  border-top: 5px solid rgba(243, 115, 53, 1);
-  border-radius: 10px;
-   color:gray;
-  padding:5px;
-  border-radius: 10px;
-    font-family:'Poppins', sans-serif;
-    font-size:  .9em;;
-    font-weight: 500;
-    font-style: normal;
-    width: 70%;
-    transition: width ease-in;
-    margin: 0 0 0 -15px;
-}
-.company button:hover{
-    width: 80%;
-    cursor: pointer;
-}
-.sales{
-    width: 100%;
-    margin: 20px 50px;
-}
-.sales label{
-    color: black;
-    font-family:'Poppins', sans-serif;
-    font-size:20px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    padding: 15px;
-}
-.sales button{
-  border: none;
-  border-top: 5px solid rgba(243, 115, 53, 1);
-  border-radius: 10px;
-   color:gray;
-  padding:5px;
-  border-radius: 10px;
-    font-family:'Poppins', sans-serif;
-    font-size:  .9em;
-    margin: 0 0 0 -15px;
-    font-weight: 500;
-    font-style: normal;
-    width: 70%;
-    transition: width ease-in;
-}
-.sales button:hover{
-    width: 80%;
-    cursor: pointer;
-  }
    /* footer */
    .footer{
     display: flex;

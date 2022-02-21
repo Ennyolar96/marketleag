@@ -55,21 +55,14 @@
 
     <div class="mainsite">
         <div class="firstdiv">
-            <h2>Both the Market for Innovations and a Source of Innovative Solutions </h2>
+            <h2> Harness External Ideas Internally </h2>
             <p>Marketleag is connecting corporate and non-corporate organizations to African solvers, inventors, and researchers to crowdsource innovative product ideas, acquire new technologies, provide impact funds or build R&D team. </p>
         </div>
-        <div class="seconddiv">
-            <select name="choices" id="choices">
-                <option value="">Select</option>
-                <option value="Company"> Company</option>
-                <option value="NGO"> NGO </option>
-                <option value="Others"> Others </option>
-            </select>
-            <input type="email" name="email" id="email" placeholder="Email Address" required>
-            <button type="submit">Send enquiry</button>
+        <div class="firstdiv2">
+            <img src="/images/Innovation-image.png" alt="Image">
         </div>
-
-        <div class="thirddiv">
+    </div>
+        <div class="seconddiv">
             <div class="company">
                 <label for="company" id="company"> I'm a company</label>
                 <br>
@@ -79,15 +72,37 @@
                  <label for="sales" id="sales"> I'm a solver or inventor</label>
                  <button>Seeking opportunities to innovate to meet market or social needs.</button>
              </div>
+        </div> 
+        <div class="thirddiv">
+            <p>Offering Both the Market for Innovations and a Source of Innovative Solutions</p>
         </div>
-    </div>
-    <!-- footer-section -->
+        <div class="forthdiv">
+            <form action="/" method="post">
+                <select name="choices" id="choices">
+                    <option value="">Select</option>
+                    <option value="Company"> Company</option>
+                    <option value="NGO"> NGO </option>
+                    <option value="Others"> Others </option>
+                </select>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <button type="submit">Send enquiry</button>
+            </form>
+        </div>
+
+      
     <!-- footer-section -->
     <footer>
         <div class="footer">
         <div class="footer1">
             <img src="/images/logo white version.png" alt="Company logo">
             <p> Simplifying innovation process</p>
+            <p class="follow"><b>Follow Us</b> </p>
+            <div class="sociallink">
+            <a target="_blank" href="https://www.facebook.com/marketleag/"><i style="color: white;" class="fa fa-facebook" aria-hidden="true"></i></a> 
+            <a target="_blank" href="https://www.linkedin.com/company/marketleag"><i style="color: white;" class="fa fa-linkedin" aria-hidden="true"></i></a> 
+            <a target="_blank" href="https://twitter.com/marketleag/"><i style="color: white;" class="fa fa-twitter" aria-hidden="true"></i></a> 
+            <a target="_blank" href="https://www.instagram.com/marketleag/"><i style="color: white;" class="fa fa-instagram" aria-hidden="true"></i></a> 
+        </div>
         </div>
         <div class="footer2">
             <h3><b>Hotspots</b> </h3>
@@ -99,8 +114,8 @@
         <div class="footer3">
             <h3><b> Company </b></h3>
             <a href="/pages/about.html">About us</a>
-            <a href="#">Product</a>
-            <a href="#"> Team</a>
+            <a href="/pages/about.html#product">Product</a>
+            <a href="/pages/about.html#team"> Team</a>
             <br>
             <h3><b>Legal</b></h3>
             <a href="#"> Privacy Policy</a>
@@ -128,13 +143,14 @@
         </div>
        </div>
        <div class="copyright">
-           <p> All Rights Reserved  &copy; Market Leadership Global Co. Ltd. 2022</p>
+           <p> All Rights Reserved. &copy; Market Leadership Global Co. Ltd. 2022</p>
        </div> 
     </footer>
+
     
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img style="width:20px" src="/images/top-transformed.png" alt="scroll-to-top"></button>
     <div id="consent-popup" class="hidden">
-        <p class="notice">Marketleag uses cookies to ensure you get the best experience on our websites <a href="#"> Learn More </a></p>
+        <p class="notice">Marketleag uses cookies to ensure you get the best experience on our websites <a target="_blank" href="/cookiespolicy.html"> Learn More </a></p>
        <a id="accept" href="#">Accept</a>
       </div>
       <script src="/js/index.js"></script>

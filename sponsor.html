@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | Your innovation partner</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="header" id="myTopnav">
+            <a class="logo"><img src="/images/new-png-mleage-1-7.png" alt=""></a>
+        </div>
+    </header>
+
+    <form action="/" method="post" id="regForm">
+        <h3>You are welcome!</h3>
+        <p id="already" >Kindly fill the form below. <br> Marketleag wish to partner with you.</p>
+
+
+        <label>What do you want to Sponsor? </label> 
+
+        <div class="input-control">
+            <div style="visibility:hidden; color:red; " id="chk_error">
+                Sorry you have to select one.
+             </div>
+            <div class="c-check">
+                <label for="Innovation contest">Innovation contest</label>
+                <input type="checkbox" id="" class="check" name="sponsorType[]" value="Innovation contest." > 
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="New technology">New technology Development/ R&D</label>
+                <input type="checkbox" id="" class="check" name="sponsorType[]" value="New technology Development/ R&D.">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="intellectual">intellectual Property and Technology Development</label>
+                <input type="checkbox" id=""  class="check" name="sponsorType[]" value="intellectual Property and Technology Development">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Others">Others</label>
+                <input type="checkbox" id=""  class="check" name="sponsorType[]" value="Others">
+                <div id="error"></div>
+            </div>
+            <input type="text" id=""  class="check" name="" value="">
+        </div>
+
+        <div class="input-control">
+            <label for="form_industry">Specify industry of interest</label> 
+            <input id="industry" name="industry" placeholder="provide the industry you are interested in " type="text" value="">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="Sponsorship">What is your Sponsorship objective?</label> 
+             <input  id="Sponsorship" name="Sponsorship" placeholder= "provide us your Sponsorship objective" type="text" value="">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="Company Size">Briefly describe your Organization</label> 
+            <textarea name="Organization" id="organization" cols="30" rows="10" placeholder= "describe your organization"></textarea>
+            <div class="error"></div>
+        </div>
+
+        <label>Entity Type </label> 
+
+        <div class="input-control">
+            <div style="visibility:hidden; color:red; " id="chk_option_error">
+                Please select your entity type.
+             </div>
+            <div class="c-check">
+                <label for="Bank">Bank</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Bank." > 
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Agency">Agency/Industry(Public) </label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Agency/Industry(Public).">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="non-bank">Corporate Organization(non-bank)</label>
+                <input type="checkbox" id=""  class="check" name="UserType[]" value="Corporate Organization(non-bank).">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Profit">Not-For-Profit</label>
+                <input type="checkbox" id=""  class="check" name="UserType[]" value="Not-For-Profit.">
+                <div id="error"></div>
+            </div>
+        </div>
+ 
+         <button type="submit">Submit</button>
+         <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
+    </form>
+        <script src="/js/sponsor.js"></script>
+</div>
+</body>
+</html>

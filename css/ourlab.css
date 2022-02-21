@@ -311,19 +311,23 @@ p{
   color: #fff;
   padding: 10px 100px;
 } */
-.second-section .courseimage {
-  background-image: url("/images/lab-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 90px 70px 0 35px;
+.second-section .courseimage,.third-section .courseimage1,.forth-section .courseimage2,.fifty-section .courseimage3,.sixty-section .courseimage4 {
+ background-color: whitesmoke;
+  margin: 90px 35px 0 35px;
   height: 250px;
+  position: relative;
+}
+.second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  right: 50px;
 }
 
-.second-section h2, .fifty-section h2{
+/* .second-section h2, .fifty-section h2{
   text-align: left;
-    color: white; 
+    color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -331,9 +335,9 @@ p{
     position: absolute;
     top: 30px;
     left: 50px;
-}
+} */
 
-.third-section h2, .forth-section h2, .sixty-section h2{
+.second-section h2, .fifty-section h2, .third-section h2, .forth-section h2, .sixty-section h2{
   text-align: left;
     color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
@@ -344,7 +348,7 @@ p{
     top: 30px;
     left: 50px;
 }
-.third-section .courseimage1 {
+/* .third-section .courseimage1 {
   background-image: url("/images/lab-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -379,7 +383,7 @@ p{
   position: relative;
   margin: 90px 70px 0 35px;
   height: 250px;
-}
+} */
 
 /* third section */
 .executive-int{
@@ -491,6 +495,12 @@ footer{
   text-align: center;
  padding: 20px;
  font-size: 14px;
+}
+.follow{
+  margin: -10px 0 10px 0;
+}
+.sociallink{
+  display: flex;
 }
 .footer{
   display: flex;
@@ -935,6 +945,9 @@ border-radius: 8px;
 width: 100%;
 margin: 10px;
 }
+.second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
+  width: 300px;
+}
 
 /* third section */
 .executive-int{
@@ -1222,6 +1235,18 @@ border: none;
 border-radius: 8px;
 padding: 10px;
 }
+.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+} 
+.second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
 
 /* third section */
 .executive-int{
@@ -1459,7 +1484,13 @@ height: 350px;
 .second-section .courseimage,.third-section .courseimage1,.forth-section .courseimage2,.fifty-section .courseimage3,.sixty-section .courseimage4{
   margin: 90px -0 0 -0;
 }
-
+.second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
 
 /* .second-section h2{
     top: 30px;
@@ -1469,14 +1500,14 @@ height: 350px;
  .second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
     top: 30px;
     left: 30px;
-    font-size: 35px;
+    font-size: 30px;
 } 
 
 /* second section */
 .tech-design, .tech-design-2{
 display: flex;
 flex-direction: column;
-margin: 20px;
+margin: 10px 30px 10px 0;
 }
 .tech-design1-1 {
 padding: 10px;
