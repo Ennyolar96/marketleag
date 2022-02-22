@@ -30,9 +30,9 @@ body{
     /* styling the logo */
     
     .header a.logo{
-      font-size: 1.7em;
-      font-weight: bold;
-      padding: 0;
+        font-size: 1.7em;
+        font-weight: bold;
+        padding: 0;
     }
     /* hover */
     .btn:hover {
@@ -376,7 +376,7 @@ body{
         margin: 10px;
     }
     .first-section-2 img{
-        width: 600px;
+        width: 500px;
         height: 500px;
         border-radius: 10px;
    
@@ -464,7 +464,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         border-radius:5px;
-       padding: 80px;
+       padding: 100px;
+       margin: 70px 0 0 0;
     }
     #we-are{
     color:white;
@@ -2456,7 +2457,6 @@ body{
     .trust{
         text-align: center;
         border-radius:5px;
-        margin: 0;
         padding: 80px 10px 50px 10px;
     }
     #we-are{
@@ -2477,7 +2477,7 @@ body{
         display: flex;
         flex-direction: column-reverse;
         margin: 80px 0 0 0;
-        height: 800px;
+        height: 650px;
     }
     .third-section-1{
         width: 90%;
@@ -2528,11 +2528,11 @@ body{
     .forth-section{
         display: flex;
         flex-direction: column;
-        margin:10px 0 50px 0;
+        margin:10px 0 60px 0;
         background-color: black;
         border-radius: 10px;
         padding: 50px;
-        height: 900px;
+        height: 950px;
     }
     .forth-section-1{
         width: 100%;
@@ -2657,7 +2657,7 @@ body{
 
     .sixty-section{
         background-color: whitesmoke;
-        margin: 10px 0 50px 0;
+        margin: 10px -20px 50px -50px;
         padding: 50px;
         border-radius: 5px;
         height: 500px;
@@ -2767,6 +2767,7 @@ body{
         font-weight: 600;
         font-style: normal;
         text-align: left;
+        margin: 0 -50px;
     }
     /* footer */
     .footer{

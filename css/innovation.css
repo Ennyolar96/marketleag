@@ -201,14 +201,14 @@ body{
   width: 50%;
 }
 .firstdiv2 img{
-  width: 100%;
+  width: 500px;
   height: 500px;
 }
 .firstdiv h2{
     color: rgb(25,49,138);
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     margin: 50px 80px 20px 10px;
     text-align:left;
@@ -217,7 +217,7 @@ body{
 .firstdiv p{
     color: gray;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     font-style: normal;
     margin: 20px 80px 20px 20px;
@@ -301,7 +301,7 @@ body{
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
-  margin: 20px 80px;
+  margin: 20px 300px;
   text-align: center;
 }
 
@@ -473,14 +473,14 @@ body{
     width: 50%;
   }
   .firstdiv2 img{
-    width: 100%;
+    width: 500px;
     height: 500px;
   }
   .firstdiv h2{
       color: rgb(25,49,138);
       font-family: 'Poppins', sans-serif;
       font-size: 40px;
-      font-weight: 700;
+      font-weight: 500;
       font-style: normal;
       margin: 50px 80px 20px 10px;
       text-align:left;
@@ -489,7 +489,7 @@ body{
   .firstdiv p{
       color: gray;
       font-family: 'Poppins', sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 500;
       font-style: normal;
       margin: 20px 80px 20px 20px;
@@ -573,7 +573,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    margin: 20px 80px;
+    margin: 20px 300px;
     text-align: center;
   }
 .forthdiv select{
@@ -721,14 +721,14 @@ body{
     width: 100%;
   }
   .firstdiv2 img{
-    width: 100%;
+    width: 500px;
     height: 500px;
   }
   .firstdiv h2{
       color: rgb(25,49,138);
       font-family: 'Poppins', sans-serif;
       font-size: 40px;
-      font-weight: 700;
+      font-weight: 500;
       font-style: normal;
       margin: 50px 80px 20px 10px;
       text-align:left;
@@ -737,7 +737,7 @@ body{
   .firstdiv p{
       color: gray;
       font-family: 'Poppins', sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 500;
       font-style: normal;
       margin: 20px 80px 20px 20px;
@@ -822,7 +822,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    margin: 20px 80px;
+    margin: 20px 200px;
     text-align: center;
   }
 .forthdiv select{
@@ -972,14 +972,14 @@ body{
     width: 100%;
   }
   .firstdiv2 img{
-    width: 100%;
+    width: 500px;
     height: 500px;
   }
   .firstdiv h2{
       color: rgb(25,49,138);
       font-family: 'Poppins', sans-serif;
       font-size: 40px;
-      font-weight: 700;
+      font-weight: 500;
       font-style: normal;
       margin: 50px 80px 20px 10px;
       text-align:left;
@@ -988,7 +988,7 @@ body{
   .firstdiv p{
       color: gray;
       font-family: 'Poppins', sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 500;
       font-style: normal;
       margin: 20px 80px 20px 20px;
@@ -1239,7 +1239,7 @@ body{
     color: rgb(25,49,138);
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     margin: 50px 80px 20px 10px;
     text-align:left;
