@@ -46,7 +46,7 @@
 
     <form action="/" method="post" id="form">
         <h2>Send us a Message</h2>
-        <div class="input-item">
+        <!-- <div class="input-item">
         <label for="Choose-email">Choose Email</label>
         <select name="choose-email" id="choose-email">
             <option value="Type">Purpose</option>
@@ -57,16 +57,60 @@
             <option value="">Media</option>
             <option value="">Other</option>
         </select>
+        </div> -->
+
+        <label>Select A Purpose</label> 
+
+        <div class="input-item">
+            <div style="visibility:hidden; color:red; " id="chk_option_error">
+                Oh You forget to select your purpose
+                </div>
+            <div class="c-check">
+                <label for="Intellectual">Intellectual Property</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Intellectual Property" > 
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Innovation">Innovation Support</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Innovation Support">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Technical">Technical Support</label>
+                <input type="checkbox" id=""  class="check" name="UserType[]" value="Technical Support">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Partnership">Partnership</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Partnership">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Media">Media</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Media">
+                <div id="error"></div>
+            </div>
+
+            <div class="c-check">
+                <label for="Expert">Other</label>
+                <input type="checkbox" id="" class="check" name="UserType[]" value="Other">
+                <div id="error"></div>
+            </div>
         </div>
+
 
         <div class="input-item">
             <label for="Name"> Name</label>
-            <input type="text" name="full-name" id="full-name" placeholder="e.g. John Berry" required>
+            <input type="text" name="full-name" id="full-name" placeholder="John Berry" required>
         </div>
 
         <div class="input-item">
             <label for="Name"> Email</label>
-            <input type="email" name="email" id="email" placeholder="e.g. somebody@gmail.com " required>
+            <input type="email" name="email" id="email" placeholder="somebody@gmail.com " required>
         </div>
 
         <div class="input-item">
@@ -80,7 +124,7 @@
         </div>
         <button type="submit"> Submit </button>
     </form>
-
     <script src="/js/index.js"></script>
+    <script src="/js/maincontact.js"></script>
 </body>
 </html>

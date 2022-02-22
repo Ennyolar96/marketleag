@@ -62,13 +62,13 @@
             </div>
 
             <div class="c-check">
-                <label for="idea">I have new Inventor or Idea</label>
+                <label for="idea">I have new invention or idea</label>
                 <input type="checkbox" id="" class="check" name="UserType[]" value="I have new Inventor or Idea.">
                 <div id="error"></div>
             </div>
 
             <div class="c-check">
-                <label for="intellectual">I need intellectual property Suport/Service</label>
+                <label for="intellectual">I need intellectual property Support/Service</label>
                 <input type="checkbox" id=""  class="check" name="UserType[]" value="I need intellectual property Suport/Service.">
                 <div id="error"></div>
             </div>
@@ -394,13 +394,6 @@
             <div class="error"></div>
         </div>
 
-        <div class="input-control">
-            <label for="psw">Password</label>
-            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="At least one number, one uppercase and lowercase letter, and minimum of 8 characters" required>
-            <div id="inputError"></div>
-        </div>
-        <button type="submit">Create Account</button>
-        <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
         <div id="message">
             <h3>Password must contain the following:</h3>
             <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
@@ -408,6 +401,15 @@
             <p id="number" class="invalid">A <b>number</b></p>
             <p id="length" class="invalid">Minimum <b>8 characters</b></p>
         </div>
+
+        <div class="input-control">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="At least one number, one uppercase and lowercase letter, and minimum of 8 characters" required>
+            <div id="inputError"></div>
+        </div>
+        <button type="submit">Create Account</button>
+        <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
+       
     </form>
         <script src="/js/index.js"></script>
         <script src="/js/register.js"></script>

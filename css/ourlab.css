@@ -251,12 +251,12 @@ body{
       padding: 20px 0 0 0;
     }
     .commercial p{
-      color: rgb(25,49,138);
+      color: gray;
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 30px;
       font-weight: 500;
       font-style: normal;
-      margin: 20px 200px;
+      margin: 20px 350px;
       text-align: center;
     }
     
@@ -332,15 +332,15 @@ p{
 .second-section .courseimage,.third-section .courseimage1,.forth-section .courseimage2,.fifty-section .courseimage3,.sixty-section .courseimage4 {
  background-color: whitesmoke;
   margin: 90px 35px 0 35px;
-  height: 250px;
+  height: 300px;
   position: relative;
 }
 .second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
   width: 300px;
-  height: 250px;
+  height: 310px;
   position: absolute;
-  top: 0;
-  right: 150px;
+  top: -15px;
+  right: 350px;
 }
 
 /* .second-section h2, .fifty-section h2{
@@ -359,12 +359,12 @@ p{
   text-align: left;
     color: rgba(15, 28, 112, 1); 
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
     font-style: normal;
     position: absolute;
     top: 60px;
-    left: 150px;
+    left: 250px;
 }
 /* .third-section .courseimage1 {
   background-image: url("/images/lab-2.jpg");
@@ -639,6 +639,17 @@ margin: 70px 150px 0 20px;
   width: 100%;
   height: 500px;
 }
+
+.commercial p{
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 200px;
+  text-align: center;
+}
+
 /* second section */
 .tech-design, .tech-design-2{
 display: flex;
@@ -701,6 +712,26 @@ color: #fff;
 border: none;
 border-radius: 8px;
 padding: 10px;
+}
+
+.second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  top: -15px;
+  right: 150px;
+}
+
+.second-section h2, .fifty-section h2, .third-section h2, .forth-section h2, .sixty-section h2{
+  text-align: left;
+    color: rgba(15, 28, 112, 1); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 60px;
+    left: 115px;
 }
 
 /* third section */
@@ -924,6 +955,16 @@ text-align: cleft;
   height: 500px;
   margin: 0;
 }
+
+.commercial p{
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 20px 50px;
+  text-align: center;
+}
 /* second section */
 .tech-design, .tech-design-2{
 display: flex;
@@ -963,8 +1004,25 @@ border-radius: 8px;
 width: 100%;
 margin: 10px;
 }
+
 .second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
   width: 300px;
+  height: 310px;
+  position: absolute;
+  top: -15px;
+  right: 50px;
+}
+
+.second-section h2, .fifty-section h2, .third-section h2, .forth-section h2, .sixty-section h2{
+  text-align: left;
+    color: rgba(15, 28, 112, 1); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 60px;
+    left: 50px;
 }
 
 /* third section */
@@ -1191,7 +1249,6 @@ height: 500px;
 }
 
 .commercial p{
-  color: rgb(25,49,138);
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -1264,17 +1321,24 @@ border: none;
 border-radius: 8px;
 padding: 10px;
 }
-.second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-  top: 30px;
-  left: 30px;
-  font-size: 30px;
-} 
 .second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
-  width: 250px;
-  height: 200px;
+  width: 300px;
+  height: 310px;
   position: absolute;
-  top: 20px;
-  right: 10px;
+  top: -15px;
+  right: 0;
+}
+
+.second-section h2, .fifty-section h2, .third-section h2, .forth-section h2, .sixty-section h2{
+  text-align: left;
+    color: rgba(15, 28, 112, 1); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 60px;
+    left: 20px;
 }
 
 /* third section */
@@ -1514,12 +1578,11 @@ height: 350px;
 }
 
 .commercial p{
-  color: rgb(25,49,138);
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
-  margin: 20px 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -1527,23 +1590,29 @@ height: 350px;
   margin: 90px -0 0 -0;
 }
 .second-section .courseimage img, .third-section .courseimage1 img, .forth-section .courseimage2 img, .fifty-section .courseimage3 img, .sixty-section .courseimage4 img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 310px;
   position: absolute;
-  top: 20px;
-  right: 10px;
+  top: -15px;
+  right: 0px;
+}
+
+.second-section h2, .fifty-section h2, .third-section h2, .forth-section h2, .sixty-section h2{
+  text-align: left;
+    color: rgba(15, 28, 112, 1); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 80px;
+    left: 20px;
 }
 
 /* .second-section h2{
     top: 30px;
     left: 50px;
 } */
-
- .second-section h2, .third-section h2, .forth-section h2, .fifty-section h2, .sixty-section h2{
-    top: 60px;
-    left: 30px;
-    font-size: 24px;
-} 
 
 /* second section */
 .tech-design, .tech-design-2{

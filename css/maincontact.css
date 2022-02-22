@@ -211,6 +211,17 @@ label{
     font-size: 20px;
     padding-left:10px
     }
+    .c-check{
+      display: flex;
+  }
+  .c-check input{
+    width: 300px;
+  }
+  .c-check label{
+      width: 100%;
+      padding: 10px;
+      font-size:1.2rem;
+  } 
 
     @media (max-width:1200px) {
        
@@ -336,8 +347,7 @@ label{
           border-radius: 10px;
           font-size: 14px;
           font-weight: 500;
-       }
-       
+       }       
         #form {
             margin: 0 20px;
         }
