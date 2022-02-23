@@ -1805,7 +1805,7 @@ body{
         }
         .new-png-mleage-2{
             width: 250px;
-            margin: 30px 80px;
+            margin: 30px 40px;
         }
         .marketleag-logo p{
             color: rgba(128, 128, 128, 1);
@@ -1813,7 +1813,7 @@ body{
             font-size:14px;
             font-weight: 500;
             font-style: normal;
-            text-align: center;
+            text-align: left;
             margin: 0;
         }
         .our-core{
