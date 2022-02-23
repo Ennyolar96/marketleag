@@ -327,12 +327,12 @@ body{
         border-radius: 10px;
     }
     .marketleag-logo{
-        margin: 100px 0;
+        margin: 20px 0;
         width: 100%;
     }
     .new-png-mleage-2{
         width: 500px;
-        margin: 30px 400px;
+        margin: 20px 400px;
     }
     .marketleag-logo p{
         color: rgba(128, 128, 128, 1);
@@ -994,7 +994,7 @@ body{
           }
           .brand-story{
               display: flex;
-              flex-direction: column-reverse;
+              flex-direction: column;
               width: 100%;
           }
           .brand-story1{
@@ -1029,7 +1029,7 @@ body{
           .brand-section{
               background-color: black;
               display: flex;
-              flex-direction: column;
+              flex-direction: column-reverse;
               margin: 5px;
               border-radius: 10px;
               padding: 50px;
@@ -1392,7 +1392,7 @@ body{
         .brand-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin: 5px;
             border-radius: 10px;
             padding: 50px;
@@ -1766,7 +1766,7 @@ body{
         .brand-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin: 0;
             border-radius: 10px;
             padding: 50px;
@@ -2114,7 +2114,7 @@ body{
             width: 100%;
         }
         .brand-story1 img{
-            height: 350px;
+            height: 300px;
             width: 100%;
             margin:0 -50px;
         }
@@ -2141,7 +2141,7 @@ body{
         .brand-section{
             background-color: black;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin: 0;
             border-radius: 10px;
             padding: 50px;
