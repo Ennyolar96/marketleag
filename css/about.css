@@ -1814,7 +1814,7 @@ body{
             font-weight: 500;
             font-style: normal;
             text-align: left;
-            margin: 0 20px;
+            margin: 0 0 0 20px;
         }
         .our-core{
             background-color: whitesmoke;
@@ -1836,7 +1836,7 @@ body{
             font-size:14px;
             font-weight: 500;
             font-style: normal;
-            text-align: center;
+            text-align: left;
             margin: 0 -50px;
         }
         .product-ser{
@@ -1964,8 +1964,8 @@ body{
             font-size:14px;
             font-weight: 400;
             font-style: normal;
-            text-align: center;
-            margin: 0 20px;
+            text-align: left;
+            margin: 0;
         }
         .main-btn {
             background-color: rgba(243, 115, 53, 1);
@@ -1976,7 +1976,7 @@ body{
             font-size:  1.2em;;
             font-weight: 500;
             font-style: normal;
-            margin: 30px;
+            margin: 30px 100px;
         }
         .main-btn:hover{
           cursor: pointer;
@@ -2180,7 +2180,7 @@ body{
         }
         .new-png-mleage-2{
             width: 250px;
-            margin: 30px 40px;
+            margin: 30px 50px;
         }
         .marketleag-logo p{
             color: rgba(128, 128, 128, 1);
@@ -2189,7 +2189,7 @@ body{
             font-weight: 500;
             font-style: normal;
             text-align: left;
-            margin: 0 20px;
+            margin: 0 0 0 20px;
         }
         .our-core{
             background-color: whitesmoke;
@@ -2211,8 +2211,8 @@ body{
             font-size:14px;
             font-weight: 500;
             font-style: normal;
-            text-align: center;
-            margin: 0 -50px;
+            text-align: left;
+            margin: 0 -90px;
         }
         .product-ser{
             background-color: whitesmoke;
@@ -2320,6 +2320,7 @@ body{
             margin:20px -20px;
             color: gray;
             font-size:20px;
+            text-align: left;
         }
         .career{
             padding: 50px;
@@ -2339,8 +2340,8 @@ body{
             font-size:14px;
             font-weight: 400;
             font-style: normal;
-            text-align: center;
-            margin: 0 20px;
+            text-align: left;
+            margin: 0 -30px;
         }
         .main-btn {
             background-color: rgba(243, 115, 53, 1);
