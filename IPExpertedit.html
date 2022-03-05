@@ -1,0 +1,575 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/expert.css">
+    <!-- <script defer src="./index.js"></script> -->
+</head>
+    <body>
+
+
+        #form {
+            margin: 50px 200px;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        #form h3 {
+            color: #0f2027;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        #form button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            color: white;
+            background-color: rgba(243, 115, 53, 1);
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        
+        .input-control {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .input-control input {
+            border: 2px solid #f0f0f0;
+            border-radius: 4px;
+            display: block;
+            font-size: 12px;
+            padding: 10px;
+            width: 95%;
+        }
+        
+        .input-control input:focus {
+            outline: 0;
+        }
+        
+        #already{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        #Agreement{
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        .input-control textarea {
+            border: 2px solid #f0f0f0;
+            border-radius: 4px;
+            display: block;
+            font-size: 12px;
+            padding: 10px;
+            min-width: 95%;
+            max-width: 95%;
+            min-height: 20px;
+            max-height: 100px;
+        
+        }
+        
+        .input-control input[type = "checkbox"]{
+            width: 10%;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        .input-control.success input{
+            border-color: #09c372;
+        }
+        
+        .input-control.error input{
+            border-color: #ff3860;
+        }
+        
+        .input-control textarea:focus {
+            outline: 0;
+        }
+        
+        .input-control.success textarea{
+            border-color: #09c372;
+        }
+        
+        .input-control.error textarea{
+            border-color: #ff3860;
+        }
+        
+        .input-control .error {
+            color: #ff3860;
+            font-size: 9px;
+            height: 13px;
+        }
+        label{
+            font-size: 1.2rem;
+            text-transform: capitalize;
+        }
+        .sidenav .icon {
+            display: none;
+          }
+        
+        
+        /* @media screen and (max-width:789px){
+        
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+            
+            :root {
+                --small-font-size: 0.938rem;
+              }
+            
+            #form {
+                margin: 30px 20px;
+                padding: 20px;
+                background-color: whitesmoke;
+                border-radius: 4px;
+                font-size: 12px;
+            }
+            
+            #form h3 {
+                color: #0f2027;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #form button {
+                padding: 10px;
+                margin-top: 10px;
+                width: 100%;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 1em;
+            }
+            
+            .input-control {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .input-control input {
+                border: 2px solid #f0f0f0;
+                border-radius: 4px;
+                display: block;
+                font-size: 16px;
+                padding: 10px;
+                width: 95%;
+            }
+            
+            .input-control input:focus {
+                outline: 0;
+            }
+            
+            #already{
+                text-align: center;
+                margin-bottom: 50px;
+                font-size: 16px;
+            }
+            
+            #Agreement{
+                text-align: center;
+                font-size: .8rem;
+            }
+            
+            .input-control textarea {
+                border: 2px solid #f0f0f0;
+                border-radius: 4px;
+                display: block;
+                font-size: 12px;
+                padding: 10px;
+                min-width: 95%;
+                max-width: 95%;
+                min-height: 20px;
+                max-height: 100px;
+            
+            }
+            
+            .input-control input[type = "checkbox"]{
+                width: 10%;
+            }
+            p{
+                font-size: .8rem;
+            }
+            .input-control.success input{
+                border-color: #09c372;
+            }
+            
+            .input-control.error input{
+                border-color: #ff3860;
+            }
+            
+            .input-control textarea:focus {
+                outline: 0;
+            }
+            
+            .input-control.success textarea{
+                border-color: #09c372;
+            }
+            
+            .input-control.error textarea{
+                border-color: #ff3860;
+            }
+            
+            .input-control .error {
+                color: #ff3860;
+                font-size: 9px;
+                height: 13px;
+            }
+            label{
+                font-size: .8rem;
+            }
+            .show {
+                width: 260px;
+              }
+            
+        }
+        .changecolor{
+            color:  rgba(243, 115, 53, 1);
+        }
+        
+        
+        @media screen and (min-width:789px){
+        
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+            
+            :root {
+                --small-font-size: 0.938rem;
+              }
+            
+            #form {
+                margin: 50px 10px 30px 290px;
+                padding: 20px;
+                background-color: whitesmoke;
+                border-radius: 4px;
+                font-size: 12px;
+            }
+            
+            #form h3 {
+                color: #0f2027;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #form button {
+                padding: 10px;
+                margin-top: 10px;
+                width: 100%;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 1em;
+            }
+            
+            .input-control {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .input-control input {
+                border: 2px solid #f0f0f0;
+                border-radius: 4px;
+                display: block;
+                font-size: 16px;
+                padding: 10px;
+                width: 95%;
+            }
+            
+            .input-control input:focus {
+                outline: 0;
+            }
+            
+            #already{
+                text-align: center;
+                margin-bottom: 50px;
+                font-size: 16px;
+            }
+            
+            #Agreement{
+                text-align: center;
+                font-size: 14px;
+            }
+            
+            .input-control textarea {
+                border: 2px solid #f0f0f0;
+                border-radius: 4px;
+                display: block;
+                font-size: 12px;
+                padding: 10px;
+                min-width: 95%;
+                max-width: 95%;
+                min-height: 20px;
+                max-height: 100px;
+            
+            }
+            
+            .input-control input[type = "checkbox"]{
+                width: 10%;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            .input-control.success input{
+                border-color: #09c372;
+            }
+            
+            .input-control.error input{
+                border-color: #ff3860;
+            }
+            
+            .input-control textarea:focus {
+                outline: 0;
+            }
+            
+            .input-control.success textarea{
+                border-color: #09c372;
+            }
+            
+            .input-control.error textarea{
+                border-color: #ff3860;
+            }
+            
+            .input-control .error {
+                color: #ff3860;
+                font-size: 9px;
+                height: 13px;
+            }
+            label{
+                font-size: 14px;
+            }
+            
+        } */
+        
+        @media (max-width:1200px) 
+        {
+         .sidenav {padding-top: 15px;}
+         .sidenav span {font-size: 20px;}
+         .sidenav { width: 0; }
+         .sidenav .closebtn { display: block;}
+         span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+        }
+        
+        @media (max-width:992px)  {
+         .sidenav {padding-top: 15px;}
+         .sidenav span {font-size: 20px;}
+         .sidenav { width: 0; }
+         .sidenav .closebtn { display: block;}
+         span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+        }
+        
+        @media (max-width:786px)  {
+         .sidenav {padding-top: 15px;}
+         .sidenav span {font-size: 14px;}
+         .sidenav { width: 0; }
+         .sidenav .closebtn { display: block;}
+         span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+        }
+        
+        @media (max-width:600px)  {
+         .sidenav {padding-top: 15px;}
+         .sidenav span {font-size: 16px;}
+         .sidenav { width: 0; }
+         .sidenav .closebtn { display: block;}
+         span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+        }
+        
+        @media (max-width:400px)  {
+         .sidenav {padding-top: 0px;}
+         .sidenav span {font-size: 13.5px;}
+         .sidenav { width: 0; }
+         .sidenav .closebtn { display: block;}
+         span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+        }
+        
+        
+        
+
+
+
+
+        <div class="container">
+            <!-- <div class="header_static">
+                <span onclick="openNav()">&#9776;</span>
+                    <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
+                     <span class="span" >Marketleag</span></nav>
+            </div>
+    
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               
+               
+                
+                <a href="./Dashboard.html">
+                    <nav>
+                    <i class='bx bx-grid-alt nav__icon'></i>
+                    <span class="nav__text">Dashboard</span>
+                    </nav>
+                </a>
+    
+                <a>
+                  <nav>
+                    <img src="/images/innovator icon.png" alt="">
+                    <span class="nav__text changecolor">Innovator</span>
+                  </nav>
+                </a>
+    
+                <a href="./newsolver.html">
+                    <nav>
+                        <img  src="/images/solver icon.png" alt="">
+                    <span>Innovation Signup</span>
+                    </nav>
+                </a>
+    
+                <a href="./newinventor.html">
+                 <nav>
+                    <img src="/images/inn.png" alt="">
+                    <span class="nav__text">Submit Solution</span>
+                 </nav>
+                </a>
+    
+                <a>
+                   <nav>
+                    <img src="/images/ip icon.png" alt="">
+                    <span class="changecolor">Intellectual property</span>
+                   </nav>
+                </a>
+    
+                <a href="./Inquiry.html">
+                    <nav>
+                    <img src="/images/ip client icon.png" alt="">
+                    <span class="nav__text">Inquiry</span>
+                    </nav>
+                </a>
+    
+                <a class="active" href="./ipexpert.html">
+                    <nav>
+                    <img src="/images/ip expect icon.png" alt="">
+                    <span class="nav__text">IP Expert</span></nav>
+                </a> 
+    
+                <a href="./Application.html">
+                   <nav>
+                    <i class='fa  fa-tasks nav__icon'></i>
+                    <span class="nav__text">Application status</span>
+                   </nav>
+                </a>  
+                <a href="./Training.html">
+                    <nav>
+                        <img src="/images/analysis.png" alt="">
+                    <span class="nav__text">Trainings</span>
+                    </nav>
+                </a>  
+                <a href="./helpcenter.html">
+                 <nav>
+                    <i class='fa fa-support nav__icon'></i>
+                    <span class="nav__text">Help Center</span>	
+                 </nav>
+                </a>  
+                <a href="./Activities.html">
+                    <nav>
+                    <i class='fa fa-archive nav__icon'></i>
+                    <span class="nav__text">Activities</span>
+                    </nav>
+                </a> 
+                
+                <a href="#">
+                   <nav>
+                    <i class='fa fa-sign-out nav__icon'></i>
+                    <span class="nav__text">Log Out</span>
+                   </nav>
+                </a>
+              </div> -->
+
+        <form id="form" action="/">
+            <h3>Update your Marketleag Profile</h3>
+
+             <input type="radio" name="Ip attorney" id="">
+        <label class="label_yes_no" for="ip attorney"> IP Attorney</label>
+        
+        <input type="radio" name="ip Broker" id="">
+        <label class="label_yes_no" for="ip Broker"> IP Broker</label>
+        <br> <br>
+
+            <div class="input-control">
+            <label for="provide"> Provide the list of IP services you are best at?</label>
+            <input type="text" name="list_ip" id="list_ip" placeholder="Provide your answer">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="specify"> Specify other services your organization is known at?</label>
+                <input type="text" name="services_organization" id="services_organization" placeholder="Provide your answer">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="organization"> Which year did your organization commence operation?</label>
+                <input type="text" name="organization" id="organization" placeholder="Provide your answer">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="indicate"> indicate the average number of IP transactions and filling you undertake per annum?</label>
+                <input type="text" name="average_number" id="average_number" placeholder="Provide your answer">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="specify_number"> Specify the number of patents filed in the last one year by you?</label>
+                <input type="text" name="patent_number" id="patent_number" placeholder="Provide your answer">
+                <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="specify_trademark"> Specify the number of trademark filed in the last one year by you?</label>
+                    <input type="text" name="trademark_number" id="trademark_number" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+                    <div class="input-control">
+                    <label for="specify_copyright"> Specify the number of copyright filed in the last one year by you?</label>
+                    <input type="text" name="copyright_number" id="copyright_number" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+                    <div class="input-control">
+                    <label for="specify_design"> Specify the number of designs filed in the last one year by you?</label>
+                    <input type="text" name="Design_number" id="Design_number" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+                    <div class="input-control">
+                    <label for="provide"> Are you interested in cross border IP transaction or filled?</label>
+                    <input type="text" name="interested" id="interested" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+                    <div class="input-control">
+                    <label for="provide"> Have you undertaken cross border IP transaction in the last one year?</label>
+                    <input type="text" name="undertaken" id="undertaken" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+                    <div class="input-control">
+                    <label for="provide"> If yes specify the IP asset type name region or county?</label>
+                    <input type="text" name="if_yes" id="if_yes" placeholder="Provide your answer">
+                    <div class="error"></div>
+                    </div>
+            
+            <button type="submit">Update Profile</button>
+            <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
+        </form> 
+    </div>
+<!-- partial -->
+  <!-- <script  src="/js/ipexpert.js"></script>
+  <script  src="/js/traning.js"></script> -->
+</body>
+</html>

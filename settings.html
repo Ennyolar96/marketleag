@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="/js/auth.js"></script>
+    <script defer src="/init.js"></script>
+</head>
+<body>
+
+     <div class="container">
+        <div class="header_static">
+                <span onclick="openNav()">&#9776;</span>
+                    <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
+                    <span class="span" >Marketleag</span></nav>
+                    <div class="icons">
+                    <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="mainsection">
+                    <h1>Settings</h1>
+                    <h2 class="loggin">Logging in</h2>
+                    <form action="/" method="post">
+
+                        <label for="password">New Password</label>
+                        <input type="password" name="pword" id="pword" required>
+                        <label for="Comfirmpassword">Password Again</label>
+                        <input type="password" name="Compassword" id="Compassword" required>
+                        <button type="submit">Change Password</button>
+                    </form>
+                    <h2>Notification</h2>
+                    <form action="/">
+                        <label for="Receive">Receive Desktop notification alerts:</label>
+                        <input type="checkbox" name="desktop" id="desktop">
+                        <label for="Weekly"> Receive weekly roundup of new opportunities:</label>
+                        <input type="checkbox" name="weekly" id="weekly">
+                        <label for="e-mail">Receive e-mails with opportunities matching your requirements:</label>
+                        <input type="checkbox" name="matching" id="matching">
+                        <label for="screen">Automatically mark all notifications as read when close the notifications screen:</label>
+                        <input type="checkbox" name="screen" id="screen">
+                    </form>
+
+                    <h2>sending e-mail address</h2>
+                    <form action="/">
+                        <label for="Email">E-mail address to send e-mail messages from:</label>
+                        <input type="email" name="e-mail" id="e-mail">
+                        <p>NOT VERIFIED</p>
+                        <button type="submit">Click here to update and verify</button>
+                        <p>You should receive an email from <b>support@portmarkapp.com.</b>To complete the verification process, open this e-mail and click to confirm your sending address. Note that you cannot use public domains for this, such as Gmail, Hotmail, or YahooMail.</p>
+                        <p>Wherever you can send e-mail in CommissionCrowd, such as in the lead edit screen or in the contacts tool, your messages will be sent from this e-mail address. If you want this to be different from the one you signed up with, edit it here. You cannot send e-mail from within CommissionCrowd unless this email address is verified.</p>
+                    </form>
+
+                    <h2>Your leads</h2>
+                    <p>Default currency:</p>
+                    <select name="country" id="conutry">
+                        <option value=""></option>
+                    </select>
+
+                    <h2>Preferred Language</h2>
+                    <p>Your Preferred Language:</p>
+                    <select name="country" id="conutry">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+        </div>
+    </body>
+</html>
