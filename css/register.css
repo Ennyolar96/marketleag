@@ -270,6 +270,7 @@ body{
     }
     label{
         font-size: 1.2rem;
+        margin-top: 10px;
     }
     
 /* The message box is shown when the user clicks on the password field */
