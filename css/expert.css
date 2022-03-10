@@ -40,6 +40,15 @@ body{
     width: 30px;
     height: 25px;
   }
+  .icons{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+  .icons a{
+    margin: 0 10px;
+    color: whitesmoke;
+  }
   .active{
     background-color: black;
   }
@@ -144,7 +153,7 @@ body{
     font-weight: 500;
   }
   .manage{
-    margin: 10px 0 20px 630px;
+    margin: 10px 0 20px auto;
     background-color: black;
     color: whitesmoke;
     padding: 8px;
@@ -162,7 +171,7 @@ body{
     display: flex;
   }
   .view-all{
-    margin: 10px 0 20px 700px;
+    margin: 10px 0 20px auto;
     background-color: black;
     color: white;
     padding: 10px;

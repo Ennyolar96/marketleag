@@ -505,8 +505,9 @@ body{
         display:flex;
     }
     .solution_image_text img{
-        width: 80px;
-        height: 80px;
+        margin: 15px 0 0 0;;
+        width: 35px;
+        height: 35px;
     }
 
     .testimonials{

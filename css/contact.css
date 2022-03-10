@@ -46,6 +46,15 @@
     width: 30px;
     height: 25px;
   }
+  .icons{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+  .icons a{
+    margin: 0 10px;
+    color: whitesmoke;
+  }
   .active{
     background-color: black;
   }
@@ -124,7 +133,7 @@
     height: 85vh;
     display: grid;
     grid-template-columns: 1fr;
-    margin:0 0 0 270px;
+    margin:0 0 0 90px;
 }
 .container h2 {
     display: flex;
@@ -148,7 +157,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:rgba(243, 115, 53, 1);
+    /* background-color:rgba(243, 115, 53, 1); */
+    background-color: gray;
     color: white;
   }
 .container .box .info h4 {

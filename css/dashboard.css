@@ -156,7 +156,7 @@ h3{
   font-weight: 500;
 }
 .manage{
-  margin: 10px 0 20px 260px;
+  margin: 10px 0 20px auto;
   background-color: black;
   color: whitesmoke;
   padding: 8px;
@@ -174,7 +174,7 @@ h3{
   display: flex;
 }
 .view-all{
-  margin: 10px 0 20px 480px;
+  margin: 10px 0 20px auto;
   background-color: black;
   color: white;
   padding: 10px;
@@ -193,7 +193,7 @@ h3{
   display: flex;
 }
 .Application{
-  margin: 10px 0 20px 300px;
+  margin: 10px 0 20px auto;
   background-color: black;
   color: white;
   padding: 10px;
@@ -251,7 +251,7 @@ h4{
   display: flex;
 }
 .open{
-  margin: 20px 0 20px 40px;
+  margin: 20px 0 20px auto;
   background-color: black;
   color: white;
   font-size: 18px;

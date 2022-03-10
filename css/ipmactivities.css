@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    width: 100%;   
+    }
+    .container{
+      position: relative;
+      overflow-x: hidden;
+    }
+  
+  .header_static{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+  } 
+  .header_static .span{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+  }
+  .header_static nav{
+    display: flex;
+  }
+  .header_static img{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 25px;
+  }
+  .active{
+    background-color: black;
+  }
+  .Activities{
+    margin: 40px 0 0 0;
+    display: flex;
+  }
+  .Activities h2{
+    color:rgba(243, 115, 53, 1);
+    font-size: 35px;
+    margin: 10px 20px;
+  }
+  select{
+    margin:10px 20px 0 auto;
+    height: 40px;
+    width: 200px;
+    outline:1;
+    border-radius:8px;
+    font-size: 20px;
+  }
+  table{
+    margin:0;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    
+  }
+  thead{
+      background-color:rgba(243, 115, 53, 1);
+      color: white;
+  }
+  tr{
+    font-size: 14px;
+  }
+
+.tablink {
+    background-color: gray;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}

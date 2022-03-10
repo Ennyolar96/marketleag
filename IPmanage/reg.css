@@ -1,0 +1,238 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    }
+    .container{
+      overflow-x: hidden;
+      position: relative;
+    }
+   /* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: rgba(243, 115, 53, 1);
+}
+#regForm h3 {
+    color: #0f2027;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#regForm button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgba(243, 115, 53, 1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#regForm button:hover{
+    cursor: pointer;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+.c-check{
+    display: flex;
+}
+.c-check input{
+  width: 20px;
+}
+.c-check label{
+    width: 100%;
+    padding: 10px;
+    font-size:1rem;
+}    
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 95%;
+}
+  .textarea{
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 300px;
+    min-height: 300px;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+  }
+.input-control input:focus {
+    outline: 0;
+}
+.input-control select{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 95%;
+}
+
+#already{
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+#already a{
+    text-decoration: none;
+    color: rgba(243, 115, 53, 1);
+}
+
+#Agreement{
+    text-align: left;
+    font-size: 1rem;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h2{
+  font-size: 25px;
+  background-color: rgba(243, 115, 53, 1);
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius:8px;
+}
+
+.input-control textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 20px;
+    max-height: 100px;
+}
+.input-control{
+  box-shadow: 0 0 2px gray;
+  margin: 20px;
+  padding: 10px;
+}
+.input-control.success input{
+    border-color: #09c372;
+}
+
+.input-control.error input{
+    border-color: #ff3860;
+}
+
+.input-control textarea:focus {
+    outline: 0;
+}
+
+.input-control.success textarea{
+    border-color: #09c372;
+}
+
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+label{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.textheading{
+  font-size: 20px;
+}
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: white;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message h3{
+  font-size: 18px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 13px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}

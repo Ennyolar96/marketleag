@@ -39,6 +39,15 @@ body{
   width: 30px;
   height: 25px;
 }
+.icons{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.icons a{
+  margin: 0 10px;
+  color: whitesmoke;
+}
 .active{
   background-color: black;
 }
@@ -111,7 +120,7 @@ span{
   cursor: not-allowed;
 }
 table{
-  margin:50px 0 0 280px;
+  margin:50px 0 0 285px;
   text-align: left;
   width: 100%;
   border-collapse: collapse;
@@ -122,7 +131,8 @@ th, td {
   
 }
 thead{
-    background-color:rgba(243, 115, 53, 1);
+    /* background-color:rgba(243, 115, 53, 1); */
+    background-color: gray;
     color: white;
 }
 tr{

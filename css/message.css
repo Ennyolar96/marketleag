@@ -43,41 +43,6 @@ body{
   .active{
     background-color: black;
   }
-  .sidenav {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 40px;
-    left: 0;
-    background-color: rgba(0,0,0,0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 15px;
-    margin: 0 0 0 -20px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    margin: 4px 0;
-  }
-  
-  .sidenav a:hover {
-    background-color:black;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    display: none;
-  }
   .sidenav span{
     display: block;
     font-size: 18px;
@@ -85,12 +50,7 @@ body{
   .sidenav nav{
     display: flex;
   }
-  .nav__icon{
-    margin: 5px 0 0 0;
-  }
-  nav img{
-    margin: 0;
-  }
+ 
   nav span{
     margin: 0 0 0 20px;
   }
@@ -99,65 +59,128 @@ body{
       cursor:pointer;
       display: none;
   }
-  
-  .sidenav img{
-    width: 20px;
-    height: 20px;
+  /* styling the sections */
+
+  .firstone{
+    margin: 50px 0 0 0;
+    display: flex;
   }
-  
-  .changecolor{
-    color:  rgba(243, 115, 53, 1);
+  .firstone h2{
+    margin:0 0 0 20px;
+    font-size: 30px;
   }
-  .changecolor:hover{
-    cursor: not-allowed;
+  .firstone button{
+    margin: 0 20px 0 auto;
+    text-align: center;
+    padding: 10px 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
   }
 
-  table{
-    margin-top:0;
-    text-align: left;
-    width: 100%;
-    border-collapse: collapse;
+  .secondone{
+    margin: 30px;
+    display: flex;
   }
-  th, td {
+  .secondone form{
+    margin-left: auto;
+  }
+  .secondone input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 16px;
     padding: 10px;
-    border-bottom: 1px solid white;
-    
+    width: 500px;
   }
-  
-  tr{
-    font-size: 18px;
-  }
-  
-  .main{
+
+  .thirdone{
     display: flex;
-    margin: 40px 0 0 285px;
+    margin: 10px;
   }
-  .firstsection{
-    width: 100%;
-    margin: 0 5px 0 0;
-  }
-  .headingtexting{
-    display: flex;
-  }
-  h3{
-    font-size: 24px;
-    font-weight: 500;
-  }
-  .first-box{
+  .innerdiv{
+    width: 40%;
     background-color: whitesmoke;
-    
+    margin-right: 10px;
+  }
+  .innerdiv form{
+    padding: 20px;
+    margin-left: 50px;
+  }
+  .innerdiv select{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .namerow{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .namerow p{
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .namerow .mdate{
+    font-weight: lighter;
+  }
+  .innertext1{
+    width: 70%;
+    margin-left: 20px;
+    /* background-color: whitesmoke; */
+  }
+  .innertext1 p{
+    margin-left: 10px;
+    font-size: 14px;
   }
 
-
-  @media (max-width:1350px) { 
+  @media (max-width:1200px) { 
     .sidenav {padding-top: 15px;}
    .sidenav span {font-size: 20px;}
    .sidenav { width: 0; }
    .sidenav .closebtn { display: block;}
    span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
     
-   .main{
+   .firstone{
     display: flex;
-    margin: 40px 10px;
+    flex-direction: column;
   }
+  .firstone button{
+    margin: 20px 20px 0 20px;
+  }
+
+  .secondone{
+    display: block;
+  }
+  .secondone form{
+    margin-left: 0;
+  }
+  .secondone input{
+    width: 100%;
+  }
+
+  .thirdone{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .innerdiv{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .innertext1{
+    display: none;
+    width: 100%;
+    margin:0;
+    height: 300px;
+    background-color: whitesmoke;
+  }
+  .innertext1 p{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
 }
