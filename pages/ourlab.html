@@ -17,11 +17,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    </head>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/change.css">
+</head>
     <body>
-        <div class="container">
-        <header>
+        <div class="overall-container">
+            <!-- the heading section -->
+            <div class="heading" >
+            <div class="topnav" id="myTopnav">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/images/marketlaeg-logo.png" alt="MARKETLAEG" width="200" height="40">
+                  </a>
+                <a href="/index.html">Home</a>
+                <a href="/pages/innovation.html">Innovation Opportunities</a>
+                <a href="/pages/ipaccelerate.html">IP Accelerator</a>
+                <div class="dropdown">
+                  <button class="active dropbtn" onclick= 'window.location.href = "/pages/ourlab.html"'>lab
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="/pages/ourlab.html#course">Tech & Design</a>
+                    <a href="/pages/ourlab.html#literary">Literary & Artistic</a>
+                    <a href="/pages/ourlab.html#Executive">Executive Intelligence</a>
+                    <a href="/pages/ourlab.html#Talent">Talent Management</a>
+                    <a href="/pages/ourlab.html#General">General Issues</a>
+                  </div>
+                </div>
+                <a href="/pages/about.html">About</a>
+                <a href="#" class="btn-sign" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              </div>
+                
+            <div id="id01" class="mymodal">
+                <span onclick="document.getElementById('id01').style.display='none'"
+              class="close" title="Close">&times;</span>
+              
+                <!-- Modal Content -->
+                <div class="mymodal-content animate">
+                    <div class="mynew-container">
+                      <a href="/auth/login.html"> Login </a>
+                      <a href="/auth/register.html">Create Account</a>
+                      <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</a>
+                    </div>
+                  </div>
+              </div>
+
+        <!-- <header>
             <div class="header" id="myTopnav">
                 <a class="logo"><img src="/images/new-png-mleage-1-7.png" alt=""></a>
         
@@ -36,7 +80,7 @@
                         <i class="fa fa-bars"></i> </a>
                 </div>
             </div>
-        </header>
+        </header> -->
 
         <div id="id01" class="modal">
             <span onclick="document.getElementById('id01').style.display='none'"
@@ -110,7 +154,7 @@
         </div>
         <!-- third section -->
 
-        <div class="third-section">
+        <div class="third-section" id="literary">
             <div class="courseimage1">
                 <h2> Literary <br> & Artistic</h2>
                 <img src="/images/M-lab-L&A.png" alt="L&A">
@@ -132,7 +176,7 @@
 
         <!-- forth section -->
 
-        <div class="forth-section">
+        <div class="forth-section" id="Executive">
             <div class="courseimage2">
                 <h2> Executive <br> Intelligence</h2>
                 <img src="/images/M-lab-E&I.png" alt="E&I">
@@ -161,7 +205,7 @@
         <!-- fifty section -->
 
         <div class="fifty-section">
-            <div class="courseimage3">
+            <div class="courseimage3" id="Talent">
                 <h2> Talent <br> Management</h2>
                 <img src="/images/M-lab-T&M.png" alt="T&M">
             </div>
@@ -189,7 +233,7 @@
         <!-- last part sixty section -->
 
         <div class="sixty-section">
-            <div class="courseimage4">
+            <div class="courseimage4" id="General">
                 <h2> General <br> Issues</h2>
                 <img src="/images/M-lab-G&I.png" alt="G&I">
             </div>

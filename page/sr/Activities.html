@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/sendactivities.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header_static">
+            <span onclick="openNav()">&#9776;</span>
+                <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
+                 <span class="span" >Marketleag</span></nav>
+        </div>
+
+        <div class="Activities">
+            <h2>Activities</h2>
+                <select name="Filter" id="cars">
+                    <option value="Type">Filter By Type</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+        </div>    
+
+        <button class="tablink" onclick="openPage('Opportunities', this, 'gray')" id="defaultOpen">Feedbacks</button>
+        <!-- <button class="tablink" onclick="openPage('Activities', this, 'black')">Recent Activities</button>
+        <button class="tablink" onclick="openPage('update', this, 'black')">Submission update</button> -->
+        <!-- <button class="tablink" onclick="openPage('About', this, 'mediumaquamarine')">WordPress</button> -->
+
+        <div id="Opportunities" class="tabcontent">
+            <table>
+                <thead>
+                    <tr>
+                        <th>States</th>
+                        <th>Opportunities</th>
+                        <th>Date</th>                        
+                    </tr>
+                </thead>
+                <!-- <tr>
+                    <td></td>
+                </tr> -->
+            </table>
+
+        </div>
+
+        <!-- <div id="Activities" class="tabcontent">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Activites Type</th>
+                        <th>Load</th>
+                        <th>Opportunity</th>
+                    </tr>
+                </thead>
+                <!-- <tr>
+                    <td></td>
+                </tr> --
+            </table>
+        </div>
+
+        <div id="update" class="tabcontent">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Submission Type</th>
+                        <th>Next Step</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <!-- <tr>
+                    <td></td>
+                </tr> --
+            </table>
+        </div> -->
+
+    </div> 
+    <script src="/js/allactivities.js"></script>
+</body>
+</html>

@@ -1,11 +1,3 @@
-// const activePage = window.location.pathname;
-// const navLinks = document.querySelectorAll('header a').forEach(link => {
-//   if(link.href.includes(`${activePage}`)){
-//     link.classList.add('active');
-//     console.log(link);
-//   }
-// })
-
      // Get the modal
         var modal = document.getElementById('id01');
         
@@ -39,12 +31,12 @@ function topFunction() {
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "header") {
-    x.className += " responsive";
+  if (x.className === "topnav") {
+      x.className += " responsive";
   } else {
-    x.className = "header";
+      x.className = "topnav";
   }
-}
+  }
 
 // set and getting the cookies for the user
 
@@ -83,3 +75,8 @@ window.onload = () => {
     }
 
 };
+
+// $(".toggle-btn").click(function(){
+//   $(this).toggleClass("fa-times");
+//   $(".nav-menus").toggleClass("active");
+// });

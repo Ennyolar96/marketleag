@@ -42,12 +42,9 @@
                 </nav>
             </a>
     
-            <a>
               <nav>
-                <img src="/images/innovator.png" alt="">
                 <span class="nav__text changecolor">Idea & Solution</span>
               </nav>
-            </a>
     
             <a href="/page/is/innovationsignup.html">
                 <nav>
@@ -63,12 +60,11 @@
              </nav>
             </a>
     
-            <a>
+            
                <nav>
-                <img src="/images/intelletual property.png" alt="">
                 <span class="changecolor">Intellectual Property</span>
                </nav>
-            </a>
+            
     
             <a class="active" href="/page/sr/sendrequest.html">
                 <nav>
@@ -82,6 +78,10 @@
                 <img src="/images/ip expert.png" alt="">
                 <span class="nav__text">Expert Window</span></nav>
             </a> 
+
+                <nav>
+                 <span class="changecolor">Other options</span>
+                </nav>
     
             <a href="/user/Application.html">
                <nav>
@@ -115,84 +115,731 @@
                </nav>
             </a>
           </div>
-        
-            <form class="modal-content animate" id="form"  action="/action_page.php">
 
-                <h3>Update your Marketleag Profile</h3>
-        
-                     <input type="radio" name="Ip attorney" id="">
-                <label class="label_yes_no" for="ip attorney"> IP Attorney</label>
-                
-                <input type="radio" name="ip Broker" id="">
-                <label class="label_yes_no" for="ip Broker"> IP Broker</label>
-                <br> <br>
+        <div class="mainsections">
+
+            <button class="btnsend" id="btn_send"> Send a Request </button>
+
+                <form action="/" method="post" id="form">
+
+                <h2>Hello!</h2>
+                <p class="pcenter" >Be assured you will have part experience with us</p>
+                <p class="pcenter" >Kindly fill the form below with necessary information</p>
         
                     <div class="input-control">
-                    <label for="provide"> Provide the list of IP services you are best at?</label>
+                    <label for="provide"> First name</label>
                     <input type="text" name="list_ip" id="list_ip" placeholder="Provide your answer">
                         <div class="error"></div>
                     </div>
                     <div class="input-control">
-                        <label for="specify"> Specify other services your organization is known at?</label>
+                        <label for="specify"> Last name</label>
                         <input type="text" name="services_organization" id="services_organization" placeholder="Provide your answer">
                         <div class="error"></div>
                     </div>
                     <div class="input-control">
-                        <label for="organization"> Which year did your organization commence operation?</label>
+                        <label for="organization">Company name</label>
                         <input type="text" name="organization" id="organization" placeholder="Provide your answer">
                         <div class="error"></div>
                     </div>
                     <div class="input-control">
-                        <label for="indicate"> indicate the average number of IP transactions and filling you undertake per annum?</label>
+                        <label for="indicate">Email address</label>
                         <input type="text" name="average_number" id="average_number" placeholder="Provide your answer">
                         <div class="error"></div>
                     </div>
                     <div class="input-control">
-                        <label for="specify_number"> Specify the number of patents filed in the last one year by you?</label>
+                        <label for="specify_number"> Office Address</label>
                         <input type="text" name="patent_number" id="patent_number" placeholder="Provide your answer">
                         <div class="error"></div>
                         </div>
                         <div class="input-control">
-                            <label for="specify_trademark"> Specify the number of trademark filed in the last one year by you?</label>
+                            <label for="specify_trademark">Country of residences</label>
                             <input type="text" name="trademark_number" id="trademark_number" placeholder="Provide your answer">
                             <div class="error"></div>
                             </div>
                     
                             <div class="input-control">
-                            <label for="specify_copyright"> Specify the number of copyright filed in the last one year by you?</label>
+                            <label for="specify_copyright">Nationality</label>
                             <input type="text" name="copyright_number" id="copyright_number" placeholder="Provide your answer">
                             <div class="error"></div>
                             </div>
                     
                             <div class="input-control">
-                            <label for="specify_design"> Specify the number of designs filed in the last one year by you?</label>
+                            <label for="specify_design">Phone Number</label>
                             <input type="text" name="Design_number" id="Design_number" placeholder="Provide your answer">
                             <div class="error"></div>
                             </div>
-                    
+
+                            <h3>Select your profile</h3>
+                            <div class="c-check">
+                                <input type="checkbox" name="own" id="">
+                                <label for="own">It is my own intellectual property</label>
+                            </div>
+
+                            <div class="c-check">
+                                <input type="checkbox" name="Client" id="">
+                                <label for="own">I am assisting my client</label>
+                            </div>
                             <div class="input-control">
-                            <label for="provide"> Are you interested in cross border IP transaction or filled?</label>
-                            <input type="text" name="interested" id="interested" placeholder="Provide your answer">
+                                <label for="describle">Describe the work or business area in this section</label>
+                                <textarea name="describe" id="describe" cols="50" rows="30" placeholder="Provide description here"></textarea>
+                            </div>
+
+                            <p>What is your IPR of interest?</p>
+
+                            
+                                <div class="c-check">
+                                    <label for="trademark">Trademark</label>
+                                    <input type="checkbox" name="Trademark" id="trademark" onclick="myFunction()">
+                                </div>
+                                <div class= "input-control">
+                                <input type="text" name="trademark" id="trademark2" placeholder="Specify class(es) number">
                             <div class="error"></div>
                             </div>
-                    
-                            <div class="input-control">
-                            <label for="provide"> Have you undertaken cross border IP transaction in the last one year?</label>
-                            <input type="text" name="undertaken" id="undertaken" placeholder="Provide your answer">
+
+                            <!-- When user click on Trade Mark -->
+                            <!-- <div class="input-control"> -->
+                                <div class="trademarkselect" id="mtrademark">
+                                    <h3>Select Objective</h3>
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Registration" id="trademarkRegistration" onclick="registrationFunction()">
+                                        <label for="Registration">Registration</label>
+                                    </div>
+
+                                    <div class="registration-section" id="registrationSection"> <!--Registration section-->
+        
+                                        <h3>Select an Option</h3>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="first time registration" id="">
+                                            <label for="first time registration"> Initial registration <br> <small><i>(for all first time registration)</i></small></label>
+                                        </div>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="registration in other country" id="">
+                                            <label for="registration in other country"> Sebsequent designation <br> <small><i>(for registration in other counties after initial registration)</i></small></label>
+                                        </div>
+                                        <div class="input-control">
+                                            <label for="which country">In which country/region do you want to seek protection?</label>
+                                            <textarea name="country" id="country" cols="30" rows="10" placeholder="List the country(s) here"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Form for Renewal -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Renewal" id="tradermake_Renewal" onclick="trademarkRenewalFunction()">
+                                        <label for="Renewal">Renewal</label>
+                                    </div>
+
+                                      <!--Renewal section-->
+
+                            <div class="renewal-section" id="trademark__renewal"> 
+                               
+                                <h3>Fill in the Necessary Details</h3> <!--Renewal Details -->
+
+                                <div class="input-control">
+                                    <label>In which country was initial registration done?</label>
+                                        <select name="country" id="country">
+                                            <option value="country">Country</option>
+                                        </select>
+                                </div>
+                               
+                                <div class="input-control">
+                                    <label for="date">When was the expiration date?</label>
+                                    <input type="date" name="data" id="mydate">
+                                </div>
+                                <div class="input-control">
+                                    <label for="upload">Upload certificate</label>
+                                    <input type="file" name="upload" id="upload">
+                                </div>
+                            </div>
+
+                            <!-- commercialization form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Commercialization" id="trademarkCommercialization" onclick="trademarkCommercializationFunction()">
+                                        <label for="Commercialization">Commercialization</label>
+                                    </div>
+
+                                     <!-- commercialized section -->
+
+                            <div class="commercialized-section" id="tradeCommercialized"> 
+                                <h3>Fill in the Necessary Details</h3>
+                             
+                             <!--Commercial Details -->
+
+                                <p>What kind of commercialization option are you considering</p>
+
+                                <h3>Select option</h3>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="licensing" id="">
+                                    <label for="Licensing">Licensing</label>
+                                </div>
+                               
+                                <div class="c-check">
+                                    <input type="checkbox" name="Royalty" id="">
+                                    <label for="Royalty">Royalty</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Buyout" id="">
+                                    <label for="Buyout">Buyout</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Trade partnership" id="">
+                                    <label for="Royalty">Trade partnership</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Others" id="">
+                                    <label for="Others">Others</label>
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="product-image"> Upload your product image</label>
+                                    <input type="file" name="product-image" id="product-image">
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="certificate"> Upload your registration certificate </label>
+                                    <input type="file" name="certificate" id="certificate">
+                                </div>
+                            </div>
+
+                            <!-- Litigation form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Litigation" id="trademarkLitigation" onclick="trademarkLitigationFunction()">
+                                        <label for="Litigation">Litigation</label>
+                                    </div>
+
+                                    
+                                                        <!-- Litigation section -->
+
+                                                        <div class="litigationSection" id="trademark_Litigation"> 
+                                                           
+                                                            <h3>Fill in the Necessary Details</h3> <!--Litigation Details -->
+                                                            
+                                                            <div class="input-control">
+                                                                <label for="describle"> Kindly describe your needs</label>
+                                                                <textarea name="describe" id="describe" cols="50" rows="30"></textarea>
+                                                            </div>
+
+                                                            <div class="input-control">
+                                                                <label for="describle"> Others</label>
+                                                                <input type="text" name="Others" id="" placeholder="Please specify ">
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- others form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Others" id="trademarkOthers" onclick="TrademarkEnableDisableTextBox(this)">
+                                        <label for="Others">Others</label>
+                                        <div class="input-control">
+                                        <input type="text" name="other" id="tradecheckother" disabled="disabled">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- copyright section -->
+
+                                <div class="c-check">
+                                    <label for="Copyright">Copyright © </label>
+                                    <input type="checkbox" name="Copyright" id="Copyright" onclick="copyrightFunction()">
+                                </div>
+                                <div class="input-control">
+                                <input type="text" name="Copyright" id="Copyright" placeholder="Specify the type of work" >
                             <div class="error"></div>
                             </div>
-                    
-                            <div class="input-control">
-                            <label for="provide"> If yes specify the IP asset type name region or county?</label>
-                            <input type="text" name="if_yes" id="if_yes" placeholder="Provide your answer">
+
+                            <!-- When user click on Copyright -->
+                             <!-- <div class="input-control"> -->
+                                <div class="Copyrightselect" id="copyrightselect">
+                                    <h3>Select Objective</h3>
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Registration" id="rightRegistration" onclick="copyrightregistrationFunction()">
+                                        <label for="Registration">Registration</label>
+                                    </div>
+
+                                    <div class="regirationsection" id="copyregistration"> <!--Registration section-->
+                                                
+                                        <h3>Select an Option</h3>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="first time registration" id="">
+                                            <label for="first time registration"> Initial registration <br>
+                                               <small><i>(for all first time registration)</i></small> </label>
+                                        </div>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="registration in other country" id="">
+                                            <label for="registration in other country"> Sebsequent designation <br> <small><i>(for registration in other counties after initial registration)</i></small> </label>
+                                        </div>
+                                        <div class="input-control">
+                                            <label for="which country">In which country/region do you want to seek protection?</label>
+                                            <textarea name="country" id="country" cols="30" rows="10" placeholder="List the country(s) here"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Form For Commercialization -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Commercialization" id="copyrightCommercialization" onclick="copyrightCommercializationFunction()">
+                                        <label for="Commercialization">Commercialization</label>
+                                    </div>
+
+                                     <!-- commercialized section -->
+
+                            <div class="commercializedSection" id="copyright_commercialization"> 
+                                <h3>Fill in the Necessary Details</h3>
+                                <!--Commercial Details -->
+
+                                <p>What kind of commercialization option are you considering</p>
+
+                                <h3>Select option</h3>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="licensing" id="">
+                                    <label for="Licensing">Licensing</label>
+                                </div>
+                               
+                                <div class="c-check">
+                                    <input type="checkbox" name="Royalty" id="">
+                                    <label for="Royalty">Royalty</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Buyout" id="">
+                                    <label for="Buyout">Buyout</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Trade partnership" id="">
+                                    <label for="Royalty">Trade partnership</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Others" id="">
+                                    <label for="Others">Others</label>
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="product-image"> Upload your product image</label>
+                                    <input type="file" name="product-image" id="product-image">
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="certificate"> Upload your registration certificate </label>
+                                    <input type="file" name="certificate" id="certificate">
+                                </div>
+                            </div>
+
+                            <!-- Litigation form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Litigation" id="copyrightLitigation" onclick="copyrightLitigationFunction()">
+                                        <label for="Litigation">Litigation</label>
+                                    </div>
+
+                                    
+                                                        <!-- Litigation section -->
+
+                                                        <div class="litigation_section" id="copyright_Litigation"> 
+                                                                                       
+                                                            <h3>Fill in the Necessary Details</h3> <!--Litigation Details -->
+                                                            
+                                                            <div class="input-control">
+                                                                <label for="describle"> Kindly describe your needs</label>
+                                                                <textarea name="describe" id="describe" cols="50" rows="30"></textarea>
+                                                            </div>
+
+                                                            <div class="input-control">
+                                                                <label for="describle"> Others</label>
+                                                                <input type="text" name="Others" id="" placeholder="Please specify ">
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- Others form -->
+
+                                                        <div class="c-check">
+                                                            <input type="checkbox" name="Others" id="copyrightOthers" onclick="copyrightEnableDisableTextBox(this)">
+                                                            <label for="Others">Others</label>
+                                                            <div class="input-control">
+                                                            <input type="text" name="other" id="copyrightcheckother" disabled="disabled">
+                                                            </div>
+                                                        </div>
+                                </div>
+
+                                <!-- patent section -->
+
+                                <div class="c-check">
+                                    <label for="Patent">Patent</label>
+                                    <input type="checkbox" name="Patent" id="Patentcheck" onclick="patentFunction()">
+                                </div>
+                                <div class="input-control">
+                                <input type="text" name="Patent" id="Patent" placeholder="Specify the industry it belongs" >
                             <div class="error"></div>
                             </div>
+
+                             <!-- When user click on Patent -->
+                             <!-- <div class="input-control"> -->
+                                <div class="Patentselect" id="patentselect">
+                                    <h3>Select Objective</h3>
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Registration" id="patent_Registration" onclick="patentRegistrationFunction()">
+                                        <label for="Registration">Registration</label>
+                                    </div>
+
+                                    <div class="regiration_section" id="patent-registration"> <!--Registration section-->
+                                            
+                                        <h3>Select an Option</h3>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="first time registration" id="">
+                                            <label for="first time registration"> Initial registration <br> <small><i>(for all first time registration)</i></small> </label>
+                                        </div>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="registration in other country" id="">
+                                            <label for="registration in other country"> Sebsequent designation <br> <small><i>(for registration in other counties after initial registration)</i></small></label>
+                                        </div>
+                                        <div class="input-control">
+                                            <label for="which country">In which country/region do you want to seek protection?</label>
+                                            <textarea name="country" id="country" cols="30" rows="10" placeholder="List the country(s) here"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Form For Renewal -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Renewal" id="patent__Renewal" onclick="patentRenewalFunction()">
+                                        <label for="Renewal">Renewal</label>
+                                    </div>
+
+                                      <!--Renewal section-->
+
+                            <div class="renewal_section" id="patent_Renewal"> 
+                               
+                                <h3>Fill in the Necessary Details</h3> <!--Renewal Details -->
+
+                                <div class="input-control">
+                                    <label>In which country was initial registration done?</label>
+                                        <select name="country" id="country">
+                                            <option value="country">Country</option>
+                                        </select>
+                                </div>
+                               
+                                <div class="input-control">
+                                    <label for="date">When was the expiration date?</label>
+                                    <input type="date" name="data" id="mydate">
+                                </div>
+                                <div class="input-control">
+                                    <label for="upload">Upload certificate</label>
+                                    <input type="file" name="upload" id="upload">
+                                </div>
+                            </div>
+
+                            <!-- commercialization form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Commercialization" id="patentCommercialization" onclick="patentCommercializationFunction()">
+                                        <label for="Commercialization">Commercialization</label>
+                                    </div>
+
+                                     <!-- commercialized section -->
+
+                            <div class="commercialized_section" id="patent_commercialization"> 
+                                <h3>Fill in the Necessary Details</h3>
+                                 <!--Commercial Details -->
+
+                                <p>What kind of commercialization option are you considering</p>
+
+                                <h3>Select option</h3>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="licensing" id="">
+                                    <label for="Licensing">Licensing</label>
+                                </div>
+                               
+                                <div class="c-check">
+                                    <input type="checkbox" name="Royalty" id="">
+                                    <label for="Royalty">Royalty</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Buyout" id="">
+                                    <label for="Buyout">Buyout</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Trade partnership" id="">
+                                    <label for="Royalty">Trade partnership</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Others" id="">
+                                    <label for="Others">Others</label>
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="product-image"> Upload your product image</label>
+                                    <input type="file" name="product-image" id="product-image">
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="certificate"> Upload your registration certificate </label>
+                                    <input type="file" name="certificate" id="certificate">
+                                </div>
+                            </div>
+
+                            <!-- litigation form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Litigation" id="patentLitigation" onclick="patentLitigationFunction()">
+                                        <label for="Litigation">Litigation</label>
+                                    </div>
+
+                                    
+                                                        <!-- Litigation section -->
+
+                                                        <div class="litigation__section" id="patent_litigation"> 
+                                                                                 
+                                                            <h3>Fill in the Necessary Details</h3> <!--Litigation Details -->
+                                                            
+                                                            <div class="input-control">
+                                                                <label for="describle"> Kindly describe your needs</label>
+                                                                <textarea name="describe" id="describe" cols="50" rows="30"></textarea>
+                                                            </div>
+
+                                                            <div class="input-control">
+                                                                <label for="describle"> Others</label>
+                                                                <input type="text" name="Others" id="" placeholder="Please specify ">
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- others form -->
+
+                                                        <div class="c-check">
+                                                            <input type="checkbox" name="Others" id="patentOthers" onclick="patentEnableDisableTextBox(this)">
+                                                            <label for="Others">Others</label>
+                                                            <div class="input-control">
+                                                            <input type="text" name="other" id="patentcheckother" disabled="disabled">
+                                                            </div>
+                                                        </div>
+                                </div>
+                            
+                                <!-- design section -->
+
+                                <div class="c-check">
+                                    <label for="Design">Design</label>
+                                    <input type="checkbox" name="Design" id="designCheck" onclick="designFunction()">
+                                </div>
+                                <div class="input-control">
+                                <input type="text" name="Design" id="Design" placeholder="Specify the type of work" >
+                            <div class="error"></div>
+                            </div>
+
+                            <!-- When user click on Design-->
+                             <!-- <div class="input-control"> -->
+                                <div class="Designselect" id="designSelect">
+                                    <h3>Select Objective</h3>
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Registration" id="design_Registration" onclick="designRegistrationFunction()">
+                                        <label for="Registration">Registration</label>
+                                    </div>
+
+                                    <div class="regiration__section" id="design__registration"> <!--Registration section-->
+                                               
+                                        <h3>Select an Option</h3>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="first time registration" id="">
+                                            <label for="first time registration"> Initial registration <br> <small><i>for all first time registration</i></small></label>
+                                        </div>
+                                        <div class="c-check">
+                                            <input type="checkbox" name="registration in other country" id="">
+                                            <label for="registration in other country"> Sebsequent designation <br> <small><i>(for registration in other counties after initial registration)</i></small></label>
+                                        </div>
+                                        <div class="input-control">
+                                            <label for="which country">In which country/region do you want to seek protection?</label>
+                                            <textarea name="country" id="country" cols="30" rows="10" placeholder="List the country(s) here"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Renewal Form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Renewal" id="designRenewal" onclick="designRenewalFunction()">
+                                        <label for="Renewal">Renewal</label>
+                                    </div>
+
+                                      <!--Renewal section-->
+
+                            <div class="renewalSection" id="design_renewal"> 
+                               
+                                <h3>Fill in the Necessary Details</h3> <!--Renewal Details -->
+
+                                <div class="input-control">
+                                    <label>In which country was initial registration done?</label>
+                                        <select name="country" id="country">
+                                            <option value="country">Country</option>
+                                        </select>
+                                </div>
+                               
+                                <div class="input-control">
+                                    <label for="date">When was the expiration date?</label>
+                                    <input type="date" name="data" id="mydate">
+                                </div>
+                                <div class="input-control">
+                                    <label for="upload">Upload certificate</label>
+                                    <input type="file" name="upload" id="upload">
+                                </div>
+                            </div>
+
+                            <!-- Commercialization Form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Commercialization" id="designCommercialization" onclick="designCommercializationFunction()">
+                                        <label for="Commercialization">Commercialization</label>
+                                    </div>
+
+                                     <!-- commercialized section -->
+
+                            <div class="commercialized__section" id="design_Commercialization"> 
+                                <h3>Fill in the Necessary Details</h3>
+                                <!--Commercial Details -->
+
+                                <p>What kind of commercialization option are you considering</p>
+
+                                <h3>Select option</h3>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="licensing" id="">
+                                    <label for="Licensing">Licensing</label>
+                                </div>
+                               
+                                <div class="c-check">
+                                    <input type="checkbox" name="Royalty" id="">
+                                    <label for="Royalty">Royalty</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Buyout" id="">
+                                    <label for="Buyout">Buyout</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Trade partnership" id="">
+                                    <label for="Royalty">Trade partnership</label>
+                                </div>
+
+                                <div class="c-check">
+                                    <input type="checkbox" name="Others" id="">
+                                    <label for="Others">Others</label>
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="product-image"> Upload your product image</label>
+                                    <input type="file" name="product-image" id="product-image">
+                                </div>
+
+                                <div class="input-control">
+                                    <label for="certificate"> Upload your registration certificate </label>
+                                    <input type="file" name="certificate" id="certificate">
+                                </div>
+                            </div>
+
+                            <!-- litigation form -->
+
+                                    <div class="c-check">
+                                        <input type="checkbox" name="Litigation" id="designLitigation" onclick="designLitigationFunction()">
+                                        <label for="Litigation">Litigation</label>
+                                    </div>
+
+                                    
+                                                        <!-- Litigation section -->
+
+                                                        <div class="litigation-section" id="design_Litigation"> 
+                                                                                       
+                                                            <h3>Fill in the Necessary Details</h3> <!--Litigation Details -->
+                                                            
+                                                            <div class="input-control">
+                                                                <label for="describle"> Kindly describe your needs</label>
+                                                                <textarea name="describe" id="describe" cols="50" rows="30"></textarea>
+                                                            </div>
+
+                                                            <div class="input-control">
+                                                                <label for="describle"> Others</label>
+                                                                <input type="text" name="Others" id="" placeholder="Please specify ">
+                                                            </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- others form -->
+
+                                                        <div class="c-check">
+                                                            <input type="checkbox" name="Others" id="designOthers" onclick="designEnableDisableTextBox(this)">
+                                                            <label for="Others">Others</label>
+                                                            <div class="input-control">
+                                                            <input type="text" name="other" id="designcheckother" disabled="disabled">
+                                                            </div>
+                                                        </div>
+                                                     </div>
+
+                            <!-- End  -->
+
+                                <div class="c-check">
+                                    <label for="Geographical">Geographical Indicator</label>
+                                    <input type="checkbox" name="Geographical" id="Geographical">
+                                </div>
+                                <div class="input-control">
+                                <input type="text" name="Geographical" id="Geographical" placeholder="Specify product and country">
+                            <div class="error"></div>
+                            </div>
+
+                            
+                                <div class="c-check">
+                                    <label for="Traditional">Traditional Knowledge</label> 
+                                    <input type="checkbox" name="Traditional" id="Traditional">
+                                </div>
+                            <div class="input-control">
+                                <input type="text" name="Traditional" id="Traditional" placeholder="Specify the problem it solves and country of origin">
+                            <div class="error"></div>
+                            </div>               
+
+                            <!-- button for the form -->
                     
-                    <button type="submit">Update Profile</button>
-                    <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
+                    <button type="submit">Send Request</button>
+                    <!-- <p id="Agreement">By creating an account, you understand and agree to MGL's <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p> -->
                 </form> 
 
-        <!-- <script src="/js/IPClient.js"></script> -->
+                    <!-- Feedback box -->
+
+                <div class="feedbackheadding">
+                    <h3>Feedbacks</h3>
+                    <button class="manage" onclick= 'window.location.href = "./activities.html"'>All Feedbacks</button>
+                </div>
+                <!--first box -->
+                <div class="first-box">
+                  <table>
+                    <thead>
+                        <tr>
+                            <th>IP Type</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <!-- <tbody>
+                        <tr>
+                          <td></td>
+                        </tr>
+                    </tbody> -->
+                </table>
+                </div>
+
+        </div>
+    </div>
+
+        <script src="/js/expectform.js"></script>
         <script src="/js/tangle.js"></script>
     </body>
 </html>

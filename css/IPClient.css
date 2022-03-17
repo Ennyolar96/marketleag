@@ -112,16 +112,33 @@ body{
     width: 20px;
     height: 20px;
   }
-  
-  .changecolor{
-    color:  rgba(243, 115, 53, 1);
+  nav .changecolor{
+    color:  rgba(243, 115, 53, 0.4);
+    text-transform: uppercase;
+    margin: 0 30px;
+    font-size: 18px;
+    cursor:default;
+}
+ .mainsections{
+   margin: 50px 0 0 300px;
+ }
+
+  .btnsend{
+      border-radius: 10px;
+      border: none;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
   }
-  .changecolor:hover{
-    cursor: not-allowed;
+  small{
+      font-size: 12px;
   }
   
 #form {
-    margin: 50px 300px;
+    display: none;
+    margin: 20px 200px 50px 0;
     padding: 20px;
     background-color: whitesmoke;
     border-radius: 4px;
@@ -130,6 +147,18 @@ body{
 
 #form h3 {
     color: #0f2027;
+    font-weight: 500;
+    text-align: left;
+    font-size: 1.1rem;
+}
+#form .pcenter{
+    text-align: center;
+    font-size: 18px;
+}
+
+#form h2 {
+    color: #0f2027;
+    font-weight: 700;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -181,7 +210,7 @@ body{
 	padding: 10px;
 	min-width: 95%;
     max-width: 95%;
-    min-height: 20px;
+    min-height: 50px;
     max-height: 100px;
 
 }
@@ -219,234 +248,99 @@ p{
 }
 label{
     font-size: 1.2rem;
-}
-.changecolor{
-    color:  rgba(243, 115, 53, 1);
+    margin: 5px 0;
 }
 
-/* @media screen and (min-width:768px) {
-  #form {
-    margin: 30px 20px;
-    padding: 20px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    font-size: 12px;
+.Copyrightselect, .trademarkselect, .Patentselect, .Designselect {
+    display:none;
 }
 
-#form h3 {
-    color: #0f2027;
-    text-align: center;
-    font-size: 1.5rem;
+/* All Registration page */
+
+.registration-section, .regirationsection, .regiration_section, .regiration__section{
+    display: none;
 }
 
-#form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1em;
+/* All Renewal section */
+
+.renewal_section, .renewal-section, .renewalSection{
+    display: none;
 }
 
-.input-control {
-    display: flex;
-    flex-direction: column;
+.commercialized-section,.commercializedSection, .commercialized_section, .commercialized__section{
+    display: none;
+}
+.litigationSection, .litigation_section, .litigation__section, .litigation-section{
+    display: none;
+}
+table{
+  margin-top:0;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  
 }
 
-.input-control input {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 95%;
+tr{
+  font-size: 18px;
 }
 
-.input-control input:focus {
-    outline: 0;
+.feedbackheadding{
+  display: flex;
+}
+h3{
+  font-size: 24px;
+  font-weight: 500;
+}
+.manage{
+  margin: 10px 20px 20px auto;
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
 }
 
-#already{
-    text-align: center;
-    margin-bottom: 50px;
+.first-box{
+  background-color: whitesmoke;
+  height: 250px;
 }
 
-#Agreement{
-    text-align: center;
-    font-size: 1rem;
-}
 
-.input-control textarea {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	min-width: 95%;
-    max-width: 95%;
-    min-height: 20px;
-    max-height: 100px;
 
-}
-
-.input-control input[type = "checkbox"]{
-    width: 10%;
-}
-p{
-    font-size: 1.2rem;
-}
-.input-control.success input{
-    border-color: #09c372;
-}
-
-.input-control.error input{
-    border-color: #ff3860;
-}
-
-.input-control textarea:focus {
-    outline: 0;
-}
-
-.input-control.success textarea{
-    border-color: #09c372;
-}
-
-.input-control.error textarea{
-    border-color: #ff3860;
-}
-
-.input-control .error {
-    color: #ff3860;
-    font-size: 9px;
-    height: 13px;
-}
-label{
-    font-size: 1rem;
-}
-
-}
-
-@media screen and (max-width:768px) {
-  #form {
-    margin: 30px 20px;
-    padding: 20px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    font-size: 12px;
-}
-
-#form h3 {
-    color: #0f2027;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-#form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1em;
-}
-
-.input-control {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-control input {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 95%;
-}
-
-.input-control input:focus {
-    outline: 0;
-}
-
-#already{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#Agreement{
-    text-align: center;
-    font-size: .8rem;
-}
-
-.input-control textarea {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	min-width: 95%;
-    max-width: 95%;
-    min-height: 20px;
-    max-height: 100px;
-
-}
-
-.input-control input[type = "checkbox"]{
-    width: 10%;
-}
-p{
-    font-size: .8rem;
-}
-.input-control.success input{
-    border-color: #09c372;
-}
-
-.input-control.error input{
-    border-color: #ff3860;
-}
-
-.input-control textarea:focus {
-    outline: 0;
-}
-
-.input-control.success textarea{
-    border-color: #09c372;
-}
-
-.input-control.error textarea{
-    border-color: #ff3860;
-}
-
-.input-control .error {
-    color: #ff3860;
-    font-size: 9px;
-    height: 13px;
-}
-label{
-    font-size: .8rem;
-}
-.show {
-    width: 260px;
-  }
-
-} */
-@media (max-width:1200px) 
-{
+@media (max-width:1200px) {
  .sidenav {padding-top: 15px;}
- .sidenav span {font-size: 20px;}
+ .sidenav span {font-size: 15px;}
  .sidenav { width: 0; }
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+ #form { margin: 20px 90px 20px 0px;}
+ .mainsections{
+  margin: 50px 0 0 20px;
+}
+.feedbackheadding{
+  display: flex;
+  flex-direction: column;
+}
+.manage{
+  margin: 0 10px 20px 0;
+}
+
 }
 
 @media (max-width:992px)  {
  .sidenav {padding-top: 15px;}
- .sidenav span {font-size: 20px;}
+ .sidenav span {font-size: 15px;}
  .sidenav { width: 0; }
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+ #form { margin: 20px 90px 20px 0px;}
 }
 
 @media (max-width:786px)  {
@@ -455,14 +349,16 @@ label{
  .sidenav { width: 0; }
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+ #form { margin: 20px 90px 20px 0px;}
 }
 
 @media (max-width:600px)  {
  .sidenav {padding-top: 15px;}
- .sidenav span {font-size: 16px;}
+ .sidenav span {font-size: 15px;}
  .sidenav { width: 0; }
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+ #form { margin: 20px 20px 20px 0px;}
 }
 
 @media (max-width:400px)  {
@@ -471,4 +367,5 @@ label{
  .sidenav { width: 0; }
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
+ #form { margin: 20px 5px 20px 0px;}
 }

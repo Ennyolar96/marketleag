@@ -113,12 +113,14 @@ span{
   height: 20px;
 }
 
-.changecolor{
-  color:  rgba(243, 115, 53, 1);
+nav .changecolor{
+  color:  rgba(243, 115, 53, 0.4);
+  text-transform: uppercase;
+  margin: 0 30px;
+  font-size: 18px;
+  cursor:default;
 }
-.changecolor:hover{
-  cursor: not-allowed;
-}
+
 table{
   margin:50px 0 0 285px;
   text-align: left;

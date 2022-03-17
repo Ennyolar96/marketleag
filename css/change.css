@@ -1,0 +1,241 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    width: 100%;   
+    }
+    .overall-container{
+     overflow-x: hidden;
+     position: relative;
+    }
+.heading .btn-sign{
+    border: 2px solid rgba(243, 115, 53, 1);
+    padding:10px;
+    margin: 10px 0 0 20px;
+
+}
+.btn:hover{
+    color:white ;
+    background-color:rgba(243, 115, 53, 1); 
+}
+
+.links{
+    font-size:18px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: var(--bs-gray);
+}
+.navbar-nav .nav-item .links:hover{
+    color: var(--bs-info);
+}
+
+.mymodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .mymodal-content {
+    border-radius: 10px;
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  .mynew-container{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+  }
+ .mynew-container a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 115, 53, 1);
+    padding: 20px;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .mynew-container a:hover{
+     opacity: 0.5;
+ }
+/* Add a black background color to the top navigation */
+.heading {
+  background-color: transparent;
+  overflow: hidden;
+}
+.heading .navbar-brand{
+ margin: 0 200px 0 0;
+}
+.heading .navbar-brand:hover{
+  background-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: gray;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px 0 0;
+}
+
+/* Add an active class to highlight the current page */
+.heading .dropdown .active {
+  color:#f73;
+}
+.heading .active {
+  color:#f73;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: gray;
+  font-weight: 600;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 10px 0 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #f73;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f73;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1200px) {
+ .topnav .navbar-brand{
+    display: block;
+  }
+  .topnav a, .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display:block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float:none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

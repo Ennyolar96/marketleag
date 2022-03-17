@@ -1,4 +1,4 @@
-body{
+/* body{
     box-sizing: border-box;
     overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +10,7 @@ body{
     .container{
         overflow-x: hidden;
         position: relative;
-    }
+    } */
 
         /* The Modal (background) */
 .modal {
@@ -659,40 +659,7 @@ body{
     }
     @media screen and (max-width:1200px) {
        
-        .header a.logo{
-         
-          display: block;
-        }
-        .header-right{
-            float: none;
-            margin: 0;
-            font-size: 14px;
-        }
-        .header-right a.reg{
-          margin-right: 0;
-          background-color: rgba(243, 115, 53, 1);
-          border-radius: 8px;  
-          padding: 10px 5px;
-          color: rgba(255, 255, 255, 1);
-          font-family:'Poppins', sans-serif;
-        }
-        .header a{display: none;}
-        .header a.icon {
-          float: right;
-          display: block;
-        }
-      
-        .header.responsive {position: relative;}
-        .header.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .header.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
+    
         .first-section{
             display: flex;
             width: 100%;
@@ -1028,41 +995,7 @@ body{
     }      
 
     @media screen and (max-width:992px) {
-       
-        .header a.logo{
-         
-          display: block;
-        }
-        .header-right{
-            float: none;
-            margin: 0;
-            font-size: 14px;
-        }
-        .header-right a.reg{
-          margin-right: 0;
-          background-color: rgba(243, 115, 53, 1);
-          border-radius: 8px;  
-          padding: 10px 5px;
-          color: rgba(255, 255, 255, 1);
-          font-family:'Poppins', sans-serif;
-        }
-        .header a{display: none;}
-        .header a.icon {
-          float: right;
-          display: block;
-        }
-      
-        .header.responsive {position: relative;}
-        .header.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .header.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
+ 
         .first-section{
             display: flex;
             flex-direction: column;
@@ -1433,40 +1366,7 @@ body{
     } 
 
     @media screen and (max-width:768px) {
-        .header a.logo{
-         
-          display: block;
-        }
-        .header-right{
-            float: none;
-            margin: 0;
-            font-size: 14px;
-        }
-        .header-right a.reg{
-          margin-right: 0;
-          background-color: rgba(243, 115, 53, 1);
-          border-radius: 8px;  
-          padding: 10px 5px;
-          color: rgba(255, 255, 255, 1);
-          font-family:'Poppins', sans-serif;
-        }
-        .header a{display: none;}
-        .header a.icon {
-          float: right;
-          display: block;
-        }
-      
-        .header.responsive {position: relative;}
-        .header.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .header.responsive a {
-          float: none;
-          display: block;
-          text-align:left;
-        }
+
         .first-section{
             display: flex;
             flex-direction: column;
@@ -1807,40 +1707,6 @@ body{
     } 
 
     @media screen and (max-width:600px) {
-        .header a.logo{
-         
-          display: block;
-        }
-        .header-right{
-            float: none;
-            margin: 0;
-            font-size: 14px;
-        }
-        .header-right a.reg{
-          margin-right: 0;
-          background-color: rgba(243, 115, 53, 1);
-          border-radius: 8px;  
-          padding: 10px 5px;
-          color: rgba(255, 255, 255, 1);
-          font-family:'Poppins', sans-serif;
-        }
-        .header a{display: none;}
-        .header a.icon {
-          float: right;
-          display: block;
-        }
-      
-        .header.responsive {position: relative;}
-        .header.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .header.responsive a {
-          float: none;
-          display: block;
-          text-align:left;
-        }
 
         .new-container a{
             text-align: center;
@@ -2212,41 +2078,7 @@ body{
         }
     } 
     @media screen and (max-width:600px) {
-        .header a.logo{
-         
-          display: block;
-        }
-        .header-right{
-            float: none;
-            margin: 0;
-            font-size: 14px;
-        }
-        .header-right a.reg{
-          margin-right: 0;
-          background-color: rgba(243, 115, 53, 1);
-          border-radius: 8px;  
-          padding: 10px 5px;
-          color: rgba(255, 255, 255, 1);
-          font-family:'Poppins', sans-serif;
-        }
-        .header a{display: none;}
-        .header a.icon {
-          float: right;
-          display: block;
-        }
-      
-        .header.responsive {position: relative;}
-        .header.responsive a.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .header.responsive a {
-          float: none;
-          display: block;
-          text-align:left;
-        }
-
+       
         .new-container a{
             text-align: center;
             text-decoration: none;

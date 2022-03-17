@@ -113,12 +113,13 @@ body{
     height: 20px;
   }
   
-  .changecolor{
-    color:  rgba(243, 115, 53, 1);
-  }
-  .changecolor:hover{
-    cursor: not-allowed;
-  }
+  nav .changecolor{
+    color:  rgba(243, 115, 53, 0.4);
+    text-transform: uppercase;
+    margin: 0 30px;
+    font-size: 18px;
+    cursor:default;
+}
 
 
 #form {

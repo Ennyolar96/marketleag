@@ -1,75 +1,16 @@
 body{
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    width: 100%;   
     }
     .main-con{
-        overflow-x: hidden;
-        position: relative;
+     overflow-x: hidden;
+     position: relative;
     }
-    .header{
-      overflow: hidden;
-      background-color:rgba(255, 255, 255, 1);
-      padding: 20px 30px;
-    }
-    /* styling the header link */
-    .header a {
-      float: left;
-      color: gray;
-      text-align: center;
-      padding: 12px;
-      text-decoration: none;
-      font-size: 1.2em;
-      line-height: 25px;
-      border-radius: 4px;
-      text-transform: capitalize;
-      font-family:'Poppins', sans-serif;
-    }
-    /* styling the logo */
     
-    .header a.logo{
-        font-size: 1.7em;
-        font-weight: bold;
-        padding: 0;
-    }
-    /* hover */
-    .btn:hover {
-        background-color:rgba(243, 115, 53, 1);
-        color: white;
-      }
-     .header .active{
-          color: rgba(243, 115, 53, 1);
-      }
-      
-    .header a.logo:hover{
-      background-color: white;
-    }
-    /* .header a.active{
-      color: rgba(243, 115, 53, 1);
-    } */
-    .header-right{
-      float: none;
-      margin-left: 300px;
-    }
-    .header-right a.reg{
-      margin-left: 10px;
-      background-color: rgba(243, 115, 53, 1);
-      border-radius: 8px;  
-      padding: 10px 15px;
-      border-bottom: 1px solid black;
-      color: rgba(255, 255, 255, 1);
-      font-family:'Poppins', sans-serif;
-      cursor: pointer;
-    }
-    .header .icon {
-        display: none;
-      }
-      .header a:hover{
-        cursor: pointer;
-    }
-
     #consent-popup {
       position: fixed;
       bottom: 0;
@@ -117,102 +58,6 @@ body{
     #myBtn:hover {
       background-color: #555; 
     }
-    
-    /* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    border-radius: 10px;
-    background-color: #fefefe;
-    margin: 5px auto; /* 15% from the top and centered */
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close {
-    /* Position it in the top right corner outside of the modal */
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-  }
-  
-  /* Close button on hover */
-  .close:hover,
-  .close:focus {
-    color: red;
-    cursor: pointer;
-  }
-  
-  /* Add Zoom Animation */
-  .animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-  }
-  
-  @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
-  }
-  
-  @keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
-  }
-  .new-container{
-      display: flex;
-      flex-direction: column;
-      margin: 20px;
-  }
- .new-container a{
-    text-align: center;
-    text-decoration: none;
-    background-color: rgba(243, 115, 53, 1);
-    padding: 20px;
-    margin: 20px 0;
-    border-bottom: 2px solid black;
-    color: white;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 500;
- }
- .new-container a:hover{
-     opacity: 0.5;
- }
-
-    .content {
-        padding: 16px;
-      }
-      
-      /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-      
-      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-      .sticky + .content {
-        padding-top: 60px;
-      }
-
-
       .sectionfirst{
           background-color: whitesmoke;
           padding: 100px;
