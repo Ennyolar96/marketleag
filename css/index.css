@@ -36,6 +36,9 @@ body{
     font-weight: bold;
     padding: 0;
   }
+  .header a:hover {
+    cursor: pointer;
+  }
   /* hover */
   /* .header a:is(:link, :active, :visited).active {
     color:rgba(243, 115, 53, 1);
