@@ -33,7 +33,7 @@
                 <a href="/index.html">Home</a>
                 <a href="/pages/innovation.html">Innovation Opportunities</a>
                 <a href="/pages/ipaccelerate.html">IP Accelerator</a>
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                   <button class="active dropbtn" onclick= 'window.location.href = "/pages/ourlab.html"'>lab
                     <i class="fa fa-caret-down"></i>
                   </button>
@@ -44,7 +44,8 @@
                     <a href="/pages/ourlab.html#Talent">Talent Management</a>
                     <a href="/pages/ourlab.html#General">General Issues</a>
                   </div>
-                </div>
+                </div> -->
+                <a class="active" href="/pages/ourlab.html">Lab</a>
                 <a href="/pages/about.html">About</a>
                 <a href="#" class="btn-sign" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -82,16 +83,19 @@
             </div>
         </header> -->
 
-        <div id="id01" class="modal">
-            <span onclick="document.getElementById('id01').style.display='none'"
+        <div id="started" class="modal">
+            <span onclick="document.getElementById('started').style.display='none'"
           class="close" title="Close">&times;</span>
           
             <!-- Modal Content -->
             <div class="modal-content animate">
                 <div class="new-container">
-                  <a href="/auth/login.html"> Login </a>
-                  <a href="/auth/register.html">Create Account</a>
-                  <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</a>
+                    <a href="#course">Tech & Design</a>
+                    <a href="#literary">Literary & Artistic</a>
+                    <a href="#Executive">Executive Intelligence</a>
+                    <a href="#Talent">Talent Management</a>
+                    <a href="#General">General Issues</a>
+                  <!-- <a onclick="document.getElementById('start').style.display='none'" class="cancelbtn">Cancel</a> -->
                   </div>
               </div>
           </div>
@@ -101,7 +105,7 @@
             <div class="first-section1">
                 <h1>Welcome to Lab</h1>
                 <p>We provide the best tools for making solutions in STEM, intellectual property works, and SMEs intangible assets a ground breaking success.</p>
-                <button class="main-button"   onclick= 'window.location.href = "#course"'>Get Started</button>
+                <button class="main-button"  onclick="document.getElementById('started').style.display='block'">Get Started</button>
             </div>
             <div class="first-section2">
                <img src="/images/M-lab-banner.png" alt="marketleage lab image">
