@@ -3,11 +3,8 @@ body{
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;  
-  }
-  .container{
-    overflow-x: hidden;
-    position: relative;
+  padding: 0; 
+  width: 100%;   
   }
   .header{
     overflow: hidden;
@@ -123,10 +120,10 @@ body{
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  overflow: hidden; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 /* Modal Content/Box */
@@ -135,7 +132,7 @@ body{
   background-color: #fefefe;
   margin: 5px auto; /* 15% from the top and centered */
   border: 1px solid #888;
-  width: 50%; /* Could be more or less, depending on screen size */
+  width: 30%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -174,18 +171,18 @@ body{
 .new-container{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
 }
 .new-container a{
   text-align: center;
   text-decoration: none;
   background-color: rgba(243, 115, 53, 1);
-  padding: 20px;
-  margin: 20px 0;
+  padding: 10px;
+  margin: 10px 0;
   border-bottom: 2px solid black;
   color: white;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 .new-container a:hover{
@@ -575,6 +572,7 @@ footer{
   .header a.icon {
     float: right;
     display: block;
+    font-size: 30px;
   }
 
   .header.responsive {position: relative;}
@@ -1524,6 +1522,14 @@ width: 100%;
     font-size: 14px;
     font-weight: 500;
  }
+
+ .modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
 
   .first-section{
     display: flex;

@@ -19,54 +19,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/css/change.css">
 </head>
     <body>
         <div class="overall-container">
-            <!-- the heading section -->
-            <div class="heading" >
-            <div class="topnav" id="myTopnav">
-                <a class="navbar-brand" href="/index.html">
-                    <img src="/images/marketlaeg-logo.png" alt="MARKETLAEG" width="200" height="40">
-                  </a>
-                <a href="/index.html">Home</a>
-                <a href="/pages/innovation.html">Innovation Opportunities</a>
-                <a href="/pages/ipaccelerate.html">IP Accelerator</a>
-                <!-- <div class="dropdown">
-                  <button class="active dropbtn" onclick= 'window.location.href = "/pages/ourlab.html"'>lab
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-content">
-                    <a href="/pages/ourlab.html#course">Tech & Design</a>
-                    <a href="/pages/ourlab.html#literary">Literary & Artistic</a>
-                    <a href="/pages/ourlab.html#Executive">Executive Intelligence</a>
-                    <a href="/pages/ourlab.html#Talent">Talent Management</a>
-                    <a href="/pages/ourlab.html#General">General Issues</a>
-                  </div>
-                </div> -->
-                <a class="active" href="/pages/ourlab.html">Lab</a>
-                <a href="/pages/about.html">About</a>
-                <a href="#" class="btn-sign" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-              </div>
-              </div>
-                
-            <div id="id01" class="mymodal">
-                <span onclick="document.getElementById('id01').style.display='none'"
-              class="close" title="Close">&times;</span>
-              
-                <!-- Modal Content -->
-                <div class="mymodal-content animate">
-                    <div class="mynew-container">
-                      <a href="/auth/login.html"> Login </a>
-                      <a href="/auth/register.html">Create Account</a>
-                      <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</a>
-                    </div>
-                  </div>
-              </div>
-
-        <!-- <header>
+        <header>
             <div class="header" id="myTopnav">
                 <a class="logo"><img src="/images/new-png-mleage-1-7.png" alt=""></a>
         
@@ -81,8 +38,22 @@
                         <i class="fa fa-bars"></i> </a>
                 </div>
             </div>
-        </header> -->
-
+        </header>
+        <!-- sign in pop up -->
+        <div id="id01" class="mymodal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close">&times;</span>
+          
+            <!-- Modal Content -->
+            <div class="mymodal-content animate">
+                <div class="mynew-container">
+                  <a href="/auth/login.html"> Login </a>
+                  <a href="/auth/register.html">Create Account</a>
+                  <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</a>
+                </div>
+              </div>
+          </div>
+<!-- pop up for the course -->
         <div id="started" class="modal">
             <span onclick="document.getElementById('started').style.display='none'"
           class="close" title="Close">&times;</span>
@@ -90,12 +61,12 @@
             <!-- Modal Content -->
             <div class="modal-content animate">
                 <div class="new-container">
-                    <a href="#course">Tech & Design</a>
+                    <a href="#course">Technology & Design</a>
                     <a href="#literary">Literary & Artistic</a>
                     <a href="#Executive">Executive Intelligence</a>
                     <a href="#Talent">Talent Management</a>
                     <a href="#General">General Issues</a>
-                  <!-- <a onclick="document.getElementById('start').style.display='none'" class="cancelbtn">Cancel</a> -->
+                  <a onclick="document.getElementById('started').style.display='none'" class="cancelbtn">Close</a>
                   </div>
               </div>
           </div>

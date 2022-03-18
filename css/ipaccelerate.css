@@ -1,4 +1,4 @@
-/* body{
+body{
     box-sizing: border-box;
     overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
@@ -7,10 +7,59 @@
     width: 100%;
     }
 
-    .container{
+    /* .container{
         overflow-x: hidden;
         position: relative;
     } */
+
+    .header{
+        overflow: hidden;
+        background-color:rgba(255, 255, 255, 1);
+        padding: 20px 30px;
+      }
+      /* styling the header link */
+      .header a {
+        float: left;
+        color: gray;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 1.2em;
+        line-height: 25px;
+        border-radius: 4px;
+        text-transform: capitalize;
+        font-family:'Poppins', sans-serif;
+      }
+      /* styling the logo */
+      .header a:hover{
+          cursor: pointer;
+      }
+      .header a.logo{
+        font-size: 1.7em;
+        font-weight: bold;
+        padding: 0;
+      }
+      /* hover */
+      .header a.icon {
+          display: none;
+        }
+      .header a.active{
+        color: rgba(243, 115, 53, 1);
+      }
+      .header-right{
+        float: none;
+        margin-left: 300px;
+      }
+      .header-right a.reg{
+        margin-left: 10px;
+        background-color: rgba(243, 115, 53, 1);
+        border-radius: 8px; 
+        border-bottom: 1px solid black; 
+        padding: 10px 15px;
+        color: rgba(255, 255, 255, 1);
+        font-family:'Poppins', sans-serif;
+        cursor: pointer;
+      }
 
         /* The Modal (background) */
 .modal {
@@ -89,54 +138,7 @@
  .new-container a:hover{
      opacity: 0.5;
  }
-    .header{
-      overflow: hidden;
-      background-color:rgba(255, 255, 255, 1);
-      padding: 20px 30px;
-    }
-    /* styling the header link */
-    .header a {
-      float: left;
-      color: gray;
-      text-align: center;
-      padding: 12px;
-      text-decoration: none;
-      font-size: 1.2em;
-      line-height: 25px;
-      border-radius: 4px;
-      text-transform: capitalize;
-      font-family:'Poppins', sans-serif;
-    }
-    /* styling the logo */
-    .header a:hover{
-        cursor: pointer;
-    }
-    .header a.logo{
-      font-size: 1.7em;
-      font-weight: bold;
-      padding: 0;
-    }
-    /* hover */
-    .header a.icon {
-        display: none;
-      }
-    .header a.active{
-      color: rgba(243, 115, 53, 1);
-    }
-    .header-right{
-      float: none;
-      margin-left: 300px;
-    }
-    .header-right a.reg{
-      margin-left: 10px;
-      background-color: rgba(243, 115, 53, 1);
-      border-radius: 8px; 
-      border-bottom: 1px solid black; 
-      padding: 10px 15px;
-      color: rgba(255, 255, 255, 1);
-      font-family:'Poppins', sans-serif;
-      cursor: pointer;
-    }
+  
     
     #consent-popup {
         position: fixed;
@@ -658,7 +660,41 @@
         width: 20%;
     }
     @media screen and (max-width:1200px) {
-       
+        .header a.logo{
+         
+            display: block;
+          }
+          .header-right{
+              float: none;
+              margin: 0;
+              font-size: 14px;
+          }
+          .header-right a.reg{
+            margin-right: 0px;
+            background-color: rgba(243, 115, 53, 1);
+            border-radius: 8px;  
+            padding: 10px 5px;
+            color: rgba(255, 255, 255, 1);
+            font-family:'Poppins', sans-serif;
+          }
+          .header a{display: none;}
+          .header a.icon {
+            float: right;
+            display: block;
+            font-size: 30px;
+          }
+  
+          .header.responsive {position: relative;}
+          .header.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .header.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
     
         .first-section{
             display: flex;
