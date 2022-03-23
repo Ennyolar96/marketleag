@@ -1,0 +1,350 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+/* the fixed heading */
+.headingdiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 11, 11);
+    height: 50px;
+    width: 100%;
+}
+.headingdivcontainer{
+    margin: 0 0 0 300px;
+}
+/* Open width button */
+span.open{
+    color: #fff;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+.btn-back{
+    cursor: pointer;
+    margin:7px 0 0 1%;
+}
+span.icon-container{
+  background-color: #fff;
+   font-size: 1.2rem;
+}
+.icons{
+    color: #000;
+    margin:7px 20px 0;
+}
+/* the aside styles */
+.navcontainer{
+position: fixed;
+top: 0;
+left: 0;
+width: 260px;
+height: 100%;
+overflow-y: auto;
+overflow: hidden;
+background-color: black;
+margin: 0;
+padding: 0;
+}
+.navheading{
+    margin: 40px;
+}
+.navheading img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.imgtext{
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+}
+.profiletext{
+    margin: 0 0 0 20px;
+}
+.asidenav{
+    min-height: 100%;
+    font-size: 20px;
+    margin:0 0 0 -25px;
+    padding: 0;
+    width: 100%;
+}
+.asidenav ul{
+    list-style-type: none;
+}
+.asidenav .dashtext{
+    padding: 0;
+    margin: 0;
+    padding: 2% 0;
+}
+.dashtext a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 1% 13%;
+}
+.dashtext a:hover, .dashtext .active{
+    color: rgba(243, 115, 53, 1);
+}
+.navicon{
+    margin: 0 10px 0 0;
+}
+/* closebar style */
+
+.closebar{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    display: none;
+}
+.closebar a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.closebar a:hover{
+    background-color: red;
+    
+   
+}
+/* The main container that holds other tags*/
+.maincontainer{
+    margin: 55px 0 0 260px;
+}
+/* The first section */
+.firstdiv{
+   background-color: whitesmoke;
+}
+h1.work{
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 3% 3% 0;
+    
+}
+.btn-clock{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.containertime{
+    display: flex;
+}
+.firstdiv1, .firstdiv2{
+    width: 50%;
+    margin: 0;
+    padding: 3% 3% 0;
+}
+.btnsubmit{
+    margin: -50px 3% 3%;
+}
+p#weekday{
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+span#monthYearDay, span#monthDay, span#monthDayYear{
+    font-size: .9rem;
+
+}
+span#timeBar{
+    font-size: 1.5rem;
+    color: blue;
+}
+span#total{
+    margin: 0;
+    font-size: .7rem;
+}
+.seconddiv{
+    background-color: #fff;
+}
+
+
+
+/* the project section */
+.project{
+    margin: 50px 0 0 0;
+}
+.divflexshow{
+    display: flex;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.flexshow1{
+    padding: 3%;
+    width: 70%;
+}
+.flexshow1 span{
+    font-size: .8rem;
+}
+.flexshow2, .flexshow2-1, .flexshow2-2, .flexshow2-3{
+    margin: 20px;
+    width: 20%;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.flexshow2{
+    background-color: blue;
+}
+.flexshow2-1{
+    background-color: green;
+}
+.icontext{
+    font-size: 1.5rem;
+    margin: 10px 12px;
+}
+.flexshow2-2{
+    background-color: orange;
+}
+.flexshow2-3{
+    background-color: orangered;
+}
+/* activities */
+.activities{
+    margin: 30px 0 50px 0;
+}
+.insideToday{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.birthday, .Meeting, .Attendees, .Presentation, .Presentation1-1{
+    display: flex;
+}
+.birthday1, .Meeting1, .Attendees1, .Presentation1, .Presentation1-1{
+    margin: 10px 0 0 20px;
+}
+.birthday1 h5{
+    font-size: .9rem;
+}
+.birthday1 p{
+    font-size: 1rem;
+}
+.birthday2{
+    margin: 16px 20px 0 auto;
+}
+
+/* meeting section */
+.Meeting1{
+    width: 70%;
+}
+.Meeting1 h5, .Meeting2 h5{
+    font-size: .9rem;
+}
+.Meeting1 p, .Meeting2 p{
+    font-size: 1rem;
+}
+
+/* Attendees section */
+
+.Attendees1 h5{
+    font-size: .9rem;
+}
+.Attendees1 img{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #114;
+}
+.Attendees2{
+    margin: 16px 20px 20px auto;
+    border: 1px solid black;
+    /* padding: 0 30px; */
+}
+#icontime, #iconcircle{
+    font-size: 1rem;
+    padding: 0 9px;
+    border-right: 1px solid black;
+}
+#iconcheck{
+    font-size: 1rem;
+    padding: 1px 9px;
+    background-color: red; 
+}
+
+/* Presentation section */
+.Presentation1{
+    width: 70%;
+}
+.Presentation2{
+    margin: 0 0 0 5px;
+ }
+.Presentation1 h5, .Presentation2 h5{
+    font-size: .9rem;
+}
+.Presentation1 p, .Presentation2 p{
+    font-size: 1rem;
+}
+
+/* Second Presentation Section */
+
+.Presentation1-2{
+    width: 70%;
+}
+.Presentation1-3{
+   margin: 0 0 0 22px;
+}
+.Presentation1-2 h5, .Presentation1-3 h5{
+    font-size: .9rem;
+}
+.Presentation1-2 p, .Presentation1-3 p{
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .navcontainer{
+        width: 0;
+        background-color: rgba(0, 0, 0, .9567);
+    }
+    .maincontainer{
+        margin: 60px 0 0 0;
+    }
+    span.open{
+        display: block;
+        margin: 0 20px;
+        text-align: right;
+    }
+   .closebar{
+        display: block;
+    }
+    .btn-back{
+        position: absolute;
+        top: 2px;
+        left: 20px;
+    }
+    .btn-home{
+        position: absolute;
+        top: 2px;
+        left: 90px; 
+    }
+    span.icon-container{
+        position: absolute;
+        top: 7px;
+        margin: 0;
+        padding: 0;
+    }
+    .divflexshow{
+        margin: 10px 0;
+    }
+   
+}
+
+@media screen and (max-width:600px){
+.icontext{
+    margin: 15px 0 0 0;
+}
+span.icon-container{
+    position: absolute;
+    top: 7px;
+    right: 50px;
+    margin: 0;
+    padding: 0;
+}
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- icon -->
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
+    <!-- bootstrap and css links -->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./aside.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overcontainer container-fluid">
+        <div class="headingdiv">
+            <div class="headingdivcontainer">
+                <span class="open" onclick="openNav()">&#9776;</span>
+                <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button>
+                <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
+                    <span class="icon-container">
+                        <i class="fas fa-file icons"></i>
+                        <i class="fas fa-envelope icons" aria-hidden="true"></i>
+                        <i class="fas fa-bell icons"></i>
+                        
+                        <!-- <i class="fas fa-"></i> -->
+                    </span>
+            </div>
+        </div>
+        <header>
+            <nav class="navcontainer" id="mySidenav">
+                <div class="asidenav">
+                    <div class="navheading">
+                        <div class="imgtext">
+                            <div class="profilepic">
+                                <img src="/images/julie..png" alt="Your image">
+                            </div>
+                            <div class="profiletext">
+                                <span class="departname">IP Manager</span> <br>
+                                <span>MKL:223</span>
+                            </div>
+                        
+                      
+                        <!-- <span class="current"><i class="fa fa-circle"></i>online</span> -->
+                    </div>
+                    </div>
+                    <ul>
+                        <li class="headmenu">
+                            <span>Employee Details</span>
+                        </li>
+                        <li class="dashtext">
+                            <a class="active" href="./overview.html">
+                                <span><i class='fas fa-th-large navicon'></i> Overview </span>	
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./profile.html">
+                                <span><i class='fas fa-user navicon'></i> Profile</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./calender.html">
+                                <span><i class='fa fa-calendar navicon'></i> Calender</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./attendance.html">
+                                <span><i class='fa fa-calendar-o navicon'></i> Attendance</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./request.html">
+                                <span><i class='fa fa-send-o navicon'></i> Request</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./assets.html">
+                                <span>Assets</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./colleagues.html">
+                                <span><i class='fa fa-users navicon'></i> Colleagues</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./document.html">
+                                <span><i class='fa fa-folder navicon'></i> Documents</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./compensation.html">
+                                <span><i class='fa fa-handshake-o navicon'></i> Compensation</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./activities.html">
+                                <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./support.html">
+                                <span>Support</span>
+                            </a>                        
+                        </li>    
+                        <li class="closebar" id="classBar">
+                            <a href="javascript:void(0)">
+                                <span onclick="classBar()">&times;</span>
+                            </a>                        
+                        </li>                                         
+                    </ul>
+                    </div>
+                </nav>
+        </header>
+        <!-- first section of the webpage -->
+        <div class="maincontainer">
+            <section class="row">
+                <div class="col-lg-4">
+                    <div class="firstdiv">
+                       <h1 class="work">Work Log</h1>
+                       <div class="btn-clock"> <!--The container that hold the button clock out-->
+                        <div class="containertime"><!--The container flex of the word inside it-->
+                            <div class="firstdiv1">
+                                <p id="weekday"> </p>
+                                <span id="monthYearDay"></span> <span id="monthDay"></span> <span id="monthDayYear"></span> <br>
+                                <span id="timeBar"></span><br>
+                                <span id="total">Total work Time</span>
+                            </div>
+                            <!-- The clock out and clock in section -->
+                            <div class="firstdiv2">
+                                <p></p>
+                                <p>Clock in time:</p>
+                                <p id="clockIn">00:00:00</p>
+                                <p></p>
+                                <p>Clock out time:</p>
+                                <p id="clockOut">00:00:00</p>
+                            </div>
+                        </div>
+                        <input type="button" onclick="change(this);" value="Clock In" class="btn btn-dark btnsubmit" /> <!--Clock out btn-->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <h1 class="work">Work Time Statistics</h1>
+                    <div class="seconddiv">
+                        flow goes here
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project section -->
+            <section class="project">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="divflexshow">
+                                <div class="flexshow1">
+                                    <span>32</span> <br> <span>Number of</span> <br> <span>Projects Assigned</span>
+                                </div>
+                                <div class="flexshow2">
+                                    <i class="fa fa-pie-chart icontext"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="divflexshow">
+                                <div class="flexshow1">
+                                    <span>32</span> <br> <span>Number of</span> <br> <span>Projects Completed</span>
+                                </div>
+                                <div class="flexshow2-1">
+                                    <i class="fas fa-check icontext"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="divflexshow">
+                                <div class="flexshow1">
+                                    <span>32</span> <br> <span>Number of</span> <br> <span>Projects Process</span>
+                                </div>
+                                <div class="flexshow2-2">
+                                 <i class="fa fa-clock icontext" aria-hidden="true"></i>
+                                </div>
+                            </div>                           
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="divflexshow">
+                                <div class="flexshow1">
+                                    <span>32</span> <br> <span>Number of</span> <br> <span>Projects Pending</span>
+                                </div>
+                                <div class="flexshow2-3">
+                                    <i class="fa fa-exclamation icontext" aria-hidden="true"></i>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="activities">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Today</p>
+                        <div class="insideToday">
+
+                            <!-- birthday section -->
+                            <div class="birthday">
+                                <div class="birthday1">
+                                    <h5>Birthday</h5>
+                                    <p>It is Thomas Bamifawe's Birthday</p>
+                                </div>
+                                <div class="birthday2">
+                                    <button type="submit" class="btn btn-dark">Send wish</button>
+                                </div>
+                            </div>
+
+                            <!-- Meeting section -->
+                            <div class="Meeting">
+                                <div class="Meeting1">
+                                    <h5>Meeting</h5>
+                                    <p>With the tech for review of project AB</p>
+                                </div>
+                                <div class="Meeting2">
+                                    <h5>Time</h5>
+                                    <p>10:00am</p>
+                                </div>
+                            </div>
+
+                            <!-- Attendees section -->
+                            <div class="Attendees">
+                                <div class="Attendees1">
+                                    <h5>ATTENDEES</h5>
+                                    <img src="/images/julie..png" alt="">
+                                    <img src="/images/julie..png" alt="">
+                                    <img src="/images/julie..png" alt="">
+                                    <img src="/images/julie..png" alt="">
+                                    <img src="/images/julie..png" alt="">
+                                </div>
+                                <div class="Attendees2">
+                                    <span id="icontime">&times;</span>
+                                    <span id="iconcircle"><i class='fas fa-dot-circle'></i></span>
+                                    <span id="iconcheck"><i class="fas fa-check"></i></span>
+                                </div>
+                            </div>
+
+                            <!-- Presentation 1 section -->
+                            <div class="Presentation">
+                                <div class="Presentation1">
+                                    <h5>PRESENTATION</h5>
+                                    <p>Design flow of Project NG</p>
+                                </div>
+                                <div class="Presentation2">
+                                    <h5>Time</h5>
+                                    <p>10:00am</p>
+                                </div>
+                            </div>
+                            <!-- FeedBack section -->
+                            <div class="Presentation1-1">
+                                <div class="Presentation1-2">
+                                    <h5>Feedbacks</h5>
+                                    <p>Design flow of Project CA</p>
+                                </div>
+                                <div class="Presentation1-3">
+                                    <h5>From</h5>
+                                    <p>Onitemi Ola</p>
+                                </div>
+                            </div>
+
+                            <!-- Request Section -->
+                            <div class="Presentation1-1">
+                                <div class="Presentation1-2">
+                                    <h5>Client Request</h5>
+                                    <p>Design flow of Project CA</p>
+                                </div>
+                                <div class="Presentation1-3">
+                                    <h5>Form</h5>
+                                    <p>Onitemi Ola</p>
+                                </div>
+                            </div>
+
+                            <!-- Approved Form section -->
+                            <div class="Presentation1-1">
+                                <div class="Presentation1-2">
+                                    <h5>Approved Form</h5>
+                                    <p>Design flow of Project CA</p>
+                                </div>
+                                <div class="Presentation1-3">
+                                    <h5>Status</h5>
+                                    <p>Approved</p>
+                                </div>
+                            </div>
+                            <!-- Approved Solution section -->
+                            <div class="Presentation1-1">
+                                <div class="Presentation1-2">
+                                    <h5>Approved Solution</h5>
+                                    <p>Design flow of Project CA</p>
+                                </div>
+                                <div class="Presentation1-3">
+                                    <h5>Status</h5>
+                                    <p>Approved</p>
+                                </div>
+                            </div>
+
+                            <!-- Application Section -->
+                            <div class="Presentation1-1">
+                                <div class="Presentation1-2">
+                                    <h5>Application</h5>
+                                    <p>Design flow of Project CA</p>
+                                </div>
+                                <div class="Presentation1-3">
+                                    <h5>Status</h5>
+                                    <p>Approved</p>
+                                </div>
+                            </div>
+
+                        </div> <!--Container that hold everything in the today div-->
+                    </div> <!--The container that flex today to full width-->
+                </div> <!--The Container that how the row of today-->
+            </section> <!--The Activities Section ending tag -->
+
+
+        </div><!--The main container closing div-->
+        <script src="./staff.js"></script>
+    </div>
+</body>
+</html>
