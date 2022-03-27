@@ -26,7 +26,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-    top: 10px;
+    top: 8px;
     left: 30px;
     color: white;
   }
@@ -119,6 +119,24 @@ body{
   .icons a{
     margin: 0 10px;
     color: whitesmoke;
+}
+.btn-back{
+  position: absolute;
+  top: 7px;
+  left: 200px;
+  border: none;
+  padding: 5px;
+  border-radius:4px;
+  font-size: 14px;
+}
+.btn-home{
+  position: absolute;
+  top: 7px;
+  left: 270px;
+  border: none;
+  padding: 5px;
+  border-radius:4px;
+  font-size: 14px;
 }
 .mainsection{
     margin: 40px 20px 0 20px;
@@ -414,4 +432,18 @@ h2{
 .verify{
  margin:20px 0;
   }
+}
+@media (max-width:600px) {
+  .btn-back{
+    left: 180px;
+  }
+}
+@media (max-width:400px) {
+  .btn-back{
+    left: 160px;
+  }
+  .icons a{
+    margin: 0 2px;
+    color: whitesmoke;
+}
 }

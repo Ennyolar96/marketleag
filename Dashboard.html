@@ -22,7 +22,9 @@
         <span onclick="openNav()">&#9776;</span>
             <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
              <span class="span" >Marketleag</span></nav>
+             <button onclick="window.location.href='/'" class="btn-home"><i class="fa fa-home" aria-hidden="true"></i> View Home</button>
              <div class="icons">
+              <a onclick="window.location.href='/'" class="btna-home"><i class="fa fa-home" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
                 <a href="./messages.html"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
@@ -43,6 +45,24 @@
           </nav>
       </a>
 
+      <nav>
+        <span class="changecolor">Intellectual Property</span>
+       </nav>
+    
+
+    <a href="/page/sr/sendrequest.html">
+        <nav>
+        <img src="/images/inquiry.png" alt="">
+        <span class="nav__text">Send Request</span>
+        </nav>
+    </a>
+
+    <a href="/page/ip/expert.html">
+        <nav>
+        <img src="/images/ip expert.png" alt="">
+        <span class="nav__text">Expert Window</span></nav>
+    </a> 
+
         <nav>
           <span class="nav__text changecolor">Idea & Solution</span>
         </nav>
@@ -60,25 +80,6 @@
           <span class="nav__text">Submit Solution</span>
        </nav>
       </a>
-
-      
-         <nav>
-          <span class="changecolor">Intellectual Property</span>
-         </nav>
-      
-
-      <a href="/page/sr/sendrequest.html">
-          <nav>
-          <img src="/images/inquiry.png" alt="">
-          <span class="nav__text">Send Request</span>
-          </nav>
-      </a>
-
-      <a href="/page/ip/expert.html">
-          <nav>
-          <img src="/images/ip expert.png" alt="">
-          <span class="nav__text">Expert Window</span></nav>
-      </a> 
 
           <nav>
            <span class="changecolor">Other options</span>
@@ -198,6 +199,20 @@
                 <h4>Profile Views</h4>
                 <hr>
                 <h4>Opportunity Invites</h4>
+                <hr>
+                <!-- sorting by country -->
+                <div class="profile">
+                  <a href="/page/checkexpert.html">Expert by County</a> 
+                  <p class="pro-status">0</p>
+                  <span>%</span>
+                </div>
+                <hr>
+                <!-- sorting by specialized -->
+                <div class="profile">
+                  <a href="/page/checkexpert.html">Expert by Specialized</a> 
+                  <p class="pro-status">0</p>
+                  <span>%</span>
+                </div>
               </div>
 
               <!-- second section, second box -->
@@ -220,36 +235,7 @@
             </div>
           </div>
 
-        </div>
-
-         <!-- 
-          <div class="middle2 divmid">
-            <h3>Stats</h3>
-            <div class="middle2-2">
-              <h4 class="pro">Profile Completeness</h4>
-              <small id="Edit">Edit your profile</small>
-              <hr>
-              <h4>Profile Status</h4>
-              <hr>
-              <h4>Profile Views</h4>
-              <hr>
-              <h4>Opportunity Invites</h4>
-            </div>
-            <div class="textheading">
-              <h3>Setup steps</h3>
-              <h3  class="open">Open setup guide</h3>
-            </div>
-          
-            <div class="middle2-2">
-              <h4>Complete Your Profile <span class="done">DONE</span></h4>
-              <hr>
-              <h4>Complete contract & payment details</h4>
-              <hr>
-              <h4>Search for opportunities & connect with Companies</h4>
-            </div>
-          </div>
-        </div> -->
-        
+        </div>        
   </div>
 
   <script src="/js/dash.js"></script>

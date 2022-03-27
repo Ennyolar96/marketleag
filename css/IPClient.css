@@ -48,6 +48,18 @@ body{
     margin: 0 10px;
     color: whitesmoke;
   }
+  .btn-home{
+    position: absolute;
+    top: 7px;
+    left: 250px;
+    border: none;
+    padding: 5px;
+    border-radius:4px;
+    font-size: 14px;
+  }
+  .btna-home{
+    display: none;
+  }
   .active{
     background-color: black;
   }
@@ -324,6 +336,9 @@ h3{
  .mainsections{
   margin: 50px 0 0 20px;
 }
+nav .changecolor{
+  font-size: 14px;
+  }
 .feedbackheadding{
   display: flex;
   flex-direction: column;
@@ -359,6 +374,18 @@ h3{
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
  #form { margin: 20px 20px 20px 0px;}
+ .icons a{
+  margin: 0 1px;
+}
+tr{
+  font-size: 12px;
+}
+.btn-home{
+  display: none;
+}
+.btna-home{
+  display:inline;
+}
 }
 
 @media (max-width:400px)  {
@@ -368,4 +395,22 @@ h3{
  .sidenav .closebtn { display: block;}
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
  #form { margin: 20px 5px 20px 0px;}
+ .btn-home{
+  display: none;
+}
+.btna-home{
+  display: inline;
+}
+.icons a{
+  margin: 0 1px;
+}
+.header_static .span{
+  top: 13px;
+  left: 20px;
+  font-size: 16px;
+}
+.btnsend{
+  padding: 10px;
+  font-size: 16px;
+}
 }

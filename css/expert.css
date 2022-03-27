@@ -49,6 +49,18 @@ body{
     margin: 0 10px;
     color: whitesmoke;
   }
+  .btn-home{
+    position: absolute;
+    top: 7px;
+    left: 250px;
+    border: none;
+    padding: 5px;
+    border-radius:4px;
+    font-size: 14px;
+  }
+  .btna-home{
+    display: none;
+  }
   .active{
     background-color: black;
   }
@@ -198,6 +210,9 @@ body{
     display: flex;
     margin: 40px 10px;
   }
+  nav .changecolor{
+    font-size: 14px;
+    }
   .headingtexting{
     flex-direction: column;
   }
@@ -213,23 +228,56 @@ body{
 
     }
   
-    @media (max-width:1350px){
+    @media (max-width:600px){
+      .sidenav {padding-top: 15px;}
+      .sidenav span {font-size: 15px;}
+      .sidenav { width: 0; }
+      .sidenav .closebtn { display: block;}
+      span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
   tr{
     font-size: 14px;
   }
+  tr{
+    font-size: 12px;
+  }
+  .icons a{
+    margin: 0 1px;
+  }
+  tr{
+    font-size: 12px;
+  }
+  .btn-home{
+    display: none;
+  }
+  .btna-home{
+    display:inline;
+  }
 
-    }
+}
   
-  @media (max-width:400px)  {
+  @media (max-width:400px), (max-width:300px)  {
    
     tr{
       font-size: 12px;
     }
-   }
-  
-   @media (max-width:300px)  {
-    tr{
-      font-size: 12px;
+    .icons a{
+      margin: 0 1px;
+    }
+    .btn-home{
+      display: none;
+    }
+    .btna-home{
+      display:inline;
+    }
+    .header_static .span{
+      top: 13px;
+      left: 20px;
+      font-size: 16px;
+    }
+    .btnsend{
+      padding: 10px;
+      font-size: 16px;
     }
    }
+  
   

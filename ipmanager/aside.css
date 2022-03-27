@@ -45,11 +45,16 @@ top: 0;
 left: 0;
 width: 260px;
 height: 100%;
-overflow-y: auto;
 overflow: hidden;
 background-color: black;
 margin: 0;
 padding: 0;
+}
+.navcontainer:hover{
+    overflow-y: auto; 
+}
+.navcontainer::-webkit-scrollbar {
+    width: 12px;
 }
 .navheading{
     margin: 40px;
@@ -111,7 +116,7 @@ padding: 0;
     padding: 5px 10px;
 }
 .closebar a:hover{
-    background-color: red;
+    background-color: rgba(243, 115, 53, 1);
     
    
 }

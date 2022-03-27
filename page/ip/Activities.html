@@ -18,78 +18,156 @@
             <span onclick="openNav()">&#9776;</span>
                 <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
                  <span class="span" >Marketleag</span></nav>
+                 <button onclick="window.location.href='/'" class="btn-home"><i class="fa fa-home" aria-hidden="true"></i> View Home</button>
+                 <div class="icons">
+                  <a onclick="window.location.href='/'" class="btna-home"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <a href="./messages.html"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                    <a href="./settings.html"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                  </div>
         </div>
 
-        <div class="Activities">
-            <h2>Activities</h2>
-                <select name="Filter" id="cars">
-                    <option value="Type">Filter By Type</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-        </div>    
-
-        <button class="tablink" onclick="openPage('Opportunities', this, 'black')" id="defaultOpen">My Opportunities</button>
-        <button class="tablink" onclick="openPage('Activities', this, 'black')">Recent Activities</button>
-        <button class="tablink" onclick="openPage('update', this, 'black')">Submission update</button>
-        <!-- <button class="tablink" onclick="openPage('About', this, 'mediumaquamarine')">WordPress</button> -->
-
-        <div id="Opportunities" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>IP Type</th>
-                        <th>Country</th>
-                        <th>Class</th>
-                        <th>Country Of Origin</th>
-                        <th>Destination</th>
-                        <th>Status</th>
-                        <th>Distribution</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           
+           
+            
+            <a class="active"  href="/Dashboard.html">
+              <nav>
+                <img  src="/images/dashboard.png" alt="">
+              <span class="nav__text">Dashboard</span>
+              </nav>
+          </a>
+    
+          <nav>
+            <span class="changecolor">Intellectual Property</span>
+           </nav>
+        
+    
+        <a href="/page/sr/sendrequest.html">
+            <nav>
+            <img src="/images/inquiry.png" alt="">
+            <span class="nav__text">Send Request</span>
+            </nav>
+        </a>
+    
+        <a href="/page/ip/expert.html">
+            <nav>
+            <img src="/images/ip expert.png" alt="">
+            <span class="nav__text">Expert Window</span></nav>
+        </a> 
+    
+            <nav>
+              <span class="nav__text changecolor">Idea & Solution</span>
+            </nav>
+    
+          <a href="/page/is/innovationsignup.html">
+              <nav>
+                  <img  src="/images/sign up.png" alt="">
+              <span>Innovation Signup</span>
+              </nav>
+          </a>
+    
+          <a href="/page/ss/submitsolution.html">
+           <nav>
+              <img src="/images/submit solution.png" alt="">
+              <span class="nav__text">Submit Solution</span>
+           </nav>
+          </a>
+    
+              <nav>
+               <span class="changecolor">Other options</span>
+              </nav>
+    
+          <a href="/user/Application.html">
+             <nav>
+              <img src="/images/application status.png" alt="">
+              <span class="nav__text">Application Status</span>
+             </nav>
+          </a>  
+          <a href="/user/Training.html">
+              <nav>
+                  <img src="/images/training.png" alt="">
+              <span class="nav__text">Trainings</span>
+              </nav>
+          </a>  
+          <a href="/user/helpcenter.html">
+           <nav>
+              <img src="/images/help.png" alt="">
+              <span class="nav__text">Help Center</span>	
+           </nav>
+          </a>  
+          <a href="#">
+              <nav>
+              <img src="/images/activities.png" alt="">
+              <span class="nav__text">Activities</span>
+              </nav>
+          </a> 
+          
+          <a href="#">
+             <nav>
+              <img src="/images/log out.png" alt="">
+              <span class="nav__text">Log Out</span>
+             </nav>
+          </a>
         </div>
 
-        <div id="Activities" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Activites Type</th>
-                        <th>Load</th>
-                        <th>Opportunity</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
+        <div class="maincontainer">
+                <div class="Activities">
+                    <h2>Activities</h2>
+                        <select name="Filter" id="cars">
+                            <option value="Type">Filter By Type</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                </div>    
 
-        <div id="update" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Submission Type</th>
-                        <th>Next Step</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
+                <!-- <button class="tablink" onclick="openPage('Opportunities', this, 'black')" >My Opportunities</button> -->
+                <button class="tablink" onclick="openPage('Activities', this, 'black')" id="defaultOpen">Recent Activities</button>
+                <button class="tablink" onclick="openPage('update', this, 'black')">Submission update</button>
+                <!-- <button class="tablink" onclick="openPage('About', this, 'mediumaquamarine')">WordPress</button> -->
 
+
+
+                <div id="Activities" class="tabcontent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Activites Type</th>
+                                <th>Load</th>
+                                <th>Opportunity</th>
+                            </tr>
+                        </thead>
+                        <!-- <tr>
+                            <td></td>
+                        </tr> -->
+                    </table>
+                </div>
+
+                <div id="update" class="tabcontent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Submission Type</th>
+                                <th>Next Step</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <!-- <tr>
+                            <td></td>
+                        </tr> -->
+                    </table>
+                </div>
+         </div>
     </div> 
+    <script src="/js/tangle.js"></script>
     <script src="/js/allactivities.js"></script>
 </body>
 </html>

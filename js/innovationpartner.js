@@ -118,3 +118,11 @@ const validateInputs = () => {
     return true;
     }
 }
+
+function allowspefic(allowMySpefic) {
+    var Specify = document.getElementById("Specify");
+    Specify.disabled = allowMySpefic.checked ? false : true;
+    if (!Specify.disabled) {
+        Specify.focus();
+    }
+}

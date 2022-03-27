@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketleag | The new generation co-creation space</title>
-    <link rel="stylesheet" href="/css/solver.css">
+    <link rel="stylesheet" href="/css/profileedit.css">
     <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,242 +14,260 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- <div class="header_static">
-            <span onclick="openNav()">&#9776;</span>
-                <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
-                 <span class="span" >Marketleag</span></nav>
-        </div>
+    <div class="overcontainer">
+        <div class="header_static">
+            <span id="navOpen" onclick="openNav()">&#9776;</span>
+                <nav> <img class="headingimage" src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
+                 <span class="companyName" >Marketleag</span></nav>
 
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-           
-           
+                 <button onclick="window.location.href='/Dashboard.html'" class="backbtn"><i class="fa fa-angle-left" aria-hidden="true"></i> Back</button>
+                 <div class="icons">
+                      <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                      <a href="./messages.html"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                      <a href="./settings.html"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                    </div>
+                </div><!--Static heading closing tag-->
             
-            <a href="./Dashboard.html">
-                <nav>
-                <i class='bx bx-grid-alt nav__icon'></i>
-                <span class="nav__text">Dashboard</span>
-                </nav>
-            </a>
-
-            <a>
-              <nav>
-                <img src="/images/innovator icon.png" alt="">
-                <span class="nav__text changecolor">Innovator</span>
-              </nav>
-            </a>
-
-            <a class="active" href="./newsolver.html">
-                <nav>
-                    <img  src="/images/solver icon.png" alt="">
-                <span>Innovation Signup</span>
-                </nav>
-            </a>
-
-            <a href="./newinventor.html">
-             <nav>
-                <img src="/images/inn.png" alt="">
-                <span class="nav__text">Submit Solution</span>
-             </nav>
-            </a>
-
-            <a>
-               <nav>
-                <img src="/images/ip icon.png" alt="">
-                <span class="changecolor">Intellectual property</span>
-               </nav>
-            </a>
-
-            <a href="./Inquiry.html">
-                <nav>
-                <img src="/images/ip client icon.png" alt="">
-                <span class="nav__text">Inquiry</span>
-                </nav>
-            </a>
-
-            <a href="./ipexpert.html">
-                <nav>
-                <img src="/images/ip expect icon.png" alt="">
-                <span class="nav__text">IP Expert</span></nav>
-            </a> 
-
-            <a href="./Application.html">
-               <nav>
-                <i class='fa  fa-tasks nav__icon'></i>
-                <span class="nav__text">Application status</span>
-               </nav>
-            </a>  
-            <a href="./Training.html">
-                <nav>
-                    <img src="/images/analysis.png" alt="">
-                <span class="nav__text">Trainings</span>
-                </nav>
-            </a>  
-            <a href="./helpcenter.html">
-             <nav>
-                <i class='fa fa-support nav__icon'></i>
-                <span class="nav__text">Help Center</span>	
-             </nav>
-            </a>  
-            <a href="./Activities.html">
-                <nav>
-                <i class='fa fa-archive nav__icon'></i>
-                <span class="nav__text">Activities</span>
-                </nav>
-            </a> 
+                <!-- The open section div -->
+        
+                <div class="maincontainer">
+                    <form action="" id="form">
+                    <section class="basic">
+                        <h2 class="h2basic">Basic information about you</h2>
+                        <div class="info">
+                             <div class="input-control">
+                                 <label for="firstname"> First name</label>
+                                    <input type="text" name="firstname" id="firstname">
+                            </div>
+                                <div class="input-control">
+                                     <label for="Lastname"> Last name</label>
+                                    <input type="text" name="Lastname" id="Lastname">
+                                </div>
+                                 <div class="input-control">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" disabled>
+                                 </div>
+                                 <div class="input-control">
+                                   <label for="Headline"> Headline</label>
+                                 <input type="text" name="Headline" id="Headline">
+                                 </div>
+                                 <div class="input-control">
+                                     <label for="short_summary"> Short summary:</label>
+                                  <textarea name="short_summary" id="short_summary" cols="30" rows="10"></textarea>
+                                   </div>
+                                </div>
+                    </section> <!--First section ending-->
+        
+        
+            <!-- profile section -->
+                    <section class="profileimage">
+                        <h2 class="h2proimg">Your Profile Image</h2>
+                        <div class="proimage">
+                            <div class="proimage1">
+                                <p>upload a profile image:</p>
+                            </div>
+                            <div class="proimage2">
+                                <button class="add-image"> + Add an image from your computer or phone storage</button>
+                            </div>
+                            <div class="proimage3">
+                                <img src="/images/julie..png" alt="userimage">
+                            </div>
+                        </div>
+                    </section> <!-- Ending the profile section-->
             
-            <a href="#">
-               <nav>
-                <i class='fa fa-sign-out nav__icon'></i>
-                <span class="nav__text">Log Out</span>
-               </nav>
-            </a>
-          </div> -->
-
-
-        <form id="form" action="/">
-            <h3>Update your Marketleag Profile</h3>
-
-            <div class="input-control">
-                <label for="Specific_skill"> My Specific Skill</label>
-                <input type="text" name="Specific_skill" id="Specific_skill" placeholder="Provide your answer here">
-                <div class="error"></div>
-            </div>        
+                    <!-- company logo section -->
             
-            <div class="input-control">
-                <label for="Specific_Solu"> My Specific Solution</label>
-                <input type="text" name="Specific_Solu" id="Specific_Solu" placeholder="Provide your answer here">  
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="problem_solve"> What problem solving techniques do you employ</label>
-                <input type="text" name="problem_solve" id="problem_solve"placeholder="Provide your answer here" required>
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="Qualification"> Fill in your Qualification</label>
-                <input type="text" name="Qualification" id="Qualification" placeholder="Provide your answer here" required>
-              <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="Specification"> Fill in your Specification </label>
-                <input type="text" name="Specification" id="Specification" placeholder="Provide your answer here" required>
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="your_instituted"> Fill in your Institution</label>
-                <input type="text" name="your_instituted" id="your_instituted" placeholder="Provide your answer here" required>    
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="Education"> Other Education And Training</label>
-                <input type="text" name="Education" id="Education" placeholder="Provide your answer here" required>
-               
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="Patents_name"> List patents which are in your name, patent country description</label>
-                <textarea name="Patents_name" id="Patents_name" cols="50" rows="30"></textarea>
-               
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="D_invention"> Describe inventions that you may have created</label>
-                <input type="text" name="D_invention" id="D_invention" placeholder="Provide your answer here" required>
-                
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="passion"> What are your passion about</label>
-                <input type="text" name="passion" id="passion" placeholder="Provide your answer here" required>
-                
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="particular_knowl"> Area that you are particular knowledgeable</label>
-                <input type="text" name="particular_knowl" id="particular_knowl" placeholder="Provide your answer here" required>    
-                <div class="error"></div>
-            </div>  
-
-            <div class="input-control">
-                <label for="published_paper"> List your published paper links or upload </label>
-                <textarea name="published_paper" id="published_paper" cols="50" rows="30"></textarea>
-                <div class="error"></div>
-            </div> 
+                    <section class="company">
+                        <h2>Your company logo</h2>
+                        <div class="upload">
+                            <div class="upload1">
+                                <p>Upload a logo:</p>
+                            </div>
+                            <div class="upload2">
+                                <button class="btn-upload"> + Add an image from your computer or phone storage </button>
+                            </div>
+                            <div class="upload3">
+                                <img src="/images/julie..png"alt="userimage">
+                            </div>
+                        </div>
+                    </section>
             
-            <div class="input-control">
-                <label for="lab"> If you have access to lab describe it </label>
-                <input type="text" name="lab" id="lab" placeholder="Provide your answer here" required> 
-                <div class="error"></div>
-            </div>
+                    <!-- ending company logo section -->
             
-            <div class="input-control">
-                <label for="list_cad"> List any CAD or design software you use</label>
-            <input type="text" name="list_cad" id="list_cad" placeholder="Provide your answer here" required>
-                <div class="error"></div>
-            </div>
-
-            <div class="input-control">
-                <label for="printing_3D"> Describe your 3D printing capability if any</label>
-            <input type="text" name="printing_3D" id="printing_3D" placeholder="Provide your answer here" required>
-                <div class="error"></div>
-            </div>
-
-            <div class="input-control">
-                <label for="paste_cv"> paste your curriculum vitae(CV) here if you are interested in consulting</label>
-                <textarea name="paste_cv" id="paste_cv" cols="50" rows="30"></textarea> 
-                <div class="error"></div>
-            </div>
-            <p class="center_text"> About me (Select an Option)</p>
-
-            <input class="check_btn" type="checkbox" name="Allow_potential" id="Allow_potential">
-            <label class="label_yes_no" for="Allow_potential"> Allow potential seekers and public to see my profile <small> (i understand that my contact information remains confidential)</small> </label>
-            <br>
-            <input class="check_btn" type="checkbox" name="employment_opp" id="employment_opp">
-            <label class="label_yes_no" for="employment_opp"> I am interested in employment Opportunities that focus on innovation</label>
-            <br>
-
-            <input class="check_btn" type="checkbox" name="working_online" id="working_online">
-            <label class="label_yes_no" for="working_online"> I am interested in working online with the team to solve challenges</label>
-            <br>
-
-            <input class="check_btn" type="checkbox" name="consulting_working" id="consulting_working">
-            <label class="label_yes_no" for="consulting_working"> I am interested in consulting work</label>
-            <br>
-
-            <input class="check_btn" type="checkbox" name="technology_scouting" id="technology_scouting">
-            <label class="label_yes_no" for="technology_scouting"> I am interested in doing technology scouting</label>
-            <br>
-
-            <input class="check_btn" type="checkbox" name="doing_research" id="doing_research">
-            <label class="label_yes_no" for="doing_research"> I am interested in doing research on my own </label>
-            <br>
-
-            <input class="check_btn" type="checkbox" name="currently_working" id="currently_working">
-            <label class="label_yes_no" for="currently_working"> I am currently working for or professionally associated with a university or education institution</label>
-            <br>
-            <div class="input-control">
-           <input type="file" name="file" id="file">
-        </div>
-
-           <input class="check_btn" type="checkbox" name="Terms_agree" id="Terms_agree">
-            <label class="label_yes_no" for="Terms_agree">Terms and Agreement</label>
-
-            <button type="submit">Update Profile</button>
-         <p id="Agreement">By creating an account, you understand and agree to Marketleag <a href="#"> Terms of Service</a> including the <a href="#"> User Agreement </a> and <a href="#"> Privacy Policy.</a> </p>
-      </form>
-   </div> 
-   <!-- <script src="/js/solver.js"></script>
-   <script src="/js/tangle.js"></script> -->
+                    <!-- Form section -->
+            
+                    <section class="formdetails">
+                            <h2 class="h2workinfo">Basic information about your work</h2>
+                            <div class="workinfo">
+                                <div class="input-control">
+                                    <label for="Specific_skill"> My Specific Skill</label>
+                                    <input type="text" name="Specific_skill" id="Specific_skill" placeholder="Provide your answer here">
+                                    <div class="error"></div>
+                                </div>        
+                                
+                                <div class="input-control">
+                                    <label for="Specific_Solu"> My Specific Solution</label>
+                                    <input type="text" name="Specific_Solu" id="Specific_Solu" placeholder="Provide your answer here">  
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="problem_solve"> What problem solving techniques do you employ</label>
+                                    <input type="text" name="problem_solve" id="problem_solve"placeholder="Provide your answer here" required>
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="Qualification"> Fill in your Qualification</label>
+                                    <input type="text" name="Qualification" id="Qualification" placeholder="Provide your answer here" required>
+                                  <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="Specification"> Fill in your Specification </label>
+                                    <input type="text" name="Specification" id="Specification" placeholder="Provide your answer here" required>
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="your_instituted"> Fill in your Institution</label>
+                                    <input type="text" name="your_instituted" id="your_instituted" placeholder="Provide your answer here" required>    
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="Education"> Other Education And Training</label>
+                                    <input type="text" name="Education" id="Education" placeholder="Provide your answer here" required>
+                                   
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="Patents_name"> List patents which are in your name, patent country description</label>
+                                    <textarea name="Patents_name" id="Patents_name" cols="50" rows="30"></textarea>
+                                   
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="D_invention"> Describe inventions that you may have created</label>
+                                    <input type="text" name="D_invention" id="D_invention" placeholder="Provide your answer here" required>
+                                    
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="passion"> What are your passion about</label>
+                                    <input type="text" name="passion" id="passion" placeholder="Provide your answer here" required>
+                                    
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="particular_knowl"> Area that you are particular knowledgeable</label>
+                                    <input type="text" name="particular_knowl" id="particular_knowl" placeholder="Provide your answer here" required>    
+                                    <div class="error"></div>
+                                </div>  
+                    
+                                <div class="input-control">
+                                    <label for="published_paper"> List your published paper links or upload </label>
+                                    <textarea name="published_paper" id="published_paper" cols="50" rows="30"></textarea>
+                                    <div class="error"></div>
+                                </div> 
+                                
+                                <div class="input-control">
+                                    <label for="lab"> If you have access to lab describe it </label>
+                                    <input type="text" name="lab" id="lab" placeholder="Provide your answer here" required> 
+                                    <div class="error"></div>
+                                </div>
+                                
+                                <div class="input-control">
+                                    <label for="list_cad"> List any CAD or design software you use</label>
+                                <input type="text" name="list_cad" id="list_cad" placeholder="Provide your answer here" required>
+                                    <div class="error"></div>
+                                </div>
+                    
+                                <div class="input-control">
+                                    <label for="printing_3D"> Describe your 3D printing capability if any</label>
+                                <input type="text" name="printing_3D" id="printing_3D" placeholder="Provide your answer here" required>
+                                    <div class="error"></div>
+                                </div>
+                    
+                                <div class="input-control">
+                                    <label for="paste_cv"> paste your curriculum vitae(CV) here if you are interested in consulting</label>
+                                    <textarea name="paste_cv" id="paste_cv" cols="50" rows="30"></textarea> 
+                                    <div class="error"></div>
+                                </div>
+                                <p class="center_text"> About me (Select an Option)</p>
+                    
+                                <input class="check_btn" type="checkbox" name="Allow_potential" id="Allow_potential">
+                                <label class="label_yes_no" for="Allow_potential"> Allow potential seekers and public to see my profile <small> (i understand that my contact information remains confidential)</small> </label>
+                                <br>
+                                <input class="check_btn" type="checkbox" name="employment_opp" id="employment_opp">
+                                <label class="label_yes_no" for="employment_opp"> I am interested in employment Opportunities that focus on innovation</label>
+                                <br>
+                    
+                                <input class="check_btn" type="checkbox" name="working_online" id="working_online">
+                                <label class="label_yes_no" for="working_online"> I am interested in working online with the team to solve challenges</label>
+                                <br>
+                    
+                                <input class="check_btn" type="checkbox" name="consulting_working" id="consulting_working">
+                                <label class="label_yes_no" for="consulting_working"> I am interested in consulting work</label>
+                                <br>
+                    
+                                <input class="check_btn" type="checkbox" name="technology_scouting" id="technology_scouting">
+                                <label class="label_yes_no" for="technology_scouting"> I am interested in doing technology scouting</label>
+                                <br>
+                    
+                                <input class="check_btn" type="checkbox" name="doing_research" id="doing_research">
+                                <label class="label_yes_no" for="doing_research"> I am interested in doing research on my own </label>
+                                <br>
+                    
+                                <input class="check_btn" type="checkbox" name="currently_working" id="currently_working">
+                                <label class="label_yes_no" for="currently_working"> I am currently working for or professionally associated with a university or education institution</label>
+                                <br>
+                                <div class="input-control">
+                               <input type="file" name="file" id="file">
+                            </div>
+                    
+                               <input class="check_btn" type="checkbox" name="Terms_agree" id="Terms_agree">
+                                <label class="label_yes_no" for="Terms_agree">Terms and Agreement</label>
+                            </div>
+            
+                    </section>
+                    <!-- ending the form section -->
+            
+                    <!-- social media links -->
+            
+                    <section class="socialmedia">
+                        <h2>Contact details & social media</h2>
+                        <div class="contactdetails">
+            
+                                <div class="input-control">
+                                    <label for="mobile"> mobile/cell phone:</label>
+                                    <input type="text" name="mobile" id="mobile">
+                                </div>
+                                <div class="input-control">
+                                    <label for="Skype">Skype</label>
+                                    <input type="text" name="Skype" id="Skype">
+                                </div>
+                                <div class="input-control">
+                                    <label for="website">website</label>
+                                    <input type="url" name="website" id="website">
+                                </div>
+                                <div class="input-control">
+                                    <label for="linkedin"> LinkedIn URL:</label>
+                                    <input type="url" name="linkedin" id="linkedin">
+                                </div>
+                            </div>
+                         </section>
+                         <!-- ending of social media section  -->
+                         <button class="btnsubmit" type="submit">Update Profile</button>
+                         </form>
+            
+                </div> <!--Main container div-->
+       </div> 
 </body>
 </html>
