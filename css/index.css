@@ -57,10 +57,10 @@ body{
     float: none;
     margin-left: 300px;
   }
-  .moveleft{
-      margin: 0 0 0 auto;
+  .header-right .moveleft{
+    color: rgba(243, 115, 53, 1);
   }
-  /* .header-right a.reg{
+  .header-right a.reg{
     margin-left: 10px;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
@@ -69,7 +69,7 @@ body{
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     cursor: pointer;
-  } */
+  }
     
     #consent-popup {
       position: fixed;
