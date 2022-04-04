@@ -52,9 +52,13 @@ body{
   top: 7px;
   left: 250px;
   border: none;
-  padding: 5px;
+  padding: 3px;
   border-radius:4px;
   font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
 }
 .btna-home{
   display: none;

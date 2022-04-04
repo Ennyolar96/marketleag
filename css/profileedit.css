@@ -67,7 +67,6 @@ h2{
     padding: 1%;
     color: #fff;
     font-size: 1rem;
-    color: #000;
 }
 /* the first section on the page */
 .info{
@@ -89,8 +88,8 @@ h2{
     padding: 3%;
     display: flex;
 }
-.proimage1,.upload1, .proimage2,.upload2, .proimage3, .upload3{
-    width: 33%;
+.proimage1,.upload1, .proimage2,.upload2{
+    width: 50%;
 }
 button.add-image, button.btn-upload{
     padding: 10%;
@@ -101,6 +100,32 @@ button.add-image, button.btn-upload{
     width: 100px;
     width: 100px;
     border-radius: 100%;
+}
+#imageUpload, #logoUpload
+{
+    display: none;
+}
+
+#profileImage, #companyImage
+{
+    background-color: rgba(243, 115, 53, 1);
+    cursor: pointer;
+}
+
+#profile-container, #company-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container img, #company-container img {
+    width: 150px;
+    height: 150px;
 }
 /* work information */
 
@@ -246,7 +271,7 @@ button.add-image, button.btn-upload{
               }
         }
         
-        @media (max-width:400px)  {
+        @media (max-width:500px)  {
             .maincontainer{
                 margin: 50px 0;
             }
@@ -257,7 +282,7 @@ button.add-image, button.btn-upload{
                 display: flex;
                 flex-direction: column;
             }
-            .proimage1,.upload1, .proimage2,.upload2, .proimage3, .upload3{
+            .proimage1,.upload1, .proimage2,.upload2{
                 width: 100%;
             }
             .proimage3 img, .upload3 img{

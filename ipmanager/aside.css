@@ -7,119 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
 }
-/* the fixed heading */
-.headingdiv{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(12, 11, 11);
-    height: 50px;
-    width: 100%;
-}
-.headingdivcontainer{
-    margin: 0 0 0 300px;
-}
-/* Open width button */
-span.open{
-    color: #fff;
-    font-size: 30px;
-    display: none;
-    cursor: pointer;
-}
-.btn-back{
-    cursor: pointer;
-    margin:7px 0 0 1%;
-}
-span.icon-container{
-  background-color: #fff;
-   font-size: 1.2rem;
-}
-.icons{
-    color: #000;
-    margin:7px 20px 0;
-}
-/* the aside styles */
-.navcontainer{
-position: fixed;
-top: 0;
-left: 0;
-width: 260px;
-height: 100%;
-overflow: hidden;
-background-color: black;
-margin: 0;
-padding: 0;
-}
-.navcontainer:hover{
-    overflow-y: auto; 
-}
-.navcontainer::-webkit-scrollbar {
-    width: 12px;
-}
-.navheading{
-    margin: 40px;
-}
-.navheading img{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: #fff;
-}
-.imgtext{
-    display: flex;
-    font-size: 1rem;
-    color: #fff;
-}
-.profiletext{
-    margin: 0 0 0 20px;
-}
-.asidenav{
-    min-height: 100%;
-    font-size: 20px;
-    margin:0 0 0 -25px;
-    padding: 0;
-    width: 100%;
-}
-.asidenav ul{
-    list-style-type: none;
-}
-.asidenav .dashtext{
-    padding: 0;
-    margin: 0;
-    padding: 2% 0;
-}
-.dashtext a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.1rem;
-    padding: 1% 13%;
-}
-.dashtext a:hover, .dashtext .active{
-    color: rgba(243, 115, 53, 1);
-}
-.navicon{
-    margin: 0 10px 0 0;
-}
-/* closebar style */
 
-.closebar{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 2rem;
-    display: none;
-}
-.closebar a{
-    text-decoration: none;
-    color: #fff;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-.closebar a:hover{
-    background-color: rgba(243, 115, 53, 1);
-    
-   
-}
 /* The main container that holds other tags*/
 .maincontainer{
     margin: 55px 0 0 260px;
@@ -127,6 +15,7 @@ padding: 0;
 /* The first section */
 .firstdiv{
    background-color: whitesmoke;
+   /* box-shadow: 0 0 2px gray; */
 }
 h1.work{
     font-size: 1rem;
@@ -167,8 +56,61 @@ span#total{
 }
 .seconddiv{
     background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+/* meter,progress{
+    width: 50px;
+    height:50px;
+
+    transform: rotate(-90deg);
+} */
+
+p.linkspan{
+    position: absolute;
+    left: 0;
+    top: 75px;
+    transform: rotate(-90deg);
+}
+p.num24{
+    position: absolute;
+    left: 60px;
+    top: 0;
+    margin: 10px 0 0 0;
+}
+p.num12{
+    position: absolute;
+    left: 60px;
+    top: 76.5px;
+}
+p.num0{
+    position: absolute;
+    left: 67px;
+    top: 153px;
+    bottom: 0; 
+    margin: 0;
 }
 
+.linkspan2{
+    display: block;
+    background-color: black;
+    width: 1px;
+    height: 155px;
+    position: absolute;
+    left: 80px;
+    margin: 15px 0 0 0;
+}
+.spanlink{
+    width: 1px;
+    height: 100%;
+   background-color: red;
+    position: absolute;
+    right: 0;
+    left: 170px;
+    transform: rotate(90deg);
+
+}
 
 
 /* the project section */
@@ -255,6 +197,7 @@ span#total{
     height: 15px;
     border-radius: 100%;
     background-color: #114;
+    margin: 0 0 0 -8px;
 }
 .Attendees2{
     margin: 16px 20px 20px auto;

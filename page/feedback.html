@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/expertopp.css">
+    <link rel="stylesheet" href="/css/expertfeedback.css">
     <script defer src="./index.js"></script>
 </head>
     <body>
@@ -112,36 +112,28 @@
                  </nav>
               </a>
             </div>
+            <div class="maincontainer">
+                <form action="" method="post" id="feedForm">
 
-            <div class="main">
-                <!-- First section -->
-                <div class="firstsection">
-                  <!-- The heading text -->
-                    <div class="headingtexting">
-                      <h3>My Opportunities</h3>
-                  </div>
-                        <!--first box -->
-                        <div class="first-box">
-                            <table>
-                            <thead>
-                                <tr>
-                                    <th>IP Type</th>
-                                    <th>Country</th>
-                                    <th>Class</th>
-                                    <th>Country of Origin</th>
-                                    <th>Destination</th>
-                                    <th>Distribution</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <!-- <tbody>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </tbody> -->
-                            </table>
-                        </div>
-                  </div>
+                     <div class="input-control">
+                        <label for="Request_id">Request ID </label>
+                        <input type="text" name="Request_id" id="" disabled>
+                     </div>
+
+                     <div class="input-control">
+                        <label for="Subject">Subject</label>
+                        <input type="text" name="subject" id="" required>
+                     </div>
+                     <div class="input-control">
+                        <label for="Message">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                     </div>
+                     <div class="input-control">
+                        <label for="file">File</label>
+                      <input type="file" name="" id="">
+                     </div>
+                     <button type="submit">Submit Feedback</button>
+                </form>
             </div>
 
         </div>

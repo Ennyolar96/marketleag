@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/profileedit.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
 </head>
     <body>
         <div class="overcontainer">
@@ -21,12 +23,12 @@
 
                      <button onclick="window.location.href='/Dashboard.html'" class="backbtn"><i class="fa fa-angle-left" aria-hidden="true"></i> Back</button>
                      <div class="icons">
-                          <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                          <a href="./messages.html"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
-                          <a href="./settings.html"><i class="fa fa-cog" aria-hidden="true"></i></a>
-                        </div>
+                        <a href="/user/document.html" title="File"><i class="fa fa-file" aria-hidden="true"></i></a>
+                        <a href="./editprofile.html" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a href="/user/messages.html" title="Message"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                        <a href="/user/notification.html" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        <a href="/user/settings.html" title="Settings"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                      </div>
                     </div><!--Static heading closing tag-->
             
                     <!-- The open section div -->
@@ -68,10 +70,11 @@
                                     <p>upload a profile image:</p>
                                 </div>
                                 <div class="proimage2">
-                                    <button class="add-image"> + Add an image from your computer or phone storage</button>
-                                </div>
-                                <div class="proimage3">
-                                    <img src="/images/julie..png" alt="userimage">
+                                    <div id="profile-container">
+                                        <image id="profileImage" title="Click To Upload Profile" src="https://www.w3schools.com/howto/img_avatar.png" />
+                                     </div>
+                                     <input id="imageUpload" type="file" 
+                                            name="profile_photo" placeholder="Photo" required="" capture>
                                 </div>
                             </div>
                         </section> <!-- Ending the profile section-->
@@ -85,13 +88,14 @@
                                     <p>Upload a logo:</p>
                                 </div>
                                 <div class="upload2">
-                                    <button class="btn-upload"> + Add an image from your computer or phone storage </button>
+                                    <div id="company-container">
+                                        <image id="companyImage" title="Click To Upload Your Company Logo" src="/images/logo white version.png" />
+                                     </div>
+                                     <input id="logoUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture>                                </div>
                                 </div>
-                                <div class="upload3">
-                                    <img src="/images/julie..png"alt="userimage">
-                                </div>
-                            </div>
                         </section>
+
+     
                 
                         <!-- ending company logo section -->
                 
@@ -201,6 +205,7 @@
                              </form>
                 
                     </div> <!--Main container div-->
+                    <script src="/js/profileupload.js"></script>
                  </div>
 </body>
 </html>

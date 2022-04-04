@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/filedoc.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="header_static">
+                <!-- <span onclick="openNav()">&#9776;</span> -->
+                    <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
+                     <span class="span" >Marketleag</span></nav>
+                     <a href="/Dashboard.html" class="btn-home"><i class="fa fa-angle-left" aria-hidden="true"></i> Back</a>
+            
+                     <div class="icons">
+                        <a href="/user/document.html" title="File"><i class="fa fa-file" aria-hidden="true"></i></a>
+                        <a href="#" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a href="/user/messages.html" title="Message"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
+                        <a href="/user/notification.html" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        <a href="/user/settings.html" title="Settings"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                      </div>
+            </div>
+            <div class="main_container">
+
+               <section id="first_section">
+
+                   <div class="first_section">
+                        <div class="first_section1">
+                            <h2>Your Files</h2>
+                        </div>
+                        <div class="first_section2">
+                            <button onclick="document.getElementById('new_file').style.display='block'"> + Add New</button>
+                        </div>
+                      
+                   </div>
+                   
+               <!-- the file upload input -->
+
+            <div id="new_file" class="file_modal">
+                <span onclick="document.getElementById('new_file').style.display='none'"
+              class="close" title="Close">&times;</span>
+              
+                <!-- Modal Content -->
+                <div class="filemodal-content animate">
+                <div class="fileheading">
+                    <p>Choose File</p>
+                </div>
+                    <div class="file-container">
+                        <form action="/" method="get" id="fileform">
+                            <div class="form_inner">
+                                <div class="input-control">
+                                    <input type="file" name="uploading_file" id="FileUpload1" required>
+                                </div>
+                          </div>
+                          <p id="spnDocMsg" class="error" style="display: none;"></p>
+                           <!-- the container for both button -->
+                           <div class="control-btn">
+                           <div class="input-contro">
+                            <button type="submit" id="btnSubmit"> <i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
+                           </div>
+                        </form>
+                        <div class="input-contro">
+                            <button onclick="document.getElementById('new_file').style.display='none'" class="cancelbtn">&times; Cancel</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of the pop up file section -->
+                  <!-- ending first section -->
+               </section>
+
+
+
+                  <!-- second section -->
+               <section id="second_section">
+                <div class="upload_file" id="upload_file">
+                    <p>You have no files at the moment. <a onclick="document.getElementById('new_file').style.display='block'">+ Add one now</a></p>
+                </div>
+               </section>
+
+
+
+              </div> <!--The main container-->
+              <script src="/js/document.js"></script>
+        </div> <!--the container div-->
+    </body>
+</html>    

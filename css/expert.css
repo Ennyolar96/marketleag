@@ -54,9 +54,13 @@ body{
     top: 7px;
     left: 250px;
     border: none;
-    padding: 5px;
+    padding: 3px;
     border-radius:4px;
     font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
   }
   .btna-home{
     display: none;
@@ -149,6 +153,15 @@ body{
   tr{
     font-size: 18px;
   }
+  /* tbody a{
+    text-decoration: none;
+    color: gray;
+  } */
+  .trhover:hover{
+    background-color:rgba(243, 115, 53, 1);
+    color: #fff;
+    cursor: pointer;
+  }
   
   .main{
     display: flex;
@@ -198,6 +211,20 @@ body{
     background-color: whitesmoke;
     height: 250px;
   }
+  span.newform{
+    display:inline-flex;
+    margin: 20px 0 20px 20px;
+  }
+  .newform a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+  }
 
   @media (max-width:1350px) { 
     .sidenav {padding-top: 15px;}
@@ -225,8 +252,12 @@ body{
   .view-all{
     margin: 0 0 20px 0;
   }
+  span.newform{
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+  }
 
-    }
+}
   
     @media (max-width:600px){
       .sidenav {padding-top: 15px;}

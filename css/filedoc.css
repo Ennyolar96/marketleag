@@ -26,8 +26,8 @@ body{
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-    top: 10px;
-    left: 30px;
+    top: 8px;
+    left: 40px;
     color: white;
   }
   .header_static nav{
@@ -62,49 +62,9 @@ body{
     margin: 0 10px;
     color: whitesmoke;
   }
-  .active{
-    background-color: black;
-  }
-  .sidenav span{
-    display: block;
-    font-size: 18px;
-  }
-  .sidenav nav{
-    display: flex;
-  }
- 
-  nav span{
-    margin: 0 0 0 20px;
-  }
-  span{
-      font-size:30px;
-      cursor:pointer;
-      display: none;
-  }
-  /* styling the sections */
+ /* the msg modal section */
 
-  .firstone{
-    margin: 50px 0 0 0;
-    display: flex;
-  }
-  .firstone h2{
-    margin:0 0 0 20px;
-    font-size: 30px;
-  }
-  .firstone button{
-    margin: 0 20px 0 auto;
-    text-align: center;
-    padding: 10px 40px;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-
-  /* the msg modal section */
-
-  .msg_modal {
+  .file_modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -117,18 +77,18 @@ body{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     padding-top: 60px;
   }
-  .msgheading{
+  .fileheading{
     background-color: black;
     padding: 1px;
   }
-  .msgheading p{
+  .fileheading p{
     margin-left: 5px;
     color: #fff;
     font-size: 1rem;
   }
   
   /* Modal Content/Box */
-  .msgmodal-content{
+  .filemodal-content{
     border-radius: 10px;
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
@@ -137,40 +97,28 @@ body{
   }
 
   /* the message form */
- #msgform{
+ #fileform{
    display: flex;
    flex-direction: column;
+  }
+  .form_inner{
+      padding: 5%;
   }
   .input-control{
     margin: 3px 0;
   }
-  .input-control select{
-    padding: 1%;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-    width: 180px;
-    font-size: 1rem;
-  }
   .input-control input{
-    width: 100%;
-    padding: 1.3%;
-    border: 1px solid whitesmoke;
+    width: 50%;
+    padding: 50px;
+    border:3px dotted rgba(0,0,0,0.4);
     font-size: 1rem;
-  }
-  .input-control textarea{
-    min-width: 100%;
-    padding: 1.3%;
-    border: 1px solid whitesmoke;
-    font-size: 1rem;
-    max-width: 100%;
-    min-height: 200px;
-    max-height: 200px;
+    display: flex;
+    margin: 0 auto;
   }
   .control-btn{
     display: inline-flex;
   }
-  .msg-container{
+  .file-container{
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -222,117 +170,57 @@ body{
   }
  /* end */
 
-  .secondone{
-    margin: 30px;
-    display: flex;
-  }
-  .secondone form{
-    margin-left: auto;
-  }
-  .secondone input{
-    border: 2px solid #f0f0f0;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 10px;
-    width: 500px;
-    outline: none;
-  }
-  .secondone button{
-    position: absolute;
-    right: 32.5px;
-    padding: 13.5px;
-    border: none;
-    border-radius: 0 4px 3px 0;
-  }
+ /* the Main Container */
+ .main_container{
+     margin: 60px 0 0 20px;
+ }
+ /* the first section style */
+ .first_section{
+     display: flex;
+     margin: 0;
+ }
+ .first_section1 h2{
+     font-size: 2rem;
+     margin: 0;
+ }
+ .first_section1 a{
+     color:rgba(243, 115, 53, 1) ;
+     cursor: pointer;
+ }
+ .first_section2{
+     margin: 0 40px 0 auto;
+ }
+ .first_section2 button{
+     border: none;
+     border-radius: 5px;
+     padding: 12px 20px;
+     background-color: #000;
+     color: #fff;
+ }
 
-  .thirdone{
-    display: flex;
-    margin: 10px;
-  }
-  .innerdiv{
-    width: 40%;
-    background-color: whitesmoke;
-    margin-right: 10px;
-  }
-  .innerdiv form{
-    padding: 20px;
-    margin-left: 50px;
-  }
-  .innerdiv select{
-    border: 2px solid #f0f0f0;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 10px;
-  }
-  .namerow{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-  }
-  .namerow p{
-    font-size: 14px;
-    margin: 0;
-    font-weight: bold;
-    margin-left: 5px;
-  }
-  .namerow .mdate{
-    font-weight: lighter;
-  }
-  .innertext1{
-    width: 70%;
-    margin-left: 20px;
-    /* background-color: whitesmoke; */
-  }
-  .innertext1 p{
-    margin-left: 10px;
-    font-size: 14px;
-  }
+ .upload_file a{
+     width: 30%;
+     display: inline-block;
+     margin: 20px 0 0 0;
+     font-size: 1rem;
+     text-decoration: none;
+     color: #000;
+     /* background-color: gray; */
+     padding: 10px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ .upload_file{
+    margin: 30px 0 0 0;
+ }
 
-  @media (max-width:1200px) { 
+ @media (max-width:1200px) { 
     .sidenav {padding-top: 15px;}
    .sidenav span {font-size: 20px;}
    .sidenav { width: 0; }
    .sidenav .closebtn { display: block;}
    span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
-    
-   .firstone{
-    display: flex;
-    flex-direction: column;
-  }
-  .firstone button{
-    margin: 20px 20px 0 20px;
-  }
-
-  .secondone{
-    display: block;
-  }
-  .secondone form{
-    margin-left: 0;
-  }
-  .secondone input{
-    width: 100%;
-  }
-
-  .thirdone{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  .innerdiv{
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .innertext1{
-    display: none;
-    width: 100%;
-    margin:0;
-    height: 300px;
-    background-color: whitesmoke;
-  }
-  .innertext1 p{
-    margin-left: 10px;
-    font-size: 14px;
-  }
-  .msgmodal-content{
+     .filemodal-content{
     width: 90%; 
   }
   .close {
@@ -344,6 +232,20 @@ body{
   .close {
     right: 50px;
   }
+  .upload_file a{
+    width: 95%;
+    display: block;
+    }
+    .first_section{
+    flex-direction: column;
+    }
+    .first_section2{
+        margin: 20px 0 0 0;
+    }
+    .first_section2 button{
+   width: 98%;
+    }
+   
 }
 
 @media screen and (max-width:400px) {
@@ -356,4 +258,15 @@ body{
   .btn-home{
     left: 180px;
   }
+  .input-control input{
+    width: 100%;
+  }
+  .first_section1 a{
+    display: block;
+   }
+   /* the uploaded file */
+   .upload_file a{
+    width: 90%;
+    display: block;
+    }
 }

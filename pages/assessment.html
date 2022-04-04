@@ -14,50 +14,37 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
      <div class="container">
         <div class="header_static">
-            <!-- <span onclick="openNav()">&#9776;</span> -->
                 <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
                 <span class="span" >Marketleag</span></nav>
-                <button onclick="window.location.href='/dashboard.html'" class="btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> Back</button>
-                <!-- <button onclick="window.location.href='/'" class="btn-home"><i class="fa fa-home" aria-hidden="true"></i> View Home</button> -->
-                <div class="icons">
-                    <a href="/user/document.html" title="File"><i class="fa fa-file" aria-hidden="true"></i></a>
-                    <a href="#" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
-                    <a href="/user/messages.html" title="Message"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
-                    <a href="/user/notification.html" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
-                    <a href="/user/settings.html" title="Settings"><i class="fa fa-cog" aria-hidden="true"></i></a>
-                  </div>
             </div>
 
             <div class="maincontainer">
-                <!-- <form action="/" method="post" id="form">
-                         <label for="search">Search for expert</label>
-                        <input type="search" name="search expert" id="searchExpert" placeholder="search....">
-                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </form>
 
-                <div class="tablesection">
-                    <table>
-                        <thead>
-                            <tr>
-                                <td>Name</td>
-                                <td>Country</td>
-                                <td>Profession</td>
-                            </tr>
-                        </thead>
-                    </table>
-                </div> -->
                 <form action="/" method="post" id="form">
-                    <h2 class="find">Find an Expert</h2>
+                    <h2 class="find">Need Assessment Form</h2>
+                    <p class="pfind">Take 2 Minutes to review your ascertain IPR status and Worth.</p>
+
                     <div class="input-control">
-                        <label for="Full_name">Full Name</label>
-                        <input type="text" name="full_name" id="" placeholder="Your full name" required>
+                        <label for="Fname">First Name</label>
+                        <input type="text" name="fname" id="" placeholder="Your First name" required>
+                    </div>
+                    <div class="input-control">
+                        <label for="Lname">Last Name</label>
+                        <input type="text" name="lname" id="" placeholder="Your Last name" required>
                     </div>
                     <div class="input-control">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="" placeholder="Your email address" required>
+                    </div>
+                    <div class="input-control">
+                        <label for="pnum">Phone Number</label>
+                        <input type="tel" name="Phone_number" id="pnum" placeholder="+xxx xxxx xxxx xx" required>
+                    </div>
+                    <div class="input-control">
+                        <label for="pnum">Company/Organization</label>
+                        <input type="text" name="Company" id="" placeholder="Company/Organization" >
                     </div>
                     <div class="input-control">
                         <label for="Country">Select Your Country</label>
@@ -328,78 +315,73 @@
                             <option value=" Zimbabwe  "> Zimbabwe </option>
                             </select> 
                     </div>
-                    <p class="innerp">Expert in which aspect of IPR are you looking for?</p>
+
+                    <p class="innerp">Check the option that are applicable to you, from the list below?</p>
 
                     <div class="check-control">
-                      <input type="checkbox" name="Patent" id="">
-                      <label for="patent">Patent</label>
+                      <input type="checkbox" name="" id="">
+                      <label for="">Does your business have a name or logo by which it represents itself to customers (e.g., “Nike” or “Delta Airlines”)? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" name="Trademark" id="">
-                        <label for="Trademark">Trademark</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business design or create any computer hardware or software? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" name="Industrial_design" id="">
-                        <label for="Industrial_design">Industrial Design</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business have any confidential information that gives it an advantage over its competitors (e.g., product formulas, manufacturing processes, customer lists, marketing strategies, computer source code, pricing information, financial data, supplier lists)? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" name="Copyright" id="">
-                        <label for="Copyright">Copyright</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business use any brand names or logos in connection with specific products it sells or services it offers (e.g., Nike’s “Airwalk” line of shoes or Delta Airlines’ “SkyMiles” program)? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" name="Utility_modal" id="">
-                        <label for="Utility_modal">Utility Modal</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business design or create any machines, tools, instruments, methods, systems, processes, compounds, formulations of medicines? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" onclick="EnableDisableTextBox(this)" name="Others" id="chkOthers">
-                        <label for="others">Others</label>
-                    </div>
-                    <div class="input-control">
-                        <input type="text" name="specify" id="allowOthers" disabled placeholder="Specify" required>
-                    </div>
-                    <div class="input-control">
-                        <label for="Which_country">In which Country</label>
-                        <input type="text" name="Which_country" id="" required>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business sell any products that have unique colors, smells or sounds that distinguish those products from those of your competitors? </label>
                     </div>
                     <div class="check-control">
-                        <label for="Discipline">Would you require any specific discipline (E.g Medical, Electronics e.t.c)</label> <br>
-                        <input type="checkbox" name="Yes" id="yes_Textbox" onclick="Open_textbox(this)">
-                        <label for="Yes">Yes</label>
-                    </div>
-                    <div class="input-control">
-                        <input type="text" name="specify" id="allowYes" disabled placeholder="Specify" required>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Does your business create, or participate in the creation of, any original art, graphic design, photography, written articles, poetry, books, music, films or dramatic works? </label>
                     </div>
                     <div class="check-control">
-                        <input type="checkbox" name="No" id="">
-                        <label for="No">No</label>
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business participate in the production, performance, or broadcast of sound recordings, radio and television broadcasts, or live artistic performances? </label>
                     </div>
-                    <div class="input-control">
-                        <label for="Additional_note">Describe your needs here</label>
-                        <textarea name="Additional_note" id="" cols="30" rows="10" placeholder="Provide details here"></textarea>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business sell a product in packaging that has a unique shape or design? </label>
                     </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business create, or participate in the creation of, architectural drawings? </label>
+                    </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business use any advertising slogans to sell its services or products? </label>
+                    </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business use catalogs, brochures, flyers, or manuals? </label>
+                    </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business design or create any useful products that have a unique shape or design? </label>
+                    </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business create, or participate in the creation of, textile, apparel or accessory designs?</label>
+                    </div>
+                    <div class="check-control">
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Does your business have a Web site or does it market or sell any products via the Internet?</label>
+                    </div>
+                   
                     <button type="submit">Submit</button>
                 </form>
             </div>
     </div>
-    <script type="text/javascript">
-        // for the others textbox
-        function EnableDisableTextBox(chkOthers) {
-            var allowOthers = document.getElementById("allowOthers");
-            allowOthers.disabled = chkOthers.checked ? false : true;
-            if (!allowOthers.disabled) {
-                allowOthers.focus();
-            }
-        }
-
-        // for yes and no textbox
-
-        function Open_textbox(yes_Textbox) {
-            var allowYes = document.getElementById("allowYes");
-            allowYes.disabled = yes_Textbox.checked ? false : true;
-            if (!allowYes.disabled) {
-                allowYes.focus();
-            }
-        }
-    </script>
 </body>
 </html>

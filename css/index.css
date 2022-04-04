@@ -57,7 +57,10 @@ body{
     float: none;
     margin-left: 300px;
   }
-  .header-right a.reg{
+  .moveleft{
+      margin: 0 0 0 auto;
+  }
+  /* .header-right a.reg{
     margin-left: 10px;
     background-color: rgba(243, 115, 53, 1);
     border-radius: 8px;
@@ -66,7 +69,7 @@ body{
     color: rgba(255, 255, 255, 1);
     font-family:'Poppins', sans-serif;
     cursor: pointer;
-  }
+  } */
     
     #consent-popup {
       position: fixed;
@@ -275,7 +278,7 @@ body{
     }
     .first-section-1{
         width: 50%;
-        margin: 10px;
+        margin: 10px 10px 10px 30px;
     }
     .first-section-2 img{
         width: 500px;

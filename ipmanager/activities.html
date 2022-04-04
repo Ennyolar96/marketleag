@@ -9,196 +9,202 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/ipmactivities.css">
+    <link rel="stylesheet" href="/css/staffaside.css">
 </head>
 <body>
-    <div class="overallcontainer">
-        <div class="innercontainer">
-            <div class="header_static">
-                <span onclick="openNav()">&#9776;</span>
-                    <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
-                    <span class="span" >Marketleag</span></nav>
+    <div class="overcontainer">
+        <div class="headingdiv">
+            <div class="headingdivcontainer">
+                <span class="open" onclick="openNav()">&#9776;</span>
+                <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button>
+                <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
+                    <span class="icon-container">
+                        <i class="fas fa-file icons"></i>
+                        <i class="fas fa-envelope icons" aria-hidden="true"></i>
+                        <i class="fas fa-bell icons"></i>
+                        
+                        <!-- <i class="fas fa-"></i> -->
+                    </span>
             </div>
-            <header>
-                <nav class="navcontainer" id="mySidenav">
-                    <div class="asidenav">
-                        <div class="navheading">
-                            <div class="imgtext">
-                                <div class="profilepic">
-                                    <img src="/images/julie..png" alt="Your image">
-                                </div>
-                                <div class="profiletext">
-                                    <span class="departname">Admin</span> <br>
-                                    <span>MKL:223</span>
-                                </div>
-                            
-                          
-                            <!-- <span class="current"><i class="fa fa-circle"></i>online</span> -->
-                        </div>
-                        </div>
-                        <ul>
-                            <li class="headmenu">
-                                <span>Employee Details</span>
-                            </li>
-                            <li class="dashtext">
-                                <a class="active" href="./overview.html">
-                                    <span>Overview </span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./profile.html">
-                                    <span>Profile</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./calender.html">
-                                    <span>Calender</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./attendance.html">
-                                    <span>Attendance</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./request.html">
-                                    <span>Request</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./assets.html">
-                                    <span>Assets</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./colleagues.html">
-                                    <span>Colleagues</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./document.html">
-                                    <span>Documents</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./compensation.html">
-                                    <span>Compensation</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./activities.html">
-                                    <span>Activities</span>
-                                </a>                        
-                            </li>
-                            <li class="dashtext">
-                                <a href="./support.html">
-                                    <span>Support</span>
-                                </a>                        
-                            </li>    
-                            <li class="closebar" id="classBar">
-                                <a href="javascript:void(0)">
-                                    <span onclick="classBar()">&times;</span>
-                                </a>                        
-                            </li>                                         
-                        </ul>
-                        </div>
-                    </nav>
-            </header>
-
-        <div class="Activities">
-            <h2>Activities</h2>
-                <select name="Filter" id="cars">
-                    <option value="Type">Filter By Type</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-        </div>    
-
-        <button class="tablink" onclick="openPage('Request', this, 'black')" id="defaultOpen">Requests</button>
-        <button class="tablink" onclick="openPage('application', this, 'black')">Applications</button>
-        <button class="tablink" onclick="openPage('forms', this, 'black')">Forms</button>
-        <button class="tablink" onclick="openPage('solution', this, 'black')">Solutions</button>
-        <button class="tablink" onclick="openPage('feedback', this, 'black')">Feedbacks</button>
-
-        <div id="Request" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Opportunities</th>
-                        <th>Completeness</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-
         </div>
+        <header>
+            <nav class="navcontainer" id="mySidenav">
+                <div class="asidenav">
+                    <div class="navheading">
+                        <div class="imgtext">
+                            <div class="profilepic">
+                                <img src="/images/julie..png" alt="Your image">
+                            </div>
+                            <div class="profiletext">
+                                <span class="departname">IP Manager</span> <br>
+                                <span>MKL:223</span>
+                            </div>
+                        
+                      
+                        <!-- <span class="current"><i class="fa fa-circle"></i>online</span> -->
+                    </div>
+                    </div>
+                    <ul>
+                        <li class="headmenu">
+                            <span>Employee Details</span>
+                        </li>
+                        <li class="dashtext">
+                            <a href="./overview.html">
+                                <span><i class='fas fa-th-large navicon'></i> Overview </span>	
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./profile.html">
+                                <span><i class='fas fa-user navicon'></i> Profile</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./calender.html">
+                                <span><i class='fa fa-calendar navicon'></i> Calender</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./attendance.html">
+                                <span><i class='fa fa-calendar-o navicon'></i> Attendance</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./request.html">
+                                <span><i class='fa fa-send-o navicon'></i> Request</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./colleagues.html">
+                                <span><i class='fa fa-users navicon'></i> Colleagues</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./document.html">
+                                <span><i class='fa fa-folder navicon'></i> Documents</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./compensation.html">
+                                <span><i class='fa fa-handshake-o navicon'></i> Compensation</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a class="active" href="./activities.html">
+                                <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./support.html">
+                                <span><i class="fa fa-phone-square navicon" aria-hidden="true"></i> Support</span>
+                            </a>                        
+                        </li>    
+                        <li class="closebar" id="classBar">
+                            <a href="javascript:void(0)">
+                                <span onclick="classBar()">&times;</span>
+                            </a>                        
+                        </li>                                         
+                    </ul>
+                    </div>
+                </nav>
+        </header>
+        <div class="innercontainer">
+            <div class="Activities">
+                <h2>Activities</h2>
+                    <select name="Filter" id="cars">
+                        <option value="Type">Filter By Type</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+            </div>    
 
-        <div id="application" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Status</th>
-                        <th>Opportunities</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
+            <button class="tablink" onclick="openPage('Request', this, 'black')" id="defaultOpen">Requests</button>
+            <button class="tablink" onclick="openPage('application', this, 'black')">Applications</button>
+            <button class="tablink" onclick="openPage('forms', this, 'black')">Forms</button>
+            <button class="tablink" onclick="openPage('solution', this, 'black')">Solutions</button>
+            <button class="tablink" onclick="openPage('feedback', this, 'black')">Feedbacks</button>
 
-        <div id="forms" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Status</th>
-                        <th>Opportunities</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
+            <div id="Request" class="tabcontent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Opportunities</th>
+                            <th>Completeness</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <!-- <tr>
+                        <td></td>
+                    </tr> -->
+                </table>
+
+            </div>
+
+            <div id="application" class="tabcontent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Opportunities</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <!-- <tr>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </div>
+
+            <div id="forms" class="tabcontent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Opportunities</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <!-- <tr>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </div>
 
 
-        <div id="solution" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Status</th>
-                        <th>Opportunities</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
+            <div id="solution" class="tabcontent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Opportunities</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <!-- <tr>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </div>
 
-        <div id="feedback" class="tabcontent">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Status</th>
-                        <th>Opportunities</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <!-- <tr>
-                    <td></td>
-                </tr> -->
-            </table>
-        </div>
-        </div>
+            <div id="feedback" class="tabcontent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Opportunities</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <!-- <tr>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </div>
+         </div>
     </div> 
     <script src="/js/allactivities.js"></script>
 </body>
