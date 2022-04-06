@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
     <!-- bootstrap and css links -->
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./aside.css">
+    <link rel="stylesheet" href="/css/overview.css">
     <link rel="stylesheet" href="/css/staffaside.css">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -23,14 +23,12 @@
         <div class="headingdiv">
             <div class="headingdivcontainer">
                 <span class="open" onclick="openNav()">&#9776;</span>
-                <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button>
+                <!-- <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button> -->
                 <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
                     <span class="icon-container">
-                        <i class="fas fa-file icons"></i>
-                        <i class="fas fa-envelope icons" aria-hidden="true"></i>
-                        <i class="fas fa-bell icons"></i>
-                        
-                        <!-- <i class="fas fa-"></i> -->
+                        <a href="./document.html"><i class="fas fa-file icons"></i></a>
+                        <a href="./messages.html"> <i class="fas fa-envelope icons" aria-hidden="true"></i></a>
+                       <a href="#"><i class="fas fa-bell icons"></i></a>
                     </span>
             </div>
         </div>
@@ -40,7 +38,7 @@
                     <div class="navheading">
                         <div class="imgtext">
                             <div class="profilepic">
-                                <img src="/images/julie..png" alt="Your image">
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Your image">
                             </div>
                             <div class="profiletext">
                                 <span class="departname">IP Manager</span> <br>
@@ -70,31 +68,31 @@
                                 <span><i class='fa fa-calendar navicon'></i> Calender</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
+                        <!-- <li class="dashtext">
                             <a href="./attendance.html">
                                 <span><i class='fa fa-calendar-o navicon'></i> Attendance</span>
                             </a>                        
-                        </li>
+                        </li> -->
                         <li class="dashtext">
                             <a href="./request.html">
                                 <span><i class='fa fa-send-o navicon'></i> Request</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
+                        <!-- <li class="dashtext">
                             <a href="./colleagues.html">
                                 <span><i class='fa fa-users navicon'></i> Colleagues</span>
                             </a>                        
-                        </li>
+                        </li> -->
                         <li class="dashtext">
                             <a href="./document.html">
                                 <span><i class='fa fa-folder navicon'></i> Documents</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
+                        <!-- <li class="dashtext">
                             <a href="./compensation.html">
                                 <span><i class='fa fa-handshake-o navicon'></i> Compensation</span>
                             </a>                        
-                        </li>
+                        </li> -->
                         <li class="dashtext">
                             <a href="./activities.html">
                                 <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
@@ -145,7 +143,7 @@
 
                 <div class="col-lg-8">
                     <h1 class="work">Work Time Statistics</h1>
-                    <div class="seconddiv">
+                    <!-- <div class="seconddiv">
                             <p class="linkspan">in Hours</p>
                             <div class="numbers">
                                 <p class="num24">24</p>
@@ -155,8 +153,8 @@
 
                             <span class="linkspan2"></span>
                             <div class="spanlink"></div>
-                            <!-- <span ></span> -->
-                    </div>
+                            <!-- <span ></span> --
+                    </div> -->
                 </div>
             </section>
 
@@ -232,16 +230,16 @@
                             <div class="Meeting">
                                 <div class="Meeting1">
                                     <h5>Meeting</h5>
-                                    <p>With the tech for review of project AB</p>
+                                    <a href="#">With the tech for review of project AB</a>
                                 </div>
                                 <div class="Meeting2">
                                     <h5>Time</h5>
-                                    <p>10:00am</p>
+                                    <p>00:00</p>
                                 </div>
                             </div>
 
                             <!-- Attendees section -->
-                            <div class="Attendees">
+                            <!-- <div class="Attendees">
                                 <div class="Attendees1">
                                     <h5>ATTENDEES</h5>
                                     <img src="/images/julie..png" alt="">
@@ -255,28 +253,28 @@
                                     <span id="iconcircle"><i class='fas fa-dot-circle'></i></span>
                                     <span id="iconcheck"><i class="fas fa-check"></i></span>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- Presentation 1 section -->
                             <div class="Presentation">
                                 <div class="Presentation1">
                                     <h5>PRESENTATION</h5>
-                                    <p>Design flow of Project NG</p>
+                                    <a href="#">Design flow of Project NG</a>
                                 </div>
                                 <div class="Presentation2">
                                     <h5>Time</h5>
-                                    <p>10:00am</p>
+                                    <p>00:00</p>
                                 </div>
                             </div>
                             <!-- FeedBack section -->
                             <div class="Presentation1-1">
                                 <div class="Presentation1-2">
                                     <h5>Feedbacks</h5>
-                                    <p>Design flow of Project CA</p>
+                                    <a href="./activities.html">Design flow of Project CA</a>
                                 </div>
                                 <div class="Presentation1-3">
                                     <h5>From</h5>
-                                    <p>Onitemi Ola</p>
+                                    <p>Onitemi Ola</p> <!--get the name of the person that send the feedback-->
                                 </div>
                             </div>
 
@@ -284,11 +282,11 @@
                             <div class="Presentation1-1">
                                 <div class="Presentation1-2">
                                     <h5>Client Request</h5>
-                                    <p>Design flow of Project CA</p>
+                                    <a href="./activities.html">Design flow of Project CA</a>
                                 </div>
                                 <div class="Presentation1-3">
                                     <h5>Form</h5>
-                                    <p>Onitemi Ola</p>
+                                    <p>Onitemi Ola</p> <!--get the name of the client that send the request-->
                                 </div>
                             </div>
 
@@ -296,22 +294,22 @@
                             <div class="Presentation1-1">
                                 <div class="Presentation1-2">
                                     <h5>Approved Form</h5>
-                                    <p>Design flow of Project CA</p>
+                                    <a href="./activities.html">Design flow of Project CA</a> <!--recent approved form-->
                                 </div>
                                 <div class="Presentation1-3">
                                     <h5>Status</h5>
-                                    <p>Approved</p>
+                                    <p>Approved</p> <!--The Status of the solution-->
                                 </div>
                             </div>
                             <!-- Approved Solution section -->
                             <div class="Presentation1-1">
                                 <div class="Presentation1-2">
                                     <h5>Approved Solution</h5>
-                                    <p>Design flow of Project CA</p>
+                                    <a href="./activities.html">Design flow of Project CA</a> <!--recent approved solution-->
                                 </div>
                                 <div class="Presentation1-3">
                                     <h5>Status</h5>
-                                    <p>Approved</p>
+                                    <p>Approved</p> <!--The Status of the solution-->
                                 </div>
                             </div>
 
@@ -319,11 +317,11 @@
                             <div class="Presentation1-1">
                                 <div class="Presentation1-2">
                                     <h5>Application</h5>
-                                    <p>Design flow of Project CA</p>
+                                    <a href="./activities.html">Design flow of Project CA</a> <!--recent application-->
                                 </div>
                                 <div class="Presentation1-3">
                                     <h5>Status</h5>
-                                    <p>Approved</p>
+                                    <p>Approved</p> <!--The Status of the application-->
                                 </div>
                             </div>
 
@@ -334,7 +332,7 @@
 
 
         </div><!--The main container closing div-->
-        <script src="./staff.js"></script>
+        <script src="/js/staff.js"></script>
     </div>
 </body>
 </html>

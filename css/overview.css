@@ -8,10 +8,6 @@ body{
     background-color: whitesmoke;
 }
 
-/* The main container that holds other tags*/
-.maincontainer{
-    margin: 55px 0 0 260px;
-}
 /* The first section */
 .firstdiv{
    background-color: whitesmoke;
@@ -156,6 +152,10 @@ p.num0{
 .activities{
     margin: 30px 0 50px 0;
 }
+.activities a{
+    color: #f83;
+    text-decoration: none;
+}
 .insideToday{
     background-color: #fff;
     border-radius: 5px;
@@ -242,57 +242,4 @@ p.num0{
 }
 .Presentation1-2 p, .Presentation1-3 p{
     font-size: 1rem;
-}
-
-
-
-@media screen and (max-width:1100px) {
-    .navcontainer{
-        width: 0;
-        background-color: rgba(0, 0, 0, .9567);
-    }
-    .maincontainer{
-        margin: 60px 0 0 0;
-    }
-    span.open{
-        display: block;
-        margin: 0 20px;
-        text-align: right;
-    }
-   .closebar{
-        display: block;
-    }
-    .btn-back{
-        position: absolute;
-        top: 2px;
-        left: 20px;
-    }
-    .btn-home{
-        position: absolute;
-        top: 2px;
-        left: 90px; 
-    }
-    span.icon-container{
-        position: absolute;
-        top: 7px;
-        margin: 0;
-        padding: 0;
-    }
-    .divflexshow{
-        margin: 10px 0;
-    }
-   
-}
-
-@media screen and (max-width:600px){
-.icontext{
-    margin: 15px 0 0 0;
-}
-span.icon-container{
-    position: absolute;
-    top: 7px;
-    right: 50px;
-    margin: 0;
-    padding: 0;
-}
 }

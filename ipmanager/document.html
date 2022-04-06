@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- icon -->
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
+    <!-- bootstrap and css links -->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/staffaside.css">
+    <link rel="stylesheet" href="/css/staffdoc.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overcontainer container-fluid">
+        <div class="headingdiv">
+            <div class="headingdivcontainer">
+                <span class="open" onclick="openNav()">&#9776;</span>
+                <!-- <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button> -->
+                <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
+                <span class="icon-container">
+                    <a href="./document.html"><i class="fas fa-file icons"></i></a>
+                    <a href="./messages.html"> <i class="fas fa-envelope icons" aria-hidden="true"></i></a>
+                   <a href="#"><i class="fas fa-bell icons"></i></a>
+                </span>
+            </div>
+        </div>
+        <header>
+            <nav class="navcontainer" id="mySidenav">
+                <div class="asidenav">
+                    <div class="navheading">
+                        <div class="imgtext">
+                            <div class="profilepic">
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Your image">
+                            </div>
+                            <div class="profiletext">
+                                <span class="departname">IP Manager</span> <br>
+                                <span>MKL:223</span>
+                            </div>
+                        
+                      
+                        <!-- <span class="current"><i class="fa fa-circle"></i>online</span> -->
+                    </div>
+                    </div>
+                    <ul>
+                        <li class="headmenu">
+                            <span>Employee Details</span>
+                        </li>
+                        <li class="dashtext">
+                            <a href="./overview.html">
+                                <span><i class='fas fa-th-large navicon'></i> Overview </span>	
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./profile.html">
+                                <span><i class='fas fa-user navicon'></i> Profile</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./calender.html">
+                                <span><i class='fa fa-calendar navicon'></i> Calender</span>
+                            </a>                        
+                        </li>
+                     
+                        <li class="dashtext">
+                            <a href="./request.html">
+                                <span><i class='fa fa-send-o navicon'></i> Request</span>
+                            </a>                        
+                        </li>
+                    
+                        <li class="dashtext">
+                            <a class="active" href="./document.html">
+                                <span><i class='fa fa-folder navicon'></i> Documents</span>
+                            </a>                        
+                        </li>
+                     
+                        <li class="dashtext">
+                            <a href="./activities.html">
+                                <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./support.html">
+                                <span><i class="fa fa-phone-square navicon" aria-hidden="true"></i> Support</span>
+                            </a>                        
+                        </li>    
+                        <li class="closebar" id="classBar">
+                            <a href="javascript:void(0)">
+                                <span onclick="classBar()">&times;</span>
+                            </a>                        
+                        </li>                                         
+                    </ul>
+                    </div>
+                </nav>
+        </header>
+        <div class="maincontainer">
+
+               <section id="first_section">
+                   <div class="first_section">
+                        <div class="first_section1">
+                            <h2>Your Files</h2>
+                        </div>
+                        <div class="first_section2">
+                            <button onclick="document.getElementById('new_file').style.display='block'"> + Add New</button>
+                        </div>
+                      
+                   </div>
+                   
+               <!-- the file upload input -->
+
+            <div id="new_file" class="file_modal">
+                <span onclick="document.getElementById('new_file').style.display='none'"
+              class="close" title="Close">&times;</span>
+              
+                <!-- Modal Content -->
+                <div class="filemodal-content animate">
+                <div class="fileheading">
+                    <p>Choose File</p>
+                </div>
+                    <div class="file-container">
+                        <form action="/" method="get" id="fileform">
+                            <div class="form_inner">
+                                <div class="input-control">
+                                    <input type="file" name="uploading_file" id="FileUpload1" required>
+                                </div>
+                          </div>
+                          <p id="spnDocMsg" class="error" style="display: none;"></p>
+                           <!-- the container for both button -->
+                           <div class="control-btn">
+                           <div class="input-contro">
+                            <button type="submit" id="btnSubmit"> <i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
+                           </div>
+                        </form>
+                        <div class="input-contro">
+                            <button onclick="document.getElementById('new_file').style.display='none'" class="cancelbtn">&times; Cancel</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of the pop up file section -->
+                  <!-- ending first section -->
+               </section>
+
+
+
+                  <!-- second section -->
+               <section id="second_section">
+                <div class="upload_file" id="upload_file">
+                    <p>You have no files at the moment. <a onclick="document.getElementById('new_file').style.display='block'">+ Add one now</a></p>
+                </div>
+               </section>
+
+
+
+              </div> <!--The main container-->
+              <script src="/js/staff.js"></script>
+              <script src="/js/document.js"></script>
+        </div> <!--the container div-->
+    </body>
+</html>    

@@ -49,6 +49,11 @@ body{
   tr{
     font-size: 14px;
   }
+  .trhover:hover{
+    background-color:f0f0f0;
+    color: #000;
+    cursor: pointer;
+  }
 
 .tablink {
     background-color: gray;

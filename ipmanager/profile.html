@@ -1,311 +1,772 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
-    <title>Sidebar template</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="./ppp.css">
-    <script src="./ppp.js"></script>
- 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketleag | The new generation co-creation space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- icon -->
+    <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
+    <!-- bootstrap and css links -->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/staffaside.css">
+    <link rel="stylesheet" href="/Staff/reg.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
-
 <body>
-<div class="page-wrapper chiller-theme toggled">
-  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar" class="sidebar-wrapper">
-    <div class="sidebar-content">
-      <div class="sidebar-brand">
-        <a href="#">pro sidebar</a>
-        <div id="close-sidebar">
-          <i class="fas fa-times"></i>
-        </div>
-      </div>
-      <div class="sidebar-header">
-        <div class="user-pic">
-          <!-- <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
-            alt="User picture"> -->
-        </div>
-        <div class="user-info">
-          <span class="user-name">Jhon
-            <strong>Smith</strong>
-          </span>
-          <span class="user-role">Administrator</span>
-          <span class="user-status">
-            <i class="fa fa-circle"></i>
-            <span>Online</span>
-          </span>
-        </div>
-      </div>
-      <!-- sidebar-header  -->
-      <div class="sidebar-search">
-        <div>
-          <div class="input-group">
-            <input type="text" class="form-control search-menu" placeholder="Search...">
-            <div class="input-group-append">
-              <span class="input-group-text">
-                <i class="fa fa-search" aria-hidden="true"></i>
+    <div class="overcontainer container-fluid">
+        <div class="headingdiv">
+            <div class="headingdivcontainer">
+                <span class="open" onclick="openNav()">&#9776;</span>
+                <!-- <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button> -->
+                <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
+                <span class="icon-container">
+                  <a href="./document.html"><i class="fas fa-file icons"></i></a>
+                  <a href="./messages.html"> <i class="fas fa-envelope icons" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fas fa-bell icons"></i></a>
               </span>
             </div>
-          </div>
         </div>
-      </div>
-      <!-- sidebar-search  -->
-      <div class="sidebar-menu">
-        <ul>
-          <li class="header-menu">
-            <span>General</span>
-          </li>
-          <li class="sidebar-dropdown">
-            <a href="#">
-              <i class="fa fa-tachometer-alt"></i>
-              <span>Dashboard</span>
-              <span class="badge badge-pill badge-warning">New</span>
-            </a>
-            <div class="sidebar-submenu">
-              <ul>
-                <li>
-                  <a href="#">Dashboard 1
-                    <span class="badge badge-pill badge-success">Pro</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Dashboard 2</a>
-                </li>
-                <li>
-                  <a href="#">Dashboard 3</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="sidebar-dropdown">
-            <a href="#">
-              <i class="fa fa-shopping-cart"></i>
-              <span>E-commerce</span>
-              <span class="badge badge-pill badge-danger">3</span>
-            </a>
-            <div class="sidebar-submenu">
-              <ul>
-                <li>
-                  <a href="#">Products
+        <header>
+            <nav class="navcontainer" id="mySidenav">
+                <div class="asidenav">
+                    <div class="navheading">
+                        <div class="imgtext">
+                            <div class="profilepic">
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Your image">
+                            </div>
+                            <div class="profiletext">
+                                <span class="departname">IP Manager</span> <br>
+                                <span>MKL:223</span>
+                            </div>
+                        
+                      
+                        <!-- <span class="current"><i class="fa fa-circle"></i>online</span> -->
+                    </div>
+                    </div>
+                    <ul>
+                        <li class="headmenu">
+                            <span>Employee Details</span>
+                        </li>
+                        <li class="dashtext">
+                            <a href="./overview.html">
+                                <span><i class='fas fa-th-large navicon'></i> Overview </span>	
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a class="active" href="./profile.html">
+                                <span><i class='fas fa-user navicon'></i> Profile</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./calender.html">
+                                <span><i class='fa fa-calendar navicon'></i> Calender</span>
+                            </a>                        
+                        </li>
+                     
+                        <li class="dashtext">
+                            <a href="./request.html">
+                                <span><i class='fa fa-send-o navicon'></i> Request</span>
+                            </a>                        
+                        </li>
+                    
+                        <li class="dashtext">
+                            <a href="./document.html">
+                                <span><i class='fa fa-folder navicon'></i> Documents</span>
+                            </a>                        
+                        </li>
+                     
+                        <li class="dashtext">
+                            <a href="./activities.html">
+                                <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
+                            </a>                        
+                        </li>
+                        <li class="dashtext">
+                            <a href="./support.html">
+                                <span><i class="fa fa-phone-square navicon" aria-hidden="true"></i> Support</span>
+                            </a>                        
+                        </li>    
+                        <li class="closebar" id="classBar">
+                            <a href="javascript:void(0)">
+                                <span onclick="classBar()">&times;</span>
+                            </a>                        
+                        </li>                                         
+                    </ul>
+                    </div>
+                </nav>
+        </header>
+        <div class="maincontainer">
+                    <!-- The open section div -->
+                      <form action="" id="profileForm">
+                      <section class="basic">
+                          <h2 class="h2basic">Basic information about you</h2>
+                          <div class="info">
+                               <div class="input-control">
+                                   <label for="firstname"> First name</label>
+                                      <input type="text" name="firstname" id="firstname">
+                              </div>
+                                  <div class="input-control">
+                                       <label for="Lastname"> Last name</label>
+                                      <input type="text" name="Lastname" id="Lastname">
+                                  </div>
+                                   <div class="input-control">
+                                      <label for="email">Email</label>
+                                      <input type="email" name="email" id="email" disabled>
+                                   </div>
+                                   <div class="input-control">
+                                     <label for="Headline"> Headline</label>
+                                   <input type="text" name="Headline" id="Headline">
+                                   </div>
+                                   <div class="input-control">
+                                       <label for="short_summary"> Short summary:</label>
+                                    <textarea name="short_summary" id="short_summary" cols="30" rows="10"></textarea>
+                                     </div>
+                                  </div>
+                      </section> <!--First section ending-->
+          
+          
+              <!-- profile section -->
+                      <section class="profileimage">
+                          <h2 class="h2proimg">Your Profile Image</h2>
+                          <div class="proimage">
+                              <div class="proimage1">
+                                  <p>Upload a profile image:</p>
+                              </div>
+                              <div class="proimage2">
+                                  <div id="profile-container">
+                                      <image id="profileImage" title="Click To Upload Profile" src="https://www.w3schools.com/howto/img_avatar.png" />
+                                   </div>
+                                   <input id="imageUpload" type="file" 
+                                          name="profile_photo" placeholder="Photo" required="" capture>
+                              </div>
+                          </div>
+                      </section> <!-- Ending the profile section-->
+              
+                      <!-- Form section -->
+                      <section class="formdetails">
+                              <h2 class="h2workinfo">Basic information about your work</h2>
+                              <div class="workinfo">
+                                <div class="input-control">
+                                  <label for="form_name">Country </label> 
+                                  <select class="form-control" id="Country" name="Country">
+                                                  <option value="Country  ">Country </option>
+                                                  <option value=" Afghanistan "> Afghanistan  </option>
+                                                  <option value=" Albania  "> Albania</option>
+                                                  <option value=" Ameirican Samoa "> American Samoa </option>
+                                                  <option value=" Andorra  "> Andorra </option>
+                                                  <option value=" Angola"> Angola </option>
+                                                  <option value=" Anguilla  "> Anguilla </option>
+                                                  <option value="Antarctica "> Antarctica</option>
+                                                  <option value=" Antigua  "> Antigua</option>
+                                                  <option value=" Argentina  "> Argentina </option>
+                                                  <option value=" Armenia "> Armenia </option>
+                                                  <option value=" Aruba  "> Aruba </option>
+                                                  <option value=" Australia  "> Australia </option>
+                                                  <option value=" Austria"> Austria </option>
+                                                  <option value=" Azerbaijan"> Azerbaijan </option>
+                                                  <option value=" Algeria  "> Algeria </option>
+                      
+                                                  <option value="Bahamas"> Bahamas  </option>
+                                                  <option value=" Bahrain"> Bahrain </option>
+                                                  <option value="Bangladesh"> Bangladesh  </option>
+                                                  <option value="Barbados"> Barbados </option>
+                                                  <option value="Belarus"> Belarus  </option>
+                                                  <option value="Belgium "> Belgium </option>
+                                                  <option value="Belize"> Belize </option>
+                                                  <option value="Benin"> Benin </option>
+                                                  <option value="Bermuda ">Bermuda </option>
+                                                  <option value="Bhutan  ">Bhutan </option>
+                                                  <option value="Bolivia "> Bolivia </option>
+                                                  <option value=" Bosnia  ">Bosnia   </option>
+                                                  <option value=" Botswana "> Botswana </option>
+                                                  <option value=" Brazil ">Brazil  </option>
+                                                  <option value=" Brunei Darussalam "> Brunei Darussalam  </option>
+                                                  <option value=" Bulgaria"> Bulgaria </option>
+                                                  <option value=" Burkina Faso">Burkina Faso  </option>
+                                                  <option value=" Burundi"> Burundi </option>
+                      
+                                                  <option value="Cambodia"> Cambodia </option>
+                                                  <option value=" Cameroon"> Cameroon </option>
+                                                  <option value="Canada">Canada </option>
+                                                  <option value=" Cape Verde">Cape Verde</option>
+                                                  <option value=" Cayman Islands"> Cayman Islands  </option>
+                                                  <option value=" Central African Republic "> Central African Republic </option>
+                                                  <option value=" Chad">Chad</option>
+                                                  <option value=" Chile"> Chile</option>
+                                                  <option value=" China"> China</option>
+                                                  <option value=" Christmas Island"> Christmas Island</option>
+                                                  <option value=" Cocos Islands">Cocos Islands</option>
+                                                  <option value=" Colombia">Colombia</option>
+                                                  <option value=" Democratic Republic of the Congo ">Democratic Republic of the Congo </option>
+                                                  <option value=" Congo"> Congo</option>
+                                                  <option value=" Cook Islands"> Cook Islands</option>
+                                                  <option value=" Costa Rica"> Costa Rica</option>
+                                                  <option value=" Côte D'ivoire">Côte D'ivoire</option>
+                                                  <option value=" Croatia"> Croatia</option>
+                                                  <option value=" Cuba"> Cuba</option>
+                                                  <option value=" Cyprus"> Cyprus</option>
+                                                  <option value=" Czech Republic"> Czech Republic</option>
+                                                  <option value=" Comoros"> Comoros</option>
+                      
+                                                  <option value=" Democratic Republic"> Democratic Republic</option>
+                                                  <option value=" Djibouti  "> Djibouti </option>
+                                                  <option value=" Denmark "> Denmark</option>
+                                                  <option value=" Dominica"> Dominica </option>
+                      
+                                                  <option value=" Egypt "> Egypt  </option>
+                                                  <option value=" Equatorial Guinea "> Equatorial Guinea  </option>
+                                                  <option value=" Eritrea "> Eritrea  </option>
+                                                  <option value=" Ethiopia  "> Ethiopia </option>
+                                                  <option value=" East Timor"> East Timor</option>
+                                                  <option value=" Ecuador"> Ecuador </option>
+                                                  <option value=" El Salvador"> El Salvador</option>
+                                                  <option value="Estonia">Estonia</option>
+                      
+                                                  <option value="Falkland Islands">Falkland Islands</option>
+                                                  <option value="Faroe Islands">Faroe Islands</option>
+                                                  <option value="Fiji">Fiji</option>
+                                                  <option value="Finland">Finland</option>
+                                                  <option value="France">France</option>
+                                                  <option value="French Guiana">French Guiana</option>
+                                                  <option value="French Polynesia">French Polynesia</option>
+                                                  <option value="French Southern Territories">French Southern Territories</option>
+                      
+                                                  <option value=" Gabon "> Gabon  </option>
+                                                  <option value=" Gambia  "> Gambia </option>
+                                                  <option value=" Ghana "> Ghana  </option>
+                                                  <option value="Georgia "> Georgia</option>
+                                                  <option value=" Germany"> Germany </option>
+                                                  <option value=" Gibraltar">Gibraltar </option>
+                                                  <option value="Greece"> Greece</option>
+                                                  <option value=" Greenland "> Greenland </option>
+                                                  <option value=" Grenada"> Grenada</option>
+                                                  <option value="Guadeloupe "> Guadeloupe</option>
+                                                  <option value="Guam">Guam</option>
+                                                  <option value="Guatemala"> Guatemala </option>
+                                                  <option value=" Guinea">Guinea</option>
+                                                  <option value="Guinea-Bissau">Guinea-Bissau </option>
+                                                  <option value=" Guyana "> Guyana </option>
+                      
+                                                  <option value="Haiti">Haiti</option>
+                                                  <option value="Holy See"> Holy See</option>
+                                                  <option value="Honduras"> Honduras</option>
+                                                  <option value=" Hong Kong"> Hong Kong </option>
+                                                  <option value="Hungary"> Hungary</option>
+                      
+                                                  <option value="Iceland "> Iceland</option>
+                                                  <option value="India">India</option>
+                                                  <option value="Indonesia"> Indonesia </option>
+                                                  <option value="Iran ">Iran</option>
+                                                  <option value="Iraq"> Iraq </option>
+                                                  <option value=" Ireland">Ireland </option>
+                                                  <option value="Israel "> Israel</option>
+                                                  <option value=" Italy "> Italy </option>
+                                                  <option value="Ivory Coast">Ivory Coast</option>
+                      
+                                                  <option value="Ivory Coast">Jamaica</option>
+                                                  <option value="Ivory Coast">Japan</option>
+                                                  <option value="Ivory Coast">Jordan</option>
+                      
+                                                  <option value="Kazakhstan ">Kazakhstan </option>
+                                                  <option value=" Kenya "> Kenya  </option>
+                                                  <option value=" Kiribati ">Kiribati </option>
+                                                  <option value=" Korea, Democratic People's Rep.">Korea, Democratic People's Rep. (North Korea)  </option>
+                                                  <option value=" Korea, Republic of (South Korea) ">Korea, Republic of (South Korea) </option>
+                                                  <option value=" Kosovo"> Kosovo </option>
+                                                  <option value=" Kuwait"> Kuwait </option>
+                                                  <option value=" Kyrgyzstan">Kyrgyzstan </option>
+                      
+                                                  <option value=" Lao, People's Democratic Republic "> Lao, People's Democratic Republic  </option>
+                                                  <option value=" Latvia"> Latvia </option>
+                                                  <option value=" Lebanon ">Lebanon </option>
+                                                  <option value=" Lesotho "> Lesotho</option>
+                                                  <option value=" Liberia "> Liberia </option>
+                                                  <option value=" Libya "> Libya  </option>
+                                                  <option value="Liechtenstein"> Liechtenstein  </option>
+                                                  <option value="Lithuania">Lithuania </option>
+                                                  <option value=" Luxembourg ">Luxembourg </option>
+                                                  
+                                                  <option value="Mayotte "> Mayotte</option>
+                                                  <option value="Mexico "> Mexico</option>
+                                                  <option value="Micronesia">	Micronesia</option>
+                                                  <option value=" Moldova "> 	Moldova</option>
+                                                  <option value=" Monaco"> Monaco</option>
+                                                  <option value=" Mongolia "> Mongolia </option>
+                                                  <option value="Montenegro "> Montenegro</option>
+                                                  <option value=" Montserrat ">Montserrat </option>
+                                                  <option value=" Morocco "> Morocco </option>
+                                                  <option value="Mozambique  "> Mozambique </option>
+                                                  <option value="Myanmar ">Myanmar</option>
+                                                  <option value=" Macau"> Macau </option>
+                                                  <option value="Madagascar"> Madagascar</option>
+                                                  <option value="Malawi">Malawi</option><option value=" Mozambique  "> Mozambique </option>
+                                                  <option value=" Malaysia"> Malaysia</option>
+                                                  <option value="Maldives"> Maldives</option>
+                                                  <option value=" Mali "> Mali </option>
+                                                  <option value="Malta "> Malta</option>
+                                                  <option value="Marshall Islands"> Marshall Islands</option>
+                                                  <option value="Martinique"> Martinique </option>
+                                                  <option value=" Mauritania"> Mauritania</option>
+                                                  <option value="Mauritius"> Mauritius</option>
+                      
+                                                  <option value=" Namibia "> Namibia  </option>
+                                                  <option value="Nauru"> Nauru </option>
+                                                  <option value=" Nepal "> Nepal</option>
+                                                  <option value=" Netherlands"> Netherlands </option>
+                                                  <option value="Netherlands Antilles"> Netherlands Antilles </option>
+                                                  <option value="New Caledonia ">New Caledonia</option>
+                                                  <option value="New Zealand"> New Zealand</option>
+                                                  <option value="Nicaragua">Nicaragua</option>
+                                                  <option value="Niger"> Niger</option>
+                                                  <option value=" Nigeria "> Nigeria  </option>
+                                                  <option value=" Niue"> 	Niue </option>
+                                                  <option value="North Macedonia">North Macedonia</option>
+                                                  <option value=" Northern Mariana Islands ">Northern Mariana Islands </option>
+                                                  <option value=" Norway"> Norway</option>
+                      
+                                                  <option value="Oman"> Oman</option>
+                      
+                                                  <option value=" Pakistan "> Pakistan </option>
+                                                  <option value=" Palau"> Palau</option>
+                                                  <option value=" Palestinian territories"> Palestinian territories</option>
+                                                  <option value=" Panama"> Panama</option>
+                                                  <option value="Papua New Guinea">Papua New Guinea</option>
+                                                  <option value=" Paraguay"> Paraguay</option>
+                                                  <option value=" Peru"> Peru</option>
+                                                  <option value=" Philippines "> Philippines</option>
+                                                  <option value="Pitcairn Island "> Pitcairn Island</option>
+                                                  <option value=" Poland"> Poland</option>
+                                                  <option value=" Portugal ">Portugal</option>
+                                                  <option value="Puerto Rico">Puerto Rico </option>
+                      
+                                                  <option value="Qatar">Qatar</option>
+                      
+                                                  <option value=" Reunion Island "> Reunion Island</option>
+                                                  <option value=" Romania "> Romania</option>
+                                                  <option value=" Russian Federation "> Russian Federation </option>
+                                                  <option value=" Rwanda  "> Rwanda </option>
+                      
+                                                  <option value="Saint Kitts and Nevis"> Saint Kitts and Nevis </option>
+                                                  <option value="Saint Lucia"> Saint Lucia</option>
+                                                  <option value=" Saint Vincent and the Grenadines"> Saint Vincent and the Grenadines</option>
+                                                  <option value=" Samoa"> Samoa </option>
+                                                  <option value="San Marino ">San Marino </option>
+                                                  <option value=" Sao Tome and Principe "> Sao Tome and Principe</option>
+                                                  <option value=" Saudi Arabia"> Saudi Arabia</option>
+                                                  <option value=" Senegal"> Senegal </option>
+                                                  <option value=" Serbia"> Serbia </option>
+                                                  <option value=" Seychelles"> Seychelles </option>
+                                                  <option value=" Sierra Leone "> Sierra Leone </option>
+                                                  <option value=" Singapore ">Singapore</option>
+                                                  <option value=" Slovakia "> Slovakia </option>
+                                                  <option value=" Slovenia"> Slovenia </option>
+                                                  <option value="Solomon Islands"> Solomon Islands </option>
+                                                  <option value=" Somalia "> Somalia</option>
+                                                  <option value=" South Africa "> South Africa</option>
+                                                  <option value=" South Sudan"> South Sudan </option>
+                                                  <option value=" Spain"> Spain  </option>
+                                                  <option value=" Sri Lanka"> Sri Lanka</option>
+                                                  <option value=" Sudan"> Sudan</option>
+                                                  <option value=" Suriname">	Suriname</option>
+                                                  <option value=" Swaziland "> Swaziland  </option>
+                                                  <option value="Sweden "> Sweden </option>
+                                                  <option value=" Switzerland "> Switzerland </option>
+                                                  <option value=" Syria"> Syria </option>
+                      
+                      
+                                                  <option value="Taiwan "> Taiwan </option>
+                                                  <option value=" Tajikistan"> Tajikistan</option>
+                                                  <option value=" Tanzania"> Tanzania </option>
+                                                  <option value="Thailand "> Thailand  </option>
+                                                  <option value=" Tibet ">Tibet</option>
+                                                  <option value="Timor-Leste  "> Timor-Leste  </option>
+                                                  <option value="Togo"> Togo</option>
+                                                  <option value=" Tokelau"> Tokelau</option>
+                                                  <option value=" Tonga"> Tonga </option>
+                                                  <option value="Trinidad and Tobago "> Trinidad and Tobago</option>
+                                                  <option value="Tunisia"> Tunisia  </option>
+                                                  <option value=" Turkey"> Turkey</option>
+                                                  <option value=" Turkmenistan"> Turkmenistan </option>
+                                                  <option value=" Turks and Caicos Islands"> Turks and Caicos Islands</option>
+                                                  <option value=" Tuvalu"> Tuvalu </option>
+                      
+                      
+                                                  <option value=" Uganda  "> Uganda </option>
+                                                  <option value=" Ukraine"> Ukraine </option>
+                                                  <option value="United Arab Emirates  ">United Arab Emirates</option>
+                                                  <option value=" United Kingdom"> United Kingdom</option>
+                                                  <option value=" United States ">United States </option>
+                                                  <option value="	Uruguay"> 	Uruguay </option>
+                                                  <option value="Uzbekistan"> Uzbekistan</option>
+                      
+                                                  <option value="Vanuatu"> Vanuatu</option>
+                                                  <option value="Vatican City State"> Vatican City State</option>
+                                                  <option value="Venezuela">Venezuela</option>
+                                                  <option value="Vietnam"> Vietnam</option>
+                                                  <option value="Virgin Islands (British)"> Virgin Islands (British)</option>
+                                                  <option value="Virgin Islands (U.S.)"> Virgin Islands (U.S.)</option>
+                      
+                                                  <option value="Wallis and Futuna Islands"> Wallis and Futuna Islands </option>
+                                                  <option value=" Western Sahara"> Western Sahara </option>
+                      
+                                                  <option value="Yemen "> Yemen</option>
+                      
+                                                  <option value=" Zambia  "> Zambia </option>
+                                                  <option value=" Zimbabwe  "> Zimbabwe </option>
+                                                  </select>    
+                                  <div class="error"></div>
+                              </div>
+                      
+                              
+                              <div class="input-control">
+                                  <label for="form_name">Gender </label> 
+                                  <select name="gender" id="gender">
+                                      <option value="select">Select your gender</option>
+                                      <option value="male">Male</option>
+                                      <option value="female">Female</option>
+                                  </select>  
+                                  <div class="error"></div>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="form_name">Firstname </label> 
+                                  <input id="fname" name="fname" placeholder="Samod" type="text" value="">
+                                  <div class="error"></div>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="form_lastname">Lastname </label> 
+                                   <input  id="lname" name="lname" placeholder= "John" type="text" value="">
+                                  <div class="error"></div>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="DOB">Date of Birth</label> 
+                                  <input type="date" id="dob">
+                                  <div class="error"></div>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="Marital">Marital status</label>
+                                  <select name="marital" id="marital">
+                                      <option value="choose">Select your married status</option>
+                                      <option value="Single">Single</option>
+                                      <option value="Married">Married</option>
+                                      <option value="Divorced">Divorced</option>
+                                      <option value="Separated">Separated</option>
+                                  </select>
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="Nationality">Nationality</label>
+                                  <input type="text" name="Nationality" id="nationality">
+                                  <div class="error"></div>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="Soo">State Of Origin</label>
+                                  <input type="text" name="SOO" id="SOO">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="Hometown">Home Town</label>
+                                  <input type="text" name="Hometown" id="Homwtown">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="LGA">Local Government Area</label>
+                                  <input type="text" name="LGA" id="LGA">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <!-- <div id="message">
+                                  <h3>Password must contain the following:</h3>
+                                  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                                  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                                  <p id="number" class="invalid">A <b>number</b></p>
+                                  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                              </div>
+                      
+                              <div class="input-control">
+                                  <label for="psw">Password</label>
+                                  <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="At least one number, one uppercase and lowercase letter, and minimum of 8 characters" required>
+                                  <div id="inputError"></div>
+                              </div> -->
+              
+                          
+                          <div>
+                             <h2>Contact Details:</h2>
+                              <p id="already">Kindly provide your personal details below.</p>
+                              <div class="input-control">
+                                  <label for="LGA">Postal Address</label>
+                                  <input type="text" name="Postal-address" id="postal address">
+                                  <div class="error"></div>
+                              </div>
+                            
+                              <div class="input-control">
+                                  <label for="LGA">Residential Address</label>
+                                  <input type="text" name="Resident" id="Resident">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="LGA">Personal Email Address(es)</label>
+                                  <input type="email " name="Personal-email" id="email">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="LGA">Personal Mobile Number(s)</label>
+                                  <input type="text" name="Mobile" id="Mobile">
+                                  <div class="error"></div>
+                              </div>
+                          </div>
+                          
+              
+                          <div>
+                            <h2>Education Attainment</h2>:
+                              <p id="already">Kindly provide the required information with respect to your education background and achievement in the section.</p>
+              
+                              <div class="input-control">
+                                  <label for="Highest">Highest level of education completed</label>
+                                  <input type="text" name="Highest" id="Highest">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="Institution">Name of institution</label>
+                                  <input type="text" name="Institution" id="Institution">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="graduation">Years of graduation</label>
+                                  <input type="text" name="graduation" id="graduation">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="disciple">Disciple</label>
+                                  <input type="text" name="disciple" id="disciple">
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="input-control">
+                                  <label for="AOS">Area of specialization</label>
+                                  <input type="text" name="special" id="special">
+                                  <div class="error"></div>
+                              </div>
+                          </div>
+              
+                          <div>
+                            <h2>Medical Information</h2>:
+                              <p id="already">Kindly provide your Medical information is important to us, Kindly provide all necessary details with respect to your medical status here.</p>
+              
+                              <div class="input-control">
+                                  <label for="Blood">Blood Type</label>
+                                  <Select>
+                                      <option value="select">Select your blood type</option>
+                                      <option value="A+">A+</option>
+                                      <option value="B+">B+</option>
+                                      <option value="O+">O+</option>
+                                      <option value="AB+">AB+</option>
+                                      <option value="A-">A-</option>
+                                      <option value="O-">O-</option>
+                                      <option value="A-">A-</option>
+                                      <option value="AB-">AB-</option>
+                                  </Select>
+                                  <div class="error"></div>
+                              </div>
+              
+                              <div class="check-control">
+                                 <p class="textheading">Did you have any allergies?</p>
+                                  <label for="Yes">Yes</label>
+                                  <input type="checkbox" name="yes" id="firstYes" onclick="open_firstYes(this)"> <br>
+                                  <label for="no">No</label>
+                                  <input type="checkbox" name="No" id="no"> <br>
+                                  <label for="if-yes">If yes, please specify</label>
+                                  <div class="error"></div>
+                              </div>
 
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Orders</a>
-                </li>
-                <li>
-                  <a href="#">Credit cart</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="sidebar-dropdown">
-            <a href="#">
-              <i class="far fa-gem"></i>
-              <span>Components</span>
-            </a>
-            <div class="sidebar-submenu">
-              <ul>
-                <li>
-                  <a href="#">General</a>
-                </li>
-                <li>
-                  <a href="#">Panels</a>
-                </li>
-                <li>
-                  <a href="#">Tables</a>
-                </li>
-                <li>
-                  <a href="#">Icons</a>
-                </li>
-                <li>
-                  <a href="#">Forms</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="sidebar-dropdown">
-            <a href="#">
-              <i class="fa fa-chart-line"></i>
-              <span>Charts</span>
-            </a>
-            <div class="sidebar-submenu">
-              <ul>
-                <li>
-                  <a href="#">Pie chart</a>
-                </li>
-                <li>
-                  <a href="#">Line chart</a>
-                </li>
-                <li>
-                  <a href="#">Bar chart</a>
-                </li>
-                <li>
-                  <a href="#">Histogram</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="sidebar-dropdown">
-            <a href="#">
-              <i class="fa fa-globe"></i>
-              <span>Maps</span>
-            </a>
-            <div class="sidebar-submenu">
-              <ul>
-                <li>
-                  <a href="#">Google maps</a>
-                </li>
-                <li>
-                  <a href="#">Open street map</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="header-menu">
-            <span>Extra</span>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-book"></i>
-              <span>Documentation</span>
-              <span class="badge badge-pill badge-primary">Beta</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-calendar"></i>
-              <span>Calendar</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-folder"></i>
-              <span>Examples</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- sidebar-menu  -->
-    </div>
-    <!-- sidebar-content  -->
-    <div class="sidebar-footer">
-      <a href="#">
-        <i class="fa fa-bell"></i>
-        <span class="badge badge-pill badge-warning notification">3</span>
-      </a>
-      <a href="#">
-        <i class="fa fa-envelope"></i>
-        <span class="badge badge-pill badge-success notification">7</span>
-      </a>
-      <a href="#">
-        <i class="fa fa-cog"></i>
-        <span class="badge-sonar"></span>
-      </a>
-      <a href="#">
-        <i class="fa fa-power-off"></i>
-      </a>
-    </div>
-  </nav>
-  <!-- sidebar-wrapper  -->
-  
-  <main class="page-content">
-    <div class="container-fluid">
-      <h2>Pro Sidebar</h2>
-      <hr>
-      <div class="row">
-        <div class="form-group col-md-12">
-          <p>This is a responsive sidebar template with dropdown menu based on bootstrap 4 framework.</p>
-          <p> You can find the complete code on <a href="https://github.com/azouaoui-med/pro-sidebar-template" target="_blank">
-              Github</a>, it contains more themes and background image option</p>
-        </div>
-        <div class="form-group col-md-12">
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=star&count=true&size=small" frameborder="0" scrolling="0" width="90px" height="30px"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="90px" height="30px"></iframe>
-        </div>
-        <div class="form-group col-md-12">
-          <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">New !</h4>
-            <p>New react pro sidebar library is now available on <a href="https://www.npmjs.com/package/react-pro-sidebar" target="_blank">npm</a> <a href="https://github.com/azouaoui-med/react-pro-sidebar" target="_blank">
-                <img alt="GitHub stars" src="https://img.shields.io/github/stars/azouaoui-med/react-pro-sidebar?style=social" />
-              </a></p>
-            <a href="https://github.com/azouaoui-med/react-pro-sidebar" target="_blank" class="btn btn-sm btn-primary mr-2">
-              Github</a>
-            <a href="https://azouaoui-med.github.io/react-pro-sidebar" target="_blank" class="btn btn-sm btn-success">
-              Demo</a>
+                              <div class="input-control">
+                                <input type="text" name="" id="firstSpecify" placeholder="specify" disabled>
+                              </div>
+              
+                              <div class="check-control">
+                                  <p class="textheading"> Are you currently being treated for any illness/injury</p>
+                                  <label for="Yes">Yes</label>
+                                  <input type="checkbox" name="yes" id="secondYes" onclick="open_secondYes(this)"> <br>
+                                  <label for="no">No</label>
+                                  <input type="checkbox" name="No" id="no"> <br>
+                                  <label for="if-yes">If yes, please specify</label>
+                                  <div class="error"></div>
+                              </div>
+                              <div class="input-control">
+                                <input type="text" name="" id="secondSpecify" placeholder="specify" disabled required>
+                              </div>
+              
+                              <div class="check-control">
+                                  <p class="textheading"> Did you have any Physical disability?</p>
+                                  <label for="Yes">Yes</label>
+                                  <input type="checkbox" name="yes" id="thridYes" onclick="open_thirdYes(this)"> <br>
+                                  <label for="no">No</label>
+                                  <input type="checkbox" name="No" id="no"> <br>
+                                  <label for="if-yes">If yes, please specify</label>
+                                  <div class="error"></div>
+                              </div>
+                              <div class="input-control">
+                                <input type="text" name="" id="thirdSpecify" placeholder="specify" disabled required>
+                              </div>
+              
+                              <div class="check-control">
+                                  <p>Did you have any other medical condition, chronic illness, injury or anything that must be pointed out?</p>
+                                  <label for="Yes">Yes</label>
+                                  <input type="checkbox" name="yes" id="forthYes" onclick="open_forthYes(this)" > <br>
+                                  <label for="no">No</label>
+                                  <input type="checkbox" name="No" id="no"> <br>
+                                  <label for="if-yes">If yes, please specify</label>
+                                  <div class="error"></div>
+                              </div>
 
-          </div>
+                              <div class="input-control">
+                                <input type="text" name="" id="forthSpecify" placeholder="specify" disabled required>
+                              </div>
+                          </div> <!--End tag-->
+                          
+                          <div><h2>Emergency Contact Details</h2>
+                              <p id="already">Kindly provide information about your contact person in this section.</p>
+                              <div class="input-control">
+                                  <label for="Fullname">Full Name</label>
+                                  <input placeholder="First Name-Middle Name-Last Name">
+                            <div class="error"></div>
+                          </div>
+              
+                            <div class="check-control">
+                            <p class="textheading">Relationship</p>
+                            <input type="radio" name="father" id="father"> <label for="Father">Father</label> <br>
+                            <input type="radio" name="mother" id="mother"> <label for="Mother">Mother</label> <br>
+                            <input type="radio" name="Brother" id="Brother"> <label for=" Brother"> Brother</label> <br>
+                            <input type="radio" name="Sister" id="Sister"> <label for="Sister">Sister</label> <br>
+                            <input type="radio" name="Uncle" id="Uncle"> <label for="Uncle">Uncle</label> <br>
+                            <input type="radio" name="Aunty" id="Aunty"> <label for="Aunty">Aunty</label> <br>
+                            <input type="radio" name="other" id="other"> <label for="Other">Other</label> 
+                            <div class="error"></div>
+                          </div>
+              
+                          <div class="input-control">
+                              <label for="Res-add">Residential Address</label>
+                            <input placeholder="Address">
+                            <div class="error"></div>
+                            </div>
+              
+                            <div class="input-control">
+                              <label for="phone_num">Phone Number</label>
+                              <input placeholder="+xxx 8000 0000 000">
+                              <div class="error"></div>
+                            </div>
+              
+                          </div>
+              
+                          <div><h2>Employment Details</h2>
+                              <p id="already">Kindly provide information about your employment status in this section.</p>
+                              <div class="input-control">
+                              <label for="Emp-id">Employment ID</label>
+                            <input type="text" placeholder="MKL/0000/000">
+                            <div class="error"></div>
+                          </div>
+              
+                            <div class="input-control">
+                              <label for="Dep">Department</label>
+                              <input type="text" placeholder="Specify Department">
+                            <div class="error"></div>
+                          </div>
+              
+                          <div class="input-control">
+                              <label for="job-title">Job Title</label>
+                            <input type="text" placeholder="Specify job">
+                            <div class="error"></div>
+                            </div>
+              
+                            <div class="input-control">
+                              <label for="startdate">Start Date</label>
+                              <input type="text" placeholder="dd/mm/yyyy">
+                              <div class="error"></div>
+                            </div>
+              
+                            <div class="check-control">
+                              <p class="textheading">Type Of Appointment</p>
+                              <input type="radio" name="Permanent" id="Permanent"> <label for=" Permanent"> Permanent</label> <br>
+                              <input type="radio" name="Part-Time" id="Part-Time"> <label for="Part-Time">Part Time</label> <br>
+                              <input type="radio" name="Internship" id="Internship"> <label for="Internship">Internship</label> <br>
+                              <input type="radio" name="Industrial-Training" id="Industrial-Training"> <label for="Industrial-Training">Industrial Training</label>
+                              <div class="error"></div>
+                            </div>
+              
+                            <div class="input-control">
+                              <label for="Salary">Salary</label>
+                              <input type="text" name="salary" id="salary">
+                              <div class="error"></div>
+                            </div>
+              
+                            <div class="input-control">
+                              <label for="email">Official Email Address</label>
+                              <input type="email" id="email" name="email" placeholder="name@Marketleag.com">
+                              <div class="error"></div>
+                            </div>
+                          </div>
+              
+                          <div>
+                            <h2>Declaration</h2>
+                              <p id="already">Kindly provide information about your employment status in this section.</p>
+                              <div class="check-control">
+                                  <input type="checkbox" name="mcheck" id="mcheck" required> I certify that all answers given herein are true and complete to my best of knowledge
+                                  <br>
+                                  <input type="checkbox" name="mcheck" id="mcheck" required> I hereby hold the responsibility for the correctness of the above mentioned details
+                                  <div class="error"></div>  
+                              </div>
+                          </div>
+              
+                      </section>
+                      <!-- ending the form section -->
+              
+                      <!-- social media links -->
+              
+                      <section class="socialmedia">
+                          <h2>Contact details & social media</h2>
+                          <div class="contactdetails">
+              
+                                  <div class="input-control">
+                                      <label for="mobile"> mobile/cell phone:</label>
+                                      <input type="text" name="mobile" id="mobile">
+                                  </div>
+                                  <div class="input-control">
+                                      <label for="Skype">Skype</label>
+                                      <input type="text" name="Skype" id="Skype">
+                                  </div>
+                                  <div class="input-control">
+                                      <label for="linkedin"> LinkedIn URL:</label>
+                                      <input type="url" name="linkedin" id="linkedin">
+                                  </div>
+                              </div>
+                           </section>
+                           <!-- ending of social media section  -->
+                           <button class="btnsubmit" type="submit">Update Profile</button>
+                           </form>
+              
 
-        </div>
-      </div>
-      <h5>More templates</h5>
-      <hr>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-          <div class="card rounded-0 p-0 shadow-sm">
-            <img src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png" class="card-img-top rounded-0" alt="Angular pro sidebar">
-            <div class="card-body text-center">
-              <h6 class="card-title">Angular Pro Sidebar</h6>
-              <a href="https://github.com/azouaoui-med/angular-pro-sidebar" target="_blank" class="btn btn-primary btn-sm">Github</a>
-              <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="_blank" class="btn btn-success btn-sm">Preview</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-          <div class="card rounded-0 p-0 shadow-sm">
-            <img src="https://user-images.githubusercontent.com/25878302/58369258-33f20900-7ef8-11e9-8ff3-b277cb7ed7b4.PNG" class="card-img-top rounded-0" alt="Angular pro sidebar">
-            <div class="card-body text-center">
-              <h6 class="card-title">Angular Dashboard</h6>
-              <a href="https://github.com/azouaoui-med/lightning-admin-angular" target="_blank" class="btn btn-primary btn-sm">Github</a>
-              <a href="https://azouaoui-med.github.io/lightning-admin-angular/demo/" target="_blank" class="btn btn-success btn-sm">Preview</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <footer class="text-center">
-        <div class="mb-2">
-          <small>
-            © 2020 made with <i class="fa fa-heart" style="color:red"></i> by - <a target="_blank" rel="noopener noreferrer" href="https://azouaoui.netlify.com">
-              Mohamed Azouaoui
-            </a>
-          </small>
-        </div>
-        <div>
-          <a href="https://github.com/azouaoui-med" target="_blank">
-            <img alt="GitHub followers" src="https://img.shields.io/github/followers/azouaoui-med?label=github&style=social" />
-          </a>
-          <a href="https://twitter.com/azouaoui_med" target="_blank">
-            <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/azouaoui_med?label=twitter&style=social" />
-          </a>
-        </div>
-      </footer>
-    </div>
-  </main>
-  <!-- page-content" -->
-</div>
-<!-- page-wrapper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    
-</body>
-
+        </div><!--The main container that container all the text of the web page-->
+    </div><!--The container-fluid ending div-->
+    <script src="/js/profile.js"></script>
+    <script src="/js/staff.js"></script>
+  </body>
 </html>

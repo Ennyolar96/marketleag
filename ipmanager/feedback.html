@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketleag | The new generation co-creation space</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- icon -->
     <link rel="icon" href="/images/new-png-mleage-mark-2-6.png" type="image/gif" sizes="16x16">
-    <!-- font awesome cdn -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/c4f86bc0ea.js" crossorigin="anonymous"></script>
-    <!-- bootstrap and css links -->
-    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/ipmfeedback.css">
     <link rel="stylesheet" href="/css/staffaside.css">
-    <link rel="stylesheet" href="/Staff/reg.css">
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="overcontainer container-fluid">
+    <div class="overcontainer">
         <div class="headingdiv">
             <div class="headingdivcontainer">
                 <span class="open" onclick="openNav()">&#9776;</span>
-                <!-- <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button> -->
+                <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button>
                 <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
                 <span class="icon-container">
                     <a href="./document.html"><i class="fas fa-file icons"></i></a>
@@ -66,7 +61,7 @@
                             </a>                        
                         </li>
                         <li class="dashtext">
-                            <a class="active" href="./calender.html">
+                            <a href="./calender.html">
                                 <span><i class='fa fa-calendar navicon'></i> Calender</span>
                             </a>                        
                         </li>
@@ -84,7 +79,7 @@
                         </li>
                      
                         <li class="dashtext">
-                            <a href="./activities.html">
+                            <a class="active" href="./activities.html">
                                 <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
                             </a>                        
                         </li>
@@ -102,11 +97,31 @@
                     </div>
                 </nav>
         </header>
-        <div class="maincontainer">
-            <!-- The Text coming in here -->
+            <div class="maincontainer">
+                <form action="" method="post" id="feedForm">
 
-        </div><!--The main container div-->
-    </div><!--The container fluid div-->
-    <script src="/js/staff.js"></script>
-</body>
+                     <div class="input-control">
+                        <label for="Request_id">Request ID </label>
+                        <input type="text" name="Request_id" id="" disabled>
+                     </div>
+
+                     <div class="input-control">
+                        <label for="Subject">Subject</label>
+                        <input type="text" name="subject" id="" required>
+                     </div>
+                     <div class="input-control">
+                        <label for="Message">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                     </div>
+                     <div class="input-control">
+                        <label for="file">File</label>
+                      <input type="file" name="" id="">
+                     </div>
+                     <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+
+        </div>
+        <script src="/js/staff.js"></script>
+    </body>
 </html>

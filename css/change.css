@@ -65,6 +65,9 @@
       .mynew-container a:hover{
          opacity: 0.5;
       }
+      .header-right .moveleft{
+        color: rgba(243, 115, 53, 1);
+      }
 
 
 

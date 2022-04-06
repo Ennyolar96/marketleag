@@ -16,19 +16,17 @@
     <link rel="stylesheet" href="/css/staffaside.css">
 </head>
 <body>
-    <div class="overcontainer">
+    <div class="overcontainer container-fluid">
         <div class="headingdiv">
             <div class="headingdivcontainer">
                 <span class="open" onclick="openNav()">&#9776;</span>
                 <button onclick="window.location.href ='#'" class="btn btn-light btn-sm btn-back"><i class="fas fa-angle-left"></i> Back</button>
                 <button onclick="window.location.href ='/'" class="btn btn-light btn-sm btn-back btn-home"><i class="fas fa-home"></i> View Home</button>
-                    <span class="icon-container">
-                        <i class="fas fa-file icons"></i>
-                        <i class="fas fa-envelope icons" aria-hidden="true"></i>
-                        <i class="fas fa-bell icons"></i>
-                        
-                        <!-- <i class="fas fa-"></i> -->
-                    </span>
+                <span class="icon-container">
+                    <a href="./document.html"><i class="fas fa-file icons"></i></a>
+                    <a href="./messages.html"> <i class="fas fa-envelope icons" aria-hidden="true"></i></a>
+                   <a href="#"><i class="fas fa-bell icons"></i></a>
+                </span>
             </div>
         </div>
         <header>
@@ -37,7 +35,7 @@
                     <div class="navheading">
                         <div class="imgtext">
                             <div class="profilepic">
-                                <img src="/images/julie..png" alt="Your image">
+                                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Your image">
                             </div>
                             <div class="profiletext">
                                 <span class="departname">IP Manager</span> <br>
@@ -67,31 +65,19 @@
                                 <span><i class='fa fa-calendar navicon'></i> Calender</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
-                            <a href="./attendance.html">
-                                <span><i class='fa fa-calendar-o navicon'></i> Attendance</span>
-                            </a>                        
-                        </li>
+                     
                         <li class="dashtext">
                             <a href="./request.html">
                                 <span><i class='fa fa-send-o navicon'></i> Request</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
-                            <a href="./colleagues.html">
-                                <span><i class='fa fa-users navicon'></i> Colleagues</span>
-                            </a>                        
-                        </li>
+                    
                         <li class="dashtext">
                             <a href="./document.html">
                                 <span><i class='fa fa-folder navicon'></i> Documents</span>
                             </a>                        
                         </li>
-                        <li class="dashtext">
-                            <a href="./compensation.html">
-                                <span><i class='fa fa-handshake-o navicon'></i> Compensation</span>
-                            </a>                        
-                        </li>
+                     
                         <li class="dashtext">
                             <a class="active" href="./activities.html">
                                 <span><i class="fas fa-balance-scale navicon"></i> Activities</span>
@@ -111,7 +97,7 @@
                     </div>
                 </nav>
         </header>
-        <div class="innercontainer">
+        <div class="maincontainer">
             <div class="Activities">
                 <h2>Activities</h2>
                     <select name="Filter" id="cars">
@@ -194,18 +180,34 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Status</th>
-                            <th>Opportunities</th>
                             <th>Date</th>
+                              <th>Time</th>
+                              <th>ID</th>
+                              <th>Subject</th>
+                              <th>Message</th>
+                              <th>Files</th>
                         </tr>
                     </thead>
-                    <!-- <tr>
-                        <td></td>
-                    </tr> -->
+                  <tbody>
+                        <tr title="submit feedback" onclick="open_page()" class="trhover" id="">
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>                           
+                        </tr>                       
+                      </tbody>
                 </table>
             </div>
          </div>
     </div> 
     <script src="/js/allactivities.js"></script>
+    <script src="/js/staff.js"></script>
+    <script>
+        function open_page(){
+          window.location.href="./feedback.html";
+        }
+      </script>
 </body>
 </html>
