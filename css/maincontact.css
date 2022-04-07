@@ -254,6 +254,7 @@ label{
         .header a.icon {
           float: right;
           display: block;
+          font-size: 30px;
         }
       
         .header.responsive {position: relative;}
