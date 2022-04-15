@@ -35,10 +35,10 @@ body{
   }
   .header_static img{
     position: absolute;
-    top: 5px;
+    top: -25px;
     left: 10px;
-    width: 30px;
-    height: 25px;
+    width: 200px;
+    height: 90px;
   }
   
   .icons{

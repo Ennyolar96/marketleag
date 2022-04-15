@@ -773,20 +773,21 @@ body{
         
         .first-section{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
             flex-wrap: nowrap;
             justify-content: space-between;
             margin-top: 50px;
         }
         .first-section-1{
-            width: 50%;
-            margin: 10px;
+            width: 100%;
+            margin: 20px 100px 20px 20px;
         }
         .first-section-2 img{
             width: 550px;
             height: 500px;
-            margin: 0;
+            display: block;
+            margin: 0 auto;
         }
         .inspiring{
             color:rgb(20,39,126); 
@@ -798,7 +799,7 @@ body{
         .enabling{
             font-size: 16px;
             color: gray;
-            margin: 20px 20px 0 0;
+            margin: 20px 350px 0 0;
         }
     
         .main-button {

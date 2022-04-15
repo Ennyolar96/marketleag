@@ -35,10 +35,10 @@ body{
 }
 .header_static img{
   position: absolute;
-  top: 5px;
+  top: -30px;
   left: 10px;
-  width: 30px;
-  height: 25px;
+  width: 200px;
+  height: 90px;
 }
 .btn-home{
   position: absolute;
@@ -55,6 +55,36 @@ body{
 }
 .btna-home{
   display: none;
+}
+.profiledetails{
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 2px black;
+  padding: 10px;
+  display: none;
+}
+.profiledetails a, .profiledetails p{
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-size: .9rem;
+  padding:2px 10px;
+  margin: 0;
+}
+.profiledetails a:hover{
+  background-color: gray;
+  color: #fff;
+}
+#showUser{
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: -25px;
+  border: 1px solid #000;
+  cursor: pointer;
+  /* margin-bottom: -4px; */
 }
 .active{
   background-color: black;
@@ -122,7 +152,7 @@ span{
 }
 
 nav .changecolor{
-  color:  rgba(243, 115, 53, 0.4);
+  color:  gray;
   text-transform: uppercase;
   margin: 0 30px;
   font-size: 18px;

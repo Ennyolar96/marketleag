@@ -35,10 +35,10 @@ body{
   }
   .header_static img{
     position: absolute;
-    top: 5px;
+    top: -30px;
     left: 10px;
-    width: 30px;
-    height: 25px;
+    width: 200px;
+    height: 90px;
   }
   .btn-home{
     position: absolute;
@@ -62,6 +62,36 @@ body{
     margin: 0 10px;
     color: whitesmoke;
   }
+  .profiledetails{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+    display: none;
+  }
+  .profiledetails a, .profiledetails p{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: .9rem;
+    padding:2px 10px;
+    margin: 0;
+  }
+  .profiledetails a:hover{
+    background-color: gray;
+    color: #fff;
+  }
+  #showUser{
+    width: 20px;
+    height: 20px;
+    top: -0.0px;
+    left: -25px;
+    border: 1px solid #000;
+    cursor: pointer;
+    /* margin-bottom: -4px; */
+  }
  /* the msg modal section */
 
   .file_modal {
@@ -78,7 +108,7 @@ body{
     padding-top: 60px;
   }
   .fileheading{
-    background-color: black;
+    background-color: gray;
     padding: 1px;
   }
   .fileheading p{

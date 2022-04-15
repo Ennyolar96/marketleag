@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0; 
@@ -9,7 +9,7 @@ body{
   
     .container{
       position: relative;
-      overflow-x: hidden;
+      overflow: hidden;
     }
   
   .header_static{
@@ -34,10 +34,10 @@ body{
   }
   .header_static img{
     position: absolute;
-    top: 5px;
+    top: -30px;
     left: 10px;
-    width: 30px;
-    height: 25px;
+    width: 200px;
+    height: 90px;
   }
   .icons{
     position: absolute;
@@ -63,6 +63,36 @@ body{
   }
   .btna-home{
     display: none;
+  }
+  .profiledetails{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+    display: none;
+  }
+  .profiledetails a, .profiledetails p{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: .9rem;
+    padding:2px 10px;
+    margin: 0;
+  }
+  .profiledetails a:hover{
+    background-color: gray;
+    color: #fff;
+  }
+  #showUser{
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: -25px;
+    border: 1px solid #000;
+    cursor: pointer;
+    /* margin-bottom: -4px; */
   }
   .active{
     background-color: black;
@@ -129,118 +159,43 @@ body{
     height: 20px;
   }
   nav .changecolor{
-    color:  rgba(243, 115, 53, 0.4);
+    color:  gray;
     text-transform: uppercase;
     margin: 0 30px;
     font-size: 18px;
     cursor:default;
 }
-  
-#form {
-    margin: 50px 300px;
-    padding: 20px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    font-size: 12px;
+.maincontainer{
+  margin: 50px 0 0 300px;
 }
-
-#form h3 {
-    color: #0f2027;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-#form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-    background-color:rgba(243, 115, 53, 1);
-    border: none;
-    border-radius: 4px;
-    font-size: 1em;
-}
-
-.input-control {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-control input {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 95%;
-}
-
-.input-control input:focus {
-    outline: 0;
-}
-
-#already{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#Agreement{
-    text-align: center;
-    font-size: 1rem;
-}
-
-.input-control textarea {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	min-width: 95%;
-    max-width: 95%;
-    min-height: 20px;
-    max-height: 100px;
+.firstsection h1{ 
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 200px 0;
+  text-align: center;
+  color: #000;
+  background: #FFFFFF;
+  text-shadow: 2px 2px 0 #f94;
+ animation: changeposition 5s 5s infinite alternate linear ;
 
 }
-
-.input-control input[type = "checkbox"]{
-    width: 10%;
-}
-p{
-    font-size: 1.2rem;
-}
-.input-control.success input{
-    border-color: #09c372;
-}
-
-.input-control.error input{
-    border-color: #ff3860;
-}
-
-.input-control textarea:focus {
-    outline: 0;
-}
-
-.input-control.success textarea{
-    border-color: #09c372;
-}
-
-.input-control.error textarea{
-    border-color: #ff3860;
-}
-
-.input-control .error {
-    color: #ff3860;
-    font-size: 9px;
-    height: 13px;
-}
-label{
-    font-size: 1.2rem;
-}
-.show {
-    width: 260px;
+@keyframes changeposition {
+  0%{
+    transform: scale(1);
+    opacity: 1;
+    color: black;
   }
-
-
+  50%{
+    transform: scale(1);
+    opacity: 1;
+    color: #f94;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+    color: blue;
+  }
+}
 @media (max-width:1200px) 
 {
  .sidenav {padding-top: 15px;}
@@ -250,6 +205,9 @@ label{
  span{ display: block; text-align: right; margin: 0 20px 0 0;color: white;}
  nav .changecolor{
   font-size: 14px;
+  }
+  .maincontainer{
+    margin: 50px 0 0 10px;
   }
 }
 

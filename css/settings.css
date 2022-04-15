@@ -35,10 +35,40 @@ body{
   }
   .header_static img{
     position: absolute;
-    top: 5px;
+    top: -30px;
     left: 10px;
-    width: 30px;
-    height: 25px;
+    width: 200px;
+    height: 90px;
+  }
+  .profiledetails{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+    display: none;
+  }
+  .profiledetails a, .profiledetails p{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: .9rem;
+    padding:2px 10px;
+    margin: 0;
+  }
+  .profiledetails a:hover{
+    background-color: gray;
+    color: #fff;
+  }
+  #showUser{
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: -25px;
+    border: 1px solid #000;
+    cursor: pointer;
+    /* margin-bottom: -4px; */
   }
   .active{
     background-color: black;
@@ -123,7 +153,7 @@ body{
 .btn-back{
   position: absolute;
   top: 7px;
-  left: 200px;
+  left: 210px;
   border: none;
   padding: 5px;
   border-radius:4px;
@@ -132,7 +162,7 @@ body{
 .btn-home{
   position: absolute;
   top: 7px;
-  left: 270px;
+  left: 275px;
   border: none;
   padding: 5px;
   border-radius:4px;
@@ -142,7 +172,7 @@ body{
     margin: 40px 20px 0 20px;
 }
 h2{
-    background-color:  rgba(243, 115, 53, 1);
+    background-color:gray;
     color: white;
     padding: 5px;
     font-size: 20px;
@@ -190,8 +220,21 @@ h2{
 .secondsection label{
   font-size: 14px;
 }
-.secondsection input{
-  margin-left: 30px;
+/* Arranging the input checkbox */
+.secondsection .desktop{
+  margin-left: 130px;
+}
+.secondsection .weekly{
+  margin-left: 55px;
+}
+.secondsection .matching{
+  margin-left: 241px;
+}
+.secondsection .screen{
+  margin-left: 122px;
+}
+.third, .forth,.fifty,.sixty, .seven, .eigth{
+  margin: 0 20px;
 }
 .thirdsection form{
     display: flex;
@@ -438,7 +481,7 @@ h2{
     left: 180px;
   }
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
   .btn-back{
     left: 160px;
   }
@@ -446,4 +489,8 @@ h2{
     margin: 0 2px;
     color: whitesmoke;
 }
+/* Arranging the input checkbox */
+.secondsection .desktop,.secondsection .weekly,.secondsection .matching,.secondsection .screen{
+  margin-left: 10px;
+  }
 }

@@ -19,17 +19,22 @@
      <div class="container">
         <div class="header_static">
                 <span onclick="openNav()">&#9776;</span>
-                    <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
-                    <span class="span" >Marketleag</span></nav>
+                    <nav> <img src="/images/logowhite.png" alt="Logo" class="nav__logo-icon">
+                    <!-- <span class="span" >Marketleag</span></nav> -->
                     <button onclick="window.location.href='/dashboard.html'" class="btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> Back</button>
                     <!-- <button onclick="window.location.href='/'" class="btn-home"><i class="fa fa-home" aria-hidden="true"></i> View Home</button> -->
                     <div class="icons">
+                        <img id="showUser" title="Profile" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
                         <a href="/user/document.html" title="File"><i class="fa fa-file" aria-hidden="true"></i></a>
-                        <a href="#" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
                         <a href="/user/messages.html" title="Message"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
                         <a href="/user/notification.html" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
                         <a href="/user/settings.html" title="Settings"><i class="fa fa-cog" aria-hidden="true"></i></a>
                       </div>
+        </div>
+        <div class="profiledetails">
+            <p>Name of the person</p>
+            <a href="#">Edit profile</a>
+            <a href="#">Log Out</a>
         </div>
 
                 <div class="mainsection">
@@ -51,16 +56,16 @@
                             <div class="secondsection">
                             <form action="/">                                                                  
                                     <label for="Receive">Receive Desktop notification alerts:</label>
-                                    <input type="checkbox" name="desktop" id="desktop"><br>
+                                    <input type="checkbox" name="desktop" id="desktop" class="desktop"><br>
                                 
                                     <label for="Weekly"> Receive weekly roundup of new opportunities:</label>
-                                    <input type="checkbox" name="weekly" id="weekly"><br>
+                                    <input type="checkbox" name="weekly" id="weekly" class="weekly"><br>
                                 
-                                    <label for="e-mail">Receive e-mails with opportunities matching your requirements:</label>
-                                    <input type="checkbox" name="matching" id="matching"><br>
+                                    <label for="e-mail">Receive e-mails with opportunities matching <br> your requirements:</label>
+                                    <input type="checkbox" name="matching" id="matching" class="matching"><br>
                                     
-                                    <label for="screen">Automatically mark all notifications as read when close the notifications screen:</label>
-                                    <input type="checkbox" name="screen" id="screen">
+                                    <label for="screen">Automatically mark all notifications as read <br> when close the notifications screen:</label>
+                                    <input type="checkbox" name="screen" id="screen" class="screen">
                                 </div>
                             </form>
                             </div>
@@ -76,7 +81,7 @@
                                 <div class="insideform1">
                                         <input type="email" name="e-mail" id="e-mail"> <span class="verify">NOT VERIFIED</span> <br>
                                         <button type="submit">Click here to update and verify</button>
-                                        <p>You should receive an email from <b>support@portmarkapp.com.</b>To complete the verification process, open this e-mail and click to confirm your sending address. Note that you cannot use public domains for this, such as Gmail, Hotmail, or YahooMail.</p>
+                                        <p>You should receive an email from <b>support@marketleag.com.</b>To complete the verification process, open this e-mail and click to confirm your sending address. Note that you cannot use public domains for this, such as Gmail, Hotmail, or YahooMail.</p>
                                         <p>Wherever you can send e-mail in CommissionCrowd, such as in the lead edit screen or in the contacts tool, your messages will be sent from this e-mail address. If you want this to be different from the one you signed up with, edit it here. You cannot send e-mail from within CommissionCrowd unless this email address is verified.</p>
                                 </div>
                             </form>
@@ -159,7 +164,8 @@
                                 <button>Export your personal data <i class="fas fa-angle-right"></i></button>
                                 </div>
                             </section>
-                </div> <!--main div end tag-->
+              
+              <script src="/js/showuser.js"></script>          </div> <!--main div end tag-->
         </div>
     </body>
 </html>

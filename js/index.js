@@ -75,3 +75,7 @@ window.onload = () => {
     }
 
 };
+var yearDate = document.getElementById("gettingDate")
+var thisYear = new Date();
+var isThisYear = thisYear.getFullYear();
+yearDate.innerHTML = isThisYear

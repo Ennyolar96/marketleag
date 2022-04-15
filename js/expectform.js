@@ -325,10 +325,11 @@ var formSection = document.getElementById("form")
 
 btnShow.addEventListener('click', function(){
     if(formSection.style.display ==="none"){
-
         formSection.style.display = "block";
+        btnShow.style.display ="none"
     }
     else{
         formSection.style.display = "none"
+        btnShow.style.display ="block"
     }
 })

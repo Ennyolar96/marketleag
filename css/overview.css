@@ -50,63 +50,38 @@ span#total{
     margin: 0;
     font-size: .7rem;
 }
-.seconddiv{
-    background-color: #fff;
-    position: relative;
-    width: 100%;
+.workTime{
+    background-color: dodgerblue;
     height: 200px;
 }
-/* meter,progress{
-    width: 50px;
-    height:50px;
-
+/* the Hours number */
+.hours{
+    margin:-20px 0 0 20px;
+    display:inline-block;
+    height: 142px;
+    border-right: 1px solid black;
+}
+.hours24{
+    margin: 0 0 10px 10px;
+}
+.hours12, .hours0{
+    margin: 38px 0 10px 10px;  
+}
+/* the div that container meter with border bottom */
+.borderdiv{
+    margin:-57px 0 0 49px;
+    border-bottom: 1px solid black;
+}
+/* To mover the meter button up after the rotation */
+.meterdiv .marginmover{
+    margin-left:-40px;
+}
+/* the meter style */
+.meterdiv meter{
     transform: rotate(-90deg);
-} */
-
-p.linkspan{
-    position: absolute;
-    left: 0;
-    top: 75px;
-    transform: rotate(-90deg);
-}
-p.num24{
-    position: absolute;
-    left: 60px;
-    top: 0;
-    margin: 10px 0 0 0;
-}
-p.num12{
-    position: absolute;
-    left: 60px;
-    top: 76.5px;
-}
-p.num0{
-    position: absolute;
-    left: 67px;
-    top: 153px;
-    bottom: 0; 
-    margin: 0;
+    margin-bottom:30px;
 }
 
-.linkspan2{
-    display: block;
-    background-color: black;
-    width: 1px;
-    height: 155px;
-    position: absolute;
-    left: 80px;
-    margin: 15px 0 0 0;
-}
-.spanlink{
-    width: 1px;
-    height: 100%;
-   background-color: red;
-    position: absolute;
-    right: 0;
-    left: 170px;
-    transform: rotate(90deg);
-
-}
 
 
 /* the project section */

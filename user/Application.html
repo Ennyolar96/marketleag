@@ -17,18 +17,24 @@
     <div class="container">
         <div class="header_static">
             <span onclick="openNav()">&#9776;</span>
-                <nav> <img src="/images/logo white version.png" alt="Logo" class="nav__logo-icon">
-                 <span class="span" >Marketleag</span></nav>
+                <nav> <img src="/images/logowhite.png" alt="Logo" class="nav__logo-icon">
+                 <!-- <span class="span" >Marketleag</span></nav> -->
                  <a target="_blank" href="/index.html" class="btn-home"><i class="fa fa-home" aria-hidden="true"></i> View Home</a>
                  <div class="icons">
+                    <img id="showUser" title="Profile" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
                     <a target="_blank" title="View Home" href="/index.html" class="btna-home"><i class="fa fa-home" aria-hidden="true"></i></a>
                     <a href="/user/document.html" title="File"><i class="fa fa-file" aria-hidden="true"></i></a>
-                    <a href="#" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
                     <a href="/user/messages.html" title="Message"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
                     <a href="/user/notification.html" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
                     <a href="/user/settings.html" title="Settings"><i class="fa fa-cog" aria-hidden="true"></i></a>
                   </div>
-        </div>
+        </div>      
+
+            <div class="profiledetails">
+                <p>Name of the person</p>
+                <a href="#">Edit profile</a>
+                <a href="#">Log Out</a>
+            </div>
 
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -43,14 +49,14 @@
             </a>
 
             <nav>
-                <span class="changecolor">Intellectual Property</span>
+                <span class="changecolor">IP Development</span>
                </nav>
             
     
             <a href="/page/sr/sendrequest.html">
                 <nav>
                 <img src="/images/inquiry.png" alt="">
-                <span class="nav__text">Send Request</span>
+                <span class="nav__text">Manage Request</span>
                 </nav>
             </a>
     
@@ -118,7 +124,7 @@
         <div class="heading">
             <div class="application">
                 <h3>My Application</h3>
-                <h5>Cover letters</h5>
+                <!-- <h5>Cover letters</h5> -->
             </div>
         </div>
 
@@ -127,7 +133,7 @@
                 <tr>
                     <th> Status</th>
                     <th>Opportunity Name</th>
-                    <th>Date of Application</th>
+                    <th>Date</th>
                 </tr>
             </thead>
             <!-- <tr>
@@ -137,5 +143,6 @@
     </div>    
     <script src="/js/application.js"></script>
     <script src="/js/tangle.js"></script>
+    <script src="/js/showuser.js"></script>
 </body>
 </html>

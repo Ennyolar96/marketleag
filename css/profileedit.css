@@ -25,12 +25,11 @@ span#navOpen{
     display: none;
 }
 img.headingimage{
-    width: 28px;
-    height: 25px;
-    position: absolute;
-    top: 5px;
-    left: 20px;
-    right: 0;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+        width: 200px;
+        height: 90px;
 }
 span.companyName{
     color: white;
@@ -46,7 +45,7 @@ span.companyName{
     font-size: .8rem;
     position: absolute;
     top: 10px;
-    left: 190px;
+    left: 210px;
     border-radius: 5px;
 }
 .icons{
@@ -61,9 +60,37 @@ span.companyName{
   .maincontainer{
     margin: 50px 200px;
   }
+  .profiledetails{
+      position: absolute;
+      right: 100px;
+      top: 40px;
+      background-color: #fff;
+      box-shadow: 0 0 2px black;
+      padding: 10px;
+      display: none;
+  }
+  .profiledetails a, .profiledetails p{
+      display: block;
+      text-decoration: none;
+      color: gray;
+      font-size: .9rem;
+      padding:2px 10px;
+      margin: 0;
+  }
+  .profiledetails a:hover{
+      background-color: gray;
+      color: #fff;
+  }
+  #showUser{
+      width: 20px;
+      height: 20px;
+      border: 1px solid #000;
+      cursor: pointer;
+      margin-bottom: -4px;
+  }
   /* all h2 in the page */
 h2{
-    background-color: rgba(243, 115, 53, 1);
+    background-color: gray;
     padding: 1%;
     color: #fff;
     font-size: 1rem;
