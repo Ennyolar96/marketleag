@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    width: 100%; 
+    font-size: 100%;  
+    }
+  
+    .container{
+      position: relative;
+      overflow-x: hidden;
+      padding: 3%;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: rgba(0, 0, 0, 0.8);
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h5,h6{
+        font-size: 1.1rem;
+    }
+    .alpabetul{
+        list-style-type: lower-alpha;
+    }
+    ul,ol,p{
+        line-height: 2;
+        color: gray;
+        font-size: 1rem;
+    }
+    table{
+        margin:0;
+        text-align: left;
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        
+      }
+      td{
+          color: gray;
+      }
+      thead{
+          background-color:gray;
+          color: white;
+      }
+      tr{
+        font-size: 1rem;
+      }
+      a{
+          text-decoration: none;
+        
+      }
